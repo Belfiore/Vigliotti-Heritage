@@ -1,0 +1,12 @@
+{
+  "sources": [
+    {
+      "id": "family-knowledge",
+      "title": "Family knowledge (placeholder)",
+      "type": "family account",
+      "repository": "Add who told you and when",
+      "date": null,
+      "note": "Replace this with real sources: certificates, census pages, ship lists, newspaper clippings, interviews."
+    }
+  ]
+}

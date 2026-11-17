@@ -1,0 +1,699 @@
+{
+  "meta": {
+    "title": "Vigliotti family",
+    "siteName": "Vigliotti",
+    "directLineLabel": "Dylan's direct line",
+    "kinLabel": "Related kin · relationship unproven",
+    "rootPersonId": "dylan-vigliotti",
+    "updated": "2026-11-17",
+    "confidenceScale": [
+      "confirmed",
+      "probable",
+      "family tradition",
+      "unverified"
+    ],
+    "generations": [
+      {
+        "generation": 0,
+        "label": "I",
+        "title": "Grandparents",
+        "range": "Add years"
+      },
+      {
+        "generation": 1,
+        "label": "II",
+        "title": "Parents",
+        "range": "Add years"
+      },
+      {
+        "generation": 2,
+        "label": "III",
+        "title": "Dylan's generation",
+        "range": ""
+      }
+    ],
+    "note": "Template data. Single source of truth for the canvas, the family tree page and the full profiles. Sources are in sources.json."
+  },
+  "people": [
+    {
+      "id": "paternal-grandfather",
+      "displayName": "Paternal Grandfather",
+      "disambiguator": "Dad's father",
+      "givenNames": "Grandpa",
+      "surname": "",
+      "sex": "M",
+      "generation": 0,
+      "nameVariants": [],
+      "confidence": "confirmed",
+      "birth": null,
+      "death": null,
+      "immigration": null,
+      "cardPlace": "Add city, state",
+      "summary": "Placeholder. Add a short summary of Dad's father: where he was from, what he did, and what the family remembers about him.",
+      "relatedPages": [
+        {
+          "title": "Records and Research",
+          "url": "research.html"
+        }
+      ],
+      "parents": [],
+      "children": [
+        "dad"
+      ],
+      "spouses": [
+        {
+          "id": "paternal-grandmother",
+          "order": 1,
+          "marriageDate": null,
+          "marriageDisplay": null,
+          "place": null,
+          "sourceIds": [
+            "family-knowledge"
+          ],
+          "confidence": "confirmed",
+          "note": "Placeholder. Add the marriage date and place when known."
+        }
+      ],
+      "parentLinkConfidence": "confirmed",
+      "order": 1,
+      "isDirectLine": true,
+      "photo": null,
+      "portrait": null,
+      "isLiving": false,
+      "story": "Placeholder story for Paternal Grandfather. Replace this text with their full story, written the way you would tell it to a cousin.\n\n## Early life\n\nAdd where they were born, who raised them, and what the first years looked like.\n\n## Family\n\nAdd who they married, the children they had, and the people they were close to.\n\n## Later life\n\nAdd work, moves, hobbies, and the memories the family still tells.",
+      "openQuestions": [
+        {
+          "question": "Where and when was Paternal Grandfather born?",
+          "record": "Birth certificate, baptism record, census, or a family Bible."
+        },
+        {
+          "question": "What is the full legal name of Paternal Grandfather, including any spelling variants?",
+          "record": "Marriage record, ship manifest, naturalization papers, obituary."
+        }
+      ],
+      "media": [],
+      "facts": [
+        {
+          "label": "Born",
+          "value": "Add date and place",
+          "sourceIds": [
+            "family-knowledge"
+          ],
+          "confidence": "unverified"
+        },
+        {
+          "label": "Died",
+          "value": "Add date and place",
+          "sourceIds": [
+            "family-knowledge"
+          ],
+          "confidence": "unverified"
+        }
+      ],
+      "residences": [
+        {
+          "place": "Add city, state",
+          "address": null,
+          "years": "Add years",
+          "sourceIds": [
+            "family-knowledge"
+          ],
+          "confidence": "unverified"
+        }
+      ],
+      "occupations": [
+        {
+          "title": "Add occupation",
+          "employer": null,
+          "place": "Add place",
+          "years": "Add years",
+          "sourceIds": [
+            "family-knowledge"
+          ],
+          "confidence": "unverified"
+        }
+      ],
+      "timeline": [
+        {
+          "date": "",
+          "label": "Add date",
+          "event": "Add a life event here: a move, a job, a marriage, a birth.",
+          "sourceIds": [
+            "family-knowledge"
+          ],
+          "kind": "life",
+          "confidence": "unverified"
+        }
+      ]
+    },
+    {
+      "id": "paternal-grandmother",
+      "displayName": "Paternal Grandmother",
+      "disambiguator": "Dad's mother",
+      "givenNames": "Grandma",
+      "surname": "",
+      "sex": "F",
+      "generation": 0,
+      "nameVariants": [],
+      "confidence": "confirmed",
+      "birth": null,
+      "death": null,
+      "immigration": null,
+      "cardPlace": "Add city, state",
+      "summary": "Placeholder. Add a short summary of Dad's mother: where she was from, what she did, and what the family remembers about her.",
+      "relatedPages": [
+        {
+          "title": "Records and Research",
+          "url": "research.html"
+        }
+      ],
+      "parents": [],
+      "children": [
+        "dad"
+      ],
+      "spouses": [
+        {
+          "id": "paternal-grandfather",
+          "order": 1,
+          "marriageDate": null,
+          "marriageDisplay": null,
+          "place": null,
+          "sourceIds": [
+            "family-knowledge"
+          ],
+          "confidence": "confirmed",
+          "note": "Placeholder. Add the marriage date and place when known."
+        }
+      ],
+      "parentLinkConfidence": "confirmed",
+      "order": 2,
+      "isDirectLine": true,
+      "photo": null,
+      "portrait": null,
+      "isLiving": false,
+      "story": "Placeholder story for Paternal Grandmother. Replace this text with their full story, written the way you would tell it to a cousin.\n\n## Early life\n\nAdd where they were born, who raised them, and what the first years looked like.\n\n## Family\n\nAdd who they married, the children they had, and the people they were close to.\n\n## Later life\n\nAdd work, moves, hobbies, and the memories the family still tells.",
+      "openQuestions": [
+        {
+          "question": "Where and when was Paternal Grandmother born?",
+          "record": "Birth certificate, baptism record, census, or a family Bible."
+        },
+        {
+          "question": "What is the full legal name of Paternal Grandmother, including any spelling variants?",
+          "record": "Marriage record, ship manifest, naturalization papers, obituary."
+        }
+      ],
+      "media": [],
+      "facts": [
+        {
+          "label": "Born",
+          "value": "Add date and place",
+          "sourceIds": [
+            "family-knowledge"
+          ],
+          "confidence": "unverified"
+        },
+        {
+          "label": "Died",
+          "value": "Add date and place",
+          "sourceIds": [
+            "family-knowledge"
+          ],
+          "confidence": "unverified"
+        }
+      ],
+      "residences": [
+        {
+          "place": "Add city, state",
+          "address": null,
+          "years": "Add years",
+          "sourceIds": [
+            "family-knowledge"
+          ],
+          "confidence": "unverified"
+        }
+      ],
+      "occupations": [
+        {
+          "title": "Add occupation",
+          "employer": null,
+          "place": "Add place",
+          "years": "Add years",
+          "sourceIds": [
+            "family-knowledge"
+          ],
+          "confidence": "unverified"
+        }
+      ],
+      "timeline": [
+        {
+          "date": "",
+          "label": "Add date",
+          "event": "Add a life event here: a move, a job, a marriage, a birth.",
+          "sourceIds": [
+            "family-knowledge"
+          ],
+          "kind": "life",
+          "confidence": "unverified"
+        }
+      ]
+    },
+    {
+      "id": "maternal-grandfather",
+      "displayName": "Maternal Grandfather",
+      "disambiguator": "Mom's father",
+      "givenNames": "Grandpa",
+      "surname": "",
+      "sex": "M",
+      "generation": 0,
+      "nameVariants": [],
+      "confidence": "confirmed",
+      "birth": null,
+      "death": null,
+      "immigration": null,
+      "cardPlace": "Add city, state",
+      "summary": "Placeholder. Add a short summary of Mom's father: where he was from, what he did, and what the family remembers about him.",
+      "relatedPages": [
+        {
+          "title": "Records and Research",
+          "url": "research.html"
+        }
+      ],
+      "parents": [],
+      "children": [
+        "mom"
+      ],
+      "spouses": [
+        {
+          "id": "maternal-grandmother",
+          "order": 1,
+          "marriageDate": null,
+          "marriageDisplay": null,
+          "place": null,
+          "sourceIds": [
+            "family-knowledge"
+          ],
+          "confidence": "confirmed",
+          "note": "Placeholder. Add the marriage date and place when known."
+        }
+      ],
+      "parentLinkConfidence": "confirmed",
+      "order": 3,
+      "isDirectLine": true,
+      "photo": null,
+      "portrait": null,
+      "isLiving": false,
+      "story": "Placeholder story for Maternal Grandfather. Replace this text with their full story, written the way you would tell it to a cousin.\n\n## Early life\n\nAdd where they were born, who raised them, and what the first years looked like.\n\n## Family\n\nAdd who they married, the children they had, and the people they were close to.\n\n## Later life\n\nAdd work, moves, hobbies, and the memories the family still tells.",
+      "openQuestions": [
+        {
+          "question": "Where and when was Maternal Grandfather born?",
+          "record": "Birth certificate, baptism record, census, or a family Bible."
+        },
+        {
+          "question": "What is the full legal name of Maternal Grandfather, including any spelling variants?",
+          "record": "Marriage record, ship manifest, naturalization papers, obituary."
+        }
+      ],
+      "media": [],
+      "facts": [
+        {
+          "label": "Born",
+          "value": "Add date and place",
+          "sourceIds": [
+            "family-knowledge"
+          ],
+          "confidence": "unverified"
+        },
+        {
+          "label": "Died",
+          "value": "Add date and place",
+          "sourceIds": [
+            "family-knowledge"
+          ],
+          "confidence": "unverified"
+        }
+      ],
+      "residences": [
+        {
+          "place": "Add city, state",
+          "address": null,
+          "years": "Add years",
+          "sourceIds": [
+            "family-knowledge"
+          ],
+          "confidence": "unverified"
+        }
+      ],
+      "occupations": [
+        {
+          "title": "Add occupation",
+          "employer": null,
+          "place": "Add place",
+          "years": "Add years",
+          "sourceIds": [
+            "family-knowledge"
+          ],
+          "confidence": "unverified"
+        }
+      ],
+      "timeline": [
+        {
+          "date": "",
+          "label": "Add date",
+          "event": "Add a life event here: a move, a job, a marriage, a birth.",
+          "sourceIds": [
+            "family-knowledge"
+          ],
+          "kind": "life",
+          "confidence": "unverified"
+        }
+      ]
+    },
+    {
+      "id": "maternal-grandmother",
+      "displayName": "Maternal Grandmother",
+      "disambiguator": "Mom's mother",
+      "givenNames": "Grandma",
+      "surname": "",
+      "sex": "F",
+      "generation": 0,
+      "nameVariants": [],
+      "confidence": "confirmed",
+      "birth": null,
+      "death": null,
+      "immigration": null,
+      "cardPlace": "Add city, state",
+      "summary": "Placeholder. Add a short summary of Mom's mother: where she was from, what she did, and what the family remembers about her.",
+      "relatedPages": [
+        {
+          "title": "Records and Research",
+          "url": "research.html"
+        }
+      ],
+      "parents": [],
+      "children": [
+        "mom"
+      ],
+      "spouses": [
+        {
+          "id": "maternal-grandfather",
+          "order": 1,
+          "marriageDate": null,
+          "marriageDisplay": null,
+          "place": null,
+          "sourceIds": [
+            "family-knowledge"
+          ],
+          "confidence": "confirmed",
+          "note": "Placeholder. Add the marriage date and place when known."
+        }
+      ],
+      "parentLinkConfidence": "confirmed",
+      "order": 4,
+      "isDirectLine": true,
+      "photo": null,
+      "portrait": null,
+      "isLiving": false,
+      "story": "Placeholder story for Maternal Grandmother. Replace this text with their full story, written the way you would tell it to a cousin.\n\n## Early life\n\nAdd where they were born, who raised them, and what the first years looked like.\n\n## Family\n\nAdd who they married, the children they had, and the people they were close to.\n\n## Later life\n\nAdd work, moves, hobbies, and the memories the family still tells.",
+      "openQuestions": [
+        {
+          "question": "Where and when was Maternal Grandmother born?",
+          "record": "Birth certificate, baptism record, census, or a family Bible."
+        },
+        {
+          "question": "What is the full legal name of Maternal Grandmother, including any spelling variants?",
+          "record": "Marriage record, ship manifest, naturalization papers, obituary."
+        }
+      ],
+      "media": [],
+      "facts": [
+        {
+          "label": "Born",
+          "value": "Add date and place",
+          "sourceIds": [
+            "family-knowledge"
+          ],
+          "confidence": "unverified"
+        },
+        {
+          "label": "Died",
+          "value": "Add date and place",
+          "sourceIds": [
+            "family-knowledge"
+          ],
+          "confidence": "unverified"
+        }
+      ],
+      "residences": [
+        {
+          "place": "Add city, state",
+          "address": null,
+          "years": "Add years",
+          "sourceIds": [
+            "family-knowledge"
+          ],
+          "confidence": "unverified"
+        }
+      ],
+      "occupations": [
+        {
+          "title": "Add occupation",
+          "employer": null,
+          "place": "Add place",
+          "years": "Add years",
+          "sourceIds": [
+            "family-knowledge"
+          ],
+          "confidence": "unverified"
+        }
+      ],
+      "timeline": [
+        {
+          "date": "",
+          "label": "Add date",
+          "event": "Add a life event here: a move, a job, a marriage, a birth.",
+          "sourceIds": [
+            "family-knowledge"
+          ],
+          "kind": "life",
+          "confidence": "unverified"
+        }
+      ]
+    },
+    {
+      "id": "dad",
+      "displayName": "Dad",
+      "disambiguator": "Dylan's father",
+      "givenNames": "Dad",
+      "surname": "",
+      "sex": "M",
+      "generation": 1,
+      "nameVariants": [],
+      "confidence": "confirmed",
+      "birth": null,
+      "death": null,
+      "immigration": null,
+      "cardPlace": "Add city, state",
+      "summary": "Placeholder. Add a short summary of Dylan's father.",
+      "relatedPages": [
+        {
+          "title": "Records and Research",
+          "url": "research.html"
+        }
+      ],
+      "parents": [
+        "paternal-grandfather",
+        "paternal-grandmother"
+      ],
+      "children": [
+        "dylan-vigliotti",
+        "sister"
+      ],
+      "spouses": [
+        {
+          "id": "mom",
+          "order": 1,
+          "marriageDate": null,
+          "marriageDisplay": null,
+          "place": null,
+          "sourceIds": [
+            "family-knowledge"
+          ],
+          "confidence": "confirmed",
+          "note": "Placeholder. Add the marriage date and place when known."
+        }
+      ],
+      "parentLinkConfidence": "confirmed",
+      "order": 5,
+      "isDirectLine": true,
+      "photo": null,
+      "portrait": null,
+      "isLiving": true,
+      "story": "Placeholder story for Dad. Replace this text with their full story, written the way you would tell it to a cousin.\n\n## Early life\n\nAdd where they were born, who raised them, and what the first years looked like.\n\n## Family\n\nAdd who they married, the children they had, and the people they were close to.\n\n## Later life\n\nAdd work, moves, hobbies, and the memories the family still tells.\n\nThis profile shows only names and relationships on the canvas because this person may be living. Set \"isLiving\" to false in data/people.json to show dates, places, and the at-a-glance table.",
+      "openQuestions": [
+        {
+          "question": "Where and when was Dad born?",
+          "record": "Birth certificate, baptism record, census, or a family Bible."
+        },
+        {
+          "question": "What is the full legal name of Dad, including any spelling variants?",
+          "record": "Marriage record, ship manifest, naturalization papers, obituary."
+        }
+      ],
+      "media": []
+    },
+    {
+      "id": "mom",
+      "displayName": "Mom",
+      "disambiguator": "Dylan's mother",
+      "givenNames": "Mom",
+      "surname": "",
+      "sex": "F",
+      "generation": 1,
+      "nameVariants": [],
+      "confidence": "confirmed",
+      "birth": null,
+      "death": null,
+      "immigration": null,
+      "cardPlace": "Add city, state",
+      "summary": "Placeholder. Add a short summary of Dylan's mother.",
+      "relatedPages": [
+        {
+          "title": "Records and Research",
+          "url": "research.html"
+        }
+      ],
+      "parents": [
+        "maternal-grandfather",
+        "maternal-grandmother"
+      ],
+      "children": [
+        "dylan-vigliotti",
+        "sister"
+      ],
+      "spouses": [
+        {
+          "id": "dad",
+          "order": 1,
+          "marriageDate": null,
+          "marriageDisplay": null,
+          "place": null,
+          "sourceIds": [
+            "family-knowledge"
+          ],
+          "confidence": "confirmed",
+          "note": "Placeholder. Add the marriage date and place when known."
+        }
+      ],
+      "parentLinkConfidence": "confirmed",
+      "order": 6,
+      "isDirectLine": true,
+      "photo": null,
+      "portrait": null,
+      "isLiving": true,
+      "story": "Placeholder story for Mom. Replace this text with their full story, written the way you would tell it to a cousin.\n\n## Early life\n\nAdd where they were born, who raised them, and what the first years looked like.\n\n## Family\n\nAdd who they married, the children they had, and the people they were close to.\n\n## Later life\n\nAdd work, moves, hobbies, and the memories the family still tells.\n\nThis profile shows only names and relationships on the canvas because this person may be living. Set \"isLiving\" to false in data/people.json to show dates, places, and the at-a-glance table.",
+      "openQuestions": [
+        {
+          "question": "Where and when was Mom born?",
+          "record": "Birth certificate, baptism record, census, or a family Bible."
+        },
+        {
+          "question": "What is the full legal name of Mom, including any spelling variants?",
+          "record": "Marriage record, ship manifest, naturalization papers, obituary."
+        }
+      ],
+      "media": []
+    },
+    {
+      "id": "dylan-vigliotti",
+      "displayName": "Dylan Vigliotti",
+      "disambiguator": "Center of the tree",
+      "givenNames": "Dylan",
+      "surname": "Vigliotti",
+      "sex": "M",
+      "generation": 2,
+      "nameVariants": [],
+      "confidence": "confirmed",
+      "birth": null,
+      "death": null,
+      "immigration": null,
+      "cardPlace": "Add city, state",
+      "summary": "Dylan is the center of this tree. Add a short summary here.",
+      "relatedPages": [
+        {
+          "title": "Records and Research",
+          "url": "research.html"
+        }
+      ],
+      "parents": [
+        "dad",
+        "mom"
+      ],
+      "children": [],
+      "spouses": [],
+      "parentLinkConfidence": "confirmed",
+      "order": 7,
+      "isDirectLine": true,
+      "photo": null,
+      "portrait": null,
+      "isLiving": true,
+      "story": "Placeholder story for Dylan Vigliotti. Replace this text with their full story, written the way you would tell it to a cousin.\n\n## Early life\n\nAdd where they were born, who raised them, and what the first years looked like.\n\n## Family\n\nAdd who they married, the children they had, and the people they were close to.\n\n## Later life\n\nAdd work, moves, hobbies, and the memories the family still tells.\n\nThis profile shows only names and relationships on the canvas because this person may be living. Set \"isLiving\" to false in data/people.json to show dates, places, and the at-a-glance table.",
+      "openQuestions": [
+        {
+          "question": "Where and when was Dylan Vigliotti born?",
+          "record": "Birth certificate, baptism record, census, or a family Bible."
+        },
+        {
+          "question": "What is the full legal name of Dylan Vigliotti, including any spelling variants?",
+          "record": "Marriage record, ship manifest, naturalization papers, obituary."
+        }
+      ],
+      "media": []
+    },
+    {
+      "id": "sister",
+      "displayName": "Dylan's Sister",
+      "disambiguator": "Dylan's sister",
+      "givenNames": "Sister",
+      "surname": "",
+      "sex": "F",
+      "generation": 2,
+      "nameVariants": [],
+      "confidence": "confirmed",
+      "birth": null,
+      "death": null,
+      "immigration": null,
+      "cardPlace": "Add city, state",
+      "summary": "Placeholder. Add her name and a short summary here.",
+      "relatedPages": [
+        {
+          "title": "Records and Research",
+          "url": "research.html"
+        }
+      ],
+      "parents": [
+        "dad",
+        "mom"
+      ],
+      "children": [],
+      "spouses": [],
+      "parentLinkConfidence": "confirmed",
+      "order": 8,
+      "isDirectLine": false,
+      "photo": null,
+      "portrait": null,
+      "isLiving": true,
+      "story": "Placeholder story for Dylan's Sister. Replace this text with their full story, written the way you would tell it to a cousin.\n\n## Early life\n\nAdd where they were born, who raised them, and what the first years looked like.\n\n## Family\n\nAdd who they married, the children they had, and the people they were close to.\n\n## Later life\n\nAdd work, moves, hobbies, and the memories the family still tells.\n\nThis profile shows only names and relationships on the canvas because this person may be living. Set \"isLiving\" to false in data/people.json to show dates, places, and the at-a-glance table.",
+      "openQuestions": [
+        {
+          "question": "Where and when was Dylan's Sister born?",
+          "record": "Birth certificate, baptism record, census, or a family Bible."
+        },
+        {
+          "question": "What is the full legal name of Dylan's Sister, including any spelling variants?",
+          "record": "Marriage record, ship manifest, naturalization papers, obituary."
+        }
+      ],
+      "media": []
+    }
+  ]
+}
