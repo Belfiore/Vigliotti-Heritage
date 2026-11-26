@@ -1,11 +1,13 @@
 {
   "meta": {
-    "note": "One places dataset for the Vigliotti Heritage map and for any exported map. Living people are not placed on the map. Town points use a halo; known buildings use a pin. Coordinates are from OpenStreetMap Nominatim, 26 November 2026.",
+    "note": "One places dataset for the Vigliotti Heritage map and for any exported map. Living people are not placed on the map. Town points use a halo; known buildings use a pin. Coordinates are from OpenStreetMap Nominatim, 26 November 2026. Santa Maria a Vico and Arienzo are shown as unverified member-tree claims until the Italian registers are read.",
     "updated": "2026-11-26",
     "notYetOnTheMap": [
-      "The town where Pat and Susan married on 30 October 1977 is not named in the obituary (Susan was of Eastchester, New York; that is held back because she is living).",
-      "Burial places for Patricia Morrisey Walsh and Paul H. Walsh are not yet known.",
-      "Current or recent homes of living people are held back, including a 2019 residence named in the Walsh obituary."
+      "The town where Pat and Susan married on 30 October 1977 is not named in the obituary.",
+      "Patricia Morrisey Walsh's burial place is not yet known.",
+      "Current or recent homes of living people are held back, including a 2019 residence named in the Walsh obituary.",
+      "Andrea Vigliotti, Mariantonia Ruotolo, Alfonso Guida and Antonia Vigliotti are named only as unverified tree claims, and are not yet people or map subjects.",
+      "Owen Cleary and Catherine Donohue are named in Catherine Hingston's 1932 obituary and are not yet added as people on the tree."
     ]
   },
   "places": [
@@ -114,6 +116,24 @@
           "dateStart": "1962",
           "datePrecision": "year",
           "summary": "The Fucale family settled in White Plains, where Pat graduated from high school in 1970."
+        },
+        {
+          "id": "pe-white-plains-died-gerard",
+          "type": "died",
+          "personIds": [
+            "gerardo-mignone"
+          ],
+          "confidence": "confirmed",
+          "sourceIds": [
+            "scarsdale-inquirer-1957-11-08"
+          ],
+          "approximate": false,
+          "date": "1957",
+          "dateStart": "1957-10-29",
+          "dateEnd": "1957-10-29",
+          "datePrecision": "day",
+          "factRef": "gerardo-mignone.death",
+          "summary": "Gerard Mignone died at White Plains Hospital on 29 October 1957."
         }
       ],
       "blurb": "Where the Fucale family settled after Montreal."
@@ -241,6 +261,42 @@
           "datePrecision": "day",
           "factRef": "pasquale-fucale.burial",
           "summary": "Pat was buried here on 24 November 2026."
+        },
+        {
+          "id": "pe-goh-buried-sr",
+          "type": "buried",
+          "personIds": [
+            "alphonse-j-vigliotti-sr"
+          ],
+          "confidence": "confirmed",
+          "sourceIds": [
+            "obituary-alphonse-vigliotti-sr-2011"
+          ],
+          "approximate": false,
+          "date": "2011",
+          "dateStart": "2011-01-01",
+          "dateEnd": "2011-01-06",
+          "datePrecision": "month",
+          "factRef": "alphonse-j-vigliotti-sr.burial",
+          "summary": "Alphonse J. Vigliotti Sr. was buried here after his death on 1 January 2011."
+        },
+        {
+          "id": "pe-goh-buried-concetta",
+          "type": "buried",
+          "personIds": [
+            "concetta-mignone"
+          ],
+          "confidence": "probable",
+          "sourceIds": [
+            "find-a-grave-concetta-2012"
+          ],
+          "approximate": false,
+          "date": "2012",
+          "dateStart": "2012-11-16",
+          "dateEnd": "2012-11-16",
+          "datePrecision": "day",
+          "factRef": "concetta-mignone.burial",
+          "summary": "A Find a Grave entry places Concetta Vigliotti here, Section 28, A, Row I, Grave 29, with a date of 16 November 2012 that may be the interment date."
         }
       ],
       "address": "10 W Stevens Avenue, Hawthorne, New York",
@@ -280,6 +336,43 @@
           "datePrecision": "year",
           "factRef": "patricia-morrisey-walsh.birth",
           "summary": "Patricia Morrisey Walsh was born in Bronxville, New York."
+        },
+        {
+          "id": "pe-bronxville-died-augusta",
+          "type": "died",
+          "personIds": [
+            "augusta-ehrenfels"
+          ],
+          "confidence": "confirmed",
+          "sourceIds": [
+            "scarsdale-inquirer-1949-06-17"
+          ],
+          "approximate": false,
+          "date": "1949",
+          "dateStart": "1949-06-08",
+          "dateEnd": "1949-06-08",
+          "datePrecision": "day",
+          "factRef": "augusta-ehrenfels.death",
+          "summary": "Augusta R. Ehrenfels died at Lawrence Hospital, Bronxville, on 8 June 1949. A death-index transcription giving 6 April 1949 has not yet been reconciled.",
+          "note": "A New York State death index transcription gives 6 April 1949. The contemporary newspaper notice is followed until the index image is read."
+        },
+        {
+          "id": "pe-bronxville-died-clara",
+          "type": "died",
+          "personIds": [
+            "clara-hingston-walsh"
+          ],
+          "confidence": "probable",
+          "sourceIds": [
+            "findagrave-clara-hingston-walsh"
+          ],
+          "approximate": false,
+          "date": "1957",
+          "dateStart": "1957-12-21",
+          "dateEnd": "1957-12-21",
+          "datePrecision": "day",
+          "factRef": "clara-hingston-walsh.death",
+          "summary": "A Find a Grave entry says Clara F. Hingston Walsh died in Bronxville on 21 December 1957."
         }
       ],
       "blurb": "The Westchester village where Patricia Morrisey Walsh was born."
@@ -301,22 +394,95 @@
       "status": "published",
       "events": [
         {
-          "id": "pe-yonkers-born-paul",
+          "id": "pe-yonkers-born-paul-updated",
           "type": "born",
           "personIds": [
             "paul-h-walsh"
           ],
           "confidence": "confirmed",
           "sourceIds": [
-            "obituary-patricia-paul-walsh-2019"
+            "obituary-patricia-paul-walsh-2019",
+            "find-a-grave-paul-walsh-2019"
           ],
-          "approximate": true,
+          "approximate": false,
           "date": "1927",
-          "dateStart": "1927",
-          "dateEnd": "1927",
-          "datePrecision": "year",
+          "dateStart": "1927-01-07",
+          "dateEnd": "1927-01-07",
+          "datePrecision": "day",
           "factRef": "paul-h-walsh.birth",
-          "summary": "Paul H. Walsh was born in Yonkers, New York."
+          "summary": "Paul Hingston Walsh was born in Yonkers, New York, on 7 January 1927."
+        },
+        {
+          "id": "pe-yonkers-died-william",
+          "type": "died",
+          "personIds": [
+            "william-a-walsh"
+          ],
+          "confidence": "confirmed",
+          "sourceIds": [
+            "findagrave-william-a-walsh"
+          ],
+          "approximate": false,
+          "date": "1967",
+          "dateStart": "1967-03-18",
+          "dateEnd": "1967-03-18",
+          "datePrecision": "day",
+          "factRef": "william-a-walsh.death",
+          "summary": "William Aloysius Walsh died in Yonkers on 18 March 1967."
+        },
+        {
+          "id": "pe-yonkers-born-william",
+          "type": "born",
+          "personIds": [
+            "william-a-walsh"
+          ],
+          "confidence": "confirmed",
+          "sourceIds": [
+            "findagrave-william-a-walsh"
+          ],
+          "approximate": false,
+          "date": "1871",
+          "dateStart": "1871-08-18",
+          "dateEnd": "1871-08-18",
+          "datePrecision": "day",
+          "factRef": "william-a-walsh.birth",
+          "summary": "William Aloysius Walsh was born in Yonkers on 18 August 1871."
+        },
+        {
+          "id": "pe-yonkers-died-michael",
+          "type": "died",
+          "personIds": [
+            "michael-walsh"
+          ],
+          "confidence": "confirmed",
+          "sourceIds": [
+            "findagrave-michael-walsh-1916"
+          ],
+          "approximate": false,
+          "date": "1916",
+          "dateStart": "1916-07-09",
+          "dateEnd": "1916-07-09",
+          "datePrecision": "day",
+          "factRef": "michael-walsh.death",
+          "summary": "Michael Walsh died at 117 Palisade Avenue, Yonkers, on 9 July 1916."
+        },
+        {
+          "id": "pe-yonkers-died-catherine",
+          "type": "died",
+          "personIds": [
+            "catherine-cleary-hingston"
+          ],
+          "confidence": "confirmed",
+          "sourceIds": [
+            "findagrave-catherine-hingston-1932"
+          ],
+          "approximate": false,
+          "date": "1932",
+          "dateStart": "1932-08-31",
+          "dateEnd": "1932-08-31",
+          "datePrecision": "day",
+          "factRef": "catherine-cleary-hingston.death",
+          "summary": "Catherine Jane Cleary Hingston died at the Walsh home, 51 Park Avenue, Yonkers, on 31 August 1932."
         }
       ],
       "blurb": "The city where Paul H. Walsh was born."
@@ -390,9 +556,793 @@
           "dateEnd": "2019",
           "datePrecision": "year",
           "summary": "The 2019 obituary says they had moved to Rye twenty-nine years earlier."
+        },
+        {
+          "id": "pe-rye-died-paul",
+          "type": "died",
+          "personIds": [
+            "paul-h-walsh"
+          ],
+          "confidence": "confirmed",
+          "sourceIds": [
+            "obituary-patricia-paul-walsh-2019",
+            "find-a-grave-paul-walsh-2019"
+          ],
+          "approximate": false,
+          "date": "2019",
+          "dateStart": "2019-09-27",
+          "dateEnd": "2019-09-27",
+          "datePrecision": "day",
+          "factRef": "paul-h-walsh.death",
+          "summary": "Paul H. Walsh died in Rye, New York, on 27 September 2019."
         }
       ],
       "blurb": "Where Patricia and Paul Walsh lived in later life."
+    },
+    {
+      "id": "santa-maria-a-vico",
+      "name": "Santa Maria a Vico, Caserta, Campania, Italy",
+      "historicName": "Santa Maria a Vico, Caserta, Campania",
+      "kind": "town",
+      "precision": "town",
+      "lat": 41.0268566,
+      "lng": 14.4651862,
+      "uncertaintyMetres": 1500,
+      "coordinateMethod": "Point from OpenStreetMap Nominatim, looked up on 26 November 2026.",
+      "coordinatePrecision": "town",
+      "coordinateSourceIds": [],
+      "drawAs": "halo",
+      "inHomeRegion": false,
+      "country": "IT",
+      "status": "published",
+      "blurb": "A Campanian town near Naples. A member tree names it as Vincenzo Vigliotti's birthplace. That claim has not yet been checked in the Italian civil registers.",
+      "events": [
+        {
+          "id": "pe-smav-born-vincenzo",
+          "type": "born",
+          "personIds": [
+            "vincenzo-vigliotti"
+          ],
+          "confidence": "unverified",
+          "sourceIds": [
+            "ancestry-tree-kindred-spirits"
+          ],
+          "approximate": true,
+          "date": "1885",
+          "dateStart": "1885-07-04",
+          "dateEnd": "1885-07-04",
+          "datePrecision": "day",
+          "factRef": "vincenzo-vigliotti.birth",
+          "summary": "A member tree says Vincenzo Vigliotti was born here on 4 July 1885. This has not yet been confirmed in the Italian birth register."
+        }
+      ]
+    },
+    {
+      "id": "arienzo",
+      "name": "Arienzo, Caserta, Campania, Italy",
+      "historicName": "Arienzo, Caserta, Campania",
+      "kind": "town",
+      "precision": "town",
+      "lat": 41.0242566,
+      "lng": 14.4970522,
+      "uncertaintyMetres": 1500,
+      "coordinateMethod": "Point from OpenStreetMap Nominatim, looked up on 26 November 2026.",
+      "coordinatePrecision": "town",
+      "coordinateSourceIds": [],
+      "drawAs": "halo",
+      "inHomeRegion": false,
+      "country": "IT",
+      "status": "published",
+      "blurb": "A Campanian town next to Santa Maria a Vico. A member tree names it as Vincenza Pasqualina Guida's birthplace. That claim has not yet been checked in the Italian civil registers.",
+      "events": [
+        {
+          "id": "pe-arienzo-born-vincenza",
+          "type": "born",
+          "personIds": [
+            "vincenza-guida"
+          ],
+          "confidence": "unverified",
+          "sourceIds": [
+            "ancestry-tree-kindred-spirits"
+          ],
+          "approximate": true,
+          "date": "1899",
+          "dateStart": "1899-09-21",
+          "dateEnd": "1899-09-21",
+          "datePrecision": "day",
+          "factRef": "vincenza-guida.birth",
+          "summary": "A member tree says Vincenza Pasqualina Guida was born here on 21 September 1899. This has not yet been confirmed in the Italian birth register."
+        }
+      ]
+    },
+    {
+      "id": "brambach-ave-eastchester",
+      "name": "44 Brambach Avenue, Eastchester, New York",
+      "historicName": "44 Brambach Avenue (also Brambach Road), Eastchester, New York",
+      "kind": "home",
+      "precision": "address",
+      "address": "44 Brambach Avenue, Eastchester, New York",
+      "lat": 40.9844055,
+      "lng": -73.8075141,
+      "uncertaintyMetres": 40,
+      "coordinateMethod": "Point from OpenStreetMap Nominatim, looked up on 26 November 2026.",
+      "coordinatePrecision": "address",
+      "coordinateSourceIds": [],
+      "drawAs": "pin",
+      "inHomeRegion": true,
+      "country": "US",
+      "status": "published",
+      "todayNote": "Nominatim places 44 Brambach Avenue in the Village of Scarsdale, ZIP 10583, on the Eastchester line. The 1930 census and later newspaper notices say 44 Brambach Avenue or Road, Eastchester. A 1942 article says 40 Brambach Road. Whether the present house is the same building is not known.",
+      "blurb": "The Vigliotti family home in the 1930 and 1940 censuses, and still named as Vincent and Vincenza's address in the 1940s.",
+      "events": [
+        {
+          "id": "pe-brambach-lived-vigliotti",
+          "type": "lived",
+          "personIds": [
+            "vincenzo-vigliotti",
+            "vincenza-guida",
+            "alphonse-j-vigliotti-sr",
+            "vincent-joseph-vigliotti",
+            "anthony-j-vigliotti",
+            "madeline-vigliotti-woodruff"
+          ],
+          "confidence": "confirmed",
+          "sourceIds": [
+            "ancestry-census-1930-vigliotti",
+            "ancestry-census-1940-vigliotti",
+            "scarsdale-inquirer-1944-04-28",
+            "scarsdale-inquirer-1947-08-29"
+          ],
+          "approximate": false,
+          "date": "1930",
+          "dateStart": "1930",
+          "dateEnd": "1947",
+          "datePrecision": "year",
+          "summary": "Vincent and Vincenza Vigliotti raised their family at 44 Brambach Avenue, Eastchester. The 1930 and 1940 censuses record the household here, and 1940s newspaper notices still use this address. Only deceased members of the household are named on the map."
+        }
+      ]
+    },
+    {
+      "id": "eastchester-ny",
+      "name": "Eastchester, New York",
+      "historicName": "Town of Eastchester, Westchester County, New York",
+      "kind": "town",
+      "precision": "town",
+      "lat": 40.9610563,
+      "lng": -73.8064739,
+      "uncertaintyMetres": 2500,
+      "coordinateMethod": "Point from OpenStreetMap Nominatim, looked up on 26 November 2026.",
+      "coordinatePrecision": "town",
+      "coordinateSourceIds": [],
+      "drawAs": "halo",
+      "inHomeRegion": true,
+      "country": "US",
+      "status": "published",
+      "blurb": "The town where Alphonse J. Vigliotti Sr. was born, and where the family lived on Brambach Avenue.",
+      "events": [
+        {
+          "id": "pe-eastchester-born-sr",
+          "type": "born",
+          "personIds": [
+            "alphonse-j-vigliotti-sr"
+          ],
+          "confidence": "confirmed",
+          "sourceIds": [
+            "obituary-alphonse-vigliotti-sr-2011"
+          ],
+          "approximate": false,
+          "date": "1921",
+          "dateStart": "1921-03-14",
+          "dateEnd": "1921-03-14",
+          "datePrecision": "day",
+          "factRef": "alphonse-j-vigliotti-sr.birth",
+          "summary": "Alphonse J. Vigliotti Sr. was born in Eastchester, New York, on 14 March 1921. His World War II draft card says Scarsdale, which is consistent with a Scarsdale post office in the Town of Eastchester.",
+          "note": "The draft card gives Scarsdale as the birthplace. The 2011 obituary gives Eastchester. These are treated as the same community, not as a conflict."
+        }
+      ]
+    },
+    {
+      "id": "dobbs-ferry-ny",
+      "name": "Dobbs Ferry, New York",
+      "historicName": "Village of Dobbs Ferry, Town of Greenburgh, New York",
+      "kind": "town",
+      "precision": "town",
+      "lat": 41.0145418,
+      "lng": -73.872635,
+      "uncertaintyMetres": 1500,
+      "coordinateMethod": "Point from OpenStreetMap Nominatim, looked up on 26 November 2026.",
+      "coordinatePrecision": "town",
+      "coordinateSourceIds": [],
+      "drawAs": "halo",
+      "inHomeRegion": true,
+      "country": "US",
+      "status": "published",
+      "blurb": "Alphonse J. Vigliotti Sr. died at Dobbs Ferry Hospital on 1 January 2011.",
+      "events": [
+        {
+          "id": "pe-dobbs-ferry-died-sr",
+          "type": "died",
+          "personIds": [
+            "alphonse-j-vigliotti-sr"
+          ],
+          "confidence": "confirmed",
+          "sourceIds": [
+            "obituary-alphonse-vigliotti-sr-2011",
+            "nys-death-index-2011-alphonse-sr"
+          ],
+          "approximate": false,
+          "date": "2011",
+          "dateStart": "2011-01-01",
+          "dateEnd": "2011-01-01",
+          "datePrecision": "day",
+          "factRef": "alphonse-j-vigliotti-sr.death",
+          "summary": "Alphonse J. Vigliotti Sr. died at Dobbs Ferry Hospital, Dobbs Ferry, New York, on 1 January 2011."
+        }
+      ]
+    },
+    {
+      "id": "mount-pleasant-ny",
+      "name": "Grasslands Hospital, Mount Pleasant, New York",
+      "historicName": "Grasslands Hospital, Town of Mount Pleasant, New York",
+      "kind": "hospital",
+      "precision": "building",
+      "lat": 41.087434,
+      "lng": -73.8066939,
+      "uncertaintyMetres": 250,
+      "coordinateMethod": "Point from OpenStreetMap Nominatim, looked up on 26 November 2026.",
+      "coordinatePrecision": "building",
+      "coordinateSourceIds": [],
+      "drawAs": "halo",
+      "inHomeRegion": true,
+      "country": "US",
+      "status": "published",
+      "todayNote": "Nominatim now returns this campus as Westchester Medical Center, Woods Road, Hawthorne, in the Town of Mount Pleasant. Grasslands Hospital stood on this site.",
+      "blurb": "Vincent Vigliotti died here on 24 April 1944. The New York State death index records the death at Mount Pleasant; the Scarsdale Inquirer names Grasslands Hospital.",
+      "events": [
+        {
+          "id": "pe-mount-pleasant-died-vincenzo",
+          "type": "died",
+          "personIds": [
+            "vincenzo-vigliotti"
+          ],
+          "confidence": "confirmed",
+          "sourceIds": [
+            "nys-death-index-1944-vigliotti",
+            "scarsdale-inquirer-1944-04-28"
+          ],
+          "approximate": false,
+          "date": "1944",
+          "dateStart": "1944-04-24",
+          "dateEnd": "1944-04-24",
+          "datePrecision": "day",
+          "factRef": "vincenzo-vigliotti.death",
+          "summary": "Vincent J. Vigliotti died at Grasslands Hospital, in the Town of Mount Pleasant, New York, on 24 April 1944."
+        }
+      ]
+    },
+    {
+      "id": "immaculate-heart-of-mary-scarsdale",
+      "name": "Immaculate Heart of Mary Church, Scarsdale, New York",
+      "historicName": "Church of the Immaculate Heart of Mary, Scarsdale, New York",
+      "kind": "church",
+      "precision": "building",
+      "address": "8 Carman Road, Scarsdale, New York",
+      "lat": 40.9816993,
+      "lng": -73.7992601,
+      "uncertaintyMetres": 25,
+      "coordinateMethod": "Point from OpenStreetMap Nominatim, looked up on 26 November 2026.",
+      "coordinatePrecision": "building",
+      "coordinateSourceIds": [],
+      "drawAs": "pin",
+      "inHomeRegion": true,
+      "country": "US",
+      "status": "published",
+      "blurb": "The parish church for several Vigliotti and Walsh family weddings and funerals.",
+      "events": [
+        {
+          "id": "pe-ihm-married-sr-concetta",
+          "type": "married",
+          "personIds": [
+            "alphonse-j-vigliotti-sr",
+            "concetta-mignone"
+          ],
+          "confidence": "confirmed",
+          "sourceIds": [
+            "scarsdale-inquirer-1947-08-29"
+          ],
+          "approximate": false,
+          "date": "1947",
+          "dateStart": "1947-08-24",
+          "dateEnd": "1947-08-24",
+          "datePrecision": "day",
+          "summary": "Alphonse J. Vigliotti and Concetta Mignone were married here on 24 August 1947."
+        },
+        {
+          "id": "pe-ihm-married-paul-patricia",
+          "type": "married",
+          "personIds": [
+            "paul-h-walsh",
+            "patricia-morrisey-walsh"
+          ],
+          "confidence": "confirmed",
+          "sourceIds": [
+            "scarsdale-inquirer-1951-05-18",
+            "obituary-patricia-paul-walsh-2019"
+          ],
+          "approximate": false,
+          "date": "1951",
+          "dateStart": "1951-05-05",
+          "dateEnd": "1951-05-05",
+          "datePrecision": "day",
+          "summary": "Paul H. Walsh and Patricia Morrisey were married here on 5 May 1951."
+        },
+        {
+          "id": "pe-ihm-funeral-vincenzo",
+          "type": "celebrated",
+          "personIds": [
+            "vincenzo-vigliotti"
+          ],
+          "confidence": "confirmed",
+          "sourceIds": [
+            "scarsdale-inquirer-1944-04-28"
+          ],
+          "approximate": false,
+          "date": "1944",
+          "dateStart": "1944-04-28",
+          "dateEnd": "1944-04-28",
+          "datePrecision": "day",
+          "summary": "Funeral services for Vincent J. Vigliotti were held here on the morning of 28 April 1944."
+        },
+        {
+          "id": "pe-ihm-funeral-sr",
+          "type": "celebrated",
+          "personIds": [
+            "alphonse-j-vigliotti-sr"
+          ],
+          "confidence": "confirmed",
+          "sourceIds": [
+            "obituary-alphonse-vigliotti-sr-2011"
+          ],
+          "approximate": false,
+          "date": "2011",
+          "dateStart": "2011-01-04",
+          "dateEnd": "2011-01-04",
+          "datePrecision": "day",
+          "summary": "A Funeral Mass for Alphonse J. Vigliotti Sr. was celebrated here on 4 January 2011 (the Tuesday after his death)."
+        },
+        {
+          "id": "pe-ihm-funeral-augusta",
+          "type": "celebrated",
+          "personIds": [
+            "augusta-ehrenfels"
+          ],
+          "confidence": "confirmed",
+          "sourceIds": [
+            "scarsdale-inquirer-1949-06-17"
+          ],
+          "approximate": false,
+          "date": "1949",
+          "dateStart": "1949-06-11",
+          "dateEnd": "1949-06-11",
+          "datePrecision": "day",
+          "summary": "Funeral services for Augusta R. Ehrenfels were held here on Saturday morning, 11 June 1949."
+        }
+      ]
+    },
+    {
+      "id": "greenwood-union-cemetery-rye",
+      "name": "Greenwood Union Cemetery, Rye, New York",
+      "historicName": "Greenwood Union Cemetery, Rye, New York",
+      "kind": "cemetery",
+      "precision": "building",
+      "lat": 40.9786508,
+      "lng": -73.7016038,
+      "uncertaintyMetres": 80,
+      "coordinateMethod": "Point from OpenStreetMap Nominatim, looked up on 26 November 2026.",
+      "coordinatePrecision": "building",
+      "coordinateSourceIds": [],
+      "drawAs": "pin",
+      "inHomeRegion": true,
+      "country": "US",
+      "status": "published",
+      "blurb": "Paul H. Walsh was buried here in 2019.",
+      "events": [
+        {
+          "id": "pe-greenwood-buried-paul",
+          "type": "buried",
+          "personIds": [
+            "paul-h-walsh"
+          ],
+          "confidence": "confirmed",
+          "sourceIds": [
+            "find-a-grave-paul-walsh-2019"
+          ],
+          "approximate": false,
+          "date": "2019",
+          "dateStart": "2019-09-27",
+          "dateEnd": "2019-10-03",
+          "datePrecision": "month",
+          "factRef": "paul-h-walsh.burial",
+          "summary": "Paul Hingston Walsh was buried here after a Mass at the Church of the Resurrection in Rye."
+        }
+      ]
+    },
+    {
+      "id": "mount-vernon-ny",
+      "name": "Mount Vernon, New York",
+      "historicName": "City of Mount Vernon, Westchester County, New York",
+      "kind": "city",
+      "precision": "town",
+      "lat": 40.9125085,
+      "lng": -73.8386504,
+      "uncertaintyMetres": 2000,
+      "coordinateMethod": "Point from OpenStreetMap Nominatim, looked up on 26 November 2026.",
+      "coordinatePrecision": "town",
+      "coordinateSourceIds": [],
+      "drawAs": "halo",
+      "inHomeRegion": true,
+      "country": "US",
+      "status": "published",
+      "blurb": "Augusta R. Ehrenfels was of Mount Vernon when she died in 1949.",
+      "events": [
+        {
+          "id": "pe-mount-vernon-lived-augusta",
+          "type": "lived",
+          "personIds": [
+            "augusta-ehrenfels"
+          ],
+          "confidence": "confirmed",
+          "sourceIds": [
+            "scarsdale-inquirer-1949-06-17"
+          ],
+          "approximate": true,
+          "date": "1949",
+          "dateStart": "1949",
+          "dateEnd": "1949",
+          "datePrecision": "year",
+          "summary": "The Scarsdale Inquirer describes Augusta R. Ehrenfels as of Mount Vernon at the time of her death."
+        }
+      ]
+    },
+    {
+      "id": "ardmore-ireland",
+      "name": "Ardmore, County Waterford, Ireland",
+      "historicName": "Ardmore, Ireland",
+      "kind": "town",
+      "precision": "town",
+      "lat": 51.9508055,
+      "lng": -7.7255148,
+      "uncertaintyMetres": 2000,
+      "coordinateMethod": "Point from OpenStreetMap Nominatim, looked up on 26 November 2026.",
+      "coordinatePrecision": "town",
+      "coordinateSourceIds": [],
+      "drawAs": "halo",
+      "inHomeRegion": false,
+      "country": "IE",
+      "status": "published",
+      "todayNote": "The 1916 obituary says only Ardmore, Ireland, and does not name the county. These coordinates are for the village of Ardmore in County Waterford, the usual place of that name.",
+      "blurb": "Michael Walsh was born here in 1837, according to his 1916 Yonkers Statesman obituary.",
+      "events": [
+        {
+          "id": "pe-ardmore-born-michael",
+          "type": "born",
+          "personIds": [
+            "michael-walsh"
+          ],
+          "confidence": "probable",
+          "sourceIds": [
+            "findagrave-michael-walsh-1916"
+          ],
+          "approximate": true,
+          "date": "1837",
+          "dateStart": "1837",
+          "dateEnd": "1837",
+          "datePrecision": "year",
+          "factRef": "michael-walsh.birth",
+          "summary": "Michael Walsh was born in Ardmore, Ireland, in 1837. The county is not named in the obituary; the pin is the village in County Waterford."
+        }
+      ]
+    },
+    {
+      "id": "huntingdon-quebec",
+      "name": "Huntingdon, Quebec, Canada",
+      "historicName": "Huntingdon, Canada East",
+      "kind": "town",
+      "precision": "town",
+      "lat": 45.087339,
+      "lng": -74.173851,
+      "uncertaintyMetres": 2000,
+      "coordinateMethod": "Point from OpenStreetMap Nominatim, looked up on 26 November 2026.",
+      "coordinatePrecision": "town",
+      "coordinateSourceIds": [],
+      "drawAs": "halo",
+      "inHomeRegion": false,
+      "country": "CA",
+      "status": "published",
+      "blurb": "Catherine Jane Cleary was born here in 1845, and she and Samuel J. Hingston were married here in 1872.",
+      "events": [
+        {
+          "id": "pe-huntingdon-born-catherine",
+          "type": "born",
+          "personIds": [
+            "catherine-cleary-hingston"
+          ],
+          "confidence": "probable",
+          "sourceIds": [
+            "findagrave-catherine-hingston-1932"
+          ],
+          "approximate": true,
+          "date": "1845",
+          "dateStart": "1845",
+          "dateEnd": "1845",
+          "datePrecision": "year",
+          "factRef": "catherine-cleary-hingston.birth",
+          "summary": "Catherine Jane Cleary was born in Huntingdon, Canada, in 1845, according to her 1932 obituary."
+        },
+        {
+          "id": "pe-huntingdon-married-hingston",
+          "type": "married",
+          "personIds": [
+            "samuel-j-hingston",
+            "catherine-cleary-hingston"
+          ],
+          "confidence": "confirmed",
+          "sourceIds": [
+            "findagrave-catherine-hingston-1932"
+          ],
+          "approximate": false,
+          "date": "1872",
+          "dateStart": "1872",
+          "dateEnd": "1872",
+          "datePrecision": "year",
+          "summary": "Samuel J. Hingston and Catherine Jane Cleary were married in Huntingdon, Quebec, in 1872."
+        }
+      ]
+    },
+    {
+      "id": "port-henry-ny",
+      "name": "Port Henry, New York",
+      "historicName": "Port Henry, Town of Moriah, Essex County, New York",
+      "kind": "town",
+      "precision": "town",
+      "lat": 44.0435221,
+      "lng": -73.4641078,
+      "uncertaintyMetres": 1500,
+      "coordinateMethod": "Point from OpenStreetMap Nominatim, looked up on 26 November 2026.",
+      "coordinatePrecision": "town",
+      "coordinateSourceIds": [],
+      "drawAs": "halo",
+      "inHomeRegion": false,
+      "country": "US",
+      "status": "published",
+      "blurb": "A Find a Grave entry gives Port Henry as Clara F. Hingston's birthplace in 1885.",
+      "events": [
+        {
+          "id": "pe-port-henry-born-clara",
+          "type": "born",
+          "personIds": [
+            "clara-hingston-walsh"
+          ],
+          "confidence": "probable",
+          "sourceIds": [
+            "findagrave-clara-hingston-walsh"
+          ],
+          "approximate": false,
+          "date": "1885",
+          "dateStart": "1885-11-25",
+          "dateEnd": "1885-11-25",
+          "datePrecision": "day",
+          "factRef": "clara-hingston-walsh.birth",
+          "summary": "Clara F. Hingston was probably born in Port Henry, Essex County, New York, on 25 November 1885."
+        }
+      ]
+    },
+    {
+      "id": "tuckahoe-ny",
+      "name": "Tuckahoe, New York",
+      "historicName": "Village of Tuckahoe, Town of Eastchester, New York",
+      "kind": "town",
+      "precision": "town",
+      "lat": 40.9503764,
+      "lng": -73.827356,
+      "uncertaintyMetres": 1200,
+      "coordinateMethod": "Point from OpenStreetMap Nominatim, looked up on 26 November 2026.",
+      "coordinatePrecision": "town",
+      "coordinateSourceIds": [],
+      "drawAs": "halo",
+      "inHomeRegion": true,
+      "country": "US",
+      "status": "published",
+      "blurb": "Alphonse J. Vigliotti Sr. registered for the World War II draft here on 15 February 1942.",
+      "events": [
+        {
+          "id": "pe-tuckahoe-draft-sr",
+          "type": "served",
+          "personIds": [
+            "alphonse-j-vigliotti-sr"
+          ],
+          "confidence": "confirmed",
+          "sourceIds": [
+            "ancestry-wwii-draft-alphonse-vigliotti-1942"
+          ],
+          "approximate": false,
+          "date": "1942",
+          "dateStart": "1942-02-15",
+          "dateEnd": "1942-02-15",
+          "datePrecision": "day",
+          "summary": "Alphonse John Vigliotti registered for the World War II draft at Tuckahoe on 15 February 1942."
+        }
+      ]
+    },
+    {
+      "id": "scarsdale-ny",
+      "name": "Scarsdale, New York",
+      "historicName": "Village of Scarsdale, Westchester County, New York",
+      "kind": "town",
+      "precision": "town",
+      "lat": 40.9885221,
+      "lng": -73.8085608,
+      "uncertaintyMetres": 1500,
+      "coordinateMethod": "Point from OpenStreetMap Nominatim, looked up on 26 November 2026.",
+      "coordinatePrecision": "town",
+      "coordinateSourceIds": [],
+      "drawAs": "halo",
+      "inHomeRegion": true,
+      "country": "US",
+      "status": "published",
+      "blurb": "The village adjoining Eastchester. Immaculate Heart of Mary Church is here, and Alphonse Sr.'s draft card names Scarsdale as his birthplace.",
+      "events": []
+    },
+    {
+      "id": "ellis-island-ny",
+      "name": "Ellis Island, New York",
+      "historicName": "Ellis Island immigration station, New York Harbor",
+      "kind": "port",
+      "precision": "building",
+      "lat": 40.6985936,
+      "lng": -74.0420135,
+      "uncertaintyMetres": 200,
+      "coordinateMethod": "Point from OpenStreetMap Nominatim, looked up on 26 November 2026.",
+      "coordinatePrecision": "building",
+      "coordinateSourceIds": [],
+      "drawAs": "pin",
+      "inHomeRegion": false,
+      "country": "US",
+      "status": "published",
+      "todayNote": "A 1903 New York passenger-list index names the arrival port as New York, on the ship Roma. Ellis Island was the inspection station for steerage passengers at that date. The manifest page has not yet been read.",
+      "blurb": "A Vincenzo Vigliotti, aged 17, probably arrived here on the ship Roma on 1 April 1903.",
+      "events": [
+        {
+          "id": "pe-ellis-arrived-vincenzo",
+          "type": "sailed",
+          "personIds": [
+            "vincenzo-vigliotti"
+          ],
+          "confidence": "probable",
+          "sourceIds": [
+            "ancestry-passenger-list-roma-1903"
+          ],
+          "approximate": false,
+          "date": "1903",
+          "dateStart": "1903-04-01",
+          "dateEnd": "1903-04-01",
+          "datePrecision": "day",
+          "voyageEnd": "arrival",
+          "summary": "A passenger-list index shows Vincenzo Vigliotti, aged 17, arriving at New York on the Roma on 1 April 1903. The match is probable until the manifest page is read."
+        }
+      ]
+    },
+    {
+      "id": "westchester-county-ny",
+      "name": "Westchester County, New York",
+      "historicName": "Westchester County, New York",
+      "kind": "county",
+      "precision": "county",
+      "lat": 41.1763139,
+      "lng": -73.7907554,
+      "uncertaintyMetres": 20000,
+      "coordinateMethod": "Point from OpenStreetMap Nominatim, looked up on 26 November 2026.",
+      "coordinatePrecision": "county",
+      "coordinateSourceIds": [],
+      "drawAs": "halo",
+      "inHomeRegion": true,
+      "country": "US",
+      "status": "published",
+      "blurb": "The Westchester marriage index records two family marriages here, without naming a town.",
+      "events": [
+        {
+          "id": "pe-westchester-married-morrisey",
+          "type": "married",
+          "personIds": [
+            "james-t-morrisey",
+            "fernanda-ehrenfels-morrisey"
+          ],
+          "confidence": "confirmed",
+          "sourceIds": [
+            "westchester-marriage-37675"
+          ],
+          "approximate": true,
+          "date": "1922",
+          "dateStart": "1922",
+          "dateEnd": "1922",
+          "datePrecision": "year",
+          "summary": "James T. Morrisey and Fernanda Ehrenfels were married in Westchester County in 1922 (certificate 37675). The index does not name the town or the exact day."
+        },
+        {
+          "id": "pe-westchester-married-mignone",
+          "type": "married",
+          "personIds": [
+            "gerardo-mignone",
+            "susan-rescigno-mignone"
+          ],
+          "confidence": "confirmed",
+          "sourceIds": [
+            "westchester-marriage-51289"
+          ],
+          "approximate": true,
+          "date": "1926",
+          "dateStart": "1926",
+          "dateEnd": "1926",
+          "datePrecision": "year",
+          "summary": "Gerardo Mignone and Susan M. Rescigno were married in Westchester County in 1926 (certificate 51289). The index does not name the town or the exact day."
+        }
+      ]
+    },
+    {
+      "id": "st-josephs-cemetery-yonkers",
+      "name": "Saint Joseph's Cemetery, Yonkers, New York",
+      "historicName": "Saint Joseph's Cemetery, Yonkers, New York",
+      "kind": "cemetery",
+      "precision": "building",
+      "lat": 40.9767078,
+      "lng": -73.8725882,
+      "uncertaintyMetres": 80,
+      "coordinateMethod": "Point from OpenStreetMap Nominatim, looked up on 26 November 2026.",
+      "coordinatePrecision": "building",
+      "coordinateSourceIds": [],
+      "drawAs": "pin",
+      "inHomeRegion": true,
+      "country": "US",
+      "status": "published",
+      "blurb": "William Aloysius Walsh and Clara F. Hingston Walsh are buried here.",
+      "events": [
+        {
+          "id": "pe-stjoseph-buried-william",
+          "type": "buried",
+          "personIds": [
+            "william-a-walsh"
+          ],
+          "confidence": "confirmed",
+          "sourceIds": [
+            "findagrave-william-a-walsh"
+          ],
+          "approximate": false,
+          "date": "1967",
+          "dateStart": "1967-03-18",
+          "dateEnd": "1967-03-22",
+          "datePrecision": "month",
+          "factRef": "william-a-walsh.burial",
+          "summary": "William Aloysius Walsh was buried here. The stone is inscribed Mayor 1926 1927."
+        },
+        {
+          "id": "pe-stjoseph-buried-clara",
+          "type": "buried",
+          "personIds": [
+            "clara-hingston-walsh"
+          ],
+          "confidence": "probable",
+          "sourceIds": [
+            "findagrave-clara-hingston-walsh"
+          ],
+          "approximate": false,
+          "date": "1957",
+          "dateStart": "1957-12-21",
+          "dateEnd": "1957-12-24",
+          "datePrecision": "month",
+          "factRef": "clara-hingston-walsh.burial",
+          "summary": "A Find a Grave entry places Clara F. Hingston Walsh here after her death on 21 December 1957."
+        }
+      ]
     }
   ]
 }

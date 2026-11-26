@@ -9,7 +9,7 @@
       "family tradition",
       "unverified"
     ],
-    "note": "Seeded from family testimony and two obituaries. Living people have name and relationship only. Layout labels used by the list-view tree also live here (rootPersonId, directLineLabel, generations); the interactive tree reads the same fields from site.config.json.",
+    "note": "Living people have name and relationship only. Alphonse Jr., Barbara, Susan, Renee, Dylan, Ehren, and the siblings of Alphonse Sr. who were still living in January 2011 (Andrew, Sylvia, Virginia, Angelina and Louise) are treated as living until a death record is in hand. Layout labels used by the list-view tree also live here.",
     "siteName": "Vigliotti",
     "directLineLabel": "Dylan's direct line",
     "kinLabel": "Related kin, relationship unproven",
@@ -18,24 +18,30 @@
       {
         "generation": 0,
         "label": "I",
-        "title": "Great-grandparents",
-        "range": "Morrisey, Ehrenfels, Walsh and Hingston"
+        "title": "Great-great-grandparents",
+        "range": "Walsh, Hingston, Cleary and Ehrenfels"
       },
       {
         "generation": 1,
         "label": "II",
-        "title": "Grandparents",
-        "range": "Walsh, and Fucale in-laws"
+        "title": "Great-grandparents",
+        "range": "Vigliotti, Guida, Mignone, Walsh, Morrisey and Fucale"
       },
       {
         "generation": 2,
         "label": "III",
-        "title": "Parents' generation",
-        "range": ""
+        "title": "Grandparents",
+        "range": "Alphonse Sr., Concetta, Patricia, Paul, and Sr.'s brothers and sisters"
       },
       {
         "generation": 3,
         "label": "IV",
+        "title": "Parents' generation",
+        "range": ""
+      },
+      {
+        "generation": 4,
+        "label": "V",
         "title": "Dylan's generation",
         "range": ""
       }
@@ -43,12 +49,345 @@
   },
   "people": [
     {
+      "id": "michael-walsh",
+      "displayName": "Michael Walsh",
+      "givenNames": "Michael",
+      "surname": "Walsh",
+      "sex": "M",
+      "generation": 0,
+      "isLiving": false,
+      "isDirectLine": true,
+      "confidence": "confirmed",
+      "parents": [],
+      "children": [
+        "william-a-walsh"
+      ],
+      "spouses": [
+        {
+          "id": "ellen-e-kelly",
+          "confidence": "probable",
+          "sourceIds": [
+            "findagrave-michael-walsh-1916"
+          ],
+          "note": "His 1916 obituary says he married Ellen E. Kelly."
+        }
+      ],
+      "disambiguator": "William A. Walsh's father, of Ardmore",
+      "parentLinkConfidence": "confirmed",
+      "summary": "Born in 1837 at Ardmore, Ireland, he settled in Yonkers about 1853, worked as a carpenter and builder, and died there on 9 July 1916. Father of William Aloysius Walsh.",
+      "story": "Michael Walsh was born in 1837 at Ardmore, Ireland, came to the United States as a boy, and settled in Yonkers about 1853.[^findagrave-michael-walsh-1916] He worked as a carpenter and builder (Bowler and Walsh), served as a Water Commissioner, and was a leader in the St Vincent de Paul Society. He died on 9 July 1916 at 117 Palisade Avenue, Yonkers.\n\nHis 1916 Yonkers Statesman obituary, transcribed on Find a Grave, names his wife as Ellen E. Kelly and his sons as John J., Thomas A., and William A., a lawyer. The identification of that son with Mayor William Aloysius Walsh, father of Paul H. Walsh, is supported by William's own memorial, which names Michael as his father.[^findagrave-william-a-walsh] Other children named in the notice are not added to this tree in this pass.",
+      "birth": {
+        "date": "1837",
+        "display": "1837, Ardmore, Ireland",
+        "dateQualifier": "year",
+        "place": "Ardmore, Ireland",
+        "placeId": "ardmore-ireland",
+        "confidence": "probable",
+        "sourceIds": [
+          "findagrave-michael-walsh-1916"
+        ],
+        "note": "The obituary names Ardmore, Ireland, and does not give the county. The map uses the village of Ardmore in County Waterford, the usual place of that name."
+      },
+      "death": {
+        "date": "1916-07-09",
+        "display": "9 July 1916",
+        "dateQualifier": "exact",
+        "place": "Yonkers, New York",
+        "placeId": "yonkers-ny",
+        "confidence": "confirmed",
+        "sourceIds": [
+          "findagrave-michael-walsh-1916"
+        ]
+      },
+      "occupations": [
+        {
+          "title": "Carpenter and builder",
+          "employer": "Bowler and Walsh",
+          "place": "Yonkers, New York",
+          "placeId": "yonkers-ny",
+          "confidence": "confirmed",
+          "sourceIds": [
+            "findagrave-michael-walsh-1916"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "label": "Public office",
+          "value": "Water Commissioner, Yonkers",
+          "confidence": "confirmed",
+          "sourceIds": [
+            "findagrave-michael-walsh-1916"
+          ]
+        }
+      ],
+      "openQuestions": [
+        {
+          "question": "Can the original Yonkers Statesman page be saved, and is there a baptism or passenger record that names Michael's parents?",
+          "record": "The 10 July 1916 newspaper page, and an Irish baptism or a passenger list."
+        }
+      ],
+      "relatedPages": [
+        {
+          "title": "Records and Research",
+          "url": "research.html"
+        }
+      ]
+    },
+    {
+      "id": "ellen-e-kelly",
+      "displayName": "Ellen E. (Kelly) Walsh",
+      "givenNames": "Ellen E.",
+      "surname": "Walsh",
+      "sex": "F",
+      "generation": 0,
+      "isLiving": false,
+      "isDirectLine": true,
+      "confidence": "confirmed",
+      "parents": [],
+      "children": [
+        "william-a-walsh"
+      ],
+      "spouses": [
+        {
+          "id": "michael-walsh",
+          "confidence": "probable",
+          "sourceIds": [
+            "findagrave-michael-walsh-1916"
+          ]
+        }
+      ],
+      "disambiguator": "William A. Walsh's mother, born Kelly",
+      "nameVariants": [
+        {
+          "name": "Ellen E. Kelly",
+          "note": "Maiden name, given in her husband's 1916 obituary.",
+          "confidence": "probable",
+          "sourceIds": [
+            "findagrave-michael-walsh-1916"
+          ]
+        }
+      ],
+      "parentLinkConfidence": "probable",
+      "summary": "Named as Ellen E. Kelly, wife of Michael Walsh, in his 1916 obituary. Probably the mother of William Aloysius Walsh.",
+      "story": "Michael Walsh's 1916 obituary says he married Miss Ellen E. Kelly.[^findagrave-michael-walsh-1916] No birth or death record for her is in hand yet, so the link is probable until a vital record names her as William's mother.",
+      "openQuestions": [
+        {
+          "question": "When and where was Ellen E. Kelly born and when did she die, and does a record name her as William's mother?",
+          "record": "William's 1871 birth or baptism record, and a death record for Ellen."
+        }
+      ],
+      "relatedPages": [
+        {
+          "title": "Records and Research",
+          "url": "research.html"
+        }
+      ]
+    },
+    {
+      "id": "samuel-j-hingston",
+      "displayName": "Samuel J. Hingston",
+      "givenNames": "Samuel J.",
+      "surname": "Hingston",
+      "sex": "M",
+      "generation": 0,
+      "isLiving": false,
+      "isDirectLine": true,
+      "confidence": "confirmed",
+      "parents": [],
+      "children": [
+        "clara-hingston-walsh"
+      ],
+      "spouses": [
+        {
+          "id": "catherine-cleary-hingston",
+          "marriageDate": "1872",
+          "marriageDisplay": "1872",
+          "place": "Huntingdon, Quebec",
+          "placeId": "huntingdon-quebec",
+          "confidence": "confirmed",
+          "sourceIds": [
+            "findagrave-catherine-hingston-1932"
+          ]
+        }
+      ],
+      "disambiguator": "Clara Hingston's father",
+      "parentLinkConfidence": "confirmed",
+      "summary": "Husband of Catherine Jane Cleary, married in Huntingdon, Quebec, in 1872. Father of Clara F. Hingston. He died in or about 1928, aged about 85.",
+      "story": "Samuel J. Hingston married Catherine Jane Cleary in Huntingdon, Quebec, in 1872, and was the father of Clara, later Mrs William A. Walsh.[^findagrave-catherine-hingston-1932] Catherine's 1932 obituary says he had died about 1928, aged about 85. A family story in that notice calls him a cousin of Sir William Hingston, a Montreal surgeon; that cousinship is a lead, not a proven fact.",
+      "death": {
+        "display": "about 1928",
+        "date": "1928",
+        "dateQualifier": "about",
+        "place": "Yonkers, New York",
+        "placeId": "yonkers-ny",
+        "confidence": "probable",
+        "sourceIds": [
+          "findagrave-catherine-hingston-1932"
+        ],
+        "note": "Aged about 85, according to his wife's 1932 obituary."
+      },
+      "openQuestions": [
+        {
+          "question": "What is the exact date of Samuel's death, and can the 1872 Huntingdon marriage be read in a church register?",
+          "record": "A New York death record, and the Drouin or parish register for Huntingdon, 1872."
+        }
+      ],
+      "relatedPages": [
+        {
+          "title": "Records and Research",
+          "url": "research.html"
+        }
+      ]
+    },
+    {
+      "id": "catherine-cleary-hingston",
+      "displayName": "Catherine Jane (Cleary) Hingston",
+      "givenNames": "Catherine Jane",
+      "surname": "Hingston",
+      "sex": "F",
+      "generation": 0,
+      "isLiving": false,
+      "isDirectLine": true,
+      "confidence": "confirmed",
+      "parents": [],
+      "children": [
+        "clara-hingston-walsh"
+      ],
+      "spouses": [
+        {
+          "id": "samuel-j-hingston",
+          "marriageDate": "1872",
+          "marriageDisplay": "1872",
+          "place": "Huntingdon, Quebec",
+          "placeId": "huntingdon-quebec",
+          "confidence": "confirmed",
+          "sourceIds": [
+            "findagrave-catherine-hingston-1932"
+          ]
+        }
+      ],
+      "disambiguator": "Clara Hingston's mother, born Cleary",
+      "nameVariants": [
+        {
+          "name": "Catherine Jane Cleary",
+          "note": "Maiden name, used in her 1932 obituary.",
+          "confidence": "confirmed",
+          "sourceIds": [
+            "findagrave-catherine-hingston-1932"
+          ]
+        }
+      ],
+      "parentLinkConfidence": "confirmed",
+      "summary": "Born in 1845 at Huntingdon, Canada, daughter of Owen Cleary and Catherine Donohue. She married Samuel J. Hingston there in 1872 and died in Yonkers on 31 August 1932.",
+      "story": "Catherine Jane Cleary was born in 1845 at Huntingdon, Canada, the daughter of Owen Cleary and Catherine Donohue, according to her Herald Statesman obituary of 1 September 1932.[^findagrave-catherine-hingston-1932] She married Samuel J. Hingston at Huntingdon in 1872. She died on 31 August 1932 at the Walsh home, 51 Park Avenue, Yonkers. Her daughters included Clara (Mrs William A. Walsh). Owen Cleary and Catherine Donohue are named only in this obituary and are not yet added as people on the tree.",
+      "birth": {
+        "date": "1845",
+        "display": "1845, Huntingdon, Canada",
+        "dateQualifier": "year",
+        "place": "Huntingdon, Quebec, Canada",
+        "placeId": "huntingdon-quebec",
+        "confidence": "probable",
+        "sourceIds": [
+          "findagrave-catherine-hingston-1932"
+        ]
+      },
+      "death": {
+        "date": "1932-08-31",
+        "display": "31 August 1932",
+        "dateQualifier": "exact",
+        "place": "Yonkers, New York",
+        "placeId": "yonkers-ny",
+        "confidence": "confirmed",
+        "sourceIds": [
+          "findagrave-catherine-hingston-1932"
+        ]
+      },
+      "openQuestions": [
+        {
+          "question": "Can a Huntingdon baptism about 1845 confirm her parents as Owen Cleary and Catherine Donohue?",
+          "record": "A Quebec church baptism, and the 1872 marriage register."
+        }
+      ],
+      "relatedPages": [
+        {
+          "title": "Records and Research",
+          "url": "research.html"
+        }
+      ]
+    },
+    {
+      "id": "augusta-ehrenfels",
+      "displayName": "Augusta R. Ehrenfels",
+      "givenNames": "Augusta R.",
+      "surname": "Ehrenfels",
+      "sex": "F",
+      "generation": 0,
+      "isLiving": false,
+      "isDirectLine": true,
+      "confidence": "confirmed",
+      "parents": [],
+      "children": [
+        "fernanda-ehrenfels-morrisey"
+      ],
+      "spouses": [],
+      "disambiguator": "Fernanda's mother",
+      "summary": "Mother of Fernanda (Ehrenfels) Morrisey. Of Mount Vernon, she died at Lawrence Hospital in Bronxville on 8 June 1949.",
+      "story": "The Scarsdale Inquirer of 17 June 1949 reported that Mrs. Augusta R. Ehrenfels of Mount Vernon, mother of Mrs. James Morrissey, died on 8 June at Lawrence Hospital in Bronxville after a short illness.[^scarsdale-inquirer-1949-06-17] Funeral services were held the following Saturday at Immaculate Heart of Mary Church. The notice also names another daughter, Mrs. Daniel Barrett, who is not yet on this tree.\n\nA New York State death index transcription gives 6 April 1949, aged 79. That conflicts with the contemporary newspaper notice. This site follows the newspaper date until the index image is read.",
+      "death": {
+        "date": "1949-06-08",
+        "display": "8 June 1949",
+        "dateQualifier": "exact",
+        "place": "Lawrence Hospital, Bronxville, New York",
+        "placeId": "bronxville-ny",
+        "confidence": "confirmed",
+        "sourceIds": [
+          "scarsdale-inquirer-1949-06-17"
+        ],
+        "note": "A New York State death index transcription gives 6 April 1949, which has not yet been reconciled.",
+        "alternates": [
+          {
+            "display": "6 April 1949 (death index transcription, unresolved)",
+            "date": "1949-04-06",
+            "note": "Not yet checked against the index image."
+          }
+        ]
+      },
+      "residences": [
+        {
+          "place": "Mount Vernon, New York",
+          "placeId": "mount-vernon-ny",
+          "years": "1949",
+          "confidence": "confirmed",
+          "sourceIds": [
+            "scarsdale-inquirer-1949-06-17"
+          ]
+        }
+      ],
+      "openQuestions": [
+        {
+          "question": "Can the 6 April 1949 death-index date be reconciled with the 8 June 1949 newspaper notice?",
+          "record": "The 1949 New York State death index image, and a death certificate."
+        },
+        {
+          "question": "Who was Augusta's husband, and when and where was she born?",
+          "record": "A marriage, census or death record that names her spouse and age or birthplace."
+        }
+      ],
+      "relatedPages": [
+        {
+          "title": "Records and Research",
+          "url": "research.html"
+        }
+      ]
+    },
+    {
       "id": "james-t-morrisey",
       "displayName": "James T. Morrisey",
       "givenNames": "James T.",
       "surname": "Morrisey",
       "sex": "M",
-      "generation": 0,
+      "generation": 1,
       "isLiving": false,
       "isDirectLine": true,
       "confidence": "confirmed",
@@ -61,8 +400,13 @@
           "id": "fernanda-ehrenfels-morrisey",
           "confidence": "confirmed",
           "sourceIds": [
-            "obituary-patricia-paul-walsh-2019"
-          ]
+            "obituary-patricia-paul-walsh-2019",
+            "westchester-marriage-37675"
+          ],
+          "marriageDate": "1922",
+          "marriageDisplay": "1922",
+          "place": "Westchester County, New York",
+          "placeId": "westchester-county-ny"
         }
       ],
       "disambiguator": "Patricia's father",
@@ -87,7 +431,7 @@
       "givenNames": "Fernanda",
       "surname": "Morrisey",
       "sex": "F",
-      "generation": 0,
+      "generation": 1,
       "isLiving": false,
       "isDirectLine": true,
       "confidence": "confirmed",
@@ -101,7 +445,9 @@
           ]
         }
       ],
-      "parents": [],
+      "parents": [
+        "augusta-ehrenfels"
+      ],
       "children": [
         "patricia-morrisey-walsh"
       ],
@@ -110,17 +456,26 @@
           "id": "james-t-morrisey",
           "confidence": "confirmed",
           "sourceIds": [
-            "obituary-patricia-paul-walsh-2019"
-          ]
+            "obituary-patricia-paul-walsh-2019",
+            "westchester-marriage-37675"
+          ],
+          "marriageDate": "1922",
+          "marriageDisplay": "1922",
+          "place": "Westchester County, New York",
+          "placeId": "westchester-county-ny"
         }
       ],
       "disambiguator": "Patricia's mother, born Ehrenfels",
       "summary": "Named as the mother of Patricia Morrisey Walsh, with the maiden name Ehrenfels, in the 2019 obituary.",
-      "story": "Fernanda, born Ehrenfels, is named as the mother of Patricia Morrisey Walsh in the Rye Record obituary of Patricia and Paul Walsh.[^obituary-patricia-paul-walsh-2019] Her own birth, death and parents are not yet known. Barbara Ehren Walsh's middle name may come from this surname; that is a lead, not a proven fact.",
+      "story": "Fernanda, born Ehrenfels, is named as the mother of Patricia Morrisey Walsh in the Rye Record obituary of Patricia and Paul Walsh.[^obituary-patricia-paul-walsh-2019] The Westchester marriage index records her marriage to James T. Morrisey in 1922, certificate 37675.[^westchester-marriage-37675] The Scarsdale Inquirer of 17 June 1949 names her as Mrs. James Morrissey, daughter of Mrs. Augusta R. Ehrenfels of Mount Vernon.[^scarsdale-inquirer-1949-06-17] Her own birth, death and father are not yet known. Barbara Ehren Walsh's middle name may come from this surname; that is a lead, not a proven fact.",
       "openQuestions": [
         {
           "question": "When and where was Fernanda Ehrenfels born, and when did she die?",
           "record": "Birth, marriage and death records, and census entries."
+        },
+        {
+          "question": "Who was Fernanda's father?",
+          "record": "Certificate 37675, or Fernanda's birth record."
         },
         {
           "question": "Is Barbara Ehren Walsh's middle name taken from her grandmother Fernanda Ehrenfels?",
@@ -132,19 +487,23 @@
           "title": "Records and Research",
           "url": "research.html"
         }
-      ]
+      ],
+      "parentLinkConfidence": "confirmed"
     },
     {
       "id": "william-a-walsh",
-      "displayName": "William A. Walsh",
-      "givenNames": "William A.",
+      "displayName": "William Aloysius Walsh",
+      "givenNames": "William Aloysius",
       "surname": "Walsh",
       "sex": "M",
-      "generation": 0,
+      "generation": 1,
       "isLiving": false,
       "isDirectLine": true,
       "confidence": "confirmed",
-      "parents": [],
+      "parents": [
+        "michael-walsh",
+        "ellen-e-kelly"
+      ],
       "children": [
         "paul-h-walsh"
       ],
@@ -153,17 +512,22 @@
           "id": "clara-hingston-walsh",
           "confidence": "confirmed",
           "sourceIds": [
-            "obituary-patricia-paul-walsh-2019"
-          ]
+            "obituary-patricia-paul-walsh-2019",
+            "findagrave-clara-hingston-walsh",
+            "findagrave-william-a-walsh"
+          ],
+          "marriageDate": "1913",
+          "marriageDisplay": "1913 (probable)",
+          "note": "The couple is confirmed. The year 1913 comes from a volunteer memorial and is probable."
         }
       ],
-      "disambiguator": "Paul's father",
-      "summary": "Named as the father of Paul H. Walsh in the 2019 obituary.",
-      "story": "William A. Walsh is named as the father of Paul H. Walsh in the Rye Record obituary of Patricia and Paul Walsh.[^obituary-patricia-paul-walsh-2019] His own birth, death and parents are not yet known.",
+      "disambiguator": "Paul's father, Mayor of Yonkers 1926 to 1927",
+      "summary": "Born 18 August 1871 in Yonkers, son of Michael Walsh. A lawyer, he was Mayor of Yonkers from 1926 to 1927. Husband of Clara F. Hingston and father of Paul H. Walsh. He died in Yonkers on 18 March 1967 and is buried at Saint Joseph's Cemetery.",
+      "story": "William Aloysius Walsh was born on 18 August 1871 in Yonkers, the son of Michael Walsh of Ardmore, Ireland.[^findagrave-william-a-walsh][^findagrave-michael-walsh-1916] His mother was probably Ellen E. Kelly, named as Michael's wife in the 1916 obituary. He was a lawyer, and he served as Mayor of Yonkers from 1926 to 1927. The 1951 wedding notices of his son Paul call him former Mayor William A. Walsh of Yonkers, and his gravestone at Saint Joseph's Cemetery is inscribed Mayor 1926 1927.[^scarsdale-inquirer-1951-05-18][^findagrave-william-a-walsh] He married Clara F. Hingston in 1913, according to her memorial, and they were the parents of Paul Hingston Walsh. Social Security extracts also name the couple as the parents of William A. Walsh Jr., born in Yonkers in 1914, and Clayre Walsh O'Hara, born in 1917; those siblings are not yet added to this tree.[^ssa-numident-walsh] He died in Yonkers on 18 March 1967. The New York Times obituary of 19 March 1967 has not yet been read.",
       "openQuestions": [
         {
-          "question": "When and where was William A. Walsh born, and when did he die?",
-          "record": "Birth, marriage and death records, and census entries for the Walsh family."
+          "question": "Does the 19 March 1967 New York Times obituary list Paul among the survivors, and is there a birth record naming Ellen E. Kelly as his mother?",
+          "record": "The Times obituary, and an 1871 Yonkers birth or baptism record."
         }
       ],
       "relatedPages": [
@@ -171,15 +535,81 @@
           "title": "Records and Research",
           "url": "research.html"
         }
-      ]
+      ],
+      "parentLinkConfidence": "probable",
+      "nameVariants": [
+        {
+          "name": "William A. Walsh",
+          "note": "The usual short form, used in his son's obituary and in 1951 wedding notices.",
+          "confidence": "confirmed",
+          "sourceIds": [
+            "obituary-patricia-paul-walsh-2019",
+            "scarsdale-inquirer-1951-05-18"
+          ]
+        }
+      ],
+      "birth": {
+        "date": "1871-08-18",
+        "display": "18 August 1871",
+        "dateQualifier": "exact",
+        "place": "Yonkers, New York",
+        "placeId": "yonkers-ny",
+        "confidence": "confirmed",
+        "sourceIds": [
+          "findagrave-william-a-walsh"
+        ]
+      },
+      "death": {
+        "date": "1967-03-18",
+        "display": "18 March 1967",
+        "dateQualifier": "exact",
+        "place": "Yonkers, New York",
+        "placeId": "yonkers-ny",
+        "confidence": "confirmed",
+        "sourceIds": [
+          "findagrave-william-a-walsh"
+        ]
+      },
+      "burial": {
+        "display": "Saint Joseph's Cemetery, Yonkers, New York",
+        "place": "Saint Joseph's Cemetery, Yonkers, New York",
+        "placeId": "st-josephs-cemetery-yonkers",
+        "confidence": "confirmed",
+        "sourceIds": [
+          "findagrave-william-a-walsh"
+        ],
+        "note": "The stone is inscribed Mayor 1926 1927."
+      },
+      "facts": [
+        {
+          "label": "Public office",
+          "value": "Mayor of Yonkers, 1926 to 1927",
+          "confidence": "confirmed",
+          "sourceIds": [
+            "scarsdale-inquirer-1951-05-18",
+            "findagrave-william-a-walsh"
+          ]
+        }
+      ],
+      "occupations": [
+        {
+          "title": "Lawyer",
+          "confidence": "confirmed",
+          "sourceIds": [
+            "findagrave-michael-walsh-1916",
+            "findagrave-william-a-walsh"
+          ]
+        }
+      ],
+      "cardPlace": "Yonkers, New York"
     },
     {
       "id": "clara-hingston-walsh",
       "displayName": "Clara (Hingston) Walsh",
-      "givenNames": "Clara",
+      "givenNames": "Clara F.",
       "surname": "Walsh",
       "sex": "F",
-      "generation": 0,
+      "generation": 1,
       "isLiving": false,
       "isDirectLine": true,
       "confidence": "confirmed",
@@ -191,9 +621,21 @@
           "sourceIds": [
             "obituary-patricia-paul-walsh-2019"
           ]
+        },
+        {
+          "name": "Clara F. Hingston",
+          "note": "The form used on her Find a Grave memorial and in a Social Security extract for her daughter Clayre.",
+          "confidence": "probable",
+          "sourceIds": [
+            "findagrave-clara-hingston-walsh",
+            "ssa-numident-walsh"
+          ]
         }
       ],
-      "parents": [],
+      "parents": [
+        "samuel-j-hingston",
+        "catherine-cleary-hingston"
+      ],
       "children": [
         "paul-h-walsh"
       ],
@@ -202,17 +644,595 @@
           "id": "william-a-walsh",
           "confidence": "confirmed",
           "sourceIds": [
-            "obituary-patricia-paul-walsh-2019"
-          ]
+            "obituary-patricia-paul-walsh-2019",
+            "findagrave-clara-hingston-walsh",
+            "findagrave-william-a-walsh"
+          ],
+          "marriageDate": "1913",
+          "marriageDisplay": "1913 (probable)",
+          "note": "The couple is confirmed. The year 1913 comes from a volunteer memorial and is probable."
         }
       ],
       "disambiguator": "Paul's mother, born Hingston",
-      "summary": "Named as the mother of Paul H. Walsh, with the maiden name Hingston, in the 2019 obituary.",
-      "story": "Clara, born Hingston, is named as the mother of Paul H. Walsh in the Rye Record obituary of Patricia and Paul Walsh.[^obituary-patricia-paul-walsh-2019] Her own birth, death and parents are not yet known.",
+      "summary": "Born probably on 25 November 1885 at Port Henry, New York, the daughter of Samuel J. Hingston and Catherine Jane Cleary. Wife of William Aloysius Walsh and mother of Paul H. Walsh. A Find a Grave entry gives her death as 21 December 1957 in Bronxville.",
+      "story": "Clara, born Hingston, is named as the mother of Paul H. Walsh in the Rye Record obituary of Patricia and Paul Walsh.[^obituary-patricia-paul-walsh-2019] Her mother's 1932 obituary names her as Mrs William A. Walsh, daughter of Samuel J. Hingston and Catherine Jane Cleary of Huntingdon, Quebec.[^findagrave-catherine-hingston-1932] A Find a Grave memorial gives her birth as 25 November 1885 at Port Henry, Essex County, New York, a marriage in 1913, a death on 21 December 1957 in Bronxville, and burial at Saint Joseph's Cemetery, Yonkers. Those dates are probable until a vital record is read.[^findagrave-clara-hingston-walsh]",
       "openQuestions": [
         {
-          "question": "When and where was Clara Hingston born, and when did she die?",
-          "record": "Birth, marriage and death records, and census entries."
+          "question": "Can a birth record for 25 November 1885 at Port Henry, and a 1913 marriage record, be found?",
+          "record": "A New York birth certificate, a marriage record, and the 1957 death index."
+        }
+      ],
+      "relatedPages": [
+        {
+          "title": "Records and Research",
+          "url": "research.html"
+        }
+      ],
+      "parentLinkConfidence": "confirmed",
+      "birth": {
+        "date": "1885-11-25",
+        "display": "25 November 1885",
+        "dateQualifier": "exact",
+        "place": "Port Henry, Essex County, New York",
+        "placeId": "port-henry-ny",
+        "confidence": "probable",
+        "sourceIds": [
+          "findagrave-clara-hingston-walsh"
+        ],
+        "note": "From a volunteer Find a Grave entry, until a vital record is read."
+      },
+      "death": {
+        "date": "1957-12-21",
+        "display": "21 December 1957",
+        "dateQualifier": "exact",
+        "place": "Bronxville, New York",
+        "placeId": "bronxville-ny",
+        "confidence": "probable",
+        "sourceIds": [
+          "findagrave-clara-hingston-walsh"
+        ]
+      },
+      "burial": {
+        "display": "Saint Joseph's Cemetery, Yonkers, New York (probable)",
+        "place": "Saint Joseph's Cemetery, Yonkers, New York",
+        "placeId": "st-josephs-cemetery-yonkers",
+        "confidence": "probable",
+        "sourceIds": [
+          "findagrave-clara-hingston-walsh"
+        ]
+      },
+      "cardPlace": "Port Henry, New York"
+    },
+    {
+      "id": "vincenzo-vigliotti",
+      "displayName": "Vincenzo \"Vincent\" Vigliotti",
+      "givenNames": "Vincenzo",
+      "surname": "Vigliotti",
+      "sex": "M",
+      "generation": 1,
+      "isLiving": false,
+      "isDirectLine": true,
+      "confidence": "confirmed",
+      "parents": [],
+      "children": [
+        "vincent-joseph-vigliotti",
+        "alphonse-j-vigliotti-sr",
+        "andrew-vigliotti",
+        "anthony-j-vigliotti",
+        "madeline-vigliotti-woodruff",
+        "sylvia-vigliotti",
+        "virginia-vigliotti-waddell",
+        "angelina-vigliotti-zaino",
+        "louise-vigliotti"
+      ],
+      "spouses": [
+        {
+          "id": "vincenza-guida",
+          "order": 1,
+          "marriageDisplay": "about 1916 or 1917",
+          "confidence": "confirmed",
+          "sourceIds": [
+            "scarsdale-inquirer-1944-04-28",
+            "scarsdale-inquirer-1942-12-04"
+          ],
+          "note": "They were married, as his 1944 death notice and the census show. A 4 December 1942 newspaper item says they had recently marked a twenty-fifth wedding anniversary, which points to 1916 or 1917. A member tree gives 31 July 1916, but that exact date was not found in the Westchester, New York City, or 1916 New York State marriage indexes, so it is not used here."
+        }
+      ],
+      "disambiguator": "Alphonse Sr.'s father, also called Vincent",
+      "nameVariants": [
+        {
+          "name": "Vincent Vigliotti",
+          "note": "The usual American form, used in the census, draft card and obituaries.",
+          "confidence": "confirmed",
+          "sourceIds": [
+            "ancestry-census-1930-vigliotti",
+            "ancestry-census-1940-vigliotti",
+            "ancestry-wwii-draft-alphonse-vigliotti-1942",
+            "obituary-alphonse-vigliotti-sr-2011"
+          ]
+        },
+        {
+          "name": "Vincent J. Vigliotti",
+          "note": "As named in the 1944 Scarsdale Inquirer death notice.",
+          "confidence": "confirmed",
+          "sourceIds": [
+            "scarsdale-inquirer-1944-04-28"
+          ]
+        },
+        {
+          "name": "James Vigliotti",
+          "note": "The photo caption in the 4 December 1942 Scarsdale Inquirer calls the father James. Other records call him Vincent or Vincenzo. This may be a reporter's error.",
+          "confidence": "unverified",
+          "sourceIds": [
+            "scarsdale-inquirer-1942-12-04"
+          ]
+        }
+      ],
+      "summary": "Born in Italy, he raised a large family with Vincenza Guida at 44 Brambach Avenue, Eastchester, and died at Grasslands Hospital, Mount Pleasant, on 24 April 1944.",
+      "story": "Vincenzo Vigliotti, usually called Vincent in American records, was born in Italy and lived with his wife Vincenza, also called Winnie, at 44 Brambach Avenue in Eastchester, New York.[^ancestry-census-1930-vigliotti][^ancestry-census-1940-vigliotti] The 1930 and 1940 censuses record nine children in the household, including Alphonse.\n\nHis exact birth date and town are not yet settled. Census ages point to about 1886. His 1944 death notice says he was born in Italy fifty-three years earlier, which points to about 1891. A member tree gives 4 July 1885 at Santa Maria a Vico, in the province of Caserta, and names his parents as Andrea Vigliotti and Mariantonia Ruotolo. Those Italian details remain unverified until the civil register is read.[^ancestry-tree-kindred-spirits]\n\nA New York passenger list index shows a Vincenzo Vigliotti, aged 17, arriving on the ship Roma on 1 April 1903. The manifest page has not yet been found on the roll, so the match is probable.[^ancestry-passenger-list-roma-1903]\n\nA Westchester naturalization index lists a Vincenzo Vigliotti declaration in 1928 and a petition in 1930, after Alphonse Sr. was born in March 1921. The petition index gives a birth on 2 September 1892 at Bunito, probably Bonito in Avellino, which does not match this Vincent's other ages. A second Vincenzo Vigliotti in Westchester married Nunziata Santonastoso in 1923 and may be the petitioner. The 1928 and 1930 papers are therefore treated as an open question, not as a fact about this man. If this Vincent never naturalized, or naturalized only after 1921, that would matter for any later Italian citizenship claim. This site does not claim that anyone is eligible.[^westchester-naturalization-vigliotti]\n\nVincent J. Vigliotti of 44 Brambach Road died at Grasslands Hospital, Mount Pleasant, on 24 April 1944, after a long illness. The New York State death index records the death under the spelling VIGHIOTTO, certificate 26490. He was survived by Vincenza Guida Vigliotti, four sons then in the armed forces, and five daughters. Funeral services were held at Immaculate Heart of Mary on 28 April 1944.[^nys-death-index-1944-vigliotti][^scarsdale-inquirer-1944-04-28]",
+      "birth": {
+        "display": "Italy, date not yet settled",
+        "place": "Italy",
+        "confidence": "confirmed",
+        "sourceIds": [
+          "ancestry-census-1930-vigliotti",
+          "ancestry-census-1940-vigliotti",
+          "scarsdale-inquirer-1944-04-28"
+        ],
+        "dateQualifier": "uncertain",
+        "note": "Born in Italy, confirmed by the census and by his 1944 death notice. Exact date and town are unsettled. Census ages point to about 1886. The death notice (age 53 in April 1944) points to about 1891. A member tree gives 4 July 1885 at Santa Maria a Vico. A naturalization index for a different or unproven Vincenzo Vigliotti gives 2 September 1892 at Bunito.",
+        "alternates": [
+          {
+            "display": "4 July 1885, Santa Maria a Vico (member tree, unverified)",
+            "date": "1885-07-04",
+            "sourceIds": [
+              "ancestry-tree-kindred-spirits"
+            ],
+            "note": "Not yet checked in the Italian civil register."
+          },
+          {
+            "display": "about 1886 (census ages)",
+            "date": "1886",
+            "sourceIds": [
+              "ancestry-census-1930-vigliotti",
+              "ancestry-census-1940-vigliotti"
+            ]
+          },
+          {
+            "display": "about 1891 (age 53 at death in April 1944)",
+            "date": "1891",
+            "sourceIds": [
+              "scarsdale-inquirer-1944-04-28"
+            ]
+          }
+        ]
+      },
+      "death": {
+        "date": "1944-04-24",
+        "display": "24 April 1944",
+        "dateQualifier": "exact",
+        "place": "Grasslands Hospital, Mount Pleasant, New York",
+        "placeId": "mount-pleasant-ny",
+        "confidence": "confirmed",
+        "sourceIds": [
+          "nys-death-index-1944-vigliotti",
+          "scarsdale-inquirer-1944-04-28"
+        ],
+        "note": "The death index spells the surname VIGHIOTTO, certificate 26490. The Scarsdale Inquirer names Vincent J. Vigliotti of 44 Brambach Road, dying at Grasslands Hospital."
+      },
+      "residences": [
+        {
+          "place": "44 Brambach Avenue, Eastchester, New York",
+          "placeId": "brambach-ave-eastchester",
+          "years": "1930 to 1944",
+          "confidence": "confirmed",
+          "sourceIds": [
+            "ancestry-census-1930-vigliotti",
+            "ancestry-census-1940-vigliotti",
+            "scarsdale-inquirer-1944-04-28"
+          ]
+        }
+      ],
+      "immigration": {
+        "date": "1903-04-01",
+        "port": "New York",
+        "ship": "Roma",
+        "age": 17,
+        "confidence": "probable",
+        "sourceIds": [
+          "ancestry-passenger-list-roma-1903"
+        ],
+        "note": "From a passenger-list index. The manifest page has not yet been found on NARA roll T715, roll 334."
+      },
+      "openQuestions": [
+        {
+          "question": "What do the Italian birth registers at Santa Maria a Vico, and nearby towns, say about a Vincenzo Vigliotti born around 1885 to 1892?",
+          "record": "The civil birth register (atto di nascita), and his 1944 death certificate, which should name parents and a birthplace."
+        },
+        {
+          "question": "Did this Vincent ever file for US citizenship, or do the 1928 and 1930 papers belong to the Vincenzo who married Nunziata Santonastoso in 1923?",
+          "record": "Census citizenship columns for 1920, 1930 and 1940, and petition document 18337 at the Westchester County Archives."
+        },
+        {
+          "question": "What is the exact date and place of his marriage to Vincenza Guida?",
+          "record": "A civil or church marriage record, perhaps in Italy, or a New York register not yet checked (including the G pages of the 1916 and 1917 state index)."
+        }
+      ],
+      "relatedPages": [
+        {
+          "title": "Records and Research",
+          "url": "research.html"
+        }
+      ]
+    },
+    {
+      "id": "vincenza-guida",
+      "displayName": "Vincenza Pasqualina \"Winnie\" Guida",
+      "givenNames": "Vincenza Pasqualina",
+      "surname": "Guida",
+      "sex": "F",
+      "generation": 1,
+      "isLiving": false,
+      "isDirectLine": true,
+      "confidence": "confirmed",
+      "parents": [],
+      "children": [
+        "vincent-joseph-vigliotti",
+        "alphonse-j-vigliotti-sr",
+        "andrew-vigliotti",
+        "anthony-j-vigliotti",
+        "madeline-vigliotti-woodruff",
+        "sylvia-vigliotti",
+        "virginia-vigliotti-waddell",
+        "angelina-vigliotti-zaino",
+        "louise-vigliotti"
+      ],
+      "spouses": [
+        {
+          "id": "vincenzo-vigliotti",
+          "order": 1,
+          "marriageDisplay": "about 1916 or 1917",
+          "confidence": "confirmed",
+          "sourceIds": [
+            "scarsdale-inquirer-1944-04-28",
+            "scarsdale-inquirer-1942-12-04"
+          ],
+          "note": "A 1942 newspaper item mentions a recent twenty-fifth wedding anniversary. A member-tree date of 31 July 1916 has not been found in the marriage indexes checked so far."
+        }
+      ],
+      "disambiguator": "Alphonse Sr.'s mother, born Guida",
+      "nameVariants": [
+        {
+          "name": "Winnie Vigliotti",
+          "note": "The census also calls her Winnie.",
+          "confidence": "confirmed",
+          "sourceIds": [
+            "ancestry-census-1930-vigliotti",
+            "ancestry-census-1940-vigliotti"
+          ]
+        },
+        {
+          "name": "Vincenza Guida Vigliotti",
+          "note": "As named in her husband's 1944 death notice.",
+          "confidence": "confirmed",
+          "sourceIds": [
+            "scarsdale-inquirer-1944-04-28"
+          ]
+        },
+        {
+          "name": "Vencenza Guido Vigliotti",
+          "note": "Spelling used in Alphonse Sr.'s 2011 obituary.",
+          "confidence": "confirmed",
+          "sourceIds": [
+            "obituary-alphonse-vigliotti-sr-2011"
+          ]
+        },
+        {
+          "name": "Vinnie Vigliotti",
+          "note": "As named in the 1947 wedding notice of her son Alphonse.",
+          "confidence": "confirmed",
+          "sourceIds": [
+            "scarsdale-inquirer-1947-08-29"
+          ]
+        }
+      ],
+      "summary": "Born in Italy, she married Vincent Vigliotti and raised nine children at 44 Brambach Avenue, Eastchester. She was already deceased by the time of her son Alphonse Sr.'s 2011 obituary.",
+      "story": "Vincenza, also called Winnie, Vinnie, and in one obituary Vencenza Guido, was born in Italy and appears with Vincent Vigliotti in the 1930 and 1940 censuses at 44 Brambach Avenue, Eastchester.[^ancestry-census-1930-vigliotti][^ancestry-census-1940-vigliotti] The 1944 death notice of her husband names her Vincenza Guida Vigliotti, so Guida is treated as her maiden name.[^scarsdale-inquirer-1944-04-28]\n\nA member tree gives her full name as Vincenza Pasqualina Guida, born 21 September 1899 at Arienzo, in the province of Caserta, daughter of Alfonso Guida and Antonia Vigliotti, and says she died in November 1984 at Scarsdale. Those details remain unverified until a birth or death record is read.[^ancestry-tree-kindred-spirits] Alphonse Sr.'s 2011 obituary calls his parents the late Vincent and Vencenza, so she had died by then, but no death date is published here until a record is in hand.",
+      "birth": {
+        "display": "Italy, date not yet settled",
+        "place": "Italy",
+        "confidence": "confirmed",
+        "sourceIds": [
+          "ancestry-census-1930-vigliotti",
+          "ancestry-census-1940-vigliotti"
+        ],
+        "dateQualifier": "uncertain",
+        "note": "Born in Italy, confirmed by the census. A member tree gives 21 September 1899 at Arienzo, which has not been checked in the Italian civil register.",
+        "alternates": [
+          {
+            "display": "21 September 1899, Arienzo (member tree, unverified)",
+            "date": "1899-09-21",
+            "sourceIds": [
+              "ancestry-tree-kindred-spirits"
+            ]
+          }
+        ]
+      },
+      "death": {
+        "display": "before 2011",
+        "dateQualifier": "before",
+        "confidence": "confirmed",
+        "sourceIds": [
+          "obituary-alphonse-vigliotti-sr-2011"
+        ],
+        "note": "Alphonse Sr.'s January 2011 obituary calls his mother the late Vencenza. A member tree gives November 1984 at Scarsdale; that date is not used here until a record is seen."
+      },
+      "residences": [
+        {
+          "place": "44 Brambach Avenue, Eastchester, New York",
+          "placeId": "brambach-ave-eastchester",
+          "years": "1930 to 1947",
+          "confidence": "confirmed",
+          "sourceIds": [
+            "ancestry-census-1930-vigliotti",
+            "ancestry-census-1940-vigliotti",
+            "scarsdale-inquirer-1944-04-28",
+            "scarsdale-inquirer-1947-08-29"
+          ]
+        }
+      ],
+      "openQuestions": [
+        {
+          "question": "What does the Italian birth register at Arienzo say about a Vincenza Pasqualina Guida, daughter of Alfonso Guida and Antonia Vigliotti, around 1899?",
+          "record": "The civil birth register (atto di nascita)."
+        },
+        {
+          "question": "When and where did Vincenza die, and where is she buried?",
+          "record": "A death record, Social Security index, or cemetery entry."
+        }
+      ],
+      "relatedPages": [
+        {
+          "title": "Records and Research",
+          "url": "research.html"
+        }
+      ]
+    },
+    {
+      "id": "gerardo-mignone",
+      "displayName": "Gerard Mignone",
+      "givenNames": "Gerard",
+      "surname": "Mignone",
+      "sex": "M",
+      "generation": 1,
+      "isLiving": false,
+      "isDirectLine": true,
+      "confidence": "confirmed",
+      "parents": [],
+      "children": [
+        "concetta-mignone"
+      ],
+      "spouses": [
+        {
+          "id": "susan-rescigno-mignone",
+          "marriageDate": "1926",
+          "marriageDisplay": "1926",
+          "place": "Westchester County, New York",
+          "placeId": "westchester-county-ny",
+          "confidence": "confirmed",
+          "sourceIds": [
+            "westchester-marriage-51289",
+            "scarsdale-inquirer-1957-11-08"
+          ]
+        }
+      ],
+      "disambiguator": "Concetta's father",
+      "nameVariants": [
+        {
+          "name": "Gerardo Mignone",
+          "note": "The form used in the Westchester naturalization and marriage indexes.",
+          "confidence": "confirmed",
+          "sourceIds": [
+            "westchester-naturalization-mignone",
+            "westchester-marriage-51289"
+          ]
+        },
+        {
+          "name": "Gerorado Mignone",
+          "note": "A spelling in the 1926 marriage index.",
+          "confidence": "confirmed",
+          "sourceIds": [
+            "westchester-marriage-51289"
+          ]
+        }
+      ],
+      "summary": "A carpenter, born in Italy about 1899, he lived in Eastchester, married Susan M. Rescigno in 1926, and died at White Plains Hospital on 29 October 1957, aged 58. Father of Concetta Mignone.",
+      "story": "Gerard Mignone, a carpenter of Eastchester, was a native of Italy and died at White Plains Hospital on 29 October 1957, aged 58.[^scarsdale-inquirer-1957-11-08] The Westchester marriage index records his marriage to Susan M. Rescigno in 1926, certificate 51289.[^westchester-marriage-51289] He was a parishioner of Immaculate Conception Church in Tuckahoe. He was survived by his wife, Susan Rescigno Mignone, two daughters including Mrs. Alphonse J. Vigliotti (Concetta), six sons, and other family in Italy.\n\nThe 1950 census records Gerard, aged 50, born in Italy, with Susan, aged 40, born in New York, and their younger children on Brook Street in Eastchester. Concetta, already married, is not in that household.[^census-1950-mignone] The Westchester naturalization index lists a Gerardo Mignone declaration in 1923 and a petition in 1929.[^westchester-naturalization-mignone]",
+      "birth": {
+        "display": "Italy, about 1899",
+        "place": "Italy",
+        "date": "1899",
+        "dateQualifier": "about",
+        "confidence": "probable",
+        "sourceIds": [
+          "scarsdale-inquirer-1957-11-08",
+          "census-1950-mignone"
+        ],
+        "note": "The 1957 notice gives age 58, and the 1950 census gives age 50, both pointing to about 1899. The Italian town is not yet known."
+      },
+      "death": {
+        "date": "1957-10-29",
+        "display": "29 October 1957",
+        "dateQualifier": "exact",
+        "place": "White Plains Hospital, White Plains, New York",
+        "placeId": "white-plains-ny",
+        "confidence": "confirmed",
+        "sourceIds": [
+          "scarsdale-inquirer-1957-11-08"
+        ]
+      },
+      "occupations": [
+        {
+          "title": "Carpenter",
+          "confidence": "confirmed",
+          "sourceIds": [
+            "scarsdale-inquirer-1957-11-08"
+          ]
+        }
+      ],
+      "openQuestions": [
+        {
+          "question": "Where in Italy was Gerard Mignone born, and when did he arrive in the United States?",
+          "record": "His 1923 declaration and 1929 petition (document 16591), and an Italian birth register."
+        }
+      ],
+      "relatedPages": [
+        {
+          "title": "Records and Research",
+          "url": "research.html"
+        }
+      ]
+    },
+    {
+      "id": "susan-rescigno-mignone",
+      "displayName": "Susan (Rescigno) Mignone",
+      "givenNames": "Susan",
+      "surname": "Mignone",
+      "sex": "F",
+      "generation": 1,
+      "isLiving": false,
+      "isDirectLine": true,
+      "confidence": "confirmed",
+      "parents": [],
+      "children": [
+        "concetta-mignone"
+      ],
+      "spouses": [
+        {
+          "id": "gerardo-mignone",
+          "marriageDate": "1926",
+          "marriageDisplay": "1926",
+          "place": "Westchester County, New York",
+          "placeId": "westchester-county-ny",
+          "confidence": "confirmed",
+          "sourceIds": [
+            "westchester-marriage-51289",
+            "scarsdale-inquirer-1957-11-08"
+          ]
+        }
+      ],
+      "disambiguator": "Concetta's mother, born Rescigno",
+      "nameVariants": [
+        {
+          "name": "Susan M. Rescigno",
+          "note": "Maiden name, used in the 1926 marriage index and in later obituaries.",
+          "confidence": "confirmed",
+          "sourceIds": [
+            "westchester-marriage-51289",
+            "scarsdale-inquirer-1957-11-08",
+            "westchester-fh-lawrence-mignone"
+          ]
+        }
+      ],
+      "summary": "Wife of Gerard Mignone, married in 1926, and mother of Concetta Mignone. Born in New York, according to the 1950 census.",
+      "story": "Susan M. Rescigno married Gerardo Mignone in Westchester County in 1926.[^westchester-marriage-51289] She is named as the wife who survived Gerard Mignone in 1957, and as the mother of Concetta Mignone Vigliotti in later Mignone obituaries.[^scarsdale-inquirer-1957-11-08][^westchester-fh-lawrence-mignone] The 1950 census records her as Susan, aged 40, born in New York.[^census-1950-mignone] Her death date is not yet in hand. Other Mignone children named in those records are not added to this tree unless a later pass takes up that line.",
+      "birth": {
+        "display": "New York, about 1910",
+        "place": "New York",
+        "date": "1910",
+        "dateQualifier": "about",
+        "confidence": "probable",
+        "sourceIds": [
+          "census-1950-mignone"
+        ],
+        "note": "Aged 40 in the 1950 census."
+      },
+      "openQuestions": [
+        {
+          "question": "When and where did Susan Rescigno die, and what is her exact birth date?",
+          "record": "A death record, and a New York birth or baptism record."
+        }
+      ],
+      "relatedPages": [
+        {
+          "title": "Records and Research",
+          "url": "research.html"
+        }
+      ]
+    },
+    {
+      "id": "anthony-fucale",
+      "displayName": "Anthony Fucale",
+      "givenNames": "Anthony",
+      "surname": "Fucale",
+      "sex": "M",
+      "generation": 2,
+      "isLiving": false,
+      "isDirectLine": false,
+      "confidence": "confirmed",
+      "parents": [],
+      "children": [
+        "pasquale-fucale",
+        "lilla-morello",
+        "josephine-scopelliti"
+      ],
+      "spouses": [
+        {
+          "id": "rosa-fucale",
+          "confidence": "confirmed",
+          "sourceIds": [
+            "obituary-pasquale-fucale-2026"
+          ]
+        }
+      ],
+      "disambiguator": "Pat Fucale's father",
+      "summary": "Named as the father of Pasquale \"Pat\" Fucale in Pat's 2026 obituary, which also calls him late.",
+      "story": "Anthony Fucale is named as the father of Pasquale \"Pat\" Fucale, and as already late, in Pat's November 2026 obituary.[^obituary-pasquale-fucale-2026] Pat was born in Cattolica Eraclea, Agrigento, Sicily, and the same record says that at the age of four he and his family immigrated to Montreal, then later settled in White Plains, New York. Anthony's own dates and parents are not yet known.",
+      "openQuestions": [
+        {
+          "question": "When and where was Anthony Fucale born, and when and where did he die?",
+          "record": "Italian civil records in Cattolica Eraclea, and later Canadian or New York records."
+        }
+      ],
+      "relatedPages": [
+        {
+          "title": "Records and Research",
+          "url": "research.html"
+        }
+      ]
+    },
+    {
+      "id": "rosa-fucale",
+      "displayName": "Rosa Fucale",
+      "givenNames": "Rosa",
+      "surname": "Fucale",
+      "sex": "F",
+      "generation": 2,
+      "isLiving": false,
+      "isDirectLine": false,
+      "confidence": "confirmed",
+      "parents": [],
+      "children": [
+        "pasquale-fucale",
+        "lilla-morello",
+        "josephine-scopelliti"
+      ],
+      "spouses": [
+        {
+          "id": "anthony-fucale",
+          "confidence": "confirmed",
+          "sourceIds": [
+            "obituary-pasquale-fucale-2026"
+          ]
+        }
+      ],
+      "disambiguator": "Pat Fucale's mother",
+      "summary": "Named as the mother of Pasquale \"Pat\" Fucale in Pat's 2026 obituary, which also calls her late. Her maiden name is not yet known.",
+      "story": "Rosa Fucale is named as the mother of Pasquale \"Pat\" Fucale, and as already late, in Pat's November 2026 obituary.[^obituary-pasquale-fucale-2026] Her maiden name, birth, death and parents are not yet known.",
+      "openQuestions": [
+        {
+          "question": "What was Rosa Fucale's maiden name, and when and where was she born and did she die?",
+          "record": "Italian civil marriage and birth records in Cattolica Eraclea, and later Canadian or New York records."
         }
       ],
       "relatedPages": [
@@ -228,7 +1248,7 @@
       "givenNames": "Patricia",
       "surname": "Walsh",
       "sex": "F",
-      "generation": 1,
+      "generation": 2,
       "isLiving": false,
       "isDirectLine": true,
       "confidence": "confirmed",
@@ -268,8 +1288,11 @@
           "marriageDisplay": "5 May 1951",
           "confidence": "confirmed",
           "sourceIds": [
-            "obituary-patricia-paul-walsh-2019"
-          ]
+            "obituary-patricia-paul-walsh-2019",
+            "scarsdale-inquirer-1951-05-18"
+          ],
+          "place": "Immaculate Heart of Mary Church, Scarsdale, New York",
+          "placeId": "immaculate-heart-of-mary-scarsdale"
         }
       ],
       "birth": {
@@ -339,10 +1362,10 @@
     {
       "id": "paul-h-walsh",
       "displayName": "Paul H. Walsh",
-      "givenNames": "Paul H.",
+      "givenNames": "Paul Hingston",
       "surname": "Walsh",
       "sex": "M",
-      "generation": 1,
+      "generation": 2,
       "isLiving": false,
       "isDirectLine": true,
       "confidence": "confirmed",
@@ -364,21 +1387,24 @@
           "marriageDisplay": "5 May 1951",
           "confidence": "confirmed",
           "sourceIds": [
-            "obituary-patricia-paul-walsh-2019"
-          ]
+            "obituary-patricia-paul-walsh-2019",
+            "scarsdale-inquirer-1951-05-18"
+          ],
+          "place": "Immaculate Heart of Mary Church, Scarsdale, New York",
+          "placeId": "immaculate-heart-of-mary-scarsdale"
         }
       ],
       "birth": {
-        "date": "1927",
-        "display": "about 1927",
-        "confidence": "probable",
-        "sourceIds": [
-          "obituary-patricia-paul-walsh-2019"
-        ],
+        "date": "1927-01-07",
+        "display": "7 January 1927",
+        "dateQualifier": "exact",
         "place": "Yonkers, New York",
         "placeId": "yonkers-ny",
-        "dateQualifier": "about",
-        "note": "The obituary says he was 92 when he died on 27 September 2019, and that he was born in Yonkers, N.Y."
+        "confidence": "confirmed",
+        "sourceIds": [
+          "find-a-grave-paul-walsh-2019",
+          "obituary-patricia-paul-walsh-2019"
+        ]
       },
       "death": {
         "date": "2019-09-27",
@@ -410,18 +1436,754 @@
       ],
       "cardPlace": "Yonkers, New York",
       "disambiguator": "Barbara's father",
-      "summary": "Born in Yonkers, New York, he married Patricia Morrisey on 5 May 1951. They raised four children in Larchmont and later lived in Rye. He died on 27 September 2019, aged 92, a little more than three weeks after his wife.",
-      "story": "Paul H. Walsh was born in Yonkers, New York, the son of Clara (Hingston) and William A. Walsh.[^obituary-patricia-paul-walsh-2019] The Rye Record obituary says he was 92 when he died on 27 September 2019, which points to a birth year of about 1927.\n\nHe graduated from Iona Prep in 1943, then went to Villanova College through the Navy V12 program, earning a Bachelor of Science in 1947 and a degree in Mechanical Engineering a year later. In 1970 he formed his own independent sales representative company, after earlier executive sales work for electronics firms.\n\nHe married Patricia Morrisey on 5 May 1951. They raised their four children in Larchmont and later lived in Rye. He died a little more than three weeks after his wife, on 27 September 2019.",
+      "summary": "Born 7 January 1927 in Yonkers, New York, the son of William Aloysius Walsh and Clara (Hingston) Walsh. He married Patricia Morrisey on 5 May 1951 at Immaculate Heart of Mary, Scarsdale. He died on 27 September 2019 in Rye and is buried at Greenwood Union Cemetery.",
+      "story": "Paul Hingston Walsh was born on 7 January 1927 in Yonkers, New York, the son of Clara (Hingston) and William A. Walsh.[^find-a-grave-paul-walsh-2019][^obituary-patricia-paul-walsh-2019] He graduated from Iona Prep in 1943, then went to Villanova College through the Navy V12 program, earning a Bachelor of Science in 1947 and a degree in Mechanical Engineering a year later. In 1970 he formed his own independent sales representative company, after earlier executive sales work for electronics firms.\n\nHe married Patricia Morrisey on 5 May 1951 at Immaculate Heart of Mary Church, Scarsdale.[^scarsdale-inquirer-1951-05-18] They raised their four children in Larchmont and later lived in Rye. He died a little more than three weeks after his wife, on 27 September 2019, and was buried at Greenwood Union Cemetery in Rye after a Mass at the Church of the Resurrection.",
       "openQuestions": [
         {
-          "question": "What is the exact date and the official record of Paul's birth in Yonkers?",
-          "record": "A New York birth certificate or baptism record."
-        },
-        {
-          "question": "Where is Paul buried?",
-          "record": "A cemetery record or a death notice that names the burial place."
+          "question": "Is there a civil birth certificate for 7 January 1927 in Yonkers?",
+          "record": "A New York birth certificate."
         }
       ],
+      "relatedPages": [
+        {
+          "title": "Records and Research",
+          "url": "research.html"
+        }
+      ],
+      "parentLinkConfidence": "confirmed",
+      "nameVariants": [
+        {
+          "name": "Paul H. Walsh",
+          "note": "As usually named in the Rye Record obituary.",
+          "confidence": "confirmed",
+          "sourceIds": [
+            "obituary-patricia-paul-walsh-2019"
+          ]
+        }
+      ],
+      "burial": {
+        "display": "Greenwood Union Cemetery, Rye, New York",
+        "place": "Greenwood Union Cemetery, Rye, New York",
+        "placeId": "greenwood-union-cemetery-rye",
+        "confidence": "confirmed",
+        "sourceIds": [
+          "find-a-grave-paul-walsh-2019"
+        ]
+      }
+    },
+    {
+      "id": "alphonse-j-vigliotti-sr",
+      "displayName": "Alphonse J. Vigliotti Sr.",
+      "givenNames": "Alphonse John",
+      "surname": "Vigliotti",
+      "sex": "M",
+      "generation": 2,
+      "isLiving": false,
+      "isDirectLine": true,
+      "confidence": "confirmed",
+      "parents": [
+        "vincenzo-vigliotti",
+        "vincenza-guida"
+      ],
+      "children": [
+        "alphonse-john-vigliotti",
+        "susan-vigliotti",
+        "renee-makras"
+      ],
+      "spouses": [
+        {
+          "id": "concetta-mignone",
+          "order": 1,
+          "marriageDate": "1947-08-24",
+          "marriageDisplay": "24 August 1947",
+          "place": "Immaculate Heart of Mary Church, Scarsdale, New York",
+          "placeId": "immaculate-heart-of-mary-scarsdale",
+          "confidence": "confirmed",
+          "sourceIds": [
+            "scarsdale-inquirer-1947-08-29"
+          ]
+        }
+      ],
+      "disambiguator": "Dylan's grandfather",
+      "nameVariants": [
+        {
+          "name": "Alphonse John Vigliotti",
+          "note": "Full name on his World War II draft registration.",
+          "confidence": "confirmed",
+          "sourceIds": [
+            "ancestry-wwii-draft-alphonse-vigliotti-1942"
+          ]
+        },
+        {
+          "name": "Alfonse Vigliotti",
+          "note": "Spelling used in the 1940 census index.",
+          "confidence": "confirmed",
+          "sourceIds": [
+            "ancestry-census-1940-vigliotti"
+          ]
+        }
+      ],
+      "parentLinkConfidence": "confirmed",
+      "summary": "Born 14 March 1921 in Eastchester, New York, son of Vincent and Vincenza Vigliotti. A World War II veteran of the United States Army. He married Concetta Mignone on 24 August 1947 and died on 1 January 2011 in Dobbs Ferry. He is buried at Gate of Heaven Cemetery, Hawthorne.",
+      "story": "Alphonse John Vigliotti Sr. was born on 14 March 1921 in Eastchester, New York, the son of Vincent Vigliotti and Vincenza Guida (also spelled Guido).[^obituary-alphonse-vigliotti-sr-2011] His World War II draft card, filed at Tuckahoe on 15 February 1942, gives the same date and names the birthplace as Scarsdale, with Vincent Vigliotti as the person who would always know his address.[^ancestry-wwii-draft-alphonse-vigliotti-1942] Eastchester and Scarsdale sit on the same local line, and the Scarsdale post office served parts of the Town of Eastchester, so these are treated as the same community.\n\nHe appears as a child in the Vigliotti household at 44 Brambach Avenue in the 1930 and 1940 censuses.[^ancestry-census-1930-vigliotti][^ancestry-census-1940-vigliotti] In December 1942 the Scarsdale Inquirer reported that he and his brother Andrew had just left for the Army, while Vincent and Tony were already in the Navy.[^scarsdale-inquirer-1942-12-04] His 2011 obituary says he served in the United States Army in Normandy, the Ardennes, Northern France, Central Europe and the Rhineland.\n\nOn 24 August 1947 he married Concetta Mignone at Immaculate Heart of Mary Church, Scarsdale. The wedding notice calls him an Army veteran then employed by the Tommasi Motor Company, and a graduate of Eastchester High School.[^scarsdale-inquirer-1947-08-29] He later worked as a manager for A&P in Eastchester, and was a member of the Eastchester Volunteer Fire Department.\n\nHe died on 1 January 2011 at Dobbs Ferry Hospital, aged 89. The New York State death index is certificate 037088. A Funeral Mass was celebrated at Immaculate Heart of Mary, and he was buried at Gate of Heaven Cemetery, Hawthorne.[^nys-death-index-2011-alphonse-sr][^obituary-alphonse-vigliotti-sr-2011] The obituary names his children as Alphonse J. Vigliotti Jr., Susan Fucale and Renee Makras, which confirms the sibling link first suggested by Pat Fucale's obituary.",
+      "birth": {
+        "date": "1921-03-14",
+        "display": "14 March 1921",
+        "dateQualifier": "exact",
+        "place": "Eastchester, New York",
+        "placeId": "eastchester-ny",
+        "confidence": "confirmed",
+        "sourceIds": [
+          "obituary-alphonse-vigliotti-sr-2011",
+          "ancestry-wwii-draft-alphonse-vigliotti-1942"
+        ],
+        "note": "The 2011 obituary gives Eastchester. The 15 February 1942 draft card gives Scarsdale. These are treated as the same community, not as a conflict."
+      },
+      "death": {
+        "date": "2011-01-01",
+        "display": "1 January 2011",
+        "dateQualifier": "exact",
+        "place": "Dobbs Ferry Hospital, Dobbs Ferry, New York",
+        "placeId": "dobbs-ferry-ny",
+        "confidence": "confirmed",
+        "sourceIds": [
+          "obituary-alphonse-vigliotti-sr-2011",
+          "nys-death-index-2011-alphonse-sr"
+        ],
+        "note": "New York State death index certificate 037088."
+      },
+      "burial": {
+        "display": "Gate of Heaven Cemetery, Hawthorne, New York",
+        "place": "Gate of Heaven Cemetery, Hawthorne, New York",
+        "placeId": "gate-of-heaven-hawthorne",
+        "confidence": "confirmed",
+        "sourceIds": [
+          "obituary-alphonse-vigliotti-sr-2011"
+        ]
+      },
+      "residences": [
+        {
+          "place": "44 Brambach Avenue, Eastchester, New York",
+          "placeId": "brambach-ave-eastchester",
+          "years": "1930 to 1947",
+          "confidence": "confirmed",
+          "sourceIds": [
+            "ancestry-census-1930-vigliotti",
+            "ancestry-census-1940-vigliotti",
+            "scarsdale-inquirer-1947-08-29"
+          ]
+        }
+      ],
+      "occupations": [
+        {
+          "title": "United States Army, European theater",
+          "years": "World War II",
+          "confidence": "confirmed",
+          "sourceIds": [
+            "obituary-alphonse-vigliotti-sr-2011",
+            "scarsdale-inquirer-1942-12-04",
+            "scarsdale-inquirer-1947-08-29"
+          ]
+        },
+        {
+          "title": "Employee",
+          "employer": "Tommasi Motor Company",
+          "years": "1947",
+          "confidence": "confirmed",
+          "sourceIds": [
+            "scarsdale-inquirer-1947-08-29"
+          ]
+        },
+        {
+          "title": "Manager",
+          "employer": "A&P",
+          "place": "Eastchester, New York",
+          "placeId": "eastchester-ny",
+          "confidence": "confirmed",
+          "sourceIds": [
+            "obituary-alphonse-vigliotti-sr-2011"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "label": "Eastchester Volunteer Fire Department",
+          "value": "Member",
+          "confidence": "confirmed",
+          "sourceIds": [
+            "obituary-alphonse-vigliotti-sr-2011"
+          ]
+        }
+      ],
+      "cardPlace": "Eastchester, New York",
+      "openQuestions": [
+        {
+          "question": "Is there a civil birth certificate for 14 March 1921, and does it name both parents?",
+          "record": "A New York birth certificate for the Town of Eastchester or the Scarsdale area."
+        }
+      ],
+      "relatedPages": [
+        {
+          "title": "Records and Research",
+          "url": "research.html"
+        }
+      ]
+    },
+    {
+      "id": "concetta-mignone",
+      "displayName": "Concetta (Mignone) Vigliotti",
+      "givenNames": "Concetta",
+      "surname": "Vigliotti",
+      "sex": "F",
+      "generation": 2,
+      "isLiving": false,
+      "isDirectLine": true,
+      "confidence": "confirmed",
+      "parents": [
+        "gerardo-mignone",
+        "susan-rescigno-mignone"
+      ],
+      "children": [
+        "alphonse-john-vigliotti",
+        "susan-vigliotti",
+        "renee-makras"
+      ],
+      "spouses": [
+        {
+          "id": "alphonse-j-vigliotti-sr",
+          "order": 1,
+          "marriageDate": "1947-08-24",
+          "marriageDisplay": "24 August 1947",
+          "place": "Immaculate Heart of Mary Church, Scarsdale, New York",
+          "placeId": "immaculate-heart-of-mary-scarsdale",
+          "confidence": "confirmed",
+          "sourceIds": [
+            "scarsdale-inquirer-1947-08-29"
+          ]
+        }
+      ],
+      "disambiguator": "Dylan's grandmother, born Mignone",
+      "nameVariants": [
+        {
+          "name": "Concetta Mignone",
+          "note": "Maiden name, used in the 1947 wedding notices.",
+          "confidence": "confirmed",
+          "sourceIds": [
+            "scarsdale-inquirer-1947-04-04",
+            "scarsdale-inquirer-1947-08-29"
+          ]
+        }
+      ],
+      "parentLinkConfidence": "confirmed",
+      "summary": "Daughter of Gerard Mignone and Susan Rescigno. She married Alphonse J. Vigliotti on 24 August 1947 at Immaculate Heart of Mary, Scarsdale. A Find a Grave entry gives her death as 16 November 2012 and burial at Gate of Heaven Cemetery, Hawthorne; that date is still probable.",
+      "story": "Concetta Mignone, daughter of Gerard and Susan (Rescigno) Mignone, married Alphonse Vigliotti on 24 August 1947 at Immaculate Heart of Mary Church, Scarsdale.[^scarsdale-inquirer-1947-08-29] Both were graduates of Eastchester High School. She is named as Mrs. Alphonse J. Vigliotti in her father's 1957 obituary, and later Mignone obituaries name Concetta Mignone Vigliotti as a predeceased sister.[^scarsdale-inquirer-1957-11-08][^westchester-fh-lawrence-mignone]\n\nShe survived her husband, who died on 1 January 2011.[^obituary-alphonse-vigliotti-sr-2011] A Find a Grave memorial places her at Gate of Heaven Cemetery, Hawthorne, Section 28, A, Row I, Grave 29, with a date of 16 November 2012, age 85, and a note that the date may be the interment date. That death is treated as probable until an obituary or civil record is read.[^find-a-grave-concetta-2012]",
+      "birth": {
+        "display": "about 1927",
+        "date": "1927",
+        "dateQualifier": "about",
+        "confidence": "probable",
+        "sourceIds": [
+          "find-a-grave-concetta-2012"
+        ],
+        "note": "Find a Grave gives age 85 at a 16 November 2012 date, which points to about 1927. No birth record is in hand."
+      },
+      "death": {
+        "date": "2012-11-16",
+        "display": "16 November 2012",
+        "dateQualifier": "uncertain",
+        "confidence": "probable",
+        "sourceIds": [
+          "find-a-grave-concetta-2012"
+        ],
+        "note": "Find a Grave, with a warning that the date may be the interment date. She was already deceased by the January 2013 Mignone obituaries."
+      },
+      "burial": {
+        "display": "Gate of Heaven Cemetery, Hawthorne, New York (probable)",
+        "place": "Gate of Heaven Cemetery, Hawthorne, New York",
+        "placeId": "gate-of-heaven-hawthorne",
+        "confidence": "probable",
+        "sourceIds": [
+          "find-a-grave-concetta-2012"
+        ],
+        "note": "Section 28, A, Row I, Grave 29, according to Find a Grave."
+      },
+      "openQuestions": [
+        {
+          "question": "What is the civil record of Concetta's birth, and is there an obituary or death certificate for November 2012?",
+          "record": "A New York birth record, and an obituary or death certificate."
+        }
+      ],
+      "relatedPages": [
+        {
+          "title": "Records and Research",
+          "url": "research.html"
+        }
+      ]
+    },
+    {
+      "id": "vincent-joseph-vigliotti",
+      "displayName": "Vincent Vigliotti Jr.",
+      "givenNames": "Vincent",
+      "surname": "Vigliotti",
+      "sex": "M",
+      "generation": 2,
+      "isLiving": false,
+      "isDirectLine": false,
+      "confidence": "confirmed",
+      "parents": [
+        "vincenzo-vigliotti",
+        "vincenza-guida"
+      ],
+      "children": [],
+      "spouses": [],
+      "disambiguator": "Brother of Alphonse Sr.; predeceased him",
+      "nameVariants": [
+        {
+          "name": "Vincent Joseph Vigliotti",
+          "note": "Full name given by a member tree; not yet seen on a record.",
+          "confidence": "unverified",
+          "sourceIds": [
+            "ancestry-tree-kindred-spirits"
+          ]
+        }
+      ],
+      "parentLinkConfidence": "confirmed",
+      "summary": "Son of Vincent and Vincenza Vigliotti. He was in the Navy by November 1942, and he predeceased his brother Alphonse Sr.",
+      "story": "Vincent, called Vincent Jr. in his father's 1944 death notice, was a son of Vincent and Vincenza Vigliotti and a brother of Alphonse Sr.[^scarsdale-inquirer-1944-04-28] The 4 December 1942 Scarsdale Inquirer says he had been in the Navy since 9 November.[^scarsdale-inquirer-1942-12-04] Alphonse Sr.'s 2011 obituary lists him among the brothers who had already died.[^obituary-alphonse-vigliotti-sr-2011] A member tree gives a birth on 6 March 1920 and a death in 1991; those exact dates are not used here until a record is seen.",
+      "facts": [
+        {
+          "label": "Military service",
+          "value": "United States Navy, from 9 November 1942",
+          "confidence": "confirmed",
+          "sourceIds": [
+            "scarsdale-inquirer-1942-12-04",
+            "scarsdale-inquirer-1944-04-28"
+          ]
+        }
+      ],
+      "residences": [
+        {
+          "place": "44 Brambach Avenue, Eastchester, New York",
+          "placeId": "brambach-ave-eastchester",
+          "years": "1930 to 1940",
+          "confidence": "confirmed",
+          "sourceIds": [
+            "ancestry-census-1930-vigliotti",
+            "ancestry-census-1940-vigliotti"
+          ]
+        }
+      ],
+      "openQuestions": [
+        {
+          "question": "What are Vincent Jr.'s exact birth and death dates, and where is he buried?",
+          "record": "A birth record, a death record or an obituary."
+        }
+      ],
+      "relatedPages": [
+        {
+          "title": "Records and Research",
+          "url": "research.html"
+        }
+      ]
+    },
+    {
+      "id": "andrew-vigliotti",
+      "displayName": "Andrew Vigliotti",
+      "givenNames": "Andrew",
+      "surname": "Vigliotti",
+      "sex": "M",
+      "generation": 2,
+      "isLiving": true,
+      "isDirectLine": false,
+      "confidence": "confirmed",
+      "parents": [
+        "vincenzo-vigliotti",
+        "vincenza-guida"
+      ],
+      "children": [],
+      "spouses": [],
+      "disambiguator": "Brother of Alphonse Sr.",
+      "summary": "Son of Vincent and Vincenza Vigliotti, and a brother of Alphonse J. Vigliotti Sr. He is named among the siblings who survived Alphonse Sr.",
+      "parentLinkConfidence": "confirmed",
+      "relatedPages": [
+        {
+          "title": "Records and Research",
+          "url": "research.html"
+        }
+      ]
+    },
+    {
+      "id": "anthony-j-vigliotti",
+      "displayName": "Anthony J. Vigliotti",
+      "givenNames": "Anthony J.",
+      "surname": "Vigliotti",
+      "sex": "M",
+      "generation": 2,
+      "isLiving": false,
+      "isDirectLine": false,
+      "confidence": "confirmed",
+      "parents": [
+        "vincenzo-vigliotti",
+        "vincenza-guida"
+      ],
+      "children": [],
+      "spouses": [],
+      "disambiguator": "Brother of Alphonse Sr.; predeceased him; twin of Andrew",
+      "nameVariants": [
+        {
+          "name": "Tony Vigliotti",
+          "note": "As named in the 4 December 1942 Scarsdale Inquirer.",
+          "confidence": "confirmed",
+          "sourceIds": [
+            "scarsdale-inquirer-1942-12-04"
+          ]
+        }
+      ],
+      "parentLinkConfidence": "confirmed",
+      "summary": "Son of Vincent and Vincenza Vigliotti, and a twin of Andrew. He was in the Navy by July 1942, and he predeceased his brother Alphonse Sr.",
+      "story": "Anthony, called Tony in 1942, was a son of Vincent and Vincenza Vigliotti. The 4 December 1942 Scarsdale Inquirer says he and Andrew were twins, then aged twenty, and that Tony had been in the Navy since 11 July.[^scarsdale-inquirer-1942-12-04] He was an usher at Alphonse's 1947 wedding.[^scarsdale-inquirer-1947-08-29] Alphonse Sr.'s 2011 obituary lists him among the brothers who had already died.[^obituary-alphonse-vigliotti-sr-2011] A member tree gives a shared birth date of 30 April 1922 for Anthony and Andrea Charles; that exact date is not used here until a record is seen.",
+      "facts": [
+        {
+          "label": "Military service",
+          "value": "United States Navy, from 11 July 1942",
+          "confidence": "confirmed",
+          "sourceIds": [
+            "scarsdale-inquirer-1942-12-04",
+            "scarsdale-inquirer-1944-04-28"
+          ]
+        }
+      ],
+      "birth": {
+        "display": "about 1922",
+        "date": "1922",
+        "dateQualifier": "about",
+        "confidence": "probable",
+        "sourceIds": [
+          "scarsdale-inquirer-1942-12-04"
+        ],
+        "note": "Aged twenty in December 1942, and named as Andrew's twin in that article."
+      },
+      "residences": [
+        {
+          "place": "44 Brambach Avenue, Eastchester, New York",
+          "placeId": "brambach-ave-eastchester",
+          "years": "1930 to 1940",
+          "confidence": "confirmed",
+          "sourceIds": [
+            "ancestry-census-1930-vigliotti",
+            "ancestry-census-1940-vigliotti"
+          ]
+        }
+      ],
+      "openQuestions": [
+        {
+          "question": "What are Anthony's exact birth and death dates?",
+          "record": "A birth record, a death record or an obituary."
+        }
+      ],
+      "relatedPages": [
+        {
+          "title": "Records and Research",
+          "url": "research.html"
+        }
+      ]
+    },
+    {
+      "id": "madeline-vigliotti-woodruff",
+      "displayName": "Madeline (Vigliotti) Woodruff",
+      "givenNames": "Madeline",
+      "surname": "Woodruff",
+      "sex": "F",
+      "generation": 2,
+      "isLiving": false,
+      "isDirectLine": false,
+      "confidence": "confirmed",
+      "parents": [
+        "vincenzo-vigliotti",
+        "vincenza-guida"
+      ],
+      "children": [],
+      "spouses": [],
+      "disambiguator": "Sister of Alphonse Sr.; predeceased him",
+      "nameVariants": [
+        {
+          "name": "Madeline Vigliotti",
+          "note": "Maiden name, used in the census and in 1940s newspaper notices.",
+          "confidence": "confirmed",
+          "sourceIds": [
+            "ancestry-census-1930-vigliotti",
+            "scarsdale-inquirer-1944-04-28"
+          ]
+        }
+      ],
+      "parentLinkConfidence": "confirmed",
+      "summary": "Daughter of Vincent and Vincenza Vigliotti. She is named as Madeline Woodruff among the siblings who predeceased Alphonse Sr.",
+      "story": "Madeline was a daughter of Vincent and Vincenza Vigliotti and appears in the Eastchester household in the 1930 and 1940 censuses.[^ancestry-census-1930-vigliotti] Alphonse Sr.'s 2011 obituary names her as his late sister Madeline Woodruff.[^obituary-alphonse-vigliotti-sr-2011] A member tree gives a birth on 24 June 1923 and a death in 2009; those exact dates are not used here until a record is seen. Her husband is not added to the tree until a record of the marriage, and of whether he is living, is in hand.",
+      "residences": [
+        {
+          "place": "44 Brambach Avenue, Eastchester, New York",
+          "placeId": "brambach-ave-eastchester",
+          "years": "1930 to 1940",
+          "confidence": "confirmed",
+          "sourceIds": [
+            "ancestry-census-1930-vigliotti",
+            "ancestry-census-1940-vigliotti"
+          ]
+        }
+      ],
+      "openQuestions": [
+        {
+          "question": "What are Madeline's exact birth, marriage and death dates, and who was Mr. Woodruff?",
+          "record": "A birth record, a marriage record, and an obituary or death record."
+        }
+      ],
+      "relatedPages": [
+        {
+          "title": "Records and Research",
+          "url": "research.html"
+        }
+      ]
+    },
+    {
+      "id": "sylvia-vigliotti",
+      "displayName": "Sylvia Vigliotti",
+      "givenNames": "Sylvia",
+      "surname": "Vigliotti",
+      "sex": "F",
+      "generation": 2,
+      "isLiving": true,
+      "isDirectLine": false,
+      "confidence": "confirmed",
+      "parents": [
+        "vincenzo-vigliotti",
+        "vincenza-guida"
+      ],
+      "children": [],
+      "spouses": [],
+      "disambiguator": "Sister of Alphonse Sr.",
+      "summary": "Daughter of Vincent and Vincenza Vigliotti, and a sister of Alphonse J. Vigliotti Sr. She is named among the siblings who survived Alphonse Sr.",
+      "parentLinkConfidence": "confirmed",
+      "relatedPages": [
+        {
+          "title": "Records and Research",
+          "url": "research.html"
+        }
+      ]
+    },
+    {
+      "id": "virginia-vigliotti-waddell",
+      "displayName": "Virginia (Vigliotti) Waddell",
+      "givenNames": "Virginia",
+      "surname": "Waddell",
+      "sex": "F",
+      "generation": 2,
+      "isLiving": true,
+      "isDirectLine": false,
+      "confidence": "confirmed",
+      "parents": [
+        "vincenzo-vigliotti",
+        "vincenza-guida"
+      ],
+      "children": [],
+      "spouses": [],
+      "disambiguator": "Sister of Alphonse Sr.",
+      "summary": "Daughter of Vincent and Vincenza Vigliotti, and a sister of Alphonse J. Vigliotti Sr. She is named as Virginia Waddell among the siblings who survived Alphonse Sr.",
+      "parentLinkConfidence": "confirmed",
+      "relatedPages": [
+        {
+          "title": "Records and Research",
+          "url": "research.html"
+        }
+      ]
+    },
+    {
+      "id": "angelina-vigliotti-zaino",
+      "displayName": "Angelina (Vigliotti) Zaino",
+      "givenNames": "Angelina",
+      "surname": "Zaino",
+      "sex": "F",
+      "generation": 2,
+      "isLiving": true,
+      "isDirectLine": false,
+      "confidence": "confirmed",
+      "parents": [
+        "vincenzo-vigliotti",
+        "vincenza-guida"
+      ],
+      "children": [],
+      "spouses": [],
+      "disambiguator": "Sister of Alphonse Sr.",
+      "summary": "Daughter of Vincent and Vincenza Vigliotti, and a sister of Alphonse J. Vigliotti Sr. She is named as Angelina Zaino among the siblings who survived Alphonse Sr.",
+      "parentLinkConfidence": "confirmed",
+      "relatedPages": [
+        {
+          "title": "Records and Research",
+          "url": "research.html"
+        }
+      ]
+    },
+    {
+      "id": "louise-vigliotti",
+      "displayName": "Louise Vigliotti",
+      "givenNames": "Louise",
+      "surname": "Vigliotti",
+      "sex": "F",
+      "generation": 2,
+      "isLiving": true,
+      "isDirectLine": false,
+      "confidence": "confirmed",
+      "parents": [
+        "vincenzo-vigliotti",
+        "vincenza-guida"
+      ],
+      "children": [],
+      "spouses": [],
+      "disambiguator": "Sister of Alphonse Sr.",
+      "summary": "Daughter of Vincent and Vincenza Vigliotti, and a sister of Alphonse J. Vigliotti Sr. She is named among the siblings who survived Alphonse Sr.",
+      "parentLinkConfidence": "confirmed",
+      "relatedPages": [
+        {
+          "title": "Records and Research",
+          "url": "research.html"
+        }
+      ]
+    },
+    {
+      "id": "alphonse-john-vigliotti",
+      "displayName": "Alphonse John Vigliotti Jr.",
+      "givenNames": "Alphonse John",
+      "surname": "Vigliotti",
+      "sex": "M",
+      "generation": 3,
+      "isLiving": true,
+      "isDirectLine": true,
+      "confidence": "confirmed",
+      "parents": [
+        "alphonse-j-vigliotti-sr",
+        "concetta-mignone"
+      ],
+      "children": [
+        "ehren-vigliotti",
+        "dylan-vigliotti"
+      ],
+      "spouses": [
+        {
+          "id": "barbara-ehren-walsh"
+        }
+      ],
+      "disambiguator": "Dylan's father",
+      "summary": "Son of Alphonse J. Vigliotti Sr. and Concetta Mignone. Husband of Barbara Ehren Walsh, father of Dylan Vigliotti, and a brother of Susan Vigliotti and Renee Makras.",
+      "relatedPages": [
+        {
+          "title": "Records and Research",
+          "url": "research.html"
+        }
+      ],
+      "nameVariants": [
+        {
+          "name": "Al",
+          "note": "The Walsh family obituary calls him Al, husband of Barbara Walsh Vigliotti.",
+          "confidence": "confirmed",
+          "sourceIds": [
+            "obituary-patricia-paul-walsh-2019"
+          ]
+        },
+        {
+          "name": "Alphonse Vigliotti",
+          "note": "As named, with Barbara, in Pasquale Fucale's obituary.",
+          "confidence": "confirmed",
+          "sourceIds": [
+            "obituary-pasquale-fucale-2026"
+          ]
+        },
+        {
+          "name": "Alphonse J. Vigliotti Jr.",
+          "note": "As named in his father's obituary.",
+          "confidence": "confirmed",
+          "sourceIds": [
+            "obituary-alphonse-vigliotti-sr-2011"
+          ]
+        }
+      ],
+      "parentLinkConfidence": "confirmed"
+    },
+    {
+      "id": "barbara-ehren-walsh",
+      "displayName": "Barbara Ehren Walsh",
+      "givenNames": "Barbara Ehren",
+      "surname": "Walsh",
+      "sex": "F",
+      "generation": 3,
+      "isLiving": true,
+      "isDirectLine": true,
+      "confidence": "confirmed",
+      "parents": [
+        "paul-h-walsh",
+        "patricia-morrisey-walsh"
+      ],
+      "children": [
+        "ehren-vigliotti",
+        "dylan-vigliotti"
+      ],
+      "spouses": [
+        {
+          "id": "alphonse-john-vigliotti"
+        }
+      ],
+      "disambiguator": "Dylan's mother, born Walsh",
+      "summary": "Daughter of Patricia Morrisey Walsh and Paul H. Walsh. Wife of Alphonse John Vigliotti Jr., and mother of Dylan Vigliotti.",
+      "relatedPages": [
+        {
+          "title": "Records and Research",
+          "url": "research.html"
+        }
+      ],
+      "nameVariants": [
+        {
+          "name": "Barbara Walsh Vigliotti",
+          "note": "As named in her parents' obituary.",
+          "confidence": "confirmed",
+          "sourceIds": [
+            "obituary-patricia-paul-walsh-2019"
+          ]
+        },
+        {
+          "name": "Barbara Vigliotti",
+          "note": "Married name.",
+          "confidence": "confirmed",
+          "sourceIds": [
+            "obituary-patricia-paul-walsh-2019"
+          ]
+        }
+      ],
+      "parentLinkConfidence": "confirmed"
+    },
+    {
+      "id": "susan-vigliotti",
+      "displayName": "Susan Vigliotti",
+      "givenNames": "Susan",
+      "surname": "Vigliotti",
+      "sex": "F",
+      "generation": 3,
+      "isLiving": true,
+      "isDirectLine": false,
+      "confidence": "confirmed",
+      "parents": [
+        "alphonse-j-vigliotti-sr",
+        "concetta-mignone"
+      ],
+      "children": [
+        "jennifer-gourgareas",
+        "jessica-smith",
+        "kimberly-fucale"
+      ],
+      "spouses": [
+        {
+          "id": "pasquale-fucale"
+        }
+      ],
+      "disambiguator": "Sister of Alphonse Jr.; wife of Pasquale Fucale",
+      "summary": "Daughter of Alphonse J. Vigliotti Sr. and Concetta Mignone. Sister of Alphonse John Vigliotti Jr. and Renee Makras, and wife of Pasquale Fucale.",
       "relatedPages": [
         {
           "title": "Records and Research",
@@ -431,94 +2193,12 @@
       "parentLinkConfidence": "confirmed"
     },
     {
-      "id": "anthony-fucale",
-      "displayName": "Anthony Fucale",
-      "givenNames": "Anthony",
-      "surname": "Fucale",
-      "sex": "M",
-      "generation": 1,
-      "isLiving": false,
-      "isDirectLine": false,
-      "confidence": "confirmed",
-      "parents": [],
-      "children": [
-        "pasquale-fucale",
-        "lilla-morello",
-        "josephine-scopelliti"
-      ],
-      "spouses": [
-        {
-          "id": "rosa-fucale",
-          "confidence": "confirmed",
-          "sourceIds": [
-            "obituary-pasquale-fucale-2026"
-          ]
-        }
-      ],
-      "disambiguator": "Pat Fucale's father",
-      "summary": "Named as the father of Pasquale \"Pat\" Fucale in Pat's 2026 obituary, which also calls him late.",
-      "story": "Anthony Fucale is named as the father of Pasquale \"Pat\" Fucale, and as already late, in Pat's November 2026 obituary.[^obituary-pasquale-fucale-2026] Pat was born in Cattolica Eraclea, Agrigento, Sicily, and the same record says that at the age of four he and his family immigrated to Montreal, then later settled in White Plains, New York. Anthony's own dates and parents are not yet known.",
-      "openQuestions": [
-        {
-          "question": "When and where was Anthony Fucale born, and when and where did he die?",
-          "record": "Italian civil records in Cattolica Eraclea, and later Canadian or New York records."
-        }
-      ],
-      "relatedPages": [
-        {
-          "title": "Records and Research",
-          "url": "research.html"
-        }
-      ]
-    },
-    {
-      "id": "rosa-fucale",
-      "displayName": "Rosa Fucale",
-      "givenNames": "Rosa",
-      "surname": "Fucale",
-      "sex": "F",
-      "generation": 1,
-      "isLiving": false,
-      "isDirectLine": false,
-      "confidence": "confirmed",
-      "parents": [],
-      "children": [
-        "pasquale-fucale",
-        "lilla-morello",
-        "josephine-scopelliti"
-      ],
-      "spouses": [
-        {
-          "id": "anthony-fucale",
-          "confidence": "confirmed",
-          "sourceIds": [
-            "obituary-pasquale-fucale-2026"
-          ]
-        }
-      ],
-      "disambiguator": "Pat Fucale's mother",
-      "summary": "Named as the mother of Pasquale \"Pat\" Fucale in Pat's 2026 obituary, which also calls her late. Her maiden name is not yet known.",
-      "story": "Rosa Fucale is named as the mother of Pasquale \"Pat\" Fucale, and as already late, in Pat's November 2026 obituary.[^obituary-pasquale-fucale-2026] Her maiden name, birth, death and parents are not yet known.",
-      "openQuestions": [
-        {
-          "question": "What was Rosa Fucale's maiden name, and when and where was she born and did she die?",
-          "record": "Italian civil marriage and birth records in Cattolica Eraclea, and later Canadian or New York records."
-        }
-      ],
-      "relatedPages": [
-        {
-          "title": "Records and Research",
-          "url": "research.html"
-        }
-      ]
-    },
-    {
       "id": "pasquale-fucale",
       "displayName": "Pasquale \"Pat\" Fucale",
       "givenNames": "Pasquale P.",
       "surname": "Fucale",
       "sex": "M",
-      "generation": 2,
+      "generation": 3,
       "isLiving": false,
       "isDirectLine": false,
       "confidence": "confirmed",
@@ -703,180 +2383,34 @@
       ]
     },
     {
-      "id": "alphonse-john-vigliotti",
-      "displayName": "Alphonse John Vigliotti",
-      "givenNames": "Alphonse John",
-      "surname": "Vigliotti",
-      "sex": "M",
-      "generation": 2,
-      "isLiving": true,
-      "isDirectLine": true,
-      "confidence": "confirmed",
-      "parents": [],
-      "children": [
-        "dylan-vigliotti"
-      ],
-      "spouses": [
-        {
-          "id": "barbara-ehren-walsh"
-        }
-      ],
-      "disambiguator": "Dylan's father",
-      "summary": "Dylan Vigliotti's father. Husband of Barbara Ehren Walsh. Named with Barbara in Pasquale Fucale's 2026 obituary as a brother- and sister-in-law of Pat, and named as Al, husband of Barbara Walsh Vigliotti, in the 2019 Walsh obituary.",
-      "relatedPages": [
-        {
-          "title": "Records and Research",
-          "url": "research.html"
-        }
-      ],
-      "nameVariants": [
-        {
-          "name": "Al",
-          "note": "The 2019 Walsh obituary calls him Al, husband of Barbara Walsh Vigliotti.",
-          "confidence": "confirmed",
-          "sourceIds": [
-            "obituary-patricia-paul-walsh-2019"
-          ]
-        },
-        {
-          "name": "Alphonse Vigliotti",
-          "note": "As named, with Barbara, in Pasquale Fucale's obituary.",
-          "confidence": "confirmed",
-          "sourceIds": [
-            "obituary-pasquale-fucale-2026"
-          ]
-        }
-      ],
-      "openQuestions": [
-        {
-          "question": "Who were Alphonse John Vigliotti's parents, and where was he born?",
-          "record": "A birth or baptism record. This is also needed for any Italian citizenship claim."
-        },
-        {
-          "question": "Is Alphonse a brother of Susan Vigliotti and of Renee Makras?",
-          "record": "A birth record that shares parents, or another vital record."
-        }
-      ]
-    },
-    {
-      "id": "barbara-ehren-walsh",
-      "displayName": "Barbara Ehren Walsh",
-      "givenNames": "Barbara Ehren",
-      "surname": "Walsh",
-      "sex": "F",
-      "generation": 2,
-      "isLiving": true,
-      "isDirectLine": true,
-      "confidence": "confirmed",
-      "parents": [
-        "paul-h-walsh",
-        "patricia-morrisey-walsh"
-      ],
-      "children": [
-        "dylan-vigliotti"
-      ],
-      "spouses": [
-        {
-          "id": "alphonse-john-vigliotti"
-        }
-      ],
-      "disambiguator": "Dylan's mother, born Walsh",
-      "summary": "Dylan Vigliotti's mother. Wife of Alphonse John Vigliotti. Daughter of Patricia Morrisey Walsh and Paul H. Walsh. The 2019 Walsh obituary names her as Barbara Walsh Vigliotti.",
-      "relatedPages": [
-        {
-          "title": "Records and Research",
-          "url": "research.html"
-        }
-      ],
-      "nameVariants": [
-        {
-          "name": "Barbara Walsh Vigliotti",
-          "note": "As named in her parents' 2019 obituary.",
-          "confidence": "confirmed",
-          "sourceIds": [
-            "obituary-patricia-paul-walsh-2019"
-          ]
-        },
-        {
-          "name": "Barbara Vigliotti",
-          "note": "Married name.",
-          "confidence": "confirmed",
-          "sourceIds": [
-            "obituary-patricia-paul-walsh-2019"
-          ]
-        }
-      ],
-      "parentLinkConfidence": "confirmed"
-    },
-    {
-      "id": "susan-vigliotti",
-      "displayName": "Susan Vigliotti",
-      "givenNames": "Susan",
-      "surname": "Vigliotti",
-      "sex": "F",
-      "generation": 2,
-      "isLiving": true,
-      "isDirectLine": false,
-      "confidence": "confirmed",
-      "parents": [],
-      "children": [
-        "jennifer-gourgareas",
-        "jessica-smith",
-        "kimberly-fucale"
-      ],
-      "spouses": [
-        {
-          "id": "pasquale-fucale"
-        }
-      ],
-      "disambiguator": "Wife of Pasquale Fucale; probable sister of Alphonse",
-      "summary": "Wife of Pasquale \"Pat\" Fucale. The 2026 obituary describes her as Susan Vigliotti, of Eastchester, New York, and lists Alphonse Vigliotti (Barbara) and Renee Makras (George) as Pat's brothers- and sisters-in-law, which probably makes Susan a sister of Alphonse and Renee.",
-      "relatedPages": [
-        {
-          "title": "Records and Research",
-          "url": "research.html"
-        }
-      ],
-      "uncertainBeside": "alphonse-john-vigliotti",
-      "openQuestions": [
-        {
-          "question": "Who were Susan Vigliotti's parents, and is she a sister of Alphonse John Vigliotti and Renee Makras?",
-          "record": "A birth record, or another document that names her parents."
-        }
-      ]
-    },
-    {
       "id": "renee-makras",
       "displayName": "Renee Makras",
       "givenNames": "Renee",
       "surname": "Makras",
       "sex": "F",
-      "generation": 2,
+      "generation": 3,
       "isLiving": true,
       "isDirectLine": false,
       "confidence": "confirmed",
-      "parents": [],
+      "parents": [
+        "alphonse-j-vigliotti-sr",
+        "concetta-mignone"
+      ],
       "children": [],
       "spouses": [
         {
           "id": "george-makras"
         }
       ],
-      "disambiguator": "Probable sister of Susan and Alphonse",
-      "summary": "Named, with her husband George, as a sister-in-law of Pasquale Fucale in his 2026 obituary. She is probably a sister of Susan Vigliotti and of Alphonse John Vigliotti. Her maiden name is not yet confirmed in a vital record.",
+      "disambiguator": "Sister of Alphonse Jr. and Susan",
+      "summary": "Daughter of Alphonse J. Vigliotti Sr. and Concetta Mignone. Sister of Alphonse John Vigliotti Jr. and Susan Vigliotti, and wife of George Makras.",
       "relatedPages": [
         {
           "title": "Records and Research",
           "url": "research.html"
         }
       ],
-      "uncertainBeside": "susan-vigliotti",
-      "openQuestions": [
-        {
-          "question": "What was Renee Makras's maiden name, and who were her parents?",
-          "record": "A birth or marriage record."
-        }
-      ]
+      "parentLinkConfidence": "confirmed"
     },
     {
       "id": "george-makras",
@@ -884,7 +2418,7 @@
       "givenNames": "George",
       "surname": "Makras",
       "sex": "M",
-      "generation": 2,
+      "generation": 3,
       "isLiving": true,
       "isDirectLine": false,
       "confidence": "confirmed",
@@ -905,43 +2439,12 @@
       ]
     },
     {
-      "id": "lilla-morello",
-      "displayName": "Lilla Morello",
-      "givenNames": "Lilla",
-      "surname": "Morello",
-      "sex": "F",
-      "generation": 2,
-      "isLiving": true,
-      "isDirectLine": false,
-      "confidence": "confirmed",
-      "parents": [
-        "anthony-fucale",
-        "rosa-fucale"
-      ],
-      "children": [],
-      "spouses": [
-        {
-          "id": "benny-morello"
-        }
-      ],
-      "disambiguator": "Pat Fucale's sister",
-      "summary": "Sister of Pasquale \"Pat\" Fucale. Named, with her husband Benny, in Pat's 2026 obituary.",
-      "relatedPages": [
-        {
-          "title": "Records and Research",
-          "url": "research.html"
-        }
-      ],
-      "order": 2,
-      "parentLinkConfidence": "confirmed"
-    },
-    {
       "id": "benny-morello",
       "displayName": "Benny Morello",
       "givenNames": "Benny",
       "surname": "Morello",
       "sex": "M",
-      "generation": 2,
+      "generation": 3,
       "isLiving": true,
       "isDirectLine": false,
       "confidence": "confirmed",
@@ -962,96 +2465,12 @@
       ]
     },
     {
-      "id": "josephine-scopelliti",
-      "displayName": "Josephine Scopelliti",
-      "givenNames": "Josephine",
-      "surname": "Scopelliti",
-      "sex": "F",
-      "generation": 2,
-      "isLiving": true,
-      "isDirectLine": false,
-      "confidence": "confirmed",
-      "parents": [
-        "anthony-fucale",
-        "rosa-fucale"
-      ],
-      "children": [],
-      "spouses": [],
-      "disambiguator": "Pat Fucale's sister",
-      "summary": "Sister of Pasquale \"Pat\" Fucale. Named in Pat's 2026 obituary. The wording about Joe and the late Dominick is not yet clear, so no spouse is recorded here.",
-      "relatedPages": [
-        {
-          "title": "Records and Research",
-          "url": "research.html"
-        }
-      ],
-      "order": 3,
-      "parentLinkConfidence": "confirmed"
-    },
-    {
-      "id": "jeffrey-walsh",
-      "displayName": "Jeffrey Walsh",
-      "givenNames": "Jeffrey",
-      "surname": "Walsh",
-      "sex": "M",
-      "generation": 2,
-      "isLiving": true,
-      "isDirectLine": false,
-      "confidence": "confirmed",
-      "parents": [
-        "paul-h-walsh",
-        "patricia-morrisey-walsh"
-      ],
-      "children": [],
-      "spouses": [
-        {
-          "id": "mary-ellen-walsh"
-        }
-      ],
-      "disambiguator": "Barbara's brother",
-      "summary": "Brother of Barbara Ehren Walsh. Son of Patricia Morrisey Walsh and Paul H. Walsh. Named, with his wife Mary Ellen, in their 2019 obituary.",
-      "relatedPages": [
-        {
-          "title": "Records and Research",
-          "url": "research.html"
-        }
-      ],
-      "order": 1,
-      "parentLinkConfidence": "confirmed"
-    },
-    {
-      "id": "mary-ellen-walsh",
-      "displayName": "Mary Ellen Walsh",
-      "givenNames": "Mary Ellen",
-      "surname": "Walsh",
-      "sex": "F",
-      "generation": 2,
-      "isLiving": true,
-      "isDirectLine": false,
-      "confidence": "confirmed",
-      "parents": [],
-      "children": [],
-      "spouses": [
-        {
-          "id": "jeffrey-walsh"
-        }
-      ],
-      "disambiguator": "Jeffrey Walsh's wife",
-      "summary": "Wife of Jeffrey Walsh. Named with him in the 2019 Walsh obituary. Her maiden name is not yet known.",
-      "relatedPages": [
-        {
-          "title": "Records and Research",
-          "url": "research.html"
-        }
-      ]
-    },
-    {
       "id": "fernanda-walsh-jarasek",
       "displayName": "Fernanda Walsh Jarasek",
       "givenNames": "Fernanda",
       "surname": "Jarasek",
       "sex": "F",
-      "generation": 2,
+      "generation": 3,
       "isLiving": true,
       "isDirectLine": false,
       "confidence": "confirmed",
@@ -1083,12 +2502,153 @@
       "parentLinkConfidence": "confirmed"
     },
     {
+      "id": "jeffrey-walsh",
+      "displayName": "Jeffrey Walsh",
+      "givenNames": "Jeffrey",
+      "surname": "Walsh",
+      "sex": "M",
+      "generation": 3,
+      "isLiving": true,
+      "isDirectLine": false,
+      "confidence": "confirmed",
+      "parents": [
+        "paul-h-walsh",
+        "patricia-morrisey-walsh"
+      ],
+      "children": [],
+      "spouses": [
+        {
+          "id": "mary-ellen-walsh"
+        }
+      ],
+      "disambiguator": "Barbara's brother",
+      "summary": "Brother of Barbara Ehren Walsh. Son of Patricia Morrisey Walsh and Paul H. Walsh. Named, with his wife Mary Ellen, in their 2019 obituary.",
+      "relatedPages": [
+        {
+          "title": "Records and Research",
+          "url": "research.html"
+        }
+      ],
+      "order": 1,
+      "parentLinkConfidence": "confirmed"
+    },
+    {
+      "id": "josephine-scopelliti",
+      "displayName": "Josephine Scopelliti",
+      "givenNames": "Josephine",
+      "surname": "Scopelliti",
+      "sex": "F",
+      "generation": 3,
+      "isLiving": true,
+      "isDirectLine": false,
+      "confidence": "confirmed",
+      "parents": [
+        "anthony-fucale",
+        "rosa-fucale"
+      ],
+      "children": [],
+      "spouses": [],
+      "disambiguator": "Pat Fucale's sister",
+      "summary": "Sister of Pasquale \"Pat\" Fucale. Named in Pat's 2026 obituary. The wording about Joe and the late Dominick is not yet clear, so no spouse is recorded here.",
+      "relatedPages": [
+        {
+          "title": "Records and Research",
+          "url": "research.html"
+        }
+      ],
+      "order": 3,
+      "parentLinkConfidence": "confirmed"
+    },
+    {
+      "id": "konrad-wos",
+      "displayName": "Konrad Wos",
+      "givenNames": "Konrad",
+      "surname": "Wos",
+      "sex": "M",
+      "generation": 3,
+      "isLiving": true,
+      "isDirectLine": false,
+      "confidence": "confirmed",
+      "parents": [],
+      "children": [],
+      "spouses": [
+        {
+          "id": "meggan-walsh-wos"
+        }
+      ],
+      "disambiguator": "Meggan Walsh Wos's husband",
+      "summary": "Husband of Meggan Walsh Wos. Named with her in the 2019 Walsh obituary.",
+      "relatedPages": [
+        {
+          "title": "Records and Research",
+          "url": "research.html"
+        }
+      ]
+    },
+    {
+      "id": "lilla-morello",
+      "displayName": "Lilla Morello",
+      "givenNames": "Lilla",
+      "surname": "Morello",
+      "sex": "F",
+      "generation": 3,
+      "isLiving": true,
+      "isDirectLine": false,
+      "confidence": "confirmed",
+      "parents": [
+        "anthony-fucale",
+        "rosa-fucale"
+      ],
+      "children": [],
+      "spouses": [
+        {
+          "id": "benny-morello"
+        }
+      ],
+      "disambiguator": "Pat Fucale's sister",
+      "summary": "Sister of Pasquale \"Pat\" Fucale. Named, with her husband Benny, in Pat's 2026 obituary.",
+      "relatedPages": [
+        {
+          "title": "Records and Research",
+          "url": "research.html"
+        }
+      ],
+      "order": 2,
+      "parentLinkConfidence": "confirmed"
+    },
+    {
+      "id": "mary-ellen-walsh",
+      "displayName": "Mary Ellen Walsh",
+      "givenNames": "Mary Ellen",
+      "surname": "Walsh",
+      "sex": "F",
+      "generation": 3,
+      "isLiving": true,
+      "isDirectLine": false,
+      "confidence": "confirmed",
+      "parents": [],
+      "children": [],
+      "spouses": [
+        {
+          "id": "jeffrey-walsh"
+        }
+      ],
+      "disambiguator": "Jeffrey Walsh's wife",
+      "summary": "Wife of Jeffrey Walsh. Named with him in the 2019 Walsh obituary. Her maiden name is not yet known.",
+      "relatedPages": [
+        {
+          "title": "Records and Research",
+          "url": "research.html"
+        }
+      ]
+    },
+    {
       "id": "meggan-walsh-wos",
       "displayName": "Meggan Walsh Wos",
       "givenNames": "Meggan",
       "surname": "Wos",
       "sex": "F",
-      "generation": 2,
+      "generation": 3,
       "isLiving": true,
       "isDirectLine": false,
       "confidence": "confirmed",
@@ -1124,38 +2684,12 @@
       "parentLinkConfidence": "confirmed"
     },
     {
-      "id": "konrad-wos",
-      "displayName": "Konrad Wos",
-      "givenNames": "Konrad",
-      "surname": "Wos",
-      "sex": "M",
-      "generation": 2,
-      "isLiving": true,
-      "isDirectLine": false,
-      "confidence": "confirmed",
-      "parents": [],
-      "children": [],
-      "spouses": [
-        {
-          "id": "meggan-walsh-wos"
-        }
-      ],
-      "disambiguator": "Meggan Walsh Wos's husband",
-      "summary": "Husband of Meggan Walsh Wos. Named with her in the 2019 Walsh obituary.",
-      "relatedPages": [
-        {
-          "title": "Records and Research",
-          "url": "research.html"
-        }
-      ]
-    },
-    {
       "id": "dylan-vigliotti",
       "displayName": "Dylan Vigliotti",
       "givenNames": "Dylan",
       "surname": "Vigliotti",
       "sex": "M",
-      "generation": 3,
+      "generation": 4,
       "isLiving": true,
       "isDirectLine": true,
       "confidence": "confirmed",
@@ -1166,18 +2700,50 @@
       "children": [],
       "spouses": [],
       "disambiguator": "The starting point of this tree",
-      "summary": "Son of Alphonse John Vigliotti and Barbara Ehren Walsh. He is the person this tree is drawn from.",
+      "summary": "Son of Alphonse John Vigliotti Jr. and Barbara Ehren Walsh. He is the person this tree is drawn from.",
       "relatedPages": [
         {
           "title": "Records and Research",
           "url": "research.html"
         }
       ],
-      "parentLinkConfidence": "family tradition",
+      "parentLinkConfidence": "confirmed",
       "openQuestions": [
         {
-          "question": "Is there a civil birth record that names Dylan's parents as Alphonse John Vigliotti and Barbara Ehren Walsh?",
-          "record": "A birth certificate. The parentage on this site is from family testimony, with support from the two obituaries that name the couple."
+          "question": "Is there a civil birth record that names Dylan's parents?",
+          "record": "A birth certificate. The parentage on this site is already confirmed by family testimony and by two obituaries that name the couple, including one that names Dylan as a grandchild of Alphonse Sr."
+        }
+      ]
+    },
+    {
+      "id": "ehren-vigliotti",
+      "displayName": "Ehren Vigliotti",
+      "givenNames": "Ehren",
+      "surname": "Vigliotti",
+      "sex": "U",
+      "generation": 4,
+      "isLiving": true,
+      "isDirectLine": false,
+      "confidence": "probable",
+      "parents": [
+        "alphonse-john-vigliotti",
+        "barbara-ehren-walsh"
+      ],
+      "children": [],
+      "spouses": [],
+      "parentLinkConfidence": "probable",
+      "disambiguator": "Probable child of Alphonse Jr. and Barbara",
+      "summary": "A grandchild of Alphonse J. Vigliotti Sr., named with Dylan in Sr.'s obituary. Probably a child of Alphonse John Vigliotti and Barbara Ehren Walsh.",
+      "openQuestions": [
+        {
+          "question": "Is Ehren a child of Alphonse John Vigliotti and Barbara Ehren Walsh?",
+          "record": "A family confirmation, or a record that names Ehren's parents."
+        }
+      ],
+      "relatedPages": [
+        {
+          "title": "Records and Research",
+          "url": "research.html"
         }
       ]
     },
@@ -1187,7 +2753,7 @@
       "givenNames": "Jennifer",
       "surname": "Gourgareas",
       "sex": "F",
-      "generation": 3,
+      "generation": 4,
       "isLiving": true,
       "isDirectLine": false,
       "confidence": "confirmed",
@@ -1214,7 +2780,7 @@
       "givenNames": "Jessica",
       "surname": "Smith",
       "sex": "F",
-      "generation": 3,
+      "generation": 4,
       "isLiving": true,
       "isDirectLine": false,
       "confidence": "confirmed",
@@ -1241,7 +2807,7 @@
       "givenNames": "Kimberly",
       "surname": "Fucale",
       "sex": "F",
-      "generation": 3,
+      "generation": 4,
       "isLiving": true,
       "isDirectLine": false,
       "confidence": "confirmed",

@@ -130,39 +130,47 @@
     "kinLabel": "Related kin, relationship unproven",
     "initialView": {
       "ids": [
+        "vincenzo-vigliotti",
+        "alphonse-j-vigliotti-sr",
         "alphonse-john-vigliotti",
         "barbara-ehren-walsh",
         "dylan-vigliotti"
       ],
       "fromGen": 1,
-      "toGen": 3
+      "toGen": 4
     },
     "cardPhotos": "best",
     "coupleBlocks": "auto",
     "noscript": "The <a href=\"family-tree.html\">list view of the family tree</a> works without it.",
-    "legendNote": "Dashed lines join people whose exact link is not yet proven, including Susan Vigliotti and Renee Makras beside Alphonse, who are probably siblings.",
+    "legendNote": "Solid lines join confirmed parents, children and spouses. Ehren Vigliotti is joined as a probable child of Alphonse Jr. and Barbara.",
     "generations": [
       {
         "generation": 0,
         "label": "I",
-        "title": "Great-grandparents",
-        "range": "Morrisey, Ehrenfels, Walsh and Hingston"
+        "title": "Great-great-grandparents",
+        "range": "Walsh, Hingston, Cleary and Ehrenfels"
       },
       {
         "generation": 1,
         "label": "II",
-        "title": "Grandparents",
-        "range": "Walsh, and Fucale in-laws"
+        "title": "Great-grandparents",
+        "range": "Vigliotti, Guida, Mignone, Walsh, Morrisey and Fucale"
       },
       {
         "generation": 2,
         "label": "III",
-        "title": "Parents' generation",
-        "range": ""
+        "title": "Grandparents",
+        "range": "Alphonse Sr., Concetta, Patricia, Paul, and Sr.'s brothers and sisters"
       },
       {
         "generation": 3,
         "label": "IV",
+        "title": "Parents' generation",
+        "range": ""
+      },
+      {
+        "generation": 4,
+        "label": "V",
         "title": "Dylan's generation",
         "range": ""
       }
@@ -188,11 +196,26 @@
         "id": "vigliotti",
         "label": "The Vigliottis",
         "people": [
+          "vincenzo-vigliotti",
+          "vincenza-guida",
+          "gerardo-mignone",
+          "susan-rescigno-mignone",
+          "alphonse-j-vigliotti-sr",
+          "concetta-mignone",
+          "vincent-joseph-vigliotti",
+          "andrew-vigliotti",
+          "anthony-j-vigliotti",
+          "madeline-vigliotti-woodruff",
+          "sylvia-vigliotti",
+          "virginia-vigliotti-waddell",
+          "angelina-vigliotti-zaino",
+          "louise-vigliotti",
           "alphonse-john-vigliotti",
           "susan-vigliotti",
           "renee-makras",
           "george-makras",
-          "dylan-vigliotti"
+          "dylan-vigliotti",
+          "ehren-vigliotti"
         ],
         "default": true
       },
@@ -201,6 +224,11 @@
         "label": "The Walshes (Barbara's family)",
         "pages": [],
         "people": [
+          "michael-walsh",
+          "ellen-e-kelly",
+          "samuel-j-hingston",
+          "catherine-cleary-hingston",
+          "augusta-ehrenfels",
           "james-t-morrisey",
           "fernanda-ehrenfels-morrisey",
           "william-a-walsh",

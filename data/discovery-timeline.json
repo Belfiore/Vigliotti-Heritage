@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Discovery Timeline",
-    "note": "One entry per find. foundDate is the date the research found the record, not the date of the event. headline is the short title shown on the timeline. Research writes new finds here (and in /workspace/vigliotti-genealogy/discovery-timeline.json); this file is what the site reads.",
+    "note": "One entry per find. foundDate is the date the research found the record, not the date of the event. This file stays in step with data/discoveries.json, which is the canonical discoveries list for a later engine release. The 1.0.1 site pages still read this file.",
     "updated": "2026-11-26"
   },
   "finds": [
@@ -26,8 +26,8 @@
         "valhalla-ny",
         "gate-of-heaven-hawthorne"
       ],
-      "eventDate": "1977-10-30",
       "confidence": "confirmed",
+      "eventDate": "1977-10-30",
       "pages": [
         "research.html"
       ]
@@ -56,8 +56,399 @@
         "larchmont-ny",
         "rye-ny"
       ],
-      "eventDate": "2019-09-04",
       "confidence": "confirmed",
+      "eventDate": "2019-09-04",
+      "pages": [
+        "research.html"
+      ]
+    },
+    {
+      "id": "find-obituary-alphonse-vigliotti-sr-2011",
+      "foundDate": "2026-11-26",
+      "headline": "Alphonse Vigliotti Sr.'s obituary links Dylan to the Vigliotti line",
+      "summary": "The 2011 Journal News obituary of Alphonse J. Vigliotti Sr. (14 March 1921 to 1 January 2011), transcribed on Find a Grave, names his parents Vincent Vigliotti and Vencenza Guido, his son Alphonse J. Jr. (Barbara), daughters Susan Fucale and Renee Makras, and grandchildren including Dylan and Ehren.",
+      "sourceIds": [
+        "obituary-alphonse-vigliotti-sr-2011"
+      ],
+      "personIds": [
+        "alphonse-j-vigliotti-sr",
+        "alphonse-john-vigliotti",
+        "susan-vigliotti",
+        "renee-makras",
+        "dylan-vigliotti",
+        "vincenzo-vigliotti",
+        "vincenza-guida",
+        "ehren-vigliotti",
+        "concetta-mignone"
+      ],
+      "placeIds": [
+        "eastchester-ny",
+        "dobbs-ferry-ny",
+        "gate-of-heaven-hawthorne"
+      ],
+      "confidence": "confirmed",
+      "eventDate": "2011-01-01",
+      "pages": [
+        "research.html"
+      ]
+    },
+    {
+      "id": "find-wwii-draft-card-alphonse-sr-1942",
+      "foundDate": "2026-11-26",
+      "headline": "WWII draft card gives Alphonse Sr.'s birth date and father",
+      "summary": "Alphonse John Vigliotti registered at Tuckahoe on 15 February 1942, born 14 March 1921 at Scarsdale, New York, naming Vincent Vigliotti as the person who would always know his address.",
+      "sourceIds": [
+        "ancestry-wwii-draft-alphonse-vigliotti-1942"
+      ],
+      "personIds": [
+        "alphonse-j-vigliotti-sr",
+        "vincenzo-vigliotti"
+      ],
+      "placeIds": [
+        "tuckahoe-ny",
+        "scarsdale-ny"
+      ],
+      "confidence": "confirmed",
+      "eventDate": "1942-02-15",
+      "pages": [
+        "research.html"
+      ]
+    },
+    {
+      "id": "find-census-1930-1940-brambach-ave",
+      "foundDate": "2026-11-26",
+      "headline": "The Vigliotti household at 44 Brambach Avenue, Eastchester",
+      "summary": "The 1930 and 1940 censuses show Vincent and Vincenza Vigliotti, both born in Italy, with their children including Alphonse, at 44 Brambach Avenue, Eastchester.",
+      "sourceIds": [
+        "ancestry-census-1930-vigliotti",
+        "ancestry-census-1940-vigliotti"
+      ],
+      "personIds": [
+        "vincenzo-vigliotti",
+        "vincenza-guida",
+        "alphonse-j-vigliotti-sr"
+      ],
+      "placeIds": [
+        "eastchester-ny",
+        "brambach-ave-eastchester"
+      ],
+      "confidence": "confirmed",
+      "eventDate": "1930-04-01",
+      "pages": [
+        "research.html"
+      ]
+    },
+    {
+      "id": "find-scarsdale-inquirer-four-sons-1942",
+      "foundDate": "2026-11-26",
+      "headline": "Four Vigliotti sons in the service, 1942",
+      "summary": "The Scarsdale Inquirer of 4 December 1942 reported that Mr. and Mrs. Vincent Vigliotti of Brambach Road had four sons in the armed forces and had just marked 25 years of marriage.",
+      "sourceIds": [
+        "scarsdale-inquirer-1942-12-04"
+      ],
+      "personIds": [
+        "vincenzo-vigliotti",
+        "vincenza-guida",
+        "alphonse-j-vigliotti-sr"
+      ],
+      "placeIds": [
+        "eastchester-ny",
+        "brambach-ave-eastchester"
+      ],
+      "confidence": "confirmed",
+      "eventDate": "1942-12-04",
+      "pages": [
+        "research.html"
+      ]
+    },
+    {
+      "id": "find-death-vincenzo-vigliotti-1944",
+      "foundDate": "2026-11-26",
+      "headline": "Vincent Vigliotti's death in 1944",
+      "summary": "The New York State death index (indexed as VIGHIOTTO) and the Scarsdale Inquirer record the death of Vincent J. Vigliotti, aged 53, at Grasslands Hospital, Mount Pleasant, on 24 April 1944.",
+      "sourceIds": [
+        "nys-death-index-1944-vigliotti",
+        "scarsdale-inquirer-1944-04-28"
+      ],
+      "personIds": [
+        "vincenzo-vigliotti"
+      ],
+      "placeIds": [
+        "mount-pleasant-ny",
+        "brambach-ave-eastchester"
+      ],
+      "confidence": "confirmed",
+      "eventDate": "1944-04-24",
+      "pages": [
+        "research.html"
+      ]
+    },
+    {
+      "id": "find-concetta-mignone-wedding-1947",
+      "foundDate": "2026-11-26",
+      "headline": "Alphonse Vigliotti marries Concetta Mignone, 1947",
+      "summary": "The Scarsdale Inquirer announced the engagement (4 April 1947) and the 24 August 1947 wedding at Immaculate Heart of Mary, Scarsdale, of Concetta, daughter of Mr. and Mrs. Gerard Mignone, and Alphonse J., son of Mrs. Vincent Vigliotti.",
+      "sourceIds": [
+        "scarsdale-inquirer-1947-04-04",
+        "scarsdale-inquirer-1947-08-29"
+      ],
+      "personIds": [
+        "alphonse-j-vigliotti-sr",
+        "concetta-mignone",
+        "gerardo-mignone"
+      ],
+      "placeIds": [
+        "scarsdale-ny",
+        "immaculate-heart-of-mary-scarsdale"
+      ],
+      "confidence": "confirmed",
+      "eventDate": "1947-08-24",
+      "pages": [
+        "research.html"
+      ]
+    },
+    {
+      "id": "find-italian-hometowns-tree",
+      "foundDate": "2026-11-26",
+      "headline": "Another researcher's tree points to Santa Maria a Vico and Arienzo",
+      "summary": "An Ancestry member tree gives Vincenzo Vigliotti's birth as 4 July 1885 at Santa Maria a Vico and Vincenza Pasqualina Guida's as 21 September 1899 at Arienzo, both in Caserta province, with their parents' names. Not yet checked against the Italian birth registers.",
+      "sourceIds": [
+        "ancestry-tree-kindred-spirits"
+      ],
+      "personIds": [
+        "vincenzo-vigliotti",
+        "vincenza-guida"
+      ],
+      "placeIds": [
+        "santa-maria-a-vico",
+        "arienzo"
+      ],
+      "confidence": "unverified",
+      "eventDate": "1885-07-04",
+      "pages": [
+        "research.html"
+      ]
+    },
+    {
+      "id": "find-passenger-list-roma-1903",
+      "foundDate": "2026-11-26",
+      "headline": "Vincenzo Vigliotti arrives on the Roma, 1903",
+      "summary": "A New York passenger list index shows Vincenzo Vigliotti, aged 17, arriving at New York on the ship Roma on 1 April 1903.",
+      "sourceIds": [
+        "ancestry-passenger-list-roma-1903"
+      ],
+      "personIds": [
+        "vincenzo-vigliotti"
+      ],
+      "placeIds": [
+        "ellis-island-ny"
+      ],
+      "confidence": "probable",
+      "eventDate": "1903-04-01",
+      "pages": [
+        "research.html"
+      ]
+    },
+    {
+      "id": "find-naturalization-index-vincenzo-1928",
+      "foundDate": "2026-11-26",
+      "headline": "A Vincenzo Vigliotti files for citizenship in 1928 and 1930",
+      "summary": "The Westchester County naturalization index lists a Vincenzo Vigliotti declaration of intention in 1928 and petition in 1930, after Alphonse Sr.'s birth in 1921. The petition index gives birth 2 September 1892 at \"Bunito\", so it is not yet proven to be our Vincenzo.",
+      "sourceIds": [
+        "westchester-naturalization-vigliotti"
+      ],
+      "personIds": [
+        "vincenzo-vigliotti"
+      ],
+      "placeIds": [
+        "white-plains-ny"
+      ],
+      "confidence": "unverified",
+      "eventDate": "1930-01-01",
+      "pages": [
+        "research.html"
+      ]
+    },
+    {
+      "id": "find-mignone-family",
+      "foundDate": "2026-11-26",
+      "headline": "Gerard Mignone, Concetta's father",
+      "summary": "The Scarsdale Inquirer obituary of Gerard Mignone (died 29 October 1957), the 1950 census and the Westchester naturalization index (1923 declaration, 1929 petition) identify Concetta's parents as Gerard and Susan (Rescigno) Mignone.",
+      "sourceIds": [
+        "scarsdale-inquirer-1957-11-08",
+        "census-1950-mignone",
+        "westchester-naturalization-mignone"
+      ],
+      "personIds": [
+        "gerardo-mignone",
+        "susan-rescigno-mignone",
+        "concetta-mignone"
+      ],
+      "placeIds": [
+        "eastchester-ny"
+      ],
+      "confidence": "confirmed",
+      "eventDate": "1957-10-29",
+      "pages": [
+        "research.html"
+      ]
+    },
+    {
+      "id": "find-walsh-morrisey-wedding-1951",
+      "foundDate": "2026-11-26",
+      "headline": "Paul Walsh and Patricia Morrisey wed in Scarsdale, 1951",
+      "summary": "The Scarsdale Inquirer reported the engagement (19 January 1951) and the 5 May 1951 wedding of Patricia Morrissey, daughter of Mr. and Mrs. James T. Morrissey of Downer Avenue, and Paul H. Walsh, son of former Mayor and Mrs. William A. Walsh of Yonkers.",
+      "sourceIds": [
+        "scarsdale-inquirer-1951-01-19",
+        "scarsdale-inquirer-1951-05-18"
+      ],
+      "personIds": [
+        "paul-h-walsh",
+        "patricia-morrisey-walsh",
+        "william-a-walsh",
+        "james-t-morrisey"
+      ],
+      "placeIds": [
+        "scarsdale-ny",
+        "yonkers-ny",
+        "immaculate-heart-of-mary-scarsdale"
+      ],
+      "confidence": "confirmed",
+      "eventDate": "1951-05-05",
+      "pages": [
+        "research.html"
+      ]
+    },
+    {
+      "id": "find-augusta-ehrenfels-1949",
+      "foundDate": "2026-11-26",
+      "headline": "Barbara's great grandmother Augusta Ehrenfels",
+      "summary": "The Scarsdale Inquirer of 17 June 1949 reports the death of Mrs. Augusta R. Ehrenfels of Mount Vernon, mother of Mrs. James Morrissey.",
+      "sourceIds": [
+        "scarsdale-inquirer-1949-06-17"
+      ],
+      "personIds": [
+        "augusta-ehrenfels",
+        "fernanda-ehrenfels-morrisey"
+      ],
+      "placeIds": [
+        "mount-vernon-ny",
+        "bronxville-ny"
+      ],
+      "confidence": "confirmed",
+      "eventDate": "1949-06-08",
+      "pages": [
+        "research.html"
+      ]
+    },
+    {
+      "id": "find-mayor-william-a-walsh",
+      "foundDate": "2026-11-26",
+      "headline": "Barbara's grandfather was Mayor of Yonkers",
+      "summary": "Paul Walsh's wedding notice calls his father \"former Mayor\" William A. Walsh of Yonkers; William A. Walsh (1871 to 1967) was Mayor of Yonkers 1926 to 1927, and Social Security records name William A. Walsh and Clara Hingston as parents of children born in Yonkers in 1914 and 1917.",
+      "sourceIds": [
+        "wikipedia-william-a-walsh",
+        "ssa-numident-walsh",
+        "findagrave-william-a-walsh"
+      ],
+      "personIds": [
+        "william-a-walsh",
+        "clara-hingston-walsh",
+        "paul-h-walsh"
+      ],
+      "placeIds": [
+        "yonkers-ny"
+      ],
+      "confidence": "confirmed",
+      "eventDate": "1926-01-01",
+      "pages": [
+        "research.html"
+      ]
+    },
+    {
+      "id": "find-michael-walsh-ardmore",
+      "foundDate": "2026-11-26",
+      "headline": "The Walsh line goes back to Ardmore, Ireland",
+      "summary": "The 1916 Yonkers Statesman obituary of Michael Walsh, father of Mayor William A. Walsh, says he was born in Ardmore, Ireland, came to America as a boy, and built a carpentry business in Yonkers.",
+      "sourceIds": [
+        "findagrave-michael-walsh-1916"
+      ],
+      "personIds": [
+        "michael-walsh",
+        "william-a-walsh"
+      ],
+      "placeIds": [
+        "ardmore-ireland",
+        "yonkers-ny"
+      ],
+      "confidence": "probable",
+      "eventDate": "1916-07-09",
+      "pages": [
+        "research.html"
+      ]
+    },
+    {
+      "id": "find-hingston-cleary-huntingdon",
+      "foundDate": "2026-11-26",
+      "headline": "Clara Hingston's family came from Huntingdon, Quebec",
+      "summary": "Catherine Jane Cleary Hingston's 1932 obituary names her parents Owen and Catherine Donohue Cleary of Huntingdon, Canada, her 1872 marriage to Samuel J. Hingston, and her daughter Mrs. William A. Walsh.",
+      "sourceIds": [
+        "findagrave-catherine-hingston-1932"
+      ],
+      "personIds": [
+        "catherine-cleary-hingston",
+        "samuel-j-hingston",
+        "clara-hingston-walsh"
+      ],
+      "placeIds": [
+        "huntingdon-quebec",
+        "port-henry-ny",
+        "yonkers-ny"
+      ],
+      "confidence": "probable",
+      "eventDate": "1932-08-31",
+      "pages": [
+        "research.html"
+      ]
+    },
+    {
+      "id": "find-morrisey-ehrenfels-marriage-1922",
+      "foundDate": "2026-11-26",
+      "headline": "James Morrisey and Fernanda Ehrenfels married in 1922",
+      "summary": "The Westchester County marriage index lists James T. Morrisey and Fernanda Ehrenfels on the same certificate, number 37675, in 1922.",
+      "sourceIds": [
+        "westchester-marriage-37675"
+      ],
+      "personIds": [
+        "james-t-morrisey",
+        "fernanda-ehrenfels-morrisey"
+      ],
+      "placeIds": [
+        "westchester-county-ny"
+      ],
+      "confidence": "confirmed",
+      "eventDate": "1922-01-01",
+      "pages": [
+        "research.html"
+      ]
+    },
+    {
+      "id": "find-mignone-rescigno-marriage-1926",
+      "foundDate": "2026-11-26",
+      "headline": "Gerardo Mignone and Susan Rescigno married in 1926",
+      "summary": "The Westchester County marriage index lists Gerardo Mignone and Susan M. Rescigno on certificate 51289 in 1926.",
+      "sourceIds": [
+        "westchester-marriage-51289"
+      ],
+      "personIds": [
+        "gerardo-mignone",
+        "susan-rescigno-mignone"
+      ],
+      "placeIds": [
+        "westchester-county-ny"
+      ],
+      "confidence": "confirmed",
+      "eventDate": "1926-01-01",
       "pages": [
         "research.html"
       ]
