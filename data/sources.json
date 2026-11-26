@@ -1,12 +1,31 @@
 {
   "sources": [
     {
-      "id": "family-knowledge",
-      "title": "Family knowledge (placeholder)",
-      "type": "family account",
-      "repository": "Add who told you and when",
-      "date": null,
-      "note": "Replace this with real sources: certificates, census pages, ship lists, newspaper clippings, interviews."
+      "id": "obituary-pasquale-fucale-2026",
+      "title": "Obituary of Pasquale P. Fucale",
+      "type": "obituary",
+      "repository": "Ballard-Durand Funeral and Cremation Services, Hawthorne, New York",
+      "date": "2026-11-21",
+      "url": "https://www.ballarddurand.com/obituaries/pasquale-fucale",
+      "note": "Posted after his death on 21 November 2026. Names his parents, wife Susan Vigliotti of Eastchester, NY, marriage on 30 October 1977, children, siblings, and brothers- and sisters-in-law Alphonse Vigliotti (Barbara) and Renee Makras (George). Also gives birth in Cattolica Eraclea, immigration to Montreal and later White Plains, and burial at Gate of Heaven Cemetery, Hawthorne."
+    },
+    {
+      "id": "obituary-patricia-paul-walsh-2019",
+      "title": "Obituaries: Patricia and Paul Walsh",
+      "type": "obituary",
+      "repository": "The Rye Record, Rye, New York",
+      "date": "2019-10-14",
+      "url": "https://ryerecord.com/obituaries-patricia-paul-walsh/",
+      "note": "Published 14 October 2019. Names Patricia Morrisey Walsh (died 4 September 2019, age 91, born Bronxville, daughter of James T. and Fernanda (Ehrenfels) Morrisey) and Paul H. Walsh (died 27 September 2019, age 92, born Yonkers, son of Clara (Hingston) and William A. Walsh), married 5 May 1951, four children including Barbara Walsh Vigliotti and her husband Al, and five grandchildren including one named Dylan."
+    },
+    {
+      "id": "family-testimony-sebastian-2026",
+      "title": "Family testimony: Dylan's parents",
+      "type": "family testimony",
+      "repository": "Sebastian, to Stuart, November 2026",
+      "date": "2026-11-26",
+      "url": null,
+      "note": "Sebastian named Barbara Ehren Walsh (maiden) and Alphonse John Vigliotti as Dylan Vigliotti's parents, and asked that they be the starting point for this site."
     }
   ]
 }

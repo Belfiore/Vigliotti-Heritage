@@ -23,6 +23,8 @@
     }
     function marriageLabel(a, bId) {
         var rec = (a.spouses || []).filter(function (s) { return s.id === bId; })[0];
+        var partner = byId[bId];
+        if ((a && a.isLiving) || (partner && partner.isLiving)) return 'married';
         var yr = rec && rec.marriageDate ? String(rec.marriageDate).slice(0, 4) : '';
         return yr ? 'married ' + yr : 'married';
     }
@@ -47,7 +49,7 @@
             });
             if (singles) rows += '<div class="gen-people">' + singles + '</div>';
             html += (gi ? '<div class="gen-connector">&#9661;</div>' : '') +
-                '<div class="tree-generation"><div class="gen-label">Generation ' + esc(g.label) + ' &mdash; ' + esc(g.title) + '</div>' +
+                '<div class="tree-generation"><div class="gen-label">Generation ' + esc(g.label) + ', ' + esc(g.title) + '</div>' +
                 (g.range ? '<div class="gen-subtitle">' + esc(g.range) + '</div>' : '') + rows + '</div>';
         });
         root.innerHTML = html;

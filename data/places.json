@@ -1,0 +1,398 @@
+{
+  "meta": {
+    "note": "One places dataset for the Vigliotti Heritage map and for any exported map. Living people are not placed on the map. Town points use a halo; known buildings use a pin. Coordinates are from OpenStreetMap Nominatim, 26 November 2026.",
+    "updated": "2026-11-26",
+    "notYetOnTheMap": [
+      "The town where Pat and Susan married on 30 October 1977 is not named in the obituary (Susan was of Eastchester, New York; that is held back because she is living).",
+      "Burial places for Patricia Morrisey Walsh and Paul H. Walsh are not yet known.",
+      "Current or recent homes of living people are held back, including a 2019 residence named in the Walsh obituary."
+    ]
+  },
+  "places": [
+    {
+      "id": "cattolica-eraclea",
+      "name": "Cattolica Eraclea, Agrigento, Sicily",
+      "kind": "town",
+      "precision": "town",
+      "lat": 37.44084,
+      "lng": 13.392054,
+      "uncertaintyMetres": 1500,
+      "coordinateMethod": "Point from OpenStreetMap Nominatim, looked up on 26 November 2026.",
+      "coordinatePrecision": "town",
+      "coordinateSourceIds": [],
+      "drawAs": "halo",
+      "inHomeRegion": false,
+      "country": "IT",
+      "status": "published",
+      "events": [
+        {
+          "id": "pe-cattolica-born-pat",
+          "type": "born",
+          "personIds": [
+            "pasquale-fucale"
+          ],
+          "confidence": "confirmed",
+          "sourceIds": [
+            "obituary-pasquale-fucale-2026"
+          ],
+          "approximate": false,
+          "date": "1952",
+          "dateStart": "1952-09-22",
+          "dateEnd": "1952-09-22",
+          "datePrecision": "day",
+          "factRef": "pasquale-fucale.birth",
+          "summary": "Pasquale \"Pat\" Fucale was born here on 22 September 1952."
+        }
+      ],
+      "historicName": "Cattolica Eraclea, Agrigento, Sicily",
+      "blurb": "The Sicilian town where Pasquale \"Pat\" Fucale was born."
+    },
+    {
+      "id": "montreal",
+      "name": "Montreal, Canada",
+      "kind": "city",
+      "precision": "town",
+      "lat": 45.5031824,
+      "lng": -73.5698065,
+      "uncertaintyMetres": 8000,
+      "coordinateMethod": "Point from OpenStreetMap Nominatim, looked up on 26 November 2026.",
+      "coordinatePrecision": "town",
+      "coordinateSourceIds": [],
+      "drawAs": "halo",
+      "inHomeRegion": false,
+      "country": "CA",
+      "status": "published",
+      "events": [
+        {
+          "id": "pe-montreal-lived-pat",
+          "type": "lived",
+          "personIds": [
+            "pasquale-fucale"
+          ],
+          "confidence": "confirmed",
+          "sourceIds": [
+            "obituary-pasquale-fucale-2026"
+          ],
+          "approximate": true,
+          "date": "1956",
+          "dateStart": "1956",
+          "dateEnd": "1962",
+          "datePrecision": "year",
+          "summary": "Pat and his family immigrated here when he was four, and stayed about six years."
+        }
+      ],
+      "blurb": "Where the Fucale family first settled after leaving Sicily."
+    },
+    {
+      "id": "white-plains-ny",
+      "name": "White Plains, New York",
+      "kind": "town",
+      "precision": "town",
+      "lat": 41.0339862,
+      "lng": -73.7629097,
+      "uncertaintyMetres": 2500,
+      "coordinateMethod": "Point from OpenStreetMap Nominatim, looked up on 26 November 2026.",
+      "coordinatePrecision": "town",
+      "coordinateSourceIds": [],
+      "drawAs": "halo",
+      "inHomeRegion": true,
+      "country": "US",
+      "status": "published",
+      "events": [
+        {
+          "id": "pe-white-plains-lived-pat",
+          "type": "lived",
+          "personIds": [
+            "pasquale-fucale"
+          ],
+          "confidence": "confirmed",
+          "sourceIds": [
+            "obituary-pasquale-fucale-2026"
+          ],
+          "approximate": true,
+          "date": "1962",
+          "dateStart": "1962",
+          "datePrecision": "year",
+          "summary": "The Fucale family settled in White Plains, where Pat graduated from high school in 1970."
+        }
+      ],
+      "blurb": "Where the Fucale family settled after Montreal."
+    },
+    {
+      "id": "valhalla-ny",
+      "name": "Valhalla, New York",
+      "kind": "town",
+      "precision": "town",
+      "lat": 41.075213,
+      "lng": -73.7750061,
+      "uncertaintyMetres": 1500,
+      "coordinateMethod": "Point from OpenStreetMap Nominatim, looked up on 26 November 2026.",
+      "coordinatePrecision": "town",
+      "coordinateSourceIds": [],
+      "drawAs": "halo",
+      "inHomeRegion": true,
+      "country": "US",
+      "status": "published",
+      "events": [
+        {
+          "id": "pe-valhalla-lived-pat",
+          "type": "lived",
+          "personIds": [
+            "pasquale-fucale"
+          ],
+          "confidence": "confirmed",
+          "sourceIds": [
+            "obituary-pasquale-fucale-2026"
+          ],
+          "approximate": false,
+          "dateEnd": "2026-11-21",
+          "datePrecision": "year",
+          "summary": "Pat was of Valhalla, New York, at the time of his death."
+        },
+        {
+          "id": "pe-valhalla-died-pat",
+          "type": "died",
+          "personIds": [
+            "pasquale-fucale"
+          ],
+          "confidence": "confirmed",
+          "sourceIds": [
+            "obituary-pasquale-fucale-2026"
+          ],
+          "approximate": false,
+          "date": "2026",
+          "dateStart": "2026-11-21",
+          "dateEnd": "2026-11-21",
+          "datePrecision": "day",
+          "factRef": "pasquale-fucale.death",
+          "summary": "Pat died on 21 November 2026."
+        }
+      ],
+      "blurb": "The Westchester town where Pat Fucale lived in later life and died."
+    },
+    {
+      "id": "holy-name-of-jesus-valhalla",
+      "name": "Holy Name of Jesus Church, Valhalla, New York",
+      "kind": "church",
+      "precision": "building",
+      "lat": 41.0722644,
+      "lng": -73.769666,
+      "uncertaintyMetres": 30,
+      "coordinateMethod": "Point from OpenStreetMap Nominatim, looked up on 26 November 2026.",
+      "coordinatePrecision": "building",
+      "coordinateSourceIds": [],
+      "drawAs": "pin",
+      "inHomeRegion": true,
+      "country": "US",
+      "status": "published",
+      "events": [
+        {
+          "id": "pe-holy-name-funeral-pat",
+          "type": "celebrated",
+          "personIds": [
+            "pasquale-fucale"
+          ],
+          "confidence": "confirmed",
+          "sourceIds": [
+            "obituary-pasquale-fucale-2026"
+          ],
+          "approximate": false,
+          "date": "2026",
+          "dateStart": "2026-11-24",
+          "dateEnd": "2026-11-24",
+          "datePrecision": "day",
+          "summary": "A funeral mass for Pat was held here on 24 November 2026. He had also volunteered as a Sunday morning usher at this church."
+        }
+      ],
+      "address": "2 Broadway, Valhalla, New York",
+      "modernAddress": "2 Broadway, Valhalla, NY 10595",
+      "blurb": "The church in Valhalla where Pat ushered and where his funeral mass was held."
+    },
+    {
+      "id": "gate-of-heaven-hawthorne",
+      "name": "Gate of Heaven Cemetery, Hawthorne, New York",
+      "kind": "cemetery",
+      "precision": "building",
+      "lat": 41.0880892,
+      "lng": -73.7953913,
+      "uncertaintyMetres": 200,
+      "coordinateMethod": "Point from OpenStreetMap Nominatim, looked up on 26 November 2026.",
+      "coordinatePrecision": "building",
+      "coordinateSourceIds": [],
+      "drawAs": "pin",
+      "inHomeRegion": true,
+      "country": "US",
+      "status": "published",
+      "events": [
+        {
+          "id": "pe-gate-of-heaven-buried-pat",
+          "type": "buried",
+          "personIds": [
+            "pasquale-fucale"
+          ],
+          "confidence": "confirmed",
+          "sourceIds": [
+            "obituary-pasquale-fucale-2026"
+          ],
+          "approximate": false,
+          "date": "2026",
+          "dateStart": "2026-11-24",
+          "dateEnd": "2026-11-24",
+          "datePrecision": "day",
+          "factRef": "pasquale-fucale.burial",
+          "summary": "Pat was buried here on 24 November 2026."
+        }
+      ],
+      "address": "10 W Stevens Avenue, Hawthorne, New York",
+      "modernAddress": "10 W Stevens Avenue, Hawthorne, NY 10532",
+      "blurb": "The cemetery in Hawthorne where Pat Fucale was buried."
+    },
+    {
+      "id": "bronxville-ny",
+      "name": "Bronxville, New York",
+      "kind": "town",
+      "precision": "town",
+      "lat": 40.9381544,
+      "lng": -73.8320784,
+      "uncertaintyMetres": 800,
+      "coordinateMethod": "Point from OpenStreetMap Nominatim, looked up on 26 November 2026.",
+      "coordinatePrecision": "town",
+      "coordinateSourceIds": [],
+      "drawAs": "halo",
+      "inHomeRegion": true,
+      "country": "US",
+      "status": "published",
+      "events": [
+        {
+          "id": "pe-bronxville-born-patricia",
+          "type": "born",
+          "personIds": [
+            "patricia-morrisey-walsh"
+          ],
+          "confidence": "confirmed",
+          "sourceIds": [
+            "obituary-patricia-paul-walsh-2019"
+          ],
+          "approximate": true,
+          "date": "1928",
+          "dateStart": "1928",
+          "dateEnd": "1928",
+          "datePrecision": "year",
+          "factRef": "patricia-morrisey-walsh.birth",
+          "summary": "Patricia Morrisey Walsh was born in Bronxville, New York."
+        }
+      ],
+      "blurb": "The Westchester village where Patricia Morrisey Walsh was born."
+    },
+    {
+      "id": "yonkers-ny",
+      "name": "Yonkers, New York",
+      "kind": "city",
+      "precision": "town",
+      "lat": 40.9312099,
+      "lng": -73.8987469,
+      "uncertaintyMetres": 4000,
+      "coordinateMethod": "Point from OpenStreetMap Nominatim, looked up on 26 November 2026.",
+      "coordinatePrecision": "town",
+      "coordinateSourceIds": [],
+      "drawAs": "halo",
+      "inHomeRegion": true,
+      "country": "US",
+      "status": "published",
+      "events": [
+        {
+          "id": "pe-yonkers-born-paul",
+          "type": "born",
+          "personIds": [
+            "paul-h-walsh"
+          ],
+          "confidence": "confirmed",
+          "sourceIds": [
+            "obituary-patricia-paul-walsh-2019"
+          ],
+          "approximate": true,
+          "date": "1927",
+          "dateStart": "1927",
+          "dateEnd": "1927",
+          "datePrecision": "year",
+          "factRef": "paul-h-walsh.birth",
+          "summary": "Paul H. Walsh was born in Yonkers, New York."
+        }
+      ],
+      "blurb": "The city where Paul H. Walsh was born."
+    },
+    {
+      "id": "larchmont-ny",
+      "name": "Larchmont, New York",
+      "kind": "town",
+      "precision": "town",
+      "lat": 40.9278769,
+      "lng": -73.7517983,
+      "uncertaintyMetres": 800,
+      "coordinateMethod": "Point from OpenStreetMap Nominatim, looked up on 26 November 2026.",
+      "coordinatePrecision": "town",
+      "coordinateSourceIds": [],
+      "drawAs": "halo",
+      "inHomeRegion": true,
+      "country": "US",
+      "status": "published",
+      "events": [
+        {
+          "id": "pe-larchmont-lived-walsh",
+          "type": "lived",
+          "personIds": [
+            "patricia-morrisey-walsh",
+            "paul-h-walsh"
+          ],
+          "confidence": "confirmed",
+          "sourceIds": [
+            "obituary-patricia-paul-walsh-2019"
+          ],
+          "approximate": true,
+          "date": "1951",
+          "dateStart": "1951",
+          "datePrecision": "year",
+          "summary": "Patricia and Paul Walsh raised their four children in Larchmont."
+        }
+      ],
+      "blurb": "Where Patricia and Paul Walsh raised their children."
+    },
+    {
+      "id": "rye-ny",
+      "name": "Rye, New York",
+      "kind": "town",
+      "precision": "town",
+      "lat": 40.9821371,
+      "lng": -73.6840902,
+      "uncertaintyMetres": 1500,
+      "coordinateMethod": "Point from OpenStreetMap Nominatim, looked up on 26 November 2026.",
+      "coordinatePrecision": "town",
+      "coordinateSourceIds": [],
+      "drawAs": "halo",
+      "inHomeRegion": true,
+      "country": "US",
+      "status": "published",
+      "events": [
+        {
+          "id": "pe-rye-lived-walsh",
+          "type": "lived",
+          "personIds": [
+            "patricia-morrisey-walsh",
+            "paul-h-walsh"
+          ],
+          "confidence": "confirmed",
+          "sourceIds": [
+            "obituary-patricia-paul-walsh-2019"
+          ],
+          "approximate": true,
+          "date": "1990",
+          "dateStart": "1990",
+          "dateEnd": "2019",
+          "datePrecision": "year",
+          "summary": "The 2019 obituary says they had moved to Rye twenty-nine years earlier."
+        }
+      ],
+      "blurb": "Where Patricia and Paul Walsh lived in later life."
+    }
+  ]
+}

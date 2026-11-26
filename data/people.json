@@ -1,699 +1,1266 @@
 {
   "meta": {
+    "schemaVersion": 1,
     "title": "Vigliotti family",
-    "siteName": "Vigliotti",
-    "directLineLabel": "Dylan's direct line",
-    "kinLabel": "Related kin · relationship unproven",
-    "rootPersonId": "dylan-vigliotti",
-    "updated": "2026-11-17",
+    "updated": "2026-11-26",
     "confidenceScale": [
       "confirmed",
       "probable",
       "family tradition",
       "unverified"
     ],
+    "note": "Seeded from family testimony and two obituaries. Living people have name and relationship only. Layout labels used by the list-view tree also live here (rootPersonId, directLineLabel, generations); the interactive tree reads the same fields from site.config.json.",
+    "siteName": "Vigliotti",
+    "directLineLabel": "Dylan's direct line",
+    "kinLabel": "Related kin, relationship unproven",
+    "rootPersonId": "dylan-vigliotti",
     "generations": [
       {
         "generation": 0,
         "label": "I",
-        "title": "Grandparents",
-        "range": "Add years"
+        "title": "Great-grandparents",
+        "range": "Morrisey, Ehrenfels, Walsh and Hingston"
       },
       {
         "generation": 1,
         "label": "II",
-        "title": "Parents",
-        "range": "Add years"
+        "title": "Grandparents",
+        "range": "Walsh, and Fucale in-laws"
       },
       {
         "generation": 2,
         "label": "III",
+        "title": "Parents' generation",
+        "range": ""
+      },
+      {
+        "generation": 3,
+        "label": "IV",
         "title": "Dylan's generation",
         "range": ""
       }
-    ],
-    "note": "Template data. Single source of truth for the canvas, the family tree page and the full profiles. Sources are in sources.json."
+    ]
   },
   "people": [
     {
-      "id": "paternal-grandfather",
-      "displayName": "Paternal Grandfather",
-      "disambiguator": "Dad's father",
-      "givenNames": "Grandpa",
-      "surname": "",
+      "id": "james-t-morrisey",
+      "displayName": "James T. Morrisey",
+      "givenNames": "James T.",
+      "surname": "Morrisey",
       "sex": "M",
       "generation": 0,
-      "nameVariants": [],
+      "isLiving": false,
+      "isDirectLine": true,
       "confidence": "confirmed",
-      "birth": null,
-      "death": null,
-      "immigration": null,
-      "cardPlace": "Add city, state",
-      "summary": "Placeholder. Add a short summary of Dad's father: where he was from, what he did, and what the family remembers about him.",
+      "parents": [],
+      "children": [
+        "patricia-morrisey-walsh"
+      ],
+      "spouses": [
+        {
+          "id": "fernanda-ehrenfels-morrisey",
+          "confidence": "confirmed",
+          "sourceIds": [
+            "obituary-patricia-paul-walsh-2019"
+          ]
+        }
+      ],
+      "disambiguator": "Patricia's father",
+      "summary": "Named as the father of Patricia Morrisey Walsh in her 2019 obituary.",
+      "story": "James T. Morrisey is named as the father of Patricia Morrisey Walsh in the Rye Record obituary of Patricia and Paul Walsh.[^obituary-patricia-paul-walsh-2019] His own birth, death and parents are not yet known.",
+      "openQuestions": [
+        {
+          "question": "When and where was James T. Morrisey born, and when did he die?",
+          "record": "Birth, marriage and death records, and census entries for the Morrisey family."
+        }
+      ],
       "relatedPages": [
         {
           "title": "Records and Research",
           "url": "research.html"
         }
-      ],
-      "parents": [],
-      "children": [
-        "dad"
-      ],
-      "spouses": [
-        {
-          "id": "paternal-grandmother",
-          "order": 1,
-          "marriageDate": null,
-          "marriageDisplay": null,
-          "place": null,
-          "sourceIds": [
-            "family-knowledge"
-          ],
-          "confidence": "confirmed",
-          "note": "Placeholder. Add the marriage date and place when known."
-        }
-      ],
-      "parentLinkConfidence": "confirmed",
-      "order": 1,
-      "isDirectLine": true,
-      "photo": null,
-      "portrait": null,
-      "isLiving": false,
-      "story": "Placeholder story for Paternal Grandfather. Replace this text with their full story, written the way you would tell it to a cousin.\n\n## Early life\n\nAdd where they were born, who raised them, and what the first years looked like.\n\n## Family\n\nAdd who they married, the children they had, and the people they were close to.\n\n## Later life\n\nAdd work, moves, hobbies, and the memories the family still tells.",
-      "openQuestions": [
-        {
-          "question": "Where and when was Paternal Grandfather born?",
-          "record": "Birth certificate, baptism record, census, or a family Bible."
-        },
-        {
-          "question": "What is the full legal name of Paternal Grandfather, including any spelling variants?",
-          "record": "Marriage record, ship manifest, naturalization papers, obituary."
-        }
-      ],
-      "media": [],
-      "facts": [
-        {
-          "label": "Born",
-          "value": "Add date and place",
-          "sourceIds": [
-            "family-knowledge"
-          ],
-          "confidence": "unverified"
-        },
-        {
-          "label": "Died",
-          "value": "Add date and place",
-          "sourceIds": [
-            "family-knowledge"
-          ],
-          "confidence": "unverified"
-        }
-      ],
-      "residences": [
-        {
-          "place": "Add city, state",
-          "address": null,
-          "years": "Add years",
-          "sourceIds": [
-            "family-knowledge"
-          ],
-          "confidence": "unverified"
-        }
-      ],
-      "occupations": [
-        {
-          "title": "Add occupation",
-          "employer": null,
-          "place": "Add place",
-          "years": "Add years",
-          "sourceIds": [
-            "family-knowledge"
-          ],
-          "confidence": "unverified"
-        }
-      ],
-      "timeline": [
-        {
-          "date": "",
-          "label": "Add date",
-          "event": "Add a life event here: a move, a job, a marriage, a birth.",
-          "sourceIds": [
-            "family-knowledge"
-          ],
-          "kind": "life",
-          "confidence": "unverified"
-        }
       ]
     },
     {
-      "id": "paternal-grandmother",
-      "displayName": "Paternal Grandmother",
-      "disambiguator": "Dad's mother",
-      "givenNames": "Grandma",
-      "surname": "",
+      "id": "fernanda-ehrenfels-morrisey",
+      "displayName": "Fernanda (Ehrenfels) Morrisey",
+      "givenNames": "Fernanda",
+      "surname": "Morrisey",
       "sex": "F",
       "generation": 0,
-      "nameVariants": [],
+      "isLiving": false,
+      "isDirectLine": true,
       "confidence": "confirmed",
-      "birth": null,
-      "death": null,
-      "immigration": null,
-      "cardPlace": "Add city, state",
-      "summary": "Placeholder. Add a short summary of Dad's mother: where she was from, what she did, and what the family remembers about her.",
+      "nameVariants": [
+        {
+          "name": "Fernanda Ehrenfels",
+          "note": "Maiden name, given in parentheses in her daughter's obituary.",
+          "confidence": "confirmed",
+          "sourceIds": [
+            "obituary-patricia-paul-walsh-2019"
+          ]
+        }
+      ],
+      "parents": [],
+      "children": [
+        "patricia-morrisey-walsh"
+      ],
+      "spouses": [
+        {
+          "id": "james-t-morrisey",
+          "confidence": "confirmed",
+          "sourceIds": [
+            "obituary-patricia-paul-walsh-2019"
+          ]
+        }
+      ],
+      "disambiguator": "Patricia's mother, born Ehrenfels",
+      "summary": "Named as the mother of Patricia Morrisey Walsh, with the maiden name Ehrenfels, in the 2019 obituary.",
+      "story": "Fernanda, born Ehrenfels, is named as the mother of Patricia Morrisey Walsh in the Rye Record obituary of Patricia and Paul Walsh.[^obituary-patricia-paul-walsh-2019] Her own birth, death and parents are not yet known. Barbara Ehren Walsh's middle name may come from this surname; that is a lead, not a proven fact.",
+      "openQuestions": [
+        {
+          "question": "When and where was Fernanda Ehrenfels born, and when did she die?",
+          "record": "Birth, marriage and death records, and census entries."
+        },
+        {
+          "question": "Is Barbara Ehren Walsh's middle name taken from her grandmother Fernanda Ehrenfels?",
+          "record": "A birth or baptism record for Barbara, or a family account that says so plainly."
+        }
+      ],
       "relatedPages": [
         {
           "title": "Records and Research",
           "url": "research.html"
         }
-      ],
-      "parents": [],
-      "children": [
-        "dad"
-      ],
-      "spouses": [
-        {
-          "id": "paternal-grandfather",
-          "order": 1,
-          "marriageDate": null,
-          "marriageDisplay": null,
-          "place": null,
-          "sourceIds": [
-            "family-knowledge"
-          ],
-          "confidence": "confirmed",
-          "note": "Placeholder. Add the marriage date and place when known."
-        }
-      ],
-      "parentLinkConfidence": "confirmed",
-      "order": 2,
-      "isDirectLine": true,
-      "photo": null,
-      "portrait": null,
-      "isLiving": false,
-      "story": "Placeholder story for Paternal Grandmother. Replace this text with their full story, written the way you would tell it to a cousin.\n\n## Early life\n\nAdd where they were born, who raised them, and what the first years looked like.\n\n## Family\n\nAdd who they married, the children they had, and the people they were close to.\n\n## Later life\n\nAdd work, moves, hobbies, and the memories the family still tells.",
-      "openQuestions": [
-        {
-          "question": "Where and when was Paternal Grandmother born?",
-          "record": "Birth certificate, baptism record, census, or a family Bible."
-        },
-        {
-          "question": "What is the full legal name of Paternal Grandmother, including any spelling variants?",
-          "record": "Marriage record, ship manifest, naturalization papers, obituary."
-        }
-      ],
-      "media": [],
-      "facts": [
-        {
-          "label": "Born",
-          "value": "Add date and place",
-          "sourceIds": [
-            "family-knowledge"
-          ],
-          "confidence": "unverified"
-        },
-        {
-          "label": "Died",
-          "value": "Add date and place",
-          "sourceIds": [
-            "family-knowledge"
-          ],
-          "confidence": "unverified"
-        }
-      ],
-      "residences": [
-        {
-          "place": "Add city, state",
-          "address": null,
-          "years": "Add years",
-          "sourceIds": [
-            "family-knowledge"
-          ],
-          "confidence": "unverified"
-        }
-      ],
-      "occupations": [
-        {
-          "title": "Add occupation",
-          "employer": null,
-          "place": "Add place",
-          "years": "Add years",
-          "sourceIds": [
-            "family-knowledge"
-          ],
-          "confidence": "unverified"
-        }
-      ],
-      "timeline": [
-        {
-          "date": "",
-          "label": "Add date",
-          "event": "Add a life event here: a move, a job, a marriage, a birth.",
-          "sourceIds": [
-            "family-knowledge"
-          ],
-          "kind": "life",
-          "confidence": "unverified"
-        }
       ]
     },
     {
-      "id": "maternal-grandfather",
-      "displayName": "Maternal Grandfather",
-      "disambiguator": "Mom's father",
-      "givenNames": "Grandpa",
-      "surname": "",
+      "id": "william-a-walsh",
+      "displayName": "William A. Walsh",
+      "givenNames": "William A.",
+      "surname": "Walsh",
       "sex": "M",
       "generation": 0,
-      "nameVariants": [],
+      "isLiving": false,
+      "isDirectLine": true,
       "confidence": "confirmed",
-      "birth": null,
-      "death": null,
-      "immigration": null,
-      "cardPlace": "Add city, state",
-      "summary": "Placeholder. Add a short summary of Mom's father: where he was from, what he did, and what the family remembers about him.",
+      "parents": [],
+      "children": [
+        "paul-h-walsh"
+      ],
+      "spouses": [
+        {
+          "id": "clara-hingston-walsh",
+          "confidence": "confirmed",
+          "sourceIds": [
+            "obituary-patricia-paul-walsh-2019"
+          ]
+        }
+      ],
+      "disambiguator": "Paul's father",
+      "summary": "Named as the father of Paul H. Walsh in the 2019 obituary.",
+      "story": "William A. Walsh is named as the father of Paul H. Walsh in the Rye Record obituary of Patricia and Paul Walsh.[^obituary-patricia-paul-walsh-2019] His own birth, death and parents are not yet known.",
+      "openQuestions": [
+        {
+          "question": "When and where was William A. Walsh born, and when did he die?",
+          "record": "Birth, marriage and death records, and census entries for the Walsh family."
+        }
+      ],
       "relatedPages": [
         {
           "title": "Records and Research",
           "url": "research.html"
         }
-      ],
-      "parents": [],
-      "children": [
-        "mom"
-      ],
-      "spouses": [
-        {
-          "id": "maternal-grandmother",
-          "order": 1,
-          "marriageDate": null,
-          "marriageDisplay": null,
-          "place": null,
-          "sourceIds": [
-            "family-knowledge"
-          ],
-          "confidence": "confirmed",
-          "note": "Placeholder. Add the marriage date and place when known."
-        }
-      ],
-      "parentLinkConfidence": "confirmed",
-      "order": 3,
-      "isDirectLine": true,
-      "photo": null,
-      "portrait": null,
-      "isLiving": false,
-      "story": "Placeholder story for Maternal Grandfather. Replace this text with their full story, written the way you would tell it to a cousin.\n\n## Early life\n\nAdd where they were born, who raised them, and what the first years looked like.\n\n## Family\n\nAdd who they married, the children they had, and the people they were close to.\n\n## Later life\n\nAdd work, moves, hobbies, and the memories the family still tells.",
-      "openQuestions": [
-        {
-          "question": "Where and when was Maternal Grandfather born?",
-          "record": "Birth certificate, baptism record, census, or a family Bible."
-        },
-        {
-          "question": "What is the full legal name of Maternal Grandfather, including any spelling variants?",
-          "record": "Marriage record, ship manifest, naturalization papers, obituary."
-        }
-      ],
-      "media": [],
-      "facts": [
-        {
-          "label": "Born",
-          "value": "Add date and place",
-          "sourceIds": [
-            "family-knowledge"
-          ],
-          "confidence": "unverified"
-        },
-        {
-          "label": "Died",
-          "value": "Add date and place",
-          "sourceIds": [
-            "family-knowledge"
-          ],
-          "confidence": "unverified"
-        }
-      ],
-      "residences": [
-        {
-          "place": "Add city, state",
-          "address": null,
-          "years": "Add years",
-          "sourceIds": [
-            "family-knowledge"
-          ],
-          "confidence": "unverified"
-        }
-      ],
-      "occupations": [
-        {
-          "title": "Add occupation",
-          "employer": null,
-          "place": "Add place",
-          "years": "Add years",
-          "sourceIds": [
-            "family-knowledge"
-          ],
-          "confidence": "unverified"
-        }
-      ],
-      "timeline": [
-        {
-          "date": "",
-          "label": "Add date",
-          "event": "Add a life event here: a move, a job, a marriage, a birth.",
-          "sourceIds": [
-            "family-knowledge"
-          ],
-          "kind": "life",
-          "confidence": "unverified"
-        }
       ]
     },
     {
-      "id": "maternal-grandmother",
-      "displayName": "Maternal Grandmother",
-      "disambiguator": "Mom's mother",
-      "givenNames": "Grandma",
-      "surname": "",
+      "id": "clara-hingston-walsh",
+      "displayName": "Clara (Hingston) Walsh",
+      "givenNames": "Clara",
+      "surname": "Walsh",
       "sex": "F",
       "generation": 0,
-      "nameVariants": [],
+      "isLiving": false,
+      "isDirectLine": true,
       "confidence": "confirmed",
-      "birth": null,
-      "death": null,
-      "immigration": null,
-      "cardPlace": "Add city, state",
-      "summary": "Placeholder. Add a short summary of Mom's mother: where she was from, what she did, and what the family remembers about her.",
+      "nameVariants": [
+        {
+          "name": "Clara Hingston",
+          "note": "Maiden name, given in parentheses in her son's obituary.",
+          "confidence": "confirmed",
+          "sourceIds": [
+            "obituary-patricia-paul-walsh-2019"
+          ]
+        }
+      ],
+      "parents": [],
+      "children": [
+        "paul-h-walsh"
+      ],
+      "spouses": [
+        {
+          "id": "william-a-walsh",
+          "confidence": "confirmed",
+          "sourceIds": [
+            "obituary-patricia-paul-walsh-2019"
+          ]
+        }
+      ],
+      "disambiguator": "Paul's mother, born Hingston",
+      "summary": "Named as the mother of Paul H. Walsh, with the maiden name Hingston, in the 2019 obituary.",
+      "story": "Clara, born Hingston, is named as the mother of Paul H. Walsh in the Rye Record obituary of Patricia and Paul Walsh.[^obituary-patricia-paul-walsh-2019] Her own birth, death and parents are not yet known.",
+      "openQuestions": [
+        {
+          "question": "When and where was Clara Hingston born, and when did she die?",
+          "record": "Birth, marriage and death records, and census entries."
+        }
+      ],
+      "relatedPages": [
+        {
+          "title": "Records and Research",
+          "url": "research.html"
+        }
+      ]
+    },
+    {
+      "id": "patricia-morrisey-walsh",
+      "displayName": "Patricia Morrisey Walsh",
+      "givenNames": "Patricia",
+      "surname": "Walsh",
+      "sex": "F",
+      "generation": 1,
+      "isLiving": false,
+      "isDirectLine": true,
+      "confidence": "confirmed",
+      "nameVariants": [
+        {
+          "name": "Patricia Morrisey",
+          "note": "Maiden name.",
+          "confidence": "confirmed",
+          "sourceIds": [
+            "obituary-patricia-paul-walsh-2019"
+          ]
+        },
+        {
+          "name": "Pat Walsh",
+          "note": "The Rye Record obituary also calls her Pat.",
+          "confidence": "confirmed",
+          "sourceIds": [
+            "obituary-patricia-paul-walsh-2019"
+          ]
+        }
+      ],
+      "parents": [
+        "james-t-morrisey",
+        "fernanda-ehrenfels-morrisey"
+      ],
+      "children": [
+        "jeffrey-walsh",
+        "barbara-ehren-walsh",
+        "fernanda-walsh-jarasek",
+        "meggan-walsh-wos"
+      ],
+      "spouses": [
+        {
+          "id": "paul-h-walsh",
+          "order": 1,
+          "marriageDate": "1951-05-05",
+          "marriageDisplay": "5 May 1951",
+          "confidence": "confirmed",
+          "sourceIds": [
+            "obituary-patricia-paul-walsh-2019"
+          ]
+        }
+      ],
+      "birth": {
+        "date": "1928",
+        "display": "about 1928",
+        "confidence": "probable",
+        "sourceIds": [
+          "obituary-patricia-paul-walsh-2019"
+        ],
+        "place": "Bronxville, New York",
+        "placeId": "bronxville-ny",
+        "dateQualifier": "about",
+        "note": "The obituary says she was 91 when she died on 4 September 2019, and that she was born in Bronxville, N.Y."
+      },
+      "death": {
+        "date": "2019-09-04",
+        "display": "4 September 2019",
+        "confidence": "confirmed",
+        "sourceIds": [
+          "obituary-patricia-paul-walsh-2019"
+        ]
+      },
+      "residences": [
+        {
+          "place": "Larchmont, New York",
+          "placeId": "larchmont-ny",
+          "years": "after 1951",
+          "note": "The obituary says they raised their four children in Larchmont.",
+          "confidence": "confirmed",
+          "sourceIds": [
+            "obituary-patricia-paul-walsh-2019"
+          ]
+        },
+        {
+          "place": "Rye, New York",
+          "placeId": "rye-ny",
+          "years": "about 1990 to 2019",
+          "note": "The 2019 obituary says they had moved to Rye twenty-nine years earlier.",
+          "confidence": "confirmed",
+          "sourceIds": [
+            "obituary-patricia-paul-walsh-2019"
+          ]
+        }
+      ],
+      "cardPlace": "Bronxville, New York",
+      "disambiguator": "Barbara's mother",
+      "summary": "Born in Bronxville, New York, she married Paul H. Walsh on 5 May 1951. They raised four children in Larchmont and later lived in Rye. She died on 4 September 2019, aged 91.",
+      "story": "Patricia Morrisey Walsh was born in Bronxville, New York, the daughter of James T. and Fernanda (Ehrenfels) Morrisey.[^obituary-patricia-paul-walsh-2019] The Rye Record obituary published on 14 October 2019 says she was 91 when she died on 4 September 2019, which points to a birth year of about 1928.\n\nShe graduated from The Ursuline School in New Rochelle in 1946 and earned a bachelor's degree in Business from the College of New Rochelle in 1950. On 5 May 1951 she married Paul H. Walsh. They raised their four children in Larchmont and, about twenty-nine years before 2019, moved to Rye.\n\nA Mass of Christian Burial was celebrated at the Church of the Resurrection on 9 September 2019. She was survived by her four children, including Barbara Walsh Vigliotti and her husband Al, and by five grandchildren, one of them named Dylan.",
+      "openQuestions": [
+        {
+          "question": "What is the exact date and the official record of Patricia's birth in Bronxville?",
+          "record": "A New York birth certificate or baptism record."
+        },
+        {
+          "question": "Where is Patricia buried?",
+          "record": "A cemetery record or a death notice that names the burial place."
+        }
+      ],
       "relatedPages": [
         {
           "title": "Records and Research",
           "url": "research.html"
         }
       ],
-      "parents": [],
+      "parentLinkConfidence": "confirmed"
+    },
+    {
+      "id": "paul-h-walsh",
+      "displayName": "Paul H. Walsh",
+      "givenNames": "Paul H.",
+      "surname": "Walsh",
+      "sex": "M",
+      "generation": 1,
+      "isLiving": false,
+      "isDirectLine": true,
+      "confidence": "confirmed",
+      "parents": [
+        "william-a-walsh",
+        "clara-hingston-walsh"
+      ],
       "children": [
-        "mom"
+        "jeffrey-walsh",
+        "barbara-ehren-walsh",
+        "fernanda-walsh-jarasek",
+        "meggan-walsh-wos"
       ],
       "spouses": [
         {
-          "id": "maternal-grandfather",
+          "id": "patricia-morrisey-walsh",
           "order": 1,
-          "marriageDate": null,
-          "marriageDisplay": null,
-          "place": null,
-          "sourceIds": [
-            "family-knowledge"
-          ],
+          "marriageDate": "1951-05-05",
+          "marriageDisplay": "5 May 1951",
           "confidence": "confirmed",
-          "note": "Placeholder. Add the marriage date and place when known."
-        }
-      ],
-      "parentLinkConfidence": "confirmed",
-      "order": 4,
-      "isDirectLine": true,
-      "photo": null,
-      "portrait": null,
-      "isLiving": false,
-      "story": "Placeholder story for Maternal Grandmother. Replace this text with their full story, written the way you would tell it to a cousin.\n\n## Early life\n\nAdd where they were born, who raised them, and what the first years looked like.\n\n## Family\n\nAdd who they married, the children they had, and the people they were close to.\n\n## Later life\n\nAdd work, moves, hobbies, and the memories the family still tells.",
-      "openQuestions": [
-        {
-          "question": "Where and when was Maternal Grandmother born?",
-          "record": "Birth certificate, baptism record, census, or a family Bible."
-        },
-        {
-          "question": "What is the full legal name of Maternal Grandmother, including any spelling variants?",
-          "record": "Marriage record, ship manifest, naturalization papers, obituary."
-        }
-      ],
-      "media": [],
-      "facts": [
-        {
-          "label": "Born",
-          "value": "Add date and place",
           "sourceIds": [
-            "family-knowledge"
-          ],
-          "confidence": "unverified"
-        },
-        {
-          "label": "Died",
-          "value": "Add date and place",
-          "sourceIds": [
-            "family-knowledge"
-          ],
-          "confidence": "unverified"
+            "obituary-patricia-paul-walsh-2019"
+          ]
         }
       ],
+      "birth": {
+        "date": "1927",
+        "display": "about 1927",
+        "confidence": "probable",
+        "sourceIds": [
+          "obituary-patricia-paul-walsh-2019"
+        ],
+        "place": "Yonkers, New York",
+        "placeId": "yonkers-ny",
+        "dateQualifier": "about",
+        "note": "The obituary says he was 92 when he died on 27 September 2019, and that he was born in Yonkers, N.Y."
+      },
+      "death": {
+        "date": "2019-09-27",
+        "display": "27 September 2019",
+        "confidence": "confirmed",
+        "sourceIds": [
+          "obituary-patricia-paul-walsh-2019"
+        ]
+      },
       "residences": [
         {
-          "place": "Add city, state",
-          "address": null,
-          "years": "Add years",
+          "place": "Larchmont, New York",
+          "placeId": "larchmont-ny",
+          "years": "after 1951",
+          "confidence": "confirmed",
           "sourceIds": [
-            "family-knowledge"
-          ],
-          "confidence": "unverified"
+            "obituary-patricia-paul-walsh-2019"
+          ]
+        },
+        {
+          "place": "Rye, New York",
+          "placeId": "rye-ny",
+          "years": "about 1990 to 2019",
+          "confidence": "confirmed",
+          "sourceIds": [
+            "obituary-patricia-paul-walsh-2019"
+          ]
         }
       ],
-      "occupations": [
+      "cardPlace": "Yonkers, New York",
+      "disambiguator": "Barbara's father",
+      "summary": "Born in Yonkers, New York, he married Patricia Morrisey on 5 May 1951. They raised four children in Larchmont and later lived in Rye. He died on 27 September 2019, aged 92, a little more than three weeks after his wife.",
+      "story": "Paul H. Walsh was born in Yonkers, New York, the son of Clara (Hingston) and William A. Walsh.[^obituary-patricia-paul-walsh-2019] The Rye Record obituary says he was 92 when he died on 27 September 2019, which points to a birth year of about 1927.\n\nHe graduated from Iona Prep in 1943, then went to Villanova College through the Navy V12 program, earning a Bachelor of Science in 1947 and a degree in Mechanical Engineering a year later. In 1970 he formed his own independent sales representative company, after earlier executive sales work for electronics firms.\n\nHe married Patricia Morrisey on 5 May 1951. They raised their four children in Larchmont and later lived in Rye. He died a little more than three weeks after his wife, on 27 September 2019.",
+      "openQuestions": [
         {
-          "title": "Add occupation",
-          "employer": null,
-          "place": "Add place",
-          "years": "Add years",
-          "sourceIds": [
-            "family-knowledge"
-          ],
-          "confidence": "unverified"
+          "question": "What is the exact date and the official record of Paul's birth in Yonkers?",
+          "record": "A New York birth certificate or baptism record."
+        },
+        {
+          "question": "Where is Paul buried?",
+          "record": "A cemetery record or a death notice that names the burial place."
         }
       ],
-      "timeline": [
+      "relatedPages": [
         {
-          "date": "",
-          "label": "Add date",
-          "event": "Add a life event here: a move, a job, a marriage, a birth.",
+          "title": "Records and Research",
+          "url": "research.html"
+        }
+      ],
+      "parentLinkConfidence": "confirmed"
+    },
+    {
+      "id": "anthony-fucale",
+      "displayName": "Anthony Fucale",
+      "givenNames": "Anthony",
+      "surname": "Fucale",
+      "sex": "M",
+      "generation": 1,
+      "isLiving": false,
+      "isDirectLine": false,
+      "confidence": "confirmed",
+      "parents": [],
+      "children": [
+        "pasquale-fucale",
+        "lilla-morello",
+        "josephine-scopelliti"
+      ],
+      "spouses": [
+        {
+          "id": "rosa-fucale",
+          "confidence": "confirmed",
           "sourceIds": [
-            "family-knowledge"
-          ],
-          "kind": "life",
-          "confidence": "unverified"
+            "obituary-pasquale-fucale-2026"
+          ]
+        }
+      ],
+      "disambiguator": "Pat Fucale's father",
+      "summary": "Named as the father of Pasquale \"Pat\" Fucale in Pat's 2026 obituary, which also calls him late.",
+      "story": "Anthony Fucale is named as the father of Pasquale \"Pat\" Fucale, and as already late, in Pat's November 2026 obituary.[^obituary-pasquale-fucale-2026] Pat was born in Cattolica Eraclea, Agrigento, Sicily, and the same record says that at the age of four he and his family immigrated to Montreal, then later settled in White Plains, New York. Anthony's own dates and parents are not yet known.",
+      "openQuestions": [
+        {
+          "question": "When and where was Anthony Fucale born, and when and where did he die?",
+          "record": "Italian civil records in Cattolica Eraclea, and later Canadian or New York records."
+        }
+      ],
+      "relatedPages": [
+        {
+          "title": "Records and Research",
+          "url": "research.html"
         }
       ]
     },
     {
-      "id": "dad",
-      "displayName": "Dad",
+      "id": "rosa-fucale",
+      "displayName": "Rosa Fucale",
+      "givenNames": "Rosa",
+      "surname": "Fucale",
+      "sex": "F",
+      "generation": 1,
+      "isLiving": false,
+      "isDirectLine": false,
+      "confidence": "confirmed",
+      "parents": [],
+      "children": [
+        "pasquale-fucale",
+        "lilla-morello",
+        "josephine-scopelliti"
+      ],
+      "spouses": [
+        {
+          "id": "anthony-fucale",
+          "confidence": "confirmed",
+          "sourceIds": [
+            "obituary-pasquale-fucale-2026"
+          ]
+        }
+      ],
+      "disambiguator": "Pat Fucale's mother",
+      "summary": "Named as the mother of Pasquale \"Pat\" Fucale in Pat's 2026 obituary, which also calls her late. Her maiden name is not yet known.",
+      "story": "Rosa Fucale is named as the mother of Pasquale \"Pat\" Fucale, and as already late, in Pat's November 2026 obituary.[^obituary-pasquale-fucale-2026] Her maiden name, birth, death and parents are not yet known.",
+      "openQuestions": [
+        {
+          "question": "What was Rosa Fucale's maiden name, and when and where was she born and did she die?",
+          "record": "Italian civil marriage and birth records in Cattolica Eraclea, and later Canadian or New York records."
+        }
+      ],
+      "relatedPages": [
+        {
+          "title": "Records and Research",
+          "url": "research.html"
+        }
+      ]
+    },
+    {
+      "id": "pasquale-fucale",
+      "displayName": "Pasquale \"Pat\" Fucale",
+      "givenNames": "Pasquale P.",
+      "surname": "Fucale",
+      "sex": "M",
+      "generation": 2,
+      "isLiving": false,
+      "isDirectLine": false,
+      "confidence": "confirmed",
+      "nameVariants": [
+        {
+          "name": "Pat Fucale",
+          "note": "The name he was known by.",
+          "confidence": "confirmed",
+          "sourceIds": [
+            "obituary-pasquale-fucale-2026"
+          ]
+        },
+        {
+          "name": "Pasquale P. Fucale",
+          "note": "As given in the funeral-home heading.",
+          "confidence": "confirmed",
+          "sourceIds": [
+            "obituary-pasquale-fucale-2026"
+          ]
+        }
+      ],
+      "parents": [
+        "anthony-fucale",
+        "rosa-fucale"
+      ],
+      "children": [
+        "jennifer-gourgareas",
+        "jessica-smith",
+        "kimberly-fucale"
+      ],
+      "spouses": [
+        {
+          "id": "susan-vigliotti",
+          "order": 1,
+          "marriageDate": "1977-10-30",
+          "marriageDisplay": "30 October 1977",
+          "place": "Susan was of Eastchester, New York, at the time. The obituary does not name the town where they married.",
+          "confidence": "confirmed",
+          "sourceIds": [
+            "obituary-pasquale-fucale-2026"
+          ]
+        }
+      ],
+      "birth": {
+        "date": "1952-09-22",
+        "display": "22 September 1952",
+        "confidence": "confirmed",
+        "sourceIds": [
+          "obituary-pasquale-fucale-2026"
+        ],
+        "place": "Cattolica Eraclea, Agrigento, Sicily",
+        "placeId": "cattolica-eraclea",
+        "dateQualifier": "exact"
+      },
+      "death": {
+        "date": "2026-11-21",
+        "display": "21 November 2026",
+        "confidence": "confirmed",
+        "sourceIds": [
+          "obituary-pasquale-fucale-2026"
+        ],
+        "place": "Valhalla, New York",
+        "placeId": "valhalla-ny",
+        "dateQualifier": "exact",
+        "note": "The obituary says he was of Valhalla, NY, and died after a brief battle with pancreatic cancer, at the age of 74."
+      },
+      "burial": {
+        "date": "2026-11-24",
+        "display": "24 November 2026",
+        "confidence": "confirmed",
+        "sourceIds": [
+          "obituary-pasquale-fucale-2026"
+        ],
+        "place": "Gate of Heaven Cemetery, Hawthorne, New York",
+        "placeId": "gate-of-heaven-hawthorne",
+        "dateQualifier": "exact"
+      },
+      "immigration": {
+        "date": "1956",
+        "port": "Montreal, Canada",
+        "age": "4",
+        "note": "The obituary says that at the age of four he and his family immigrated to Montreal, and that six years later they moved again and settled in White Plains, New York.",
+        "confidence": "confirmed",
+        "sourceIds": [
+          "obituary-pasquale-fucale-2026"
+        ]
+      },
+      "residences": [
+        {
+          "place": "Cattolica Eraclea, Agrigento, Sicily",
+          "placeId": "cattolica-eraclea",
+          "years": "1952 to about 1956",
+          "confidence": "confirmed",
+          "sourceIds": [
+            "obituary-pasquale-fucale-2026"
+          ]
+        },
+        {
+          "place": "Montreal, Canada",
+          "placeId": "montreal",
+          "years": "about 1956 to about 1962",
+          "confidence": "confirmed",
+          "sourceIds": [
+            "obituary-pasquale-fucale-2026"
+          ]
+        },
+        {
+          "place": "White Plains, New York",
+          "placeId": "white-plains-ny",
+          "years": "from about 1962",
+          "note": "The family settled in White Plains, where Pat graduated from White Plains High School in 1970.",
+          "confidence": "confirmed",
+          "sourceIds": [
+            "obituary-pasquale-fucale-2026"
+          ]
+        },
+        {
+          "place": "Valhalla, New York",
+          "placeId": "valhalla-ny",
+          "years": "later life",
+          "note": "The obituary describes him as of Valhalla, NY.",
+          "confidence": "confirmed",
+          "sourceIds": [
+            "obituary-pasquale-fucale-2026"
+          ]
+        }
+      ],
+      "occupations": [
+        {
+          "title": "Sales",
+          "employer": "Checkpoint, Symbol Technologies, and Konica Minolta",
+          "years": "career, including more than 20 years at Konica Minolta",
+          "confidence": "confirmed",
+          "sourceIds": [
+            "obituary-pasquale-fucale-2026"
+          ]
+        },
+        {
+          "title": "Crossing guard",
+          "employer": "Pleasantville School District, Bedford Road School crossing",
+          "years": "after retirement",
+          "confidence": "confirmed",
+          "sourceIds": [
+            "obituary-pasquale-fucale-2026"
+          ]
+        }
+      ],
+      "cardPlace": "Valhalla, New York",
+      "disambiguator": "Susan Vigliotti's husband",
+      "summary": "Born 22 September 1952 in Cattolica Eraclea, Sicily. He immigrated to Montreal as a child and later settled in White Plains, New York. On 30 October 1977 he married Susan Vigliotti of Eastchester. He died in Valhalla, New York, on 21 November 2026, and was buried at Gate of Heaven Cemetery in Hawthorne.",
+      "story": "Pasquale \"Pat\" Fucale was born on 22 September 1952 in Cattolica Eraclea, Agrigento, Sicily, to Anthony and Rosa Fucale.[^obituary-pasquale-fucale-2026] At the age of four he and his family immigrated to Montreal, Canada. Six years later they moved again and settled in White Plains, New York, where Pat graduated from White Plains High School in 1970. He later earned a bachelor's degree in Business Administration from Pace University.\n\nHe worked in sales for Checkpoint, Symbol Technologies, and, for more than twenty years, Konica Minolta. After he retired he worked as a crossing guard for the Pleasantville School District at the Bedford Road School crossing, and he volunteered as a Sunday morning usher at Holy Name of Jesus Church in Valhalla.\n\nOn 30 October 1977 he married Susan Vigliotti, of Eastchester, New York. They had three daughters. Pat died on 21 November 2026 in Valhalla, after a brief battle with pancreatic cancer, at the age of 74. A funeral mass was held at Holy Name of Jesus Church on 24 November 2026, and he was buried the same day at Gate of Heaven Cemetery in Hawthorne, New York.\n\nThe obituary lists his brothers-in-law and sisters-in-law as Alphonse Vigliotti (Barbara) and Renee Makras (George). That is the first record on this site that ties the Fucale and Vigliotti families together. The sibling link between Susan, Alphonse and Renee is treated as probable until a birth or other vital record confirms it.",
+      "openQuestions": [
+        {
+          "question": "In which town did Pat and Susan marry on 30 October 1977?",
+          "record": "A New York marriage record."
+        },
+        {
+          "question": "Are Alphonse Vigliotti and Renee Makras siblings of Susan Vigliotti, as the in-law wording suggests?",
+          "record": "Birth records, a family record, or another document that names their parents."
+        }
+      ],
+      "relatedPages": [
+        {
+          "title": "Records and Research",
+          "url": "research.html"
+        },
+        {
+          "title": "Discovery Timeline",
+          "url": "discovery.html"
+        }
+      ],
+      "parentLinkConfidence": "confirmed",
+      "facts": [
+        {
+          "label": "Cause of death",
+          "value": "Pancreatic cancer, after a brief battle",
+          "confidence": "confirmed",
+          "sourceIds": [
+            "obituary-pasquale-fucale-2026"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "alphonse-john-vigliotti",
+      "displayName": "Alphonse John Vigliotti",
+      "givenNames": "Alphonse John",
+      "surname": "Vigliotti",
+      "sex": "M",
+      "generation": 2,
+      "isLiving": true,
+      "isDirectLine": true,
+      "confidence": "confirmed",
+      "parents": [],
+      "children": [
+        "dylan-vigliotti"
+      ],
+      "spouses": [
+        {
+          "id": "barbara-ehren-walsh"
+        }
+      ],
       "disambiguator": "Dylan's father",
-      "givenNames": "Dad",
-      "surname": "",
-      "sex": "M",
-      "generation": 1,
-      "nameVariants": [],
-      "confidence": "confirmed",
-      "birth": null,
-      "death": null,
-      "immigration": null,
-      "cardPlace": "Add city, state",
-      "summary": "Placeholder. Add a short summary of Dylan's father.",
+      "summary": "Dylan Vigliotti's father. Husband of Barbara Ehren Walsh. Named with Barbara in Pasquale Fucale's 2026 obituary as a brother- and sister-in-law of Pat, and named as Al, husband of Barbara Walsh Vigliotti, in the 2019 Walsh obituary.",
       "relatedPages": [
         {
           "title": "Records and Research",
           "url": "research.html"
         }
       ],
-      "parents": [
-        "paternal-grandfather",
-        "paternal-grandmother"
-      ],
-      "children": [
-        "dylan-vigliotti",
-        "sister"
-      ],
-      "spouses": [
+      "nameVariants": [
         {
-          "id": "mom",
-          "order": 1,
-          "marriageDate": null,
-          "marriageDisplay": null,
-          "place": null,
-          "sourceIds": [
-            "family-knowledge"
-          ],
+          "name": "Al",
+          "note": "The 2019 Walsh obituary calls him Al, husband of Barbara Walsh Vigliotti.",
           "confidence": "confirmed",
-          "note": "Placeholder. Add the marriage date and place when known."
-        }
-      ],
-      "parentLinkConfidence": "confirmed",
-      "order": 5,
-      "isDirectLine": true,
-      "photo": null,
-      "portrait": null,
-      "isLiving": true,
-      "story": "Placeholder story for Dad. Replace this text with their full story, written the way you would tell it to a cousin.\n\n## Early life\n\nAdd where they were born, who raised them, and what the first years looked like.\n\n## Family\n\nAdd who they married, the children they had, and the people they were close to.\n\n## Later life\n\nAdd work, moves, hobbies, and the memories the family still tells.\n\nThis profile shows only names and relationships on the canvas because this person may be living. Set \"isLiving\" to false in data/people.json to show dates, places, and the at-a-glance table.",
-      "openQuestions": [
-        {
-          "question": "Where and when was Dad born?",
-          "record": "Birth certificate, baptism record, census, or a family Bible."
+          "sourceIds": [
+            "obituary-patricia-paul-walsh-2019"
+          ]
         },
         {
-          "question": "What is the full legal name of Dad, including any spelling variants?",
-          "record": "Marriage record, ship manifest, naturalization papers, obituary."
+          "name": "Alphonse Vigliotti",
+          "note": "As named, with Barbara, in Pasquale Fucale's obituary.",
+          "confidence": "confirmed",
+          "sourceIds": [
+            "obituary-pasquale-fucale-2026"
+          ]
         }
       ],
-      "media": []
+      "openQuestions": [
+        {
+          "question": "Who were Alphonse John Vigliotti's parents, and where was he born?",
+          "record": "A birth or baptism record. This is also needed for any Italian citizenship claim."
+        },
+        {
+          "question": "Is Alphonse a brother of Susan Vigliotti and of Renee Makras?",
+          "record": "A birth record that shares parents, or another vital record."
+        }
+      ]
     },
     {
-      "id": "mom",
-      "displayName": "Mom",
-      "disambiguator": "Dylan's mother",
-      "givenNames": "Mom",
-      "surname": "",
+      "id": "barbara-ehren-walsh",
+      "displayName": "Barbara Ehren Walsh",
+      "givenNames": "Barbara Ehren",
+      "surname": "Walsh",
       "sex": "F",
-      "generation": 1,
-      "nameVariants": [],
+      "generation": 2,
+      "isLiving": true,
+      "isDirectLine": true,
       "confidence": "confirmed",
-      "birth": null,
-      "death": null,
-      "immigration": null,
-      "cardPlace": "Add city, state",
-      "summary": "Placeholder. Add a short summary of Dylan's mother.",
+      "parents": [
+        "paul-h-walsh",
+        "patricia-morrisey-walsh"
+      ],
+      "children": [
+        "dylan-vigliotti"
+      ],
+      "spouses": [
+        {
+          "id": "alphonse-john-vigliotti"
+        }
+      ],
+      "disambiguator": "Dylan's mother, born Walsh",
+      "summary": "Dylan Vigliotti's mother. Wife of Alphonse John Vigliotti. Daughter of Patricia Morrisey Walsh and Paul H. Walsh. The 2019 Walsh obituary names her as Barbara Walsh Vigliotti.",
       "relatedPages": [
         {
           "title": "Records and Research",
           "url": "research.html"
         }
       ],
-      "parents": [
-        "maternal-grandfather",
-        "maternal-grandmother"
+      "nameVariants": [
+        {
+          "name": "Barbara Walsh Vigliotti",
+          "note": "As named in her parents' 2019 obituary.",
+          "confidence": "confirmed",
+          "sourceIds": [
+            "obituary-patricia-paul-walsh-2019"
+          ]
+        },
+        {
+          "name": "Barbara Vigliotti",
+          "note": "Married name.",
+          "confidence": "confirmed",
+          "sourceIds": [
+            "obituary-patricia-paul-walsh-2019"
+          ]
+        }
       ],
+      "parentLinkConfidence": "confirmed"
+    },
+    {
+      "id": "susan-vigliotti",
+      "displayName": "Susan Vigliotti",
+      "givenNames": "Susan",
+      "surname": "Vigliotti",
+      "sex": "F",
+      "generation": 2,
+      "isLiving": true,
+      "isDirectLine": false,
+      "confidence": "confirmed",
+      "parents": [],
       "children": [
-        "dylan-vigliotti",
-        "sister"
+        "jennifer-gourgareas",
+        "jessica-smith",
+        "kimberly-fucale"
       ],
       "spouses": [
         {
-          "id": "dad",
-          "order": 1,
-          "marriageDate": null,
-          "marriageDisplay": null,
-          "place": null,
-          "sourceIds": [
-            "family-knowledge"
-          ],
-          "confidence": "confirmed",
-          "note": "Placeholder. Add the marriage date and place when known."
+          "id": "pasquale-fucale"
         }
       ],
-      "parentLinkConfidence": "confirmed",
-      "order": 6,
-      "isDirectLine": true,
-      "photo": null,
-      "portrait": null,
-      "isLiving": true,
-      "story": "Placeholder story for Mom. Replace this text with their full story, written the way you would tell it to a cousin.\n\n## Early life\n\nAdd where they were born, who raised them, and what the first years looked like.\n\n## Family\n\nAdd who they married, the children they had, and the people they were close to.\n\n## Later life\n\nAdd work, moves, hobbies, and the memories the family still tells.\n\nThis profile shows only names and relationships on the canvas because this person may be living. Set \"isLiving\" to false in data/people.json to show dates, places, and the at-a-glance table.",
+      "disambiguator": "Wife of Pasquale Fucale; probable sister of Alphonse",
+      "summary": "Wife of Pasquale \"Pat\" Fucale. The 2026 obituary describes her as Susan Vigliotti, of Eastchester, New York, and lists Alphonse Vigliotti (Barbara) and Renee Makras (George) as Pat's brothers- and sisters-in-law, which probably makes Susan a sister of Alphonse and Renee.",
+      "relatedPages": [
+        {
+          "title": "Records and Research",
+          "url": "research.html"
+        }
+      ],
+      "uncertainBeside": "alphonse-john-vigliotti",
       "openQuestions": [
         {
-          "question": "Where and when was Mom born?",
-          "record": "Birth certificate, baptism record, census, or a family Bible."
-        },
+          "question": "Who were Susan Vigliotti's parents, and is she a sister of Alphonse John Vigliotti and Renee Makras?",
+          "record": "A birth record, or another document that names her parents."
+        }
+      ]
+    },
+    {
+      "id": "renee-makras",
+      "displayName": "Renee Makras",
+      "givenNames": "Renee",
+      "surname": "Makras",
+      "sex": "F",
+      "generation": 2,
+      "isLiving": true,
+      "isDirectLine": false,
+      "confidence": "confirmed",
+      "parents": [],
+      "children": [],
+      "spouses": [
         {
-          "question": "What is the full legal name of Mom, including any spelling variants?",
-          "record": "Marriage record, ship manifest, naturalization papers, obituary."
+          "id": "george-makras"
         }
       ],
-      "media": []
+      "disambiguator": "Probable sister of Susan and Alphonse",
+      "summary": "Named, with her husband George, as a sister-in-law of Pasquale Fucale in his 2026 obituary. She is probably a sister of Susan Vigliotti and of Alphonse John Vigliotti. Her maiden name is not yet confirmed in a vital record.",
+      "relatedPages": [
+        {
+          "title": "Records and Research",
+          "url": "research.html"
+        }
+      ],
+      "uncertainBeside": "susan-vigliotti",
+      "openQuestions": [
+        {
+          "question": "What was Renee Makras's maiden name, and who were her parents?",
+          "record": "A birth or marriage record."
+        }
+      ]
+    },
+    {
+      "id": "george-makras",
+      "displayName": "George Makras",
+      "givenNames": "George",
+      "surname": "Makras",
+      "sex": "M",
+      "generation": 2,
+      "isLiving": true,
+      "isDirectLine": false,
+      "confidence": "confirmed",
+      "parents": [],
+      "children": [],
+      "spouses": [
+        {
+          "id": "renee-makras"
+        }
+      ],
+      "disambiguator": "Renee Makras's husband",
+      "summary": "Husband of Renee Makras. Named with her as a brother- and sister-in-law of Pasquale Fucale in his 2026 obituary.",
+      "relatedPages": [
+        {
+          "title": "Records and Research",
+          "url": "research.html"
+        }
+      ]
+    },
+    {
+      "id": "lilla-morello",
+      "displayName": "Lilla Morello",
+      "givenNames": "Lilla",
+      "surname": "Morello",
+      "sex": "F",
+      "generation": 2,
+      "isLiving": true,
+      "isDirectLine": false,
+      "confidence": "confirmed",
+      "parents": [
+        "anthony-fucale",
+        "rosa-fucale"
+      ],
+      "children": [],
+      "spouses": [
+        {
+          "id": "benny-morello"
+        }
+      ],
+      "disambiguator": "Pat Fucale's sister",
+      "summary": "Sister of Pasquale \"Pat\" Fucale. Named, with her husband Benny, in Pat's 2026 obituary.",
+      "relatedPages": [
+        {
+          "title": "Records and Research",
+          "url": "research.html"
+        }
+      ],
+      "order": 2,
+      "parentLinkConfidence": "confirmed"
+    },
+    {
+      "id": "benny-morello",
+      "displayName": "Benny Morello",
+      "givenNames": "Benny",
+      "surname": "Morello",
+      "sex": "M",
+      "generation": 2,
+      "isLiving": true,
+      "isDirectLine": false,
+      "confidence": "confirmed",
+      "parents": [],
+      "children": [],
+      "spouses": [
+        {
+          "id": "lilla-morello"
+        }
+      ],
+      "disambiguator": "Lilla Morello's husband",
+      "summary": "Husband of Lilla Morello. Named with her in Pasquale Fucale's 2026 obituary.",
+      "relatedPages": [
+        {
+          "title": "Records and Research",
+          "url": "research.html"
+        }
+      ]
+    },
+    {
+      "id": "josephine-scopelliti",
+      "displayName": "Josephine Scopelliti",
+      "givenNames": "Josephine",
+      "surname": "Scopelliti",
+      "sex": "F",
+      "generation": 2,
+      "isLiving": true,
+      "isDirectLine": false,
+      "confidence": "confirmed",
+      "parents": [
+        "anthony-fucale",
+        "rosa-fucale"
+      ],
+      "children": [],
+      "spouses": [],
+      "disambiguator": "Pat Fucale's sister",
+      "summary": "Sister of Pasquale \"Pat\" Fucale. Named in Pat's 2026 obituary. The wording about Joe and the late Dominick is not yet clear, so no spouse is recorded here.",
+      "relatedPages": [
+        {
+          "title": "Records and Research",
+          "url": "research.html"
+        }
+      ],
+      "order": 3,
+      "parentLinkConfidence": "confirmed"
+    },
+    {
+      "id": "jeffrey-walsh",
+      "displayName": "Jeffrey Walsh",
+      "givenNames": "Jeffrey",
+      "surname": "Walsh",
+      "sex": "M",
+      "generation": 2,
+      "isLiving": true,
+      "isDirectLine": false,
+      "confidence": "confirmed",
+      "parents": [
+        "paul-h-walsh",
+        "patricia-morrisey-walsh"
+      ],
+      "children": [],
+      "spouses": [
+        {
+          "id": "mary-ellen-walsh"
+        }
+      ],
+      "disambiguator": "Barbara's brother",
+      "summary": "Brother of Barbara Ehren Walsh. Son of Patricia Morrisey Walsh and Paul H. Walsh. Named, with his wife Mary Ellen, in their 2019 obituary.",
+      "relatedPages": [
+        {
+          "title": "Records and Research",
+          "url": "research.html"
+        }
+      ],
+      "order": 1,
+      "parentLinkConfidence": "confirmed"
+    },
+    {
+      "id": "mary-ellen-walsh",
+      "displayName": "Mary Ellen Walsh",
+      "givenNames": "Mary Ellen",
+      "surname": "Walsh",
+      "sex": "F",
+      "generation": 2,
+      "isLiving": true,
+      "isDirectLine": false,
+      "confidence": "confirmed",
+      "parents": [],
+      "children": [],
+      "spouses": [
+        {
+          "id": "jeffrey-walsh"
+        }
+      ],
+      "disambiguator": "Jeffrey Walsh's wife",
+      "summary": "Wife of Jeffrey Walsh. Named with him in the 2019 Walsh obituary. Her maiden name is not yet known.",
+      "relatedPages": [
+        {
+          "title": "Records and Research",
+          "url": "research.html"
+        }
+      ]
+    },
+    {
+      "id": "fernanda-walsh-jarasek",
+      "displayName": "Fernanda Walsh Jarasek",
+      "givenNames": "Fernanda",
+      "surname": "Jarasek",
+      "sex": "F",
+      "generation": 2,
+      "isLiving": true,
+      "isDirectLine": false,
+      "confidence": "confirmed",
+      "parents": [
+        "paul-h-walsh",
+        "patricia-morrisey-walsh"
+      ],
+      "children": [],
+      "spouses": [],
+      "disambiguator": "Barbara's sister",
+      "summary": "Sister of Barbara Ehren Walsh. Daughter of Patricia Morrisey Walsh and Paul H. Walsh. Named in their 2019 obituary. No spouse is named there.",
+      "relatedPages": [
+        {
+          "title": "Records and Research",
+          "url": "research.html"
+        }
+      ],
+      "order": 3,
+      "nameVariants": [
+        {
+          "name": "Fernanda Walsh",
+          "note": "Maiden name.",
+          "confidence": "confirmed",
+          "sourceIds": [
+            "obituary-patricia-paul-walsh-2019"
+          ]
+        }
+      ],
+      "parentLinkConfidence": "confirmed"
+    },
+    {
+      "id": "meggan-walsh-wos",
+      "displayName": "Meggan Walsh Wos",
+      "givenNames": "Meggan",
+      "surname": "Wos",
+      "sex": "F",
+      "generation": 2,
+      "isLiving": true,
+      "isDirectLine": false,
+      "confidence": "confirmed",
+      "parents": [
+        "paul-h-walsh",
+        "patricia-morrisey-walsh"
+      ],
+      "children": [],
+      "spouses": [
+        {
+          "id": "konrad-wos"
+        }
+      ],
+      "disambiguator": "Barbara's sister",
+      "summary": "Sister of Barbara Ehren Walsh. Daughter of Patricia Morrisey Walsh and Paul H. Walsh. Named, with her husband Konrad, in their 2019 obituary.",
+      "relatedPages": [
+        {
+          "title": "Records and Research",
+          "url": "research.html"
+        }
+      ],
+      "order": 4,
+      "nameVariants": [
+        {
+          "name": "Meggan Walsh",
+          "note": "Maiden name.",
+          "confidence": "confirmed",
+          "sourceIds": [
+            "obituary-patricia-paul-walsh-2019"
+          ]
+        }
+      ],
+      "parentLinkConfidence": "confirmed"
+    },
+    {
+      "id": "konrad-wos",
+      "displayName": "Konrad Wos",
+      "givenNames": "Konrad",
+      "surname": "Wos",
+      "sex": "M",
+      "generation": 2,
+      "isLiving": true,
+      "isDirectLine": false,
+      "confidence": "confirmed",
+      "parents": [],
+      "children": [],
+      "spouses": [
+        {
+          "id": "meggan-walsh-wos"
+        }
+      ],
+      "disambiguator": "Meggan Walsh Wos's husband",
+      "summary": "Husband of Meggan Walsh Wos. Named with her in the 2019 Walsh obituary.",
+      "relatedPages": [
+        {
+          "title": "Records and Research",
+          "url": "research.html"
+        }
+      ]
     },
     {
       "id": "dylan-vigliotti",
       "displayName": "Dylan Vigliotti",
-      "disambiguator": "Center of the tree",
       "givenNames": "Dylan",
       "surname": "Vigliotti",
       "sex": "M",
-      "generation": 2,
-      "nameVariants": [],
+      "generation": 3,
+      "isLiving": true,
+      "isDirectLine": true,
       "confidence": "confirmed",
-      "birth": null,
-      "death": null,
-      "immigration": null,
-      "cardPlace": "Add city, state",
-      "summary": "Dylan is the center of this tree. Add a short summary here.",
+      "parents": [
+        "alphonse-john-vigliotti",
+        "barbara-ehren-walsh"
+      ],
+      "children": [],
+      "spouses": [],
+      "disambiguator": "The starting point of this tree",
+      "summary": "Son of Alphonse John Vigliotti and Barbara Ehren Walsh. He is the person this tree is drawn from.",
       "relatedPages": [
         {
           "title": "Records and Research",
           "url": "research.html"
         }
       ],
-      "parents": [
-        "dad",
-        "mom"
-      ],
-      "children": [],
-      "spouses": [],
-      "parentLinkConfidence": "confirmed",
-      "order": 7,
-      "isDirectLine": true,
-      "photo": null,
-      "portrait": null,
-      "isLiving": true,
-      "story": "Placeholder story for Dylan Vigliotti. Replace this text with their full story, written the way you would tell it to a cousin.\n\n## Early life\n\nAdd where they were born, who raised them, and what the first years looked like.\n\n## Family\n\nAdd who they married, the children they had, and the people they were close to.\n\n## Later life\n\nAdd work, moves, hobbies, and the memories the family still tells.\n\nThis profile shows only names and relationships on the canvas because this person may be living. Set \"isLiving\" to false in data/people.json to show dates, places, and the at-a-glance table.",
+      "parentLinkConfidence": "family tradition",
       "openQuestions": [
         {
-          "question": "Where and when was Dylan Vigliotti born?",
-          "record": "Birth certificate, baptism record, census, or a family Bible."
-        },
-        {
-          "question": "What is the full legal name of Dylan Vigliotti, including any spelling variants?",
-          "record": "Marriage record, ship manifest, naturalization papers, obituary."
+          "question": "Is there a civil birth record that names Dylan's parents as Alphonse John Vigliotti and Barbara Ehren Walsh?",
+          "record": "A birth certificate. The parentage on this site is from family testimony, with support from the two obituaries that name the couple."
         }
-      ],
-      "media": []
+      ]
     },
     {
-      "id": "sister",
-      "displayName": "Dylan's Sister",
-      "disambiguator": "Dylan's sister",
-      "givenNames": "Sister",
-      "surname": "",
+      "id": "jennifer-gourgareas",
+      "displayName": "Jennifer Gourgareas",
+      "givenNames": "Jennifer",
+      "surname": "Gourgareas",
       "sex": "F",
-      "generation": 2,
-      "nameVariants": [],
+      "generation": 3,
+      "isLiving": true,
+      "isDirectLine": false,
       "confidence": "confirmed",
-      "birth": null,
-      "death": null,
-      "immigration": null,
-      "cardPlace": "Add city, state",
-      "summary": "Placeholder. Add her name and a short summary here.",
+      "parents": [
+        "pasquale-fucale",
+        "susan-vigliotti"
+      ],
+      "children": [],
+      "spouses": [],
+      "disambiguator": "Daughter of Pat and Susan",
+      "summary": "Daughter of Pasquale \"Pat\" Fucale and Susan Vigliotti. Named in Pat's 2026 obituary.",
       "relatedPages": [
         {
           "title": "Records and Research",
           "url": "research.html"
         }
       ],
+      "order": 1,
+      "parentLinkConfidence": "confirmed"
+    },
+    {
+      "id": "jessica-smith",
+      "displayName": "Jessica Smith",
+      "givenNames": "Jessica",
+      "surname": "Smith",
+      "sex": "F",
+      "generation": 3,
+      "isLiving": true,
+      "isDirectLine": false,
+      "confidence": "confirmed",
       "parents": [
-        "dad",
-        "mom"
+        "pasquale-fucale",
+        "susan-vigliotti"
       ],
       "children": [],
       "spouses": [],
-      "parentLinkConfidence": "confirmed",
-      "order": 8,
-      "isDirectLine": false,
-      "photo": null,
-      "portrait": null,
-      "isLiving": true,
-      "story": "Placeholder story for Dylan's Sister. Replace this text with their full story, written the way you would tell it to a cousin.\n\n## Early life\n\nAdd where they were born, who raised them, and what the first years looked like.\n\n## Family\n\nAdd who they married, the children they had, and the people they were close to.\n\n## Later life\n\nAdd work, moves, hobbies, and the memories the family still tells.\n\nThis profile shows only names and relationships on the canvas because this person may be living. Set \"isLiving\" to false in data/people.json to show dates, places, and the at-a-glance table.",
-      "openQuestions": [
+      "disambiguator": "Daughter of Pat and Susan",
+      "summary": "Daughter of Pasquale \"Pat\" Fucale and Susan Vigliotti. Named in Pat's 2026 obituary.",
+      "relatedPages": [
         {
-          "question": "Where and when was Dylan's Sister born?",
-          "record": "Birth certificate, baptism record, census, or a family Bible."
-        },
-        {
-          "question": "What is the full legal name of Dylan's Sister, including any spelling variants?",
-          "record": "Marriage record, ship manifest, naturalization papers, obituary."
+          "title": "Records and Research",
+          "url": "research.html"
         }
       ],
-      "media": []
+      "order": 2,
+      "parentLinkConfidence": "confirmed"
+    },
+    {
+      "id": "kimberly-fucale",
+      "displayName": "Kimberly Fucale",
+      "givenNames": "Kimberly",
+      "surname": "Fucale",
+      "sex": "F",
+      "generation": 3,
+      "isLiving": true,
+      "isDirectLine": false,
+      "confidence": "confirmed",
+      "parents": [
+        "pasquale-fucale",
+        "susan-vigliotti"
+      ],
+      "children": [],
+      "spouses": [],
+      "disambiguator": "Daughter of Pat and Susan",
+      "summary": "Daughter of Pasquale \"Pat\" Fucale and Susan Vigliotti. Named in Pat's 2026 obituary.",
+      "relatedPages": [
+        {
+          "title": "Records and Research",
+          "url": "research.html"
+        }
+      ],
+      "order": 3,
+      "parentLinkConfidence": "confirmed"
     }
   ]
 }

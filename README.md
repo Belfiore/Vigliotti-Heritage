@@ -1,39 +1,51 @@
 # Vigliotti Family Heritage
 
-A starter website for the Vigliotti family history. Every page is a placeholder that says what will go there. The family tree and the interactive canvas start with Dylan at the center, his parents, his four grandparents, and his sister.
+The Vigliotti and Walsh families, drawn from Dylan Vigliotti: the home page, the family tree, the interactive canvas, the family map, a Discovery Timeline of each research find, immigration, and the records behind them.
 
-Pages:
+## How the site is built
 
-- `index.html`: Home
-- `family-tree.html`: Family Tree (list view, built from `data/people.json`)
-- `tree-canvas.html`: Family Canvas (interactive map, built from `data/people.json`)
-- `immigration.html`: Immigration
-- `blank-page.html`: Blank Page (reserved for a story unique to this family)
-- `research.html`: Records and Research
+The interactive family tree (`tree-canvas.html`), the family map (`map.html`) and the navigation bar come from the shared engine, [Belfiore/family-site-engine](https://github.com/Belfiore/family-site-engine). Everything else here belongs to this family:
 
-## Editing the family
+| | |
+| --- | --- |
+| `site.config.json` | The site's settings: its name and pages, the navigation, the tree's labels, the map's home region, and the palette. See the engine's `docs/site-config.md` |
+| `data/people.json`, `data/sources.json` | The family and the records. See the engine's `docs/data-format.md` |
+| `data/places.json` | The one places dataset. The website map and any exported map are generated from this file, never edited by hand |
+| `data/discovery-timeline.json` | Each research find, with the date it was found and a headline. The Discovery Timeline page and the Key Discoveries on the home page both read this file |
+| `*.html`, `styles.css`, `family-tree.js`, `discovery-timeline.js` | The home page, the list view of the tree, the Discovery Timeline, the story pages and their scripts |
+| `images/` | Photographs and record images, when the family has them |
+| `tests/` | Checks of the canvas, the map and the Discovery Timeline, run against every build before it is published |
 
-All people live in `data/people.json`. Both the Family Tree page and the Family Canvas read it, so edit once and both update. Sources live in `data/sources.json`.
+On every push to `main`, GitHub Actions checks the data, builds the site with the engine version this site's channel points to (`engine.channel`: `stable`), runs the tests against the build, and publishes it. If anything fails, nothing is published and the live site stays as it was. A pull request gets the same checks without publishing.
 
-Each person has an `id`, a `displayName`, a `generation` number (0 is the oldest row), and links to `parents`, `spouses` and `children` by `id`. To add someone, copy an existing entry, give it a new `id`, and add that `id` to the relatives' lists.
+The Pages source should be **GitHub Actions**, not "Deploy from a branch". The live site will keep its older files until the first engine build is approved and merged.
 
-Things worth knowing:
+## Changing the site
 
-- Set `"isLiving": true` for anyone who may be alive. The canvas then shows only their name and relationships. Set it to `false` to show dates, places, the at-a-glance table and the timeline.
-- Both sets of grandparents are supported: when a couple both have parents listed, the second family is drawn beside the first and linked down to the child.
-- `meta.rootPersonId` picks who sits at the center and who the "Relationships to" menu starts on. `meta.directLineLabel` is the wording for the highlighted line.
-- Photos go in `images/`. Point a person's `photo` at `images/your-file.jpg`.
+- **The family**: edit `data/*.json`. The build checks every change and says what to fix.
+- **A new research find**: add an entry to `data/discovery-timeline.json` with `foundDate` (the date the find was made) and `headline`. The timeline page and the home page update from that file.
+- **A place**: add it to `data/places.json` first, then regenerate any export with `python3 tools/export-places.py`. Living people are not placed on the map.
+- **A page**: edit it as usual. The navigation bar on every page comes from `nav` in `site.config.json`; whatever bar a page has is replaced.
 
-## Running it locally
+Living people are recorded by name and relationship only: no dates and no addresses.
 
-The data loads with `fetch`, so open the site through a local server rather than by double-clicking:
+## Seeing it before it is published
 
+With a copy of the engine next to this repository:
+
+```sh
+python3 ../family-site-engine/build/validate.py --site .
+python3 ../family-site-engine/build/build_site.py --site . --out _site
+python3 -m http.server -d _site 8000      # open http://localhost:8000
+node tests/verify-canvas.js               # needs Node and Playwright with Chromium
+node tests/verify-map.js
+node tests/verify-discovery.js
 ```
-python3 -m http.server 8000
-```
 
-Then visit http://localhost:8000.
+## Rolling back
 
-## Publishing
+If an engine release breaks something here: **Actions > Build and publish the site > Run workflow**, with the engine version that last worked. To stay on it until a fix is out, set `"engine": { "version": "1.0.1" }` in `site.config.json`, and remove it afterwards.
 
-The site is plain HTML, CSS and JavaScript with no build step. In the repository settings, set Pages to deploy from the `main` branch, root folder.
+## Follow-up in the engine repository
+
+This site is not yet listed in `sites.json` in Belfiore/family-site-engine, so it will not be told automatically when the stable channel moves. Adding `{ "repo": "Belfiore/Vigliotti-Heritage", "name": "Vigliotti", "channel": "stable" }` there is a separate change, and needs a dispatch token that can reach this repository.

@@ -1,0 +1,288 @@
+{
+  "$schema": "https://raw.githubusercontent.com/Belfiore/family-site-engine/main/schema/site-config.schema.json",
+  "$comment": "Settings for the Vigliotti Heritage site, built with the family site engine (Belfiore/family-site-engine). See that repository's docs/site-config.md. No map API keys are stored here yet; the map uses the engine's fallback style until restricted keys are added.",
+  "schemaVersion": 1,
+  "engine": {
+    "channel": "stable"
+  },
+  "site": {
+    "name": "Vigliotti",
+    "familyName": "the Vigliotti and Walsh families",
+    "lang": "en",
+    "description": "The Vigliotti family heritage: the family tree, the family map, the records behind them, and a timeline of each research find."
+  },
+  "pages": {
+    "home": "index.html",
+    "tree": {
+      "file": "tree-canvas.html",
+      "title": "Interactive Family Tree: Vigliotti",
+      "description": "An interactive family tree of the Vigliotti and Walsh families, drawn from Dylan Vigliotti, with sourced profiles for every person.",
+      "heading": "The Family Canvas",
+      "stylesheets": [
+        "styles.css"
+      ]
+    },
+    "map": {
+      "file": "map.html",
+      "title": "Family Map | Vigliotti",
+      "description": "An interactive map of where the Vigliotti, Walsh and Fucale families were born, lived, married, died and were buried, with a timeline you can play. Living people are not shown on the map.",
+      "heading": "The Family Map",
+      "stylesheets": [
+        "styles.css"
+      ]
+    },
+    "ask": null
+  },
+  "nav": [
+    {
+      "href": "index.html",
+      "label": "Home"
+    },
+    {
+      "href": "family-tree.html",
+      "label": "Family Tree"
+    },
+    {
+      "href": "tree-canvas.html",
+      "label": "Family Canvas"
+    },
+    {
+      "href": "map.html",
+      "label": "Family Map"
+    },
+    {
+      "href": "discovery.html",
+      "label": "Discovery Timeline"
+    },
+    {
+      "href": "immigration.html",
+      "label": "Immigration"
+    },
+    {
+      "href": "blank-page.html",
+      "label": "Blank Page"
+    },
+    {
+      "href": "research.html",
+      "label": "Records and Research"
+    }
+  ],
+  "head": {
+    "fonts": "https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400&display=swap",
+    "stylesheets": [
+      "styles.css"
+    ]
+  },
+  "theme": {
+    "--pc-bg": "#FDF8F0",
+    "--pc-bg-2": "#F5EDE0",
+    "--pc-paper": "#F8F1E4",
+    "--pc-rule": "#d4c5a9",
+    "--pc-rule-soft": "rgba(112, 66, 20, 0.14)",
+    "--pc-ink": "#1a1a2e",
+    "--pc-ink-2": "#2d2d44",
+    "--pc-muted": "#6b5537",
+    "--pc-gold": "#B8860B",
+    "--pc-accent": "#1a5c2a",
+    "--pc-accent-deep": "#0d3318",
+    "--pc-accent-light": "#2a7a3d",
+    "--pc-accent-rgb": "26, 92, 42",
+    "--pc-accent-deep-rgb": "13, 51, 24",
+    "--pc-title": "#0d3318",
+    "--pc-line": "#8f7a5a",
+    "--pc-line-direct": "#1a5c2a",
+    "--pc-focus": "#1a5c2a",
+    "--pc-shadow": "0 1px 2px rgba(26, 26, 46, 0.06), 0 6px 18px rgba(26, 26, 46, 0.07)",
+    "--pc-shadow-lift": "0 2px 4px rgba(26, 26, 46, 0.08), 0 14px 32px rgba(26, 26, 46, 0.14)",
+    "--pc-living-1": "#5b7f63",
+    "--pc-living-2": "#3f6a4a",
+    "--pc-living-3": "#2c4f35",
+    "--pc-dark": "#1a1a2e",
+    "--pc-rail-1": "#F5EDE0",
+    "--pc-rail-2": "#FDF8F0",
+    "--pc-tint": "#F8F1E4",
+    "--pc-tint-2": "#F5EDE0",
+    "--pc-tint-3": "#f6faf6",
+    "--pc-tint-4": "#F8F1E4",
+    "--pc-cta-focus": "#b3d4bb",
+    "--pc-conf-confirmed": "#145024",
+    "--pc-conf-confirmed-line": "rgba(26, 92, 42, 0.45)",
+    "--pc-conf-confirmed-bg": "rgba(26, 92, 42, 0.06)",
+    "--pc-conf-probable": "#5f4a10",
+    "--pc-conf-probable-line": "rgba(138, 100, 16, 0.5)",
+    "--pc-conf-probable-bg": "rgba(200, 169, 122, 0.12)",
+    "--pc-conf-tradition": "#5a3a58",
+    "--pc-conf-tradition-line": "rgba(90, 58, 88, 0.4)",
+    "--pc-conf-tradition-bg": "rgba(90, 58, 88, 0.06)",
+    "--pc-conf-unverified": "#6b2f2a",
+    "--pc-conf-unverified-bg": "rgba(139, 32, 32, 0.05)",
+    "--pc-lb-bg": "rgba(18, 17, 14, 0.97)",
+    "--pc-lb-side": "#1c1b17",
+    "--pc-lb-strip": "#2a2823"
+  },
+  "data": {
+    "dir": "data"
+  },
+  "tree": {
+    "familyLabel": "Vigliotti family",
+    "directLineLabel": "Dylan's direct line",
+    "rootPersonId": "dylan-vigliotti",
+    "kinLabel": "Related kin, relationship unproven",
+    "initialView": {
+      "ids": [
+        "alphonse-john-vigliotti",
+        "barbara-ehren-walsh",
+        "dylan-vigliotti"
+      ],
+      "fromGen": 1,
+      "toGen": 3
+    },
+    "cardPhotos": "best",
+    "coupleBlocks": "auto",
+    "noscript": "The <a href=\"family-tree.html\">list view of the family tree</a> works without it.",
+    "legendNote": "Dashed lines join people whose exact link is not yet proven, including Susan Vigliotti and Renee Makras beside Alphonse, who are probably siblings.",
+    "generations": [
+      {
+        "generation": 0,
+        "label": "I",
+        "title": "Great-grandparents",
+        "range": "Morrisey, Ehrenfels, Walsh and Hingston"
+      },
+      {
+        "generation": 1,
+        "label": "II",
+        "title": "Grandparents",
+        "range": "Walsh, and Fucale in-laws"
+      },
+      {
+        "generation": 2,
+        "label": "III",
+        "title": "Parents' generation",
+        "range": ""
+      },
+      {
+        "generation": 3,
+        "label": "IV",
+        "title": "Dylan's generation",
+        "range": ""
+      }
+    ]
+  },
+  "map": {
+    "home": {
+      "name": "Westchester County, New York",
+      "bounds": [
+        [
+          -73.95,
+          40.85
+        ],
+        [
+          -73.6,
+          41.2
+        ]
+      ]
+    },
+    "historicMaps": null,
+    "branches": [
+      {
+        "id": "vigliotti",
+        "label": "The Vigliottis",
+        "people": [
+          "alphonse-john-vigliotti",
+          "susan-vigliotti",
+          "renee-makras",
+          "george-makras",
+          "dylan-vigliotti"
+        ],
+        "default": true
+      },
+      {
+        "id": "walsh",
+        "label": "The Walshes (Barbara's family)",
+        "pages": [],
+        "people": [
+          "james-t-morrisey",
+          "fernanda-ehrenfels-morrisey",
+          "william-a-walsh",
+          "clara-hingston-walsh",
+          "patricia-morrisey-walsh",
+          "paul-h-walsh",
+          "barbara-ehren-walsh",
+          "jeffrey-walsh",
+          "mary-ellen-walsh",
+          "fernanda-walsh-jarasek",
+          "meggan-walsh-wos",
+          "konrad-wos"
+        ]
+      },
+      {
+        "id": "fucale",
+        "label": "The Fucales (Susan's family by marriage)",
+        "pages": [],
+        "people": [
+          "anthony-fucale",
+          "rosa-fucale",
+          "pasquale-fucale",
+          "lilla-morello",
+          "benny-morello",
+          "josephine-scopelliti",
+          "jennifer-gourgareas",
+          "jessica-smith",
+          "kimberly-fucale"
+        ]
+      }
+    ],
+    "kinAnchors": [
+      {
+        "id": "dylan-vigliotti",
+        "name": "Dylan"
+      },
+      {
+        "id": "alphonse-john-vigliotti",
+        "name": "Alphonse"
+      },
+      {
+        "id": "barbara-ehren-walsh",
+        "name": "Barbara"
+      }
+    ],
+    "families": [
+      {
+        "id": "vigliotti",
+        "label": "Alphonse's family",
+        "option": "Alphonse's family (Vigliotti)",
+        "roots": [
+          "alphonse-john-vigliotti"
+        ]
+      },
+      {
+        "id": "walsh",
+        "label": "Barbara's family",
+        "option": "Barbara's family (Walsh)",
+        "roots": [
+          "barbara-ehren-walsh"
+        ]
+      },
+      {
+        "id": "both",
+        "label": "Alphonse's and Barbara's families",
+        "option": "Alphonse's and Barbara's families",
+        "roots": [
+          "alphonse-john-vigliotti",
+          "barbara-ehren-walsh"
+        ]
+      }
+    ],
+    "noscript": "The places are also described on the <a href=\"research.html\">research page</a> and in <a href=\"data/places.json\">data/places.json</a>."
+  },
+  "widget": {
+    "enabled": false
+  },
+  "publish": {
+    "exclude": [
+      "README.md",
+      "tests/",
+      "tools/"
+    ]
+  }
+}

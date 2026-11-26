@@ -1,0 +1,66 @@
+{
+  "meta": {
+    "title": "Discovery Timeline",
+    "note": "One entry per find. foundDate is the date the research found the record, not the date of the event. headline is the short title shown on the timeline. Research writes new finds here (and in /workspace/vigliotti-genealogy/discovery-timeline.json); this file is what the site reads.",
+    "updated": "2026-11-26"
+  },
+  "finds": [
+    {
+      "id": "find-obituary-pasquale-fucale-2026",
+      "foundDate": "2026-11-26",
+      "headline": "Pat Fucale's obituary names Susan Vigliotti and the Vigliotti in-laws",
+      "summary": "The Ballard-Durand obituary for Pasquale \"Pat\" Fucale (22 September 1952 to 21 November 2026) records his marriage to Susan Vigliotti, of Eastchester, New York, on 30 October 1977, and names Alphonse Vigliotti (Barbara) and Renee Makras (George) as brothers- and sisters-in-law.",
+      "sourceIds": [
+        "obituary-pasquale-fucale-2026"
+      ],
+      "personIds": [
+        "pasquale-fucale",
+        "susan-vigliotti",
+        "alphonse-john-vigliotti",
+        "barbara-ehren-walsh",
+        "renee-makras",
+        "george-makras"
+      ],
+      "placeIds": [
+        "cattolica-eraclea",
+        "valhalla-ny",
+        "gate-of-heaven-hawthorne"
+      ],
+      "eventDate": "1977-10-30",
+      "confidence": "confirmed",
+      "pages": [
+        "research.html"
+      ]
+    },
+    {
+      "id": "find-obituary-patricia-paul-walsh-2019",
+      "foundDate": "2026-11-26",
+      "headline": "The Walsh obituary names Barbara Walsh Vigliotti and her parents",
+      "summary": "The Rye Record obituary of Patricia Morrisey Walsh and Paul H. Walsh, published 14 October 2019, names their daughter Barbara Walsh Vigliotti and her husband Al, and gives Patricia and Paul's own parents, marriage on 5 May 1951, and deaths in September 2019.",
+      "sourceIds": [
+        "obituary-patricia-paul-walsh-2019"
+      ],
+      "personIds": [
+        "patricia-morrisey-walsh",
+        "paul-h-walsh",
+        "barbara-ehren-walsh",
+        "alphonse-john-vigliotti",
+        "james-t-morrisey",
+        "fernanda-ehrenfels-morrisey",
+        "william-a-walsh",
+        "clara-hingston-walsh"
+      ],
+      "placeIds": [
+        "bronxville-ny",
+        "yonkers-ny",
+        "larchmont-ny",
+        "rye-ny"
+      ],
+      "eventDate": "2019-09-04",
+      "confidence": "confirmed",
+      "pages": [
+        "research.html"
+      ]
+    }
+  ]
+}

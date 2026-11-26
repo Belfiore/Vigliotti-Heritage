@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
     <title>The Vigliotti Family Heritage</title>
-    <meta name="description" content="The Vigliotti family story: family tree, interactive canvas, immigration, and the records behind them.">
+    <meta name="description" content="The Vigliotti family story: family tree, interactive canvas, family map, discovery timeline, immigration, and the records behind them.">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
@@ -20,6 +20,8 @@
             <a href="index.html" class="active" aria-current="page">Home</a>
             <a href="family-tree.html">Family Tree</a>
             <a href="tree-canvas.html">Family Canvas</a>
+            <a href="map.html">Family Map</a>
+            <a href="discovery.html">Discovery Timeline</a>
             <a href="immigration.html">Immigration</a>
             <a href="blank-page.html">Blank Page</a>
             <a href="research.html">Records and Research</a>
@@ -36,26 +38,15 @@
         <div class="hero-title">Vigliotti</div>
         <h1>The Vigliotti Family Heritage</h1>
         <div class="intro-story">
-            <p class="placeholder-text">Placeholder introduction. Use this space to tell how the research began: who first asked the question, which document or photograph started it, and what the family hopes to find.</p>
-            <p class="placeholder-text">A second paragraph can cover the biggest discovery so far, and a third can say who the site is for and how relatives can add to it.</p>
-            <p class="intro-note">Note: This research is ongoing. Confidence levels will be noted throughout.</p>
+            <p>This site starts from Dylan Vigliotti, and from his parents, Alphonse John Vigliotti and Barbara Ehren Walsh. The first records in hand are two obituaries: one for Pasquale "Pat" Fucale, who married Susan Vigliotti in 1977, and one for Patricia Morrisey Walsh and Paul H. Walsh, who are Barbara's parents.</p>
+            <p>Research is just beginning. Each fact is labelled with how sure we are, and living people are shown by name and relationship only.</p>
+            <p class="intro-note">Note: This research is ongoing. Confidence levels are noted throughout.</p>
         </div>
-    </div>
-
-    <div class="template-note">
-        <h2>What will go on this page</h2>
-        <p>The home page welcomes visitors and points them to everything else.</p>
-        <ul>
-            <li>A short introduction to the family and how the research began.</li>
-            <li>A guide to every page on the site, with one line about each.</li>
-            <li>Key discoveries, each with a date, a heading, a paragraph and a document image.</li>
-            <li>The direct line, generation by generation, from the oldest known ancestors to Dylan.</li>
-        </ul>
     </div>
 
     <h2 class="section-header">The Research</h2>
     <div class="section-body" style="margin-bottom: 1.5rem;">
-        <p class="placeholder-text">The research is split into separate pages. Add a sentence here that tells visitors where to start.</p>
+        <p>Start with the <a href="discovery.html">Discovery Timeline</a> for what has been found so far, or with the <a href="tree-canvas.html">Family Canvas</a> to see how the people connect. The <a href="research.html">Records and Research</a> page lists every source and the next leads.</p>
     </div>
 
     <div class="page-list">
@@ -66,17 +57,27 @@
         </a>
         <a href="tree-canvas.html" class="page-link">
             <span class="page-link-title">Family Canvas</span>
-            <span class="page-link-desc">An interactive map of the family. Pan, zoom and open full profiles, with Dylan at the center.</span>
+            <span class="page-link-desc">An interactive tree of the family. Pan, zoom and open full profiles, with Dylan at the center.</span>
+            <span class="page-link-arrow">&rarr;</span>
+        </a>
+        <a href="map.html" class="page-link">
+            <span class="page-link-title">Family Map</span>
+            <span class="page-link-desc">Every place tied to a person who is no longer living, from one places dataset.</span>
+            <span class="page-link-arrow">&rarr;</span>
+        </a>
+        <a href="discovery.html" class="page-link">
+            <span class="page-link-title">Discovery Timeline</span>
+            <span class="page-link-desc">Each research find, with the date it was found and a headline.</span>
             <span class="page-link-arrow">&rarr;</span>
         </a>
         <a href="immigration.html" class="page-link">
             <span class="page-link-title">Immigration</span>
-            <span class="page-link-desc">Where the family came from, how they traveled, and where they settled.</span>
+            <span class="page-link-desc">Where the family came from, how they traveled, and where they settled. The Vigliotti journey is still being researched.</span>
             <span class="page-link-arrow">&rarr;</span>
         </a>
         <a href="blank-page.html" class="page-link">
             <span class="page-link-title">Blank Page</span>
-            <span class="page-link-desc">A free page for a story that belongs only to this family.</span>
+            <span class="page-link-desc">A free page reserved for a story that belongs only to this family.</span>
             <span class="page-link-arrow">&rarr;</span>
         </a>
         <a href="research.html" class="page-link">
@@ -86,40 +87,43 @@
         </a>
     </div>
 
-    <h2 class="section-header">Key Discoveries</h2>
-    <div class="discovery-grid">
-        <div class="discovery-card">
-            <span class="discovery-era">Place, year</span>
-            <h3>Discovery title</h3>
-            <p class="placeholder-text">Describe what was found, where it was found, and why it matters to the family.</p>
-            <div class="empty-slot">Document or photograph goes here</div>
-        </div>
-        <div class="discovery-card">
-            <span class="discovery-era">Place, year</span>
-            <h3>Discovery title</h3>
-            <p class="placeholder-text">Add more discovery cards as the research grows. Copy this block for each new one.</p>
-        </div>
+    <h2 class="section-header" id="key-discoveries">Key Discoveries</h2>
+    <p class="section-body">Each card is a research find. The date is when it was found, not the date of the event. The full list lives on the <a href="discovery.html">Discovery Timeline</a>, and both pages read <code>data/discovery-timeline.json</code>.</p>
+    <div class="discovery-grid" id="discoveryHome" data-discovery-limit="6">
+        <noscript>
+            <div class="discovery-card">
+                <span class="discovery-era">Found 26 November 2026</span>
+                <h3>Pat Fucale's obituary names Susan Vigliotti and the Vigliotti in-laws</h3>
+                <p>See the <a href="discovery.html">Discovery Timeline</a> for the full entry and the source.</p>
+            </div>
+        </noscript>
+        <p class="placeholder-text" id="discoveryHomeFallback">Loading the discoveries.</p>
     </div>
 
     <h2 class="section-header">The Direct Line</h2>
     <div class="section-body">
-        <p class="placeholder-text">One entry per generation, from the oldest known ancestors down to Dylan.</p>
+        <p>From the oldest known ancestors on Barbara's side down to Dylan. Alphonse's parents are not yet known.</p>
     </div>
     <div class="timeline">
         <div class="timeline-item">
-            <div class="timeline-year">Generation I &mdash; Grandparents</div>
-            <h3>Paternal and maternal grandparents</h3>
-            <p class="placeholder-text">Add names, places and a line about each couple.</p>
+            <div class="timeline-year">Generation I, great-grandparents</div>
+            <h3>Morrisey, Ehrenfels, Walsh and Hingston</h3>
+            <p>James T. Morrisey and Fernanda (Ehrenfels) Morrisey, parents of Patricia. William A. Walsh and Clara (Hingston) Walsh, parents of Paul. Named in the 2019 Walsh obituary.</p>
         </div>
         <div class="timeline-item">
-            <div class="timeline-year">Generation II &mdash; Parents</div>
-            <h3>Mom and Dad</h3>
-            <p class="placeholder-text">Add names, where they met, and where they raised the family.</p>
+            <div class="timeline-year">Generation II, grandparents</div>
+            <h3>Patricia Morrisey Walsh and Paul H. Walsh</h3>
+            <p>Married 5 May 1951. Patricia was born in Bronxville and died on 4 September 2019. Paul was born in Yonkers and died on 27 September 2019. They raised their children in Larchmont and later lived in Rye.</p>
         </div>
         <div class="timeline-item">
-            <div class="timeline-year">Generation III</div>
+            <div class="timeline-year">Generation III, parents</div>
+            <h3>Alphonse John Vigliotti and Barbara Ehren Walsh</h3>
+            <p>Dylan's parents. Living, so this site records their names and relationship only.</p>
+        </div>
+        <div class="timeline-item">
+            <div class="timeline-year">Generation IV</div>
             <h3>Dylan Vigliotti</h3>
-            <p class="placeholder-text">Dylan is the center of the tree. He has a sister. Add the rest of the story here.</p>
+            <p>The person this tree is drawn from. Living, so this site records his name and relationship only.</p>
         </div>
     </div>
 
@@ -128,9 +132,9 @@
 <footer class="site-footer">
     <div class="footer-crest">Vigliotti</div>
     <p>The Vigliotti family story, in progress.</p>
-    <p style="margin-top: 0.5rem; font-size: 0.8rem;">Template site. Replace the placeholder text on every page as the research grows.</p>
 </footer>
 
 <script src="site.js"></script>
+<script src="discovery-timeline.js"></script>
 </body>
 </html>

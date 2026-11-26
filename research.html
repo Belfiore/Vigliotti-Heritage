@@ -20,6 +20,8 @@
             <a href="index.html">Home</a>
             <a href="family-tree.html">Family Tree</a>
             <a href="tree-canvas.html">Family Canvas</a>
+            <a href="map.html">Family Map</a>
+            <a href="discovery.html">Discovery Timeline</a>
             <a href="immigration.html">Immigration</a>
             <a href="blank-page.html">Blank Page</a>
             <a href="research.html" class="active" aria-current="page">Records and Research</a>
@@ -34,38 +36,57 @@
 
     <div class="hero-intro">
         <div class="hero-title">Research Archive</div>
-        <h1>Records, Sources &amp; Next Steps</h1>
+        <h1>Records, Sources and Next Steps</h1>
     </div>
 
-    <div class="template-note">
-        <h2>What will go on this page</h2>
-        <p>This page is the working archive behind every other page, so any claim on the site can be traced to a source.</p>
-        <ul>
-            <li>Documents in hand: each record with its status, where it came from, and what it proves.</li>
-            <li>Leads to follow: records not yet searched, ranked by how much they could unlock.</li>
-            <li>A research log: date, record, where it was searched, what was found, and how sure we are.</li>
-            <li>Open questions about each person, matching the &ldquo;Still to discover&rdquo; list on the canvas.</li>
-        </ul>
+    <div class="section-body">
+        <p>Every claim on this site should be traceable to a source in <code>data/sources.json</code>. Living people are recorded by name and relationship only. Current addresses named in the records have been held back.</p>
     </div>
 
     <h2 class="section-header">Documents In Hand</h2>
     <div class="research-grid">
-        <div class="research-card">
-            <h3>Record title</h3>
-            <p class="placeholder-text"><strong>Status: IN HAND</strong> &mdash; Add the record type, the date, the archive, and what it confirms.</p>
+        <div class="research-card" id="obituary-pasquale-fucale-2026">
+            <h3>Obituary of Pasquale P. Fucale</h3>
+            <p><strong>Status: IN HAND</strong>. Ballard-Durand Funeral and Cremation Services, after his death on 21 November 2026. Confirms his birth on 22 September 1952 in Cattolica Eraclea, Sicily, his marriage to Susan Vigliotti of Eastchester, New York, on 30 October 1977, and names Alphonse Vigliotti (Barbara) and Renee Makras (George) as brothers- and sisters-in-law. <a href="https://www.ballarddurand.com/obituaries/pasquale-fucale">Original page</a>.</p>
         </div>
-        <div class="research-card">
-            <h3>Record title</h3>
-            <p class="placeholder-text"><strong>Status: IN HAND</strong> &mdash; Copy this card for each new record.</p>
+        <div class="research-card" id="obituary-patricia-paul-walsh-2019">
+            <h3>Obituaries: Patricia and Paul Walsh</h3>
+            <p><strong>Status: IN HAND</strong>. The Rye Record, published 14 October 2019. Confirms Patricia Morrisey Walsh (died 4 September 2019) and Paul H. Walsh (died 27 September 2019), their marriage on 5 May 1951, their parents, and their daughter Barbara Walsh Vigliotti and her husband Al. <a href="https://ryerecord.com/obituaries-patricia-paul-walsh/">Original page</a>.</p>
+        </div>
+        <div class="research-card" id="family-testimony-sebastian-2026">
+            <h3>Family testimony: Dylan's parents</h3>
+            <p><strong>Status: IN HAND</strong>. Sebastian named Barbara Ehren Walsh (maiden) and Alphonse John Vigliotti as Dylan Vigliotti's parents, and asked that they be the starting point of this research. Until a birth record is in hand, that parentage is labelled family tradition, with support from the two obituaries that name the couple.</p>
         </div>
     </div>
 
     <h2 class="section-header">Leads To Follow</h2>
     <div class="research-grid">
         <div class="research-card">
-            <h3>Record to search</h3>
-            <p class="placeholder-text"><strong>Status: NOT YET SEARCHED</strong> &mdash; Add what it could answer and where to look.</p>
+            <h3>Birth and marriage records for Alphonse, Barbara, Susan and Dylan</h3>
+            <p><strong>Status: NOT YET SEARCHED</strong>. Needed to confirm parentage in the civil record, to name Alphonse's and Susan's parents, and to support any later Italian citizenship claim.</p>
         </div>
+        <div class="research-card">
+            <h3>Italian origin of the Vigliotti line</h3>
+            <p><strong>Status: NOT YET SEARCHED</strong>. A town of origin, a ship list and naturalization papers are still to find. Pat Fucale's Sicilian origin is known; the Vigliotti town is not.</p>
+        </div>
+        <div class="research-card">
+            <h3>Sibling link between Susan, Alphonse and Renee</h3>
+            <p><strong>Status: PROBABLE, from in-law wording</strong>. Pat's obituary lists Alphonse Vigliotti (Barbara) and Renee Makras (George) as brothers- and sisters-in-law, after naming Pat's own sisters separately. A birth record would make the sibling link firm.</p>
+        </div>
+        <div class="research-card">
+            <h3>Walsh, Morrisey, Ehrenfels and Hingston vital records</h3>
+            <p><strong>Status: NOT YET SEARCHED</strong>. Exact birth dates for Patricia and Paul, burial places, and earlier generations on both sides.</p>
+        </div>
+    </div>
+
+    <h2 class="section-header">Held back</h2>
+    <div class="section-body">
+        <ul>
+            <li>Current or recent homes of living people, including a 2019 residence named in the Walsh obituary.</li>
+            <li>Dates and addresses for anyone who is or may be living.</li>
+            <li>Grandchildren named only by first name in the Walsh obituary, other than Dylan, who is already on the tree from family testimony.</li>
+            <li>The unclear wording in Pat's obituary about Josephine Scopelliti, Joe and the late Dominick. Josephine is on the tree as Pat's sister; no spouse is recorded until that is clear.</li>
+        </ul>
     </div>
 
     <h2 class="section-header">Research Log</h2>
@@ -75,11 +96,18 @@
         </thead>
         <tbody>
             <tr>
-                <td class="placeholder-text">Add date</td>
-                <td class="placeholder-text">Add record</td>
-                <td class="placeholder-text">Add archive or site</td>
-                <td class="placeholder-text">Add what was found</td>
-                <td><span class="confidence-tag unconfirmed">unverified</span></td>
+                <td>26 November 2026</td>
+                <td>Obituary of Pasquale P. Fucale</td>
+                <td>Ballard-Durand Funeral and Cremation Services</td>
+                <td>Marriage to Susan Vigliotti on 30 October 1977; Vigliotti in-laws named; Pat's birth, death and burial.</td>
+                <td><span class="confidence-tag confirmed">confirmed</span></td>
+            </tr>
+            <tr>
+                <td>26 November 2026</td>
+                <td>Obituaries: Patricia and Paul Walsh</td>
+                <td>The Rye Record</td>
+                <td>Barbara Walsh Vigliotti and Al named as a child and son-in-law; Walsh and Morrisey parents and vital dates.</td>
+                <td><span class="confidence-tag confirmed">confirmed</span></td>
             </tr>
         </tbody>
     </table>
@@ -89,7 +117,6 @@
 <footer class="site-footer">
     <div class="footer-crest">Vigliotti</div>
     <p>The Vigliotti family story, in progress.</p>
-    <p style="margin-top: 0.5rem; font-size: 0.8rem;">Template site. Replace the placeholder text on every page as the research grows.</p>
 </footer>
 
 <script src="site.js"></script>
