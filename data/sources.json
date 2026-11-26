@@ -389,7 +389,7 @@
       "date": "1853-11-30",
       "url": "https://antenati.cultura.gov.it/ark:/12657/an_ua55905",
       "file": "records/1853-birth-vigliotti-andrea-santa-maria-a-vico-act158-highlighted.jpg",
-      "note": "Crescenzo Vigliotti, son of Agostino, aged 33, a farmer of Strada Rusciano, presented a boy born the same day to his wife Maria Rosa Carfora, daughter of the late Francesco, aged 33. The child was named Andrea and was baptised the same day at Sant'Andrea Apostolo. He is probably the Andrea who registered Vincenzo's birth in 1885: the only Andrea Vigliotti in the 1852 and 1853 registers, and the same street. The identification is probable until Andrea's marriage act names his parents."
+      "note": "Crescenzo Vigliotti, son of Agostino, aged 33, a farmer of Strada Rusciano, presented a boy born the same day to his wife Maria Rosa Carfora, daughter of the late Francesco, aged 33. The child was named Andrea and was baptised the same day at Sant'Andrea Apostolo. The 18 February 1883 marriage of Andrea Vigliotti and Mariantonia Ruotolo names the same parents, Crescenzo and Carfora Mariarosa. The identification of this child with Vincenzo's father stays probable, because the groom was given as 35, which would imply a birth about 1848 and conflicts with this 1853 act and with Andrea's age of 32 in July 1885."
     },
     {
       "id": "antenati-smv-nati-1856-act96",
@@ -399,7 +399,27 @@
       "date": "1856-06-28",
       "url": "https://antenati.cultura.gov.it/ark:/12657/an_ua55908",
       "file": "records/1856-birth-ruotolo-maria-antonia-santa-maria-a-vico-act96-highlighted.jpg",
-      "note": "A candidate, not a proven identity, for Vincenzo's mother Mariantonia Ruotolo. Born 28 June 1856 on Strada Rusciano, daughter of Giuseppe Ruotolo and Angela Vigliotti. A later note on the act records a marriage to an Alfonso P. on 15 December 1896, or possibly 1876. Held as a lead until Andrea and Mariantonia's marriage act is read."
+      "note": "Maria Antonia Ruotolo, born 28 June 1856 on Strada Rusciano, daughter of Giuseppe Ruotolo, son of the late Giambattista, aged 30, and Angela Vigliotti, daughter of the late Pasquale, aged 33. The 18 February 1883 marriage of Mariantonia Ruotolo and Andrea Vigliotti names the same parents, and the bride's age of 27 fits 1856 by year subtraction, so this is now a probable identity for Vincenzo's mother. A later note on the act records a marriage to an Alfonso P. on 15 December 1896, or possibly 1876; 1896 act 40 and 1876 act 40 are not that couple, so the remarriage is still unresolved."
+    },
+    {
+      "id": "ancestry-caserta-smv-matrimoni-1883-act3",
+      "title": "Civil marriage act 3, Andrea Vigliotti and Mariantonia Ruotolo, Santa Maria a Vico, 18 February 1883",
+      "type": "civil register",
+      "repository": "Ancestry, Caserta, Italy, Civil Registration Records 1862 to 1939, collection 1893, Santa Maria a Vico, Atti di Matrimonio 1883, image 6 of 22; index image 4, file 31752_221104-00639, entry 30",
+      "date": "1883-02-18",
+      "url": "https://www.ancestry.com/imageviewer/collections/1893/images/31752_221104-00641?usePUB=true&pId=151698",
+      "file": "records/1883-marriage-vigliotti-andrea-ruotolo-mariantonia-santa-maria-a-vico-act3-parties-highlighted.jpg",
+      "note": "The year 1883 and the month February are clear. The day is read as the 18th (Diciotto); that word is uncertain, so the day is flagged. At 11:30 in the morning in the town hall, before Carfora Alfonso, Sindaco (moderate confidence on the officer). Groom: Andrea Vigliotti, 35, a farm worker, born and resident in Santa Maria a Vico, son of Crescenzo and Carfora Mariarosa, both apparently living. Bride: Mariantonia Ruotolo, 27 (moderate confidence on the age), a farm worker, born and resident in the town, daughter of Giuseppe and Vigliotti Angela, both apparently living. Witnesses Carfora Luca, about 30, and Rosina Alfonso, about 54, are mentions only. The 1884 marriage index has no Vigliotti Andrea."
+    },
+    {
+      "id": "ancestry-caserta-smv-matrimoni-1896-acts39-40",
+      "title": "Civil marriage acts 39 and 40, Santa Maria a Vico, 1896 (not a match for Maria Antonia Ruotolo)",
+      "type": "civil register",
+      "repository": "Ancestry, Caserta collection 1893, Santa Maria a Vico, Atti di Matrimonio 1896, image 22 of 35",
+      "date": "1896",
+      "url": "https://www.ancestry.com/search/collections/1893/",
+      "file": "records/1896-marriage-santa-maria-a-vico-acts39-40-not-ruotolo-highlighted.jpg",
+      "note": "A negative result. Acts 39 and 40 are for other couples (names read as D'Angelo and Di Matteo, not Ruotolo). The 1876 act 40 was also checked and is not this couple. The later marriage to an Alfonso P., noted in the margin of Maria Antonia Ruotolo's 1856 birth, is therefore not yet located."
     }
   ]
 }

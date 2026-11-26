@@ -613,7 +613,7 @@
       "inHomeRegion": false,
       "country": "IT",
       "status": "published",
-      "blurb": "A Campanian town near Naples, and the birthplace of Vincenzo Vigliotti, confirmed by his 1885 civil birth act. His father Andrea was probably born on the same street, Strada Rusciano, in 1853.",
+      "blurb": "A Campanian town near Naples, and the birthplace of Vincenzo Vigliotti, confirmed by his 1885 civil birth act. His parents, Andrea Vigliotti and Mariantonia Ruotolo, married in the town hall in February 1883. Andrea was probably born on the same street, Strada Rusciano, in 1853, and Mariantonia was probably born there in 1856.",
       "events": [
         {
           "id": "pe-smav-born-vincenzo",
@@ -651,7 +651,26 @@
           "summary": "Andrea Vigliotti was probably born here on 30 November 1853, on Strada Rusciano, and baptised the same day at Sant'Andrea Apostolo.",
           "dateEnd": "1853-11-30",
           "factRef": "andrea-vigliotti.birth",
-          "note": "The 1853 act is confirmed. Linking that child to Vincenzo's father is probable."
+          "note": "The 1853 act is confirmed. Linking that child to Vincenzo's father is probable: the 1883 marriage names the same parents, but the groom's stated age of 35 conflicts with 1853."
+        },
+        {
+          "id": "pe-smav-married-andrea-mariantonia",
+          "type": "married",
+          "personIds": [
+            "andrea-vigliotti",
+            "mariantonia-ruotolo"
+          ],
+          "confidence": "confirmed",
+          "sourceIds": [
+            "ancestry-caserta-smv-matrimoni-1883-act3"
+          ],
+          "approximate": true,
+          "date": "1883",
+          "dateStart": "1883-02-18",
+          "dateEnd": "1883-02-18",
+          "datePrecision": "day",
+          "summary": "Andrea Vigliotti and Mariantonia Ruotolo were married here on 18 February 1883, a date whose day is a careful reading, in the town hall.",
+          "note": "The year and the month February are clear. The day is read as the 18th; the word Diciotto is uncertain, so the day is flagged. The pin is the town centre, not the exact building."
         },
         {
           "id": "pe-smav-lived-andrea-1885",
@@ -670,6 +689,26 @@
           "datePrecision": "day",
           "summary": "Andrea Vigliotti and Mariantonia Ruotolo were living at Via Rusciano 23 when they registered Vincenzo's birth.",
           "dateEnd": "1885-07-05"
+        },
+        {
+          "id": "pe-smav-born-mariantonia",
+          "type": "born",
+          "personIds": [
+            "mariantonia-ruotolo"
+          ],
+          "confidence": "probable",
+          "sourceIds": [
+            "antenati-smv-nati-1856-act96",
+            "ancestry-caserta-smv-matrimoni-1883-act3"
+          ],
+          "approximate": true,
+          "date": "1856",
+          "dateStart": "1856-06-28",
+          "dateEnd": "1856-06-28",
+          "datePrecision": "day",
+          "summary": "Mariantonia Ruotolo was probably born here on 28 June 1856, on Strada Rusciano.",
+          "factRef": "mariantonia-ruotolo.birth",
+          "note": "The 1856 act is confirmed. Linking that child to Vincenzo's mother is probable, because the 1883 marriage names the same parents and an age that fits."
         }
       ]
     },

@@ -68,14 +68,15 @@
           "id": "maria-rosa-carfora",
           "confidence": "probable",
           "sourceIds": [
-            "antenati-smv-nati-1853-act158"
+            "antenati-smv-nati-1853-act158",
+            "ancestry-caserta-smv-matrimoni-1883-act3"
           ],
-          "note": "Named as a married couple on Andrea's 1853 birth act."
+          "note": "Named as a married couple on Andrea's 1853 birth act, and again as the groom's parents, both apparently living, on the 18 February 1883 marriage."
         }
       ],
       "disambiguator": "Probable grandfather of Vincenzo",
-      "summary": "A farmer of Strada Rusciano, Santa Maria a Vico, named in 1853 as the father of Andrea Vigliotti.",
-      "story": "On 30 November 1853 Crescenzo Vigliotti, son of Agostino, aged 33, a farmer who could not write, registered the birth of his son Andrea at Santa Maria a Vico. He lived on Strada Rusciano with his wife Maria Rosa Carfora.[^antenati-smv-nati-1853-act158]\n\nHe is probably Vincenzo Vigliotti's grandfather. The identification rests on Andrea being the only Andrea Vigliotti born in the town in 1852 or 1853, and on the same street appearing in Vincenzo's 1885 birth act. That link is probable until Andrea's marriage act names his parents.",
+      "summary": "A farmer of Strada Rusciano, Santa Maria a Vico, named in 1853 as the father of Andrea Vigliotti, and again on Andrea's 1883 marriage, when he was apparently still living.",
+      "story": "On 30 November 1853 Crescenzo Vigliotti, son of Agostino, aged 33, a farmer who could not write, registered the birth of his son Andrea at Santa Maria a Vico. He lived on Strada Rusciano with his wife Maria Rosa Carfora.[^antenati-smv-nati-1853-act158]\n\nThe 18 February 1883 marriage of Andrea Vigliotti and Mariantonia Ruotolo names the groom as the son of Crescenzo and Carfora Mariarosa, with no wording that would mark them as deceased, so both were apparently still living then.[^ancestry-caserta-smv-matrimoni-1883-act3]\n\nHe is probably Vincenzo Vigliotti's grandfather. The parent names now match on the 1853 birth and the 1883 marriage. The identification stays probable because the groom's stated age of 35 conflicts with the 1853 birth.",
       "birth": {
         "display": "about 1820",
         "date": "1820",
@@ -106,6 +107,16 @@
           "sourceIds": [
             "antenati-smv-nati-1853-act158"
           ]
+        },
+        {
+          "place": "Santa Maria a Vico",
+          "placeId": "santa-maria-a-vico",
+          "years": "1883",
+          "confidence": "confirmed",
+          "sourceIds": [
+            "ancestry-caserta-smv-matrimoni-1883-act3"
+          ],
+          "note": "Named as a resident of the town, and apparently living, on his son Andrea's marriage act."
         }
       ],
       "relatedPages": [
@@ -135,14 +146,15 @@
           "id": "crescenzo-vigliotti",
           "confidence": "probable",
           "sourceIds": [
-            "antenati-smv-nati-1853-act158"
+            "antenati-smv-nati-1853-act158",
+            "ancestry-caserta-smv-matrimoni-1883-act3"
           ],
-          "note": "Named as Crescenzo's lawful wife on Andrea's 1853 birth act."
+          "note": "Named as Crescenzo's lawful wife on Andrea's 1853 birth act, and again as the groom's mother, apparently living, on the 18 February 1883 marriage."
         }
       ],
       "disambiguator": "Probable grandmother of Vincenzo",
-      "summary": "Daughter of the late Francesco Carfora, and mother of Andrea Vigliotti, named on his 1853 birth act at Santa Maria a Vico.",
-      "story": "Maria Rosa Carfora, daughter of the late Francesco, aged 33, was named on 30 November 1853 as the mother of Andrea Vigliotti and the wife of Crescenzo Vigliotti, a farmer of Strada Rusciano, Santa Maria a Vico.[^antenati-smv-nati-1853-act158] Through the probable identification of that Andrea with Vincenzo's father, she is probably Vincenzo's grandmother.",
+      "summary": "Daughter of the late Francesco Carfora, and mother of Andrea Vigliotti, named on his 1853 birth act and again on his 1883 marriage, when she was apparently still living.",
+      "story": "Maria Rosa Carfora, daughter of the late Francesco, aged 33, was named on 30 November 1853 as the mother of Andrea Vigliotti and the wife of Crescenzo Vigliotti, a farmer of Strada Rusciano, Santa Maria a Vico.[^antenati-smv-nati-1853-act158] The 18 February 1883 marriage names her again as Carfora Mariarosa, the groom's mother, apparently still living.[^ancestry-caserta-smv-matrimoni-1883-act3] Through the probable identification of that Andrea with Vincenzo's father, she is probably Vincenzo's grandmother.",
       "birth": {
         "display": "about 1820",
         "date": "1820",
@@ -250,6 +262,160 @@
       ]
     },
     {
+      "id": "giuseppe-ruotolo",
+      "displayName": "Giuseppe Ruotolo",
+      "givenNames": "Giuseppe",
+      "surname": "Ruotolo",
+      "sex": "M",
+      "generation": 0,
+      "isLiving": false,
+      "isDirectLine": true,
+      "confidence": "probable",
+      "parentLinkConfidence": "probable",
+      "parents": [],
+      "children": [
+        "mariantonia-ruotolo"
+      ],
+      "spouses": [
+        {
+          "id": "angela-vigliotti",
+          "confidence": "probable",
+          "sourceIds": [
+            "antenati-smv-nati-1856-act96",
+            "ancestry-caserta-smv-matrimoni-1883-act3"
+          ],
+          "note": "Named as a couple on Maria Antonia Ruotolo's 1856 birth act, and as the bride's parents, both apparently living, on the 18 February 1883 marriage."
+        }
+      ],
+      "disambiguator": "Probable grandfather of Vincenzo, Mariantonia's father",
+      "summary": "A farmer of Strada Rusciano, Santa Maria a Vico, named as the father of Mariantonia Ruotolo on her 1883 marriage and on the 1856 birth that is probably hers.",
+      "story": "The 18 February 1883 marriage of Mariantonia Ruotolo and Andrea Vigliotti names the bride as the daughter of Giuseppe and Vigliotti Angela, both apparently still living and resident in Santa Maria a Vico.[^ancestry-caserta-smv-matrimoni-1883-act3]\n\nHe is probably the Giuseppe Ruotolo, son of the late Giambattista, aged 30, a farmer of Strada Rusciano, who registered the birth of Maria Antonia Ruotolo on 28 June 1856. Giambattista remains a mention only, not a person on the tree.[^antenati-smv-nati-1856-act96]",
+      "birth": {
+        "display": "about 1826",
+        "date": "1826",
+        "dateQualifier": "about",
+        "confidence": "probable",
+        "sourceIds": [
+          "antenati-smv-nati-1856-act96"
+        ],
+        "note": "Aged 30 on 28 June 1856, on the birth act that is probably Mariantonia's."
+      },
+      "occupations": [
+        {
+          "title": "Farmer (contadino)",
+          "place": "Santa Maria a Vico",
+          "placeId": "santa-maria-a-vico",
+          "years": "1856",
+          "confidence": "probable",
+          "sourceIds": [
+            "antenati-smv-nati-1856-act96"
+          ]
+        }
+      ],
+      "residences": [
+        {
+          "place": "Strada Rusciano, Santa Maria a Vico",
+          "placeId": "santa-maria-a-vico",
+          "years": "1856",
+          "confidence": "probable",
+          "sourceIds": [
+            "antenati-smv-nati-1856-act96"
+          ]
+        },
+        {
+          "place": "Santa Maria a Vico",
+          "placeId": "santa-maria-a-vico",
+          "years": "1883",
+          "confidence": "confirmed",
+          "sourceIds": [
+            "ancestry-caserta-smv-matrimoni-1883-act3"
+          ],
+          "note": "Named as a resident of the town, and apparently living, on his daughter Mariantonia's marriage act."
+        }
+      ],
+      "relatedPages": [
+        {
+          "title": "Records and Research",
+          "url": "research.html"
+        },
+        {
+          "title": "Discoveries",
+          "url": "discoveries.html"
+        }
+      ]
+    },
+    {
+      "id": "angela-vigliotti",
+      "displayName": "Angela Vigliotti",
+      "givenNames": "Angela",
+      "surname": "Vigliotti",
+      "sex": "F",
+      "generation": 0,
+      "isLiving": false,
+      "isDirectLine": true,
+      "confidence": "probable",
+      "parentLinkConfidence": "probable",
+      "parents": [],
+      "children": [
+        "mariantonia-ruotolo"
+      ],
+      "spouses": [
+        {
+          "id": "giuseppe-ruotolo",
+          "confidence": "probable",
+          "sourceIds": [
+            "antenati-smv-nati-1856-act96",
+            "ancestry-caserta-smv-matrimoni-1883-act3"
+          ],
+          "note": "Named as Giuseppe's wife on Maria Antonia Ruotolo's 1856 birth act, and as the bride's mother, apparently living, on the 18 February 1883 marriage."
+        }
+      ],
+      "disambiguator": "Probable grandmother of Vincenzo, Mariantonia's mother",
+      "summary": "A Vigliotti of Santa Maria a Vico, named as the mother of Mariantonia Ruotolo on her 1883 marriage and on the 1856 birth that is probably hers.",
+      "story": "The 18 February 1883 marriage of Mariantonia Ruotolo and Andrea Vigliotti names the bride's mother as Vigliotti Angela, apparently still living and resident in Santa Maria a Vico.[^ancestry-caserta-smv-matrimoni-1883-act3]\n\nShe is probably the Angela Vigliotti, daughter of the late Pasquale, aged 33, named as the mother of Maria Antonia Ruotolo on 28 June 1856. Pasquale remains a mention only, not a person on the tree. That she was a Vigliotti by birth is a mention of another Vigliotti line; it is not treated as proof that later generations were cousins.[^antenati-smv-nati-1856-act96]",
+      "birth": {
+        "display": "about 1823",
+        "date": "1823",
+        "dateQualifier": "about",
+        "confidence": "probable",
+        "sourceIds": [
+          "antenati-smv-nati-1856-act96"
+        ],
+        "note": "Aged 33 on 28 June 1856, on the birth act that is probably Mariantonia's."
+      },
+      "residences": [
+        {
+          "place": "Strada Rusciano, Santa Maria a Vico",
+          "placeId": "santa-maria-a-vico",
+          "years": "1856",
+          "confidence": "probable",
+          "sourceIds": [
+            "antenati-smv-nati-1856-act96"
+          ]
+        },
+        {
+          "place": "Santa Maria a Vico",
+          "placeId": "santa-maria-a-vico",
+          "years": "1883",
+          "confidence": "confirmed",
+          "sourceIds": [
+            "ancestry-caserta-smv-matrimoni-1883-act3"
+          ],
+          "note": "Named as a resident of the town, and apparently living, on her daughter Mariantonia's marriage act."
+        }
+      ],
+      "relatedPages": [
+        {
+          "title": "Records and Research",
+          "url": "research.html"
+        },
+        {
+          "title": "Discoveries",
+          "url": "discoveries.html"
+        }
+      ]
+    },
+    {
       "id": "andrea-vigliotti",
       "displayName": "Andrea Vigliotti",
       "givenNames": "Andrea",
@@ -258,7 +424,7 @@
       "generation": 1,
       "isLiving": false,
       "isDirectLine": true,
-      "confidence": "probable",
+      "confidence": "confirmed",
       "parentLinkConfidence": "probable",
       "parents": [
         "crescenzo-vigliotti",
@@ -270,16 +436,22 @@
       "spouses": [
         {
           "id": "mariantonia-ruotolo",
+          "order": 1,
+          "marriageDate": "1883-02-18",
+          "marriageDisplay": "18 February 1883 (the day is a careful reading)",
+          "place": "Town hall, Santa Maria a Vico, Caserta",
+          "placeId": "santa-maria-a-vico",
           "confidence": "confirmed",
           "sourceIds": [
+            "ancestry-caserta-smv-matrimoni-1883-act3",
             "ancestry-caserta-smv-nati-1885-act131"
           ],
-          "note": "Named as a married couple on Vincenzo's 1885 birth act. Their own marriage record has not yet been found."
+          "note": "Civil marriage act 3. The year 1883 and the month February are clear. The day is read as the 18th; the word Diciotto is uncertain, so the day is flagged. The couple is also named on Vincenzo's 1885 birth act."
         }
       ],
       "disambiguator": "Vincenzo's father",
-      "summary": "A farm worker of Santa Maria a Vico who registered the birth of his son Vincenzo in 1885, and who was probably born there on 30 November 1853.",
-      "story": "On 5 July 1885 Andrea Vigliotti, a 32-year-old farm worker of Santa Maria a Vico, registered the birth of his son Vincenzo, born the night before to his wife Mariantonia Ruotolo, at Via Rusciano 23.[^ancestry-caserta-smv-nati-1885-act131]\n\nHe is probably the Andrea Vigliotti born on 30 November 1853 on the same street, Strada Rusciano, the son of Crescenzo Vigliotti and Maria Rosa Carfora, and baptised that day at Sant'Andrea Apostolo. That is the only Andrea Vigliotti in the town's 1852 and 1853 birth registers. He would have been 31 in July 1885, against the age 32 given in Vincenzo's act, a common one-year gap. The identification is probable until Andrea and Mariantonia's marriage act names his parents.[^antenati-smv-nati-1853-act158]",
+      "summary": "A farm worker of Santa Maria a Vico who married Mariantonia Ruotolo there in February 1883 and registered the birth of their son Vincenzo in 1885. He was probably born in the same town on 30 November 1853.",
+      "story": "On 18 February 1883, a date whose day is a careful reading, Andrea Vigliotti, a 35-year-old farm worker born and living in Santa Maria a Vico, married Mariantonia Ruotolo in the town hall. The act names his parents as Crescenzo and Carfora Mariarosa, both apparently still living.[^ancestry-caserta-smv-matrimoni-1883-act3]\n\nOn 5 July 1885 Andrea, then given as 32, registered the birth of his son Vincenzo, born the night before to Mariantonia, at Via Rusciano 23.[^ancestry-caserta-smv-nati-1885-act131]\n\nHe is probably the Andrea Vigliotti born on 30 November 1853 on the same street, Strada Rusciano, the son of Crescenzo Vigliotti and Maria Rosa Carfora, and baptised that day at Sant'Andrea Apostolo. That is the only Andrea Vigliotti in the town's 1852 and 1853 birth registers, and the 1883 marriage names the same parents. The stated age of 35 on the marriage would imply a birth about 1848, which conflicts with the 1853 act and with his being 32 in July 1885. Age on a marriage act can be loose; the 1853 act and the 1885 age agree with each other. The identification stays probable until births around 1848 are checked and his death is found.[^antenati-smv-nati-1853-act158]",
       "birth": {
         "display": "30 November 1853, Santa Maria a Vico (probable)",
         "date": "1853-11-30",
@@ -291,9 +463,19 @@
           "antenati-smv-nati-1853-act158",
           "ancestry-caserta-smv-nati-1885-act131"
         ],
-        "note": "The 1853 birth act is a confirmed record of an Andrea Vigliotti of Strada Rusciano. Linking that child to Vincenzo's father is probable: he is the only Andrea Vigliotti born in the town in 1852 or 1853, and the street matches. The 1885 act gives the father's age as 32, one year older than this birth would make him."
+        "note": "The 1853 birth act is a confirmed record of an Andrea Vigliotti of Strada Rusciano. Linking that child to Vincenzo's father is probable: he is the only Andrea Vigliotti born in the town in 1852 or 1853, the street matches, and the 1883 marriage names the same parents, Crescenzo and Maria Rosa Carfora. Against that, the groom was given as 35, which would imply a birth about 1848 and conflicts with this date and with his age of 32 in July 1885."
       },
       "occupations": [
+        {
+          "title": "Farm worker (contadino)",
+          "place": "Santa Maria a Vico",
+          "placeId": "santa-maria-a-vico",
+          "years": "1883",
+          "confidence": "confirmed",
+          "sourceIds": [
+            "ancestry-caserta-smv-matrimoni-1883-act3"
+          ]
+        },
         {
           "title": "Farm worker (colono)",
           "place": "Santa Maria a Vico",
@@ -306,6 +488,15 @@
         }
       ],
       "residences": [
+        {
+          "place": "Santa Maria a Vico",
+          "placeId": "santa-maria-a-vico",
+          "years": "1883",
+          "confidence": "confirmed",
+          "sourceIds": [
+            "ancestry-caserta-smv-matrimoni-1883-act3"
+          ]
+        },
         {
           "place": "Via Rusciano 23, Santa Maria a Vico",
           "placeId": "santa-maria-a-vico",
@@ -332,12 +523,40 @@
           "caption": "Continuation of act 158, including the baptism of Andrea Vigliotti the same day at Sant'Andrea Apostolo.",
           "alt": "Highlighted continuation page of Andrea Vigliotti's 1853 birth act.",
           "sourceId": "antenati-smv-nati-1853-act158"
+        },
+        {
+          "type": "document",
+          "file": "records/1883-marriage-vigliotti-andrea-ruotolo-mariantonia-santa-maria-a-vico-act3-parties-highlighted.jpg",
+          "thumb": "records/1883-marriage-vigliotti-andrea-ruotolo-mariantonia-santa-maria-a-vico-act3-parties-zoom.jpg",
+          "caption": "Civil marriage act 3, Santa Maria a Vico, 18 February 1883 (the day is a careful reading), with the names, ages and parents of Andrea Vigliotti and Mariantonia Ruotolo highlighted.",
+          "alt": "Highlighted close-up of the 1883 Santa Maria a Vico marriage register, act 3, naming Andrea Vigliotti and Mariantonia Ruotolo and their parents.",
+          "sourceId": "ancestry-caserta-smv-matrimoni-1883-act3"
+        },
+        {
+          "type": "document",
+          "file": "records/1883-marriage-vigliotti-andrea-ruotolo-mariantonia-santa-maria-a-vico-act3-header-highlighted.jpg",
+          "thumb": "records/1883-marriage-vigliotti-andrea-ruotolo-mariantonia-santa-maria-a-vico-act3-header-zoom.jpg",
+          "caption": "The heading of act 3, including the date, read as 18 February 1883, and the parties.",
+          "alt": "Highlighted heading of the 1883 marriage act of Andrea Vigliotti and Mariantonia Ruotolo.",
+          "sourceId": "ancestry-caserta-smv-matrimoni-1883-act3"
+        },
+        {
+          "type": "document",
+          "file": "records/1883-marriage-vigliotti-andrea-ruotolo-mariantonia-santa-maria-a-vico-act3-spread-highlighted.jpg",
+          "thumb": "records/1883-marriage-vigliotti-andrea-ruotolo-mariantonia-santa-maria-a-vico-act3-spread-zoom.jpg",
+          "caption": "The full left-hand page of the register, act 3, with the marriage of Andrea Vigliotti and Mariantonia Ruotolo highlighted. Act 4, on the facing page, is a different couple.",
+          "alt": "Highlighted two-page spread of the 1883 Santa Maria a Vico marriage register, with act 3 on the left.",
+          "sourceId": "ancestry-caserta-smv-matrimoni-1883-act3"
         }
       ],
       "openQuestions": [
         {
-          "question": "Does Andrea and Mariantonia's marriage act name his parents as Crescenzo Vigliotti and Maria Rosa Carfora?",
-          "record": "Santa Maria a Vico marriage register, about 1875 to 1884, Ancestry collection 1893, Atti di Matrimonio."
+          "question": "Does a Santa Maria a Vico birth around 1848 record another Andrea Vigliotti, son of Crescenzo and Maria Rosa Carfora?",
+          "record": "Santa Maria a Vico birth registers, about 1847 to 1851, on Antenati (to 1865) or Ancestry collection 1893."
+        },
+        {
+          "question": "When and where did Andrea die, and what age and parents does that act give?",
+          "record": "Santa Maria a Vico death registers, 1885 to 1903, Ancestry collection 1893, Atti di Morte."
         }
       ],
       "relatedPages": [
@@ -361,25 +580,44 @@
       "isLiving": false,
       "isDirectLine": true,
       "confidence": "confirmed",
-      "parentLinkConfidence": "confirmed",
-      "parents": [],
+      "parentLinkConfidence": "probable",
+      "parents": [
+        "giuseppe-ruotolo",
+        "angela-vigliotti"
+      ],
       "children": [
         "vincenzo-vigliotti"
       ],
       "spouses": [
         {
           "id": "andrea-vigliotti",
+          "order": 1,
+          "marriageDate": "1883-02-18",
+          "marriageDisplay": "18 February 1883 (the day is a careful reading)",
+          "place": "Town hall, Santa Maria a Vico, Caserta",
+          "placeId": "santa-maria-a-vico",
           "confidence": "confirmed",
           "sourceIds": [
+            "ancestry-caserta-smv-matrimoni-1883-act3",
             "ancestry-caserta-smv-nati-1885-act131"
           ],
-          "note": "Named as Andrea's wife on Vincenzo's 1885 birth act."
+          "note": "Civil marriage act 3. The year 1883 and the month February are clear. The day is read as the 18th; the word Diciotto is uncertain, so the day is flagged. The couple is also named on Vincenzo's 1885 birth act."
         }
       ],
       "disambiguator": "Vincenzo's mother",
-      "summary": "A farm worker of Santa Maria a Vico, named on Vincenzo's 1885 birth act as his mother. Her own birth record is not yet settled.",
-      "story": "Mariantonia Ruotolo, a farm worker, is named on Vincenzo Vigliotti's birth act of 5 July 1885 as his mother, living with her husband Andrea at Via Rusciano 23, Santa Maria a Vico.[^ancestry-caserta-smv-nati-1885-act131]\n\nA possible birth for her is Maria Antonia Ruotolo, born 28 June 1856 on the same street, daughter of Giuseppe Ruotolo and Angela Vigliotti. A later note on that act records a marriage to an Alfonso P. in 1896, or possibly 1876, so she is a candidate, not a proven identity, until Andrea and Mariantonia's own marriage act is found.[^antenati-smv-nati-1856-act96]",
+      "summary": "A farm worker of Santa Maria a Vico who married Andrea Vigliotti there in February 1883 and is named on Vincenzo's 1885 birth act as his mother. She was probably born in the same town on 28 June 1856.",
+      "story": "On 18 February 1883, a date whose day is a careful reading, Mariantonia Ruotolo, a farm worker given as 27, born and living in Santa Maria a Vico, married Andrea Vigliotti in the town hall. The act names her parents as Giuseppe and Vigliotti Angela, both apparently still living.[^ancestry-caserta-smv-matrimoni-1883-act3]\n\nShe is named again on Vincenzo Vigliotti's birth act of 5 July 1885 as his mother, living with Andrea at Via Rusciano 23.[^ancestry-caserta-smv-nati-1885-act131]\n\nShe is probably the Maria Antonia Ruotolo born on 28 June 1856 on the same street, Strada Rusciano, the daughter of Giuseppe Ruotolo and Angela Vigliotti. The 1883 marriage names those same parents, and the stated age of 27 fits a June 1856 birth by the usual Italian year subtraction, even though she would have been 26 years and about 7 months by birthday. A later note on the 1856 act records a marriage to an Alfonso P. in 1896, or possibly 1876. That remarriage has not been located: act 40 of 1896 and act 40 of 1876 are not this couple.[^antenati-smv-nati-1856-act96][^ancestry-caserta-smv-matrimoni-1896-acts39-40]",
       "occupations": [
+        {
+          "title": "Farm worker (contadina)",
+          "place": "Santa Maria a Vico",
+          "placeId": "santa-maria-a-vico",
+          "years": "1883",
+          "confidence": "confirmed",
+          "sourceIds": [
+            "ancestry-caserta-smv-matrimoni-1883-act3"
+          ]
+        },
         {
           "title": "Farm worker (colona)",
           "place": "Santa Maria a Vico",
@@ -393,6 +631,15 @@
       ],
       "residences": [
         {
+          "place": "Santa Maria a Vico",
+          "placeId": "santa-maria-a-vico",
+          "years": "1883",
+          "confidence": "confirmed",
+          "sourceIds": [
+            "ancestry-caserta-smv-matrimoni-1883-act3"
+          ]
+        },
+        {
           "place": "Via Rusciano 23, Santa Maria a Vico",
           "placeId": "santa-maria-a-vico",
           "years": "1885",
@@ -404,8 +651,12 @@
       ],
       "openQuestions": [
         {
-          "question": "Is the Maria Antonia Ruotolo born on 28 June 1856 at Strada Rusciano the same woman who married Andrea Vigliotti?",
-          "record": "Andrea and Mariantonia's marriage act, and the 1896 or 1876 marriage act no. 40 noted in the margin of the 1856 birth."
+          "question": "Where and when did the later marriage to an Alfonso P., noted in the margin of the 1856 birth, take place?",
+          "record": "Not act 40 of 1896 or of 1876 at Santa Maria a Vico. Search later marriage registers there and nearby for a widow Mariantonia or Maria Antonia Ruotolo, or Vigliotti, after Andrea's death."
+        },
+        {
+          "question": "Does Andrea's death act name Mariantonia as his widow?",
+          "record": "Santa Maria a Vico death registers, 1885 to 1903, Ancestry collection 1893."
         }
       ],
       "relatedPages": [
@@ -416,6 +667,53 @@
         {
           "title": "Discoveries",
           "url": "discoveries.html"
+        }
+      ],
+      "birth": {
+        "display": "28 June 1856, Santa Maria a Vico (probable)",
+        "date": "1856-06-28",
+        "dateQualifier": "exact",
+        "place": "Strada Rusciano, Santa Maria a Vico, Caserta",
+        "placeId": "santa-maria-a-vico",
+        "confidence": "probable",
+        "sourceIds": [
+          "antenati-smv-nati-1856-act96",
+          "ancestry-caserta-smv-matrimoni-1883-act3"
+        ],
+        "note": "The 1856 birth act is a confirmed record of a Maria Antonia Ruotolo of Strada Rusciano, daughter of Giuseppe Ruotolo and Angela Vigliotti. Linking her to Vincenzo's mother is probable: the 1883 marriage names the same parents, and the bride's age of 27 fits 1856 by year subtraction. A later note on the 1856 act, of a marriage to an Alfonso P., is still unresolved."
+      },
+      "media": [
+        {
+          "type": "document",
+          "file": "records/1856-birth-ruotolo-maria-antonia-santa-maria-a-vico-act96-highlighted.jpg",
+          "thumb": "records/1856-birth-ruotolo-maria-antonia-santa-maria-a-vico-act96-zoom.jpg",
+          "caption": "Civil birth act 96, Santa Maria a Vico, 28 June 1856, with the entry for Maria Antonia Ruotolo highlighted. This is a probable identity for Vincenzo's mother.",
+          "alt": "Highlighted page of the 1856 Santa Maria a Vico birth register, act 96, Maria Antonia Ruotolo.",
+          "sourceId": "antenati-smv-nati-1856-act96"
+        },
+        {
+          "type": "document",
+          "file": "records/1883-marriage-vigliotti-andrea-ruotolo-mariantonia-santa-maria-a-vico-act3-parties-highlighted.jpg",
+          "thumb": "records/1883-marriage-vigliotti-andrea-ruotolo-mariantonia-santa-maria-a-vico-act3-parties-zoom.jpg",
+          "caption": "Civil marriage act 3, Santa Maria a Vico, 18 February 1883 (the day is a careful reading), with the names, ages and parents of Andrea Vigliotti and Mariantonia Ruotolo highlighted.",
+          "alt": "Highlighted close-up of the 1883 Santa Maria a Vico marriage register, act 3, naming Andrea Vigliotti and Mariantonia Ruotolo and their parents.",
+          "sourceId": "ancestry-caserta-smv-matrimoni-1883-act3"
+        },
+        {
+          "type": "document",
+          "file": "records/1883-marriage-vigliotti-andrea-ruotolo-mariantonia-santa-maria-a-vico-act3-header-highlighted.jpg",
+          "thumb": "records/1883-marriage-vigliotti-andrea-ruotolo-mariantonia-santa-maria-a-vico-act3-header-zoom.jpg",
+          "caption": "The heading of act 3, including the date, read as 18 February 1883, and the parties.",
+          "alt": "Highlighted heading of the 1883 marriage act of Andrea Vigliotti and Mariantonia Ruotolo.",
+          "sourceId": "ancestry-caserta-smv-matrimoni-1883-act3"
+        },
+        {
+          "type": "document",
+          "file": "records/1883-marriage-vigliotti-andrea-ruotolo-mariantonia-santa-maria-a-vico-act3-spread-highlighted.jpg",
+          "thumb": "records/1883-marriage-vigliotti-andrea-ruotolo-mariantonia-santa-maria-a-vico-act3-spread-zoom.jpg",
+          "caption": "The full left-hand page of the register, act 3, with the marriage of Andrea Vigliotti and Mariantonia Ruotolo highlighted. Act 4, on the facing page, is a different couple.",
+          "alt": "Highlighted two-page spread of the 1883 Santa Maria a Vico marriage register, with act 3 on the left.",
+          "sourceId": "ancestry-caserta-smv-matrimoni-1883-act3"
         }
       ]
     },
@@ -1398,7 +1696,7 @@
         }
       ],
       "summary": "Born 4 July 1885 at Santa Maria a Vico, he arrived at New York on the Roma in 1903, raised a large family with Vincenza Guida at 44 Brambach Avenue, Eastchester, and died at Grasslands Hospital, Mount Pleasant, on 24 April 1944.",
-      "story": "Vincenzo Vigliotti, usually called Vincent in American records, was born at 11 at night on 4 July 1885 at Santa Maria a Vico, in the province of Caserta, Italy. His father, Andrea Vigliotti, a 32-year-old farm worker, registered the birth the next morning at the town hall. The act names his mother as Mariantonia Ruotolo, and gives the family's house as Via Rusciano 23, a careful reading of the street name.[^ancestry-caserta-smv-nati-1885-act131]\n\nOn 1 April 1903 a 17-year-old farm labourer whose surname is only partly readable arrived at New York on the ship Roma from Naples. The manifest says he had paid his own passage, carried $20, and was going to a cousin in Newburgh, New York. The match to this Vincenzo is probable.[^ancestry-roma-manifest-1903]\n\nBy January 1920 Vincent and Vincenza were living on Scarsdale Avenue in Eastchester. The census says he had filed first papers and was not yet a citizen.[^ancestry-census-1920-vigliotte] The June 1925 New York State census finds the family at 44 Brambach Avenue and marks him a citizen, with a note reading 1923 White Plains. Sons Vincent, Alfonso, Andrew and Anthony, and daughter Madeline, were in the household.[^ancestry-nys-census-1925-vigliotti] The 1930 and 1940 censuses also list him as naturalized.[^ancestry-census-1930-vigliotti][^ancestry-census-1940-vigliotti]\n\nThe Westchester County naturalization index lists a 1916 declaration for Vincenzo Viglietto and a 1922 petition for Vincenzo Vigletti, also called Viglotti. Together with the census trail, this is a probable match, with citizenship granted in 1922 or 1923, after Alphonse Sr. was born in March 1921. The petition itself has not yet been read. A later 1928 declaration and 1930 petition in the same index belong to a different Vincenzo Vigliotti, born in 1892 at Bonito.[^westchester-naturalization-vigletti][^westchester-naturalization-vigliotti]\n\nVincent and Vincenza raised their children at 44 Brambach Avenue in Eastchester. Vincent J. Vigliotti of that address died at Grasslands Hospital, Mount Pleasant, on 24 April 1944, after a long illness. The New York State death index records the death under the spelling VIGHIOTTO, certificate 26490. He was survived by Vincenza Guida Vigliotti, four sons then in the armed forces, and five daughters. Funeral services were held at Immaculate Heart of Mary on 28 April 1944.[^nys-death-index-1944-vigliotti][^scarsdale-inquirer-1944-04-28]",
+      "story": "Vincenzo Vigliotti, usually called Vincent in American records, was born at 11 at night on 4 July 1885 at Santa Maria a Vico, in the province of Caserta, Italy. His father, Andrea Vigliotti, a 32-year-old farm worker, registered the birth the next morning at the town hall. The act names his mother as Mariantonia Ruotolo, and gives the family's house as Via Rusciano 23, a careful reading of the street name.[^ancestry-caserta-smv-nati-1885-act131]\n\nHis parents had married at the town hall of Santa Maria a Vico on 18 February 1883, a date whose day is a careful reading.[^ancestry-caserta-smv-matrimoni-1883-act3]\n\nOn 1 April 1903 a 17-year-old farm labourer whose surname is only partly readable arrived at New York on the ship Roma from Naples. The manifest says he had paid his own passage, carried $20, and was going to a cousin in Newburgh, New York. The match to this Vincenzo is probable.[^ancestry-roma-manifest-1903]\n\nBy January 1920 Vincent and Vincenza were living on Scarsdale Avenue in Eastchester. The census says he had filed first papers and was not yet a citizen.[^ancestry-census-1920-vigliotte] The June 1925 New York State census finds the family at 44 Brambach Avenue and marks him a citizen, with a note reading 1923 White Plains. Sons Vincent, Alfonso, Andrew and Anthony, and daughter Madeline, were in the household.[^ancestry-nys-census-1925-vigliotti] The 1930 and 1940 censuses also list him as naturalized.[^ancestry-census-1930-vigliotti][^ancestry-census-1940-vigliotti]\n\nThe Westchester County naturalization index lists a 1916 declaration for Vincenzo Viglietto and a 1922 petition for Vincenzo Vigletti, also called Viglotti. Together with the census trail, this is a probable match, with citizenship granted in 1922 or 1923, after Alphonse Sr. was born in March 1921. The petition itself has not yet been read. A later 1928 declaration and 1930 petition in the same index belong to a different Vincenzo Vigliotti, born in 1892 at Bonito.[^westchester-naturalization-vigletti][^westchester-naturalization-vigliotti]\n\nVincent and Vincenza raised their children at 44 Brambach Avenue in Eastchester. Vincent J. Vigliotti of that address died at Grasslands Hospital, Mount Pleasant, on 24 April 1944, after a long illness. The New York State death index records the death under the spelling VIGHIOTTO, certificate 26490. He was survived by Vincenza Guida Vigliotti, four sons then in the armed forces, and five daughters. Funeral services were held at Immaculate Heart of Mary on 28 April 1944.[^nys-death-index-1944-vigliotti][^scarsdale-inquirer-1944-04-28]",
       "birth": {
         "date": "1885-07-04",
         "display": "4 July 1885, Santa Maria a Vico, Caserta",

@@ -603,22 +603,51 @@
     {
       "id": "find-mariantonia-ruotolo-candidate-1856",
       "foundDate": "2026-11-26",
-      "headline": "A possible birth for Vincenzo's mother, Mariantonia Ruotolo, 1856",
-      "summary": "The 1856 Santa Maria a Vico births include Maria Antonia Ruotolo, born 28 June 1856 on Strada Rusciano, the same street as Vincenzo and Andrea, to Giuseppe Ruotolo and Angela Vigliotti. A later note on her act records a marriage to an Alfonso P. in 1896, or possibly 1876, so she is a candidate, not yet proven, until Andrea and Mariantonia's own marriage act is found.",
+      "headline": "A probable birth for Vincenzo's mother, Mariantonia Ruotolo, 1856",
+      "summary": "The 1856 Santa Maria a Vico births include Maria Antonia Ruotolo, born 28 June 1856 on Strada Rusciano, the same street as Vincenzo and Andrea, to Giuseppe Ruotolo and Angela Vigliotti. The 18 February 1883 marriage names those same parents and gives the bride's age as 27, which fits 1856 by year subtraction, so this is now probable. A later note on her birth act records a marriage to an Alfonso P. in 1896, or possibly 1876; that remarriage has not been located (1896 act 40 and 1876 act 40 are not matches).",
       "sourceIds": [
         "antenati-smv-nati-1856-act96"
       ],
       "personIds": [
-        "mariantonia-ruotolo"
+        "mariantonia-ruotolo",
+        "giuseppe-ruotolo",
+        "angela-vigliotti"
       ],
       "placeIds": [
         "santa-maria-a-vico"
       ],
-      "confidence": "lead",
+      "confidence": "probable",
       "pages": [
         "research.html",
         "discoveries.html"
       ]
+    },
+    {
+      "id": "find-andrea-mariantonia-marriage-1883",
+      "foundDate": "2026-11-26",
+      "headline": "Andrea Vigliotti and Mariantonia Ruotolo married at Santa Maria a Vico in 1883",
+      "summary": "Santa Maria a Vico, Atti di Matrimonio 1883, act 3, records the marriage of Andrea Vigliotti and Mariantonia Ruotolo. The date is read as 18 February 1883; the word Diciotto is uncertain, so the day is flagged. Andrea, 35, a farm worker, is named as the son of Crescenzo and Carfora Mariarosa, both apparently living. Mariantonia, 27, a farm worker, is named as the daughter of Giuseppe and Vigliotti Angela, both apparently living. Those parent names support Andrea's 1853 birth (still probable, because the groom's age implies about 1848) and Mariantonia's 1856 birth (now probable).",
+      "sourceIds": [
+        "ancestry-caserta-smv-matrimoni-1883-act3"
+      ],
+      "personIds": [
+        "andrea-vigliotti",
+        "mariantonia-ruotolo",
+        "crescenzo-vigliotti",
+        "maria-rosa-carfora",
+        "giuseppe-ruotolo",
+        "angela-vigliotti"
+      ],
+      "placeIds": [
+        "santa-maria-a-vico"
+      ],
+      "eventDate": "1883-02-18",
+      "confidence": "confirmed",
+      "pages": [
+        "research.html",
+        "discoveries.html"
+      ],
+      "image": "records/1883-marriage-vigliotti-andrea-ruotolo-mariantonia-santa-maria-a-vico-act3-parties-highlighted.jpg"
     }
   ]
 }
