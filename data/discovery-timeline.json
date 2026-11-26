@@ -1,0 +1,653 @@
+{
+  "meta": {
+    "title": "Discovery Timeline",
+    "note": "One entry per find. foundDate is the date the research found the record, not the date of the event. This file stays in step with data/discoveries.json, which is the canonical discoveries list for a later engine release. The 1.0.1 site pages still read this file.",
+    "updated": "2026-11-26"
+  },
+  "finds": [
+    {
+      "id": "find-obituary-pasquale-fucale-2026",
+      "foundDate": "2026-11-26",
+      "headline": "Pat Fucale's obituary names his wife and the Vigliotti in-laws",
+      "summary": "The Ballard-Durand obituary for Pasquale \"Pat\" Fucale (22 September 1952 to 21 November 2026) records his 1977 marriage to a daughter of the Eastchester Vigliotti family, and names her brother and sister, with their spouses, as his in-laws.",
+      "sourceIds": [
+        "obituary-pasquale-fucale-2026"
+      ],
+      "personIds": [
+        "pasquale-fucale"
+      ],
+      "placeIds": [
+        "cattolica-eraclea",
+        "valhalla-ny",
+        "gate-of-heaven-hawthorne"
+      ],
+      "confidence": "confirmed",
+      "eventDate": "1977-10-30",
+      "pages": [
+        "research.html"
+      ]
+    },
+    {
+      "id": "find-obituary-patricia-paul-walsh-2019",
+      "foundDate": "2026-11-26",
+      "headline": "The Walsh obituary names their daughter and her parents",
+      "summary": "The Rye Record obituary of Patricia Morrisey Walsh and Paul H. Walsh, published 14 October 2019, names their daughter and her husband, and gives Patricia and Paul's own parents, marriage on 5 May 1951, and deaths in September 2019.",
+      "sourceIds": [
+        "obituary-patricia-paul-walsh-2019"
+      ],
+      "personIds": [
+        "patricia-morrisey-walsh",
+        "paul-h-walsh",
+        "james-t-morrisey",
+        "fernanda-ehrenfels-morrisey",
+        "william-a-walsh",
+        "clara-hingston-walsh"
+      ],
+      "placeIds": [
+        "bronxville-ny",
+        "yonkers-ny",
+        "larchmont-ny",
+        "rye-ny"
+      ],
+      "confidence": "confirmed",
+      "eventDate": "2019-09-04",
+      "pages": [
+        "research.html"
+      ]
+    },
+    {
+      "id": "find-obituary-alphonse-vigliotti-sr-2011",
+      "foundDate": "2026-11-26",
+      "headline": "Alphonse Vigliotti Sr.'s obituary names his parents and children",
+      "summary": "The 2011 Journal News obituary of Alphonse J. Vigliotti Sr. (14 March 1921 to 1 January 2011), transcribed on Find a Grave, names his parents Vincent Vigliotti and Vencenza Guido, a son, two daughters, and grandchildren.",
+      "sourceIds": [
+        "obituary-alphonse-vigliotti-sr-2011"
+      ],
+      "personIds": [
+        "alphonse-j-vigliotti-sr",
+        "vincenzo-vigliotti",
+        "vincenza-guida",
+        "concetta-mignone"
+      ],
+      "placeIds": [
+        "eastchester-ny",
+        "dobbs-ferry-ny",
+        "gate-of-heaven-hawthorne"
+      ],
+      "confidence": "confirmed",
+      "eventDate": "2011-01-01",
+      "pages": [
+        "research.html"
+      ]
+    },
+    {
+      "id": "find-wwii-draft-card-alphonse-sr-1942",
+      "foundDate": "2026-11-26",
+      "headline": "WWII draft card gives Alphonse Sr.'s birth date and father",
+      "summary": "Alphonse John Vigliotti registered at Tuckahoe on 15 February 1942, born 14 March 1921 at Scarsdale, New York, naming Vincent Vigliotti as the person who would always know his address.",
+      "sourceIds": [
+        "ancestry-wwii-draft-alphonse-vigliotti-1942"
+      ],
+      "personIds": [
+        "alphonse-j-vigliotti-sr",
+        "vincenzo-vigliotti"
+      ],
+      "placeIds": [
+        "tuckahoe-ny",
+        "scarsdale-ny"
+      ],
+      "confidence": "confirmed",
+      "eventDate": "1942-02-15",
+      "pages": [
+        "research.html"
+      ]
+    },
+    {
+      "id": "find-census-1930-1940-brambach-ave",
+      "foundDate": "2026-11-26",
+      "headline": "The Vigliotti household at 44 Brambach Avenue, Eastchester",
+      "summary": "The 1930 and 1940 censuses show Vincent and Vincenza Vigliotti, both born in Italy, with their children including Alphonse, at 44 Brambach Avenue, Eastchester.",
+      "sourceIds": [
+        "ancestry-census-1930-vigliotti",
+        "ancestry-census-1940-vigliotti"
+      ],
+      "personIds": [
+        "vincenzo-vigliotti",
+        "vincenza-guida",
+        "alphonse-j-vigliotti-sr"
+      ],
+      "placeIds": [
+        "eastchester-ny",
+        "brambach-ave-eastchester"
+      ],
+      "confidence": "confirmed",
+      "eventDate": "1930-04-01",
+      "pages": [
+        "research.html"
+      ]
+    },
+    {
+      "id": "find-scarsdale-inquirer-four-sons-1942",
+      "foundDate": "2026-11-26",
+      "headline": "Four Vigliotti sons in the service, 1942",
+      "summary": "The Scarsdale Inquirer of 4 December 1942 reported that Mr. and Mrs. Vincent Vigliotti of Brambach Road had four sons in the armed forces and had just marked 25 years of marriage.",
+      "sourceIds": [
+        "scarsdale-inquirer-1942-12-04"
+      ],
+      "personIds": [
+        "vincenzo-vigliotti",
+        "vincenza-guida",
+        "alphonse-j-vigliotti-sr"
+      ],
+      "placeIds": [
+        "eastchester-ny",
+        "brambach-ave-eastchester"
+      ],
+      "confidence": "confirmed",
+      "eventDate": "1942-12-04",
+      "pages": [
+        "research.html"
+      ]
+    },
+    {
+      "id": "find-death-vincenzo-vigliotti-1944",
+      "foundDate": "2026-11-26",
+      "headline": "Vincent Vigliotti's death in 1944",
+      "summary": "The New York State death index (indexed as VIGHIOTTO) and the Scarsdale Inquirer record the death of Vincent J. Vigliotti, aged 53, at Grasslands Hospital, Mount Pleasant, on 24 April 1944.",
+      "sourceIds": [
+        "nys-death-index-1944-vigliotti",
+        "scarsdale-inquirer-1944-04-28"
+      ],
+      "personIds": [
+        "vincenzo-vigliotti"
+      ],
+      "placeIds": [
+        "mount-pleasant-ny",
+        "brambach-ave-eastchester"
+      ],
+      "confidence": "confirmed",
+      "eventDate": "1944-04-24",
+      "pages": [
+        "research.html"
+      ]
+    },
+    {
+      "id": "find-concetta-mignone-wedding-1947",
+      "foundDate": "2026-11-26",
+      "headline": "Alphonse Vigliotti marries Concetta Mignone, 1947",
+      "summary": "The Scarsdale Inquirer announced the engagement (4 April 1947) and the 24 August 1947 wedding at Immaculate Heart of Mary, Scarsdale, of Concetta, daughter of Mr. and Mrs. Gerard Mignone, and Alphonse J., son of Mrs. Vincent Vigliotti.",
+      "sourceIds": [
+        "scarsdale-inquirer-1947-04-04",
+        "scarsdale-inquirer-1947-08-29"
+      ],
+      "personIds": [
+        "alphonse-j-vigliotti-sr",
+        "concetta-mignone",
+        "gerardo-mignone"
+      ],
+      "placeIds": [
+        "scarsdale-ny",
+        "immaculate-heart-of-mary-scarsdale"
+      ],
+      "confidence": "confirmed",
+      "eventDate": "1947-08-24",
+      "pages": [
+        "research.html"
+      ]
+    },
+    {
+      "id": "find-italian-hometowns-tree",
+      "foundDate": "2026-11-26",
+      "headline": "Another researcher's tree points to Santa Maria a Vico and Arienzo",
+      "summary": "An Ancestry member tree first pointed to Vincenzo Vigliotti's birth as 4 July 1885 at Santa Maria a Vico and Vincenza Pasqualina Guida's as 21 September 1899 at Arienzo, and named their parents. The civil birth acts have now been read and confirm those dates and towns.",
+      "sourceIds": [
+        "ancestry-tree-kindred-spirits"
+      ],
+      "personIds": [
+        "vincenzo-vigliotti",
+        "vincenza-guida"
+      ],
+      "placeIds": [
+        "santa-maria-a-vico",
+        "arienzo"
+      ],
+      "confidence": "unverified",
+      "eventDate": "1885-07-04",
+      "pages": [
+        "research.html"
+      ]
+    },
+    {
+      "id": "find-passenger-list-roma-1903",
+      "foundDate": "2026-11-26",
+      "headline": "Vincenzo Vigliotti arrives on the Roma, 1903",
+      "summary": "A New York passenger list index shows Vincenzo Vigliotti, aged 17, arriving at New York on the ship Roma on 1 April 1903. The manifest page itself was later read; see the separate find for that reading.",
+      "sourceIds": [
+        "ancestry-passenger-list-roma-1903"
+      ],
+      "personIds": [
+        "vincenzo-vigliotti"
+      ],
+      "placeIds": [
+        "ellis-island-ny"
+      ],
+      "confidence": "probable",
+      "eventDate": "1903-04-01",
+      "pages": [
+        "research.html"
+      ]
+    },
+    {
+      "id": "find-mignone-family",
+      "foundDate": "2026-11-26",
+      "headline": "Gerard Mignone, Concetta's father",
+      "summary": "The Scarsdale Inquirer obituary of Gerard Mignone (died 29 October 1957), the 1950 census and the Westchester naturalization index (1923 declaration, 1929 petition) identify Concetta's parents as Gerard and Susan (Rescigno) Mignone.",
+      "sourceIds": [
+        "scarsdale-inquirer-1957-11-08",
+        "census-1950-mignone",
+        "westchester-naturalization-mignone"
+      ],
+      "personIds": [
+        "gerardo-mignone",
+        "susan-rescigno-mignone",
+        "concetta-mignone"
+      ],
+      "placeIds": [
+        "eastchester-ny"
+      ],
+      "confidence": "confirmed",
+      "eventDate": "1957-10-29",
+      "pages": [
+        "research.html"
+      ]
+    },
+    {
+      "id": "find-walsh-morrisey-wedding-1951",
+      "foundDate": "2026-11-26",
+      "headline": "Paul Walsh and Patricia Morrisey wed in Scarsdale, 1951",
+      "summary": "The Scarsdale Inquirer reported the engagement (19 January 1951) and the 5 May 1951 wedding of Patricia Morrissey, daughter of Mr. and Mrs. James T. Morrissey of Downer Avenue, and Paul H. Walsh, son of former Mayor and Mrs. William A. Walsh of Yonkers.",
+      "sourceIds": [
+        "scarsdale-inquirer-1951-01-19",
+        "scarsdale-inquirer-1951-05-18"
+      ],
+      "personIds": [
+        "paul-h-walsh",
+        "patricia-morrisey-walsh",
+        "william-a-walsh",
+        "james-t-morrisey"
+      ],
+      "placeIds": [
+        "scarsdale-ny",
+        "yonkers-ny",
+        "immaculate-heart-of-mary-scarsdale"
+      ],
+      "confidence": "confirmed",
+      "eventDate": "1951-05-05",
+      "pages": [
+        "research.html"
+      ]
+    },
+    {
+      "id": "find-augusta-ehrenfels-1949",
+      "foundDate": "2026-11-26",
+      "headline": "Barbara's great grandmother Augusta Ehrenfels",
+      "summary": "The Scarsdale Inquirer of 17 June 1949 reports the death of Mrs. Augusta R. Ehrenfels of Mount Vernon, mother of Mrs. James Morrissey.",
+      "sourceIds": [
+        "scarsdale-inquirer-1949-06-17"
+      ],
+      "personIds": [
+        "augusta-ehrenfels",
+        "fernanda-ehrenfels-morrisey"
+      ],
+      "placeIds": [
+        "mount-vernon-ny",
+        "bronxville-ny"
+      ],
+      "confidence": "confirmed",
+      "eventDate": "1949-06-08",
+      "pages": [
+        "research.html"
+      ]
+    },
+    {
+      "id": "find-mayor-william-a-walsh",
+      "foundDate": "2026-11-26",
+      "headline": "Barbara's grandfather was Mayor of Yonkers",
+      "summary": "Paul Walsh's wedding notice calls his father \"former Mayor\" William A. Walsh of Yonkers; William A. Walsh (1871 to 1967) was Mayor of Yonkers 1926 to 1927, and Social Security records name William A. Walsh and Clara Hingston as parents of children born in Yonkers in 1914 and 1917.",
+      "sourceIds": [
+        "wikipedia-william-a-walsh",
+        "ssa-numident-walsh",
+        "findagrave-william-a-walsh"
+      ],
+      "personIds": [
+        "william-a-walsh",
+        "clara-hingston-walsh",
+        "paul-h-walsh"
+      ],
+      "placeIds": [
+        "yonkers-ny"
+      ],
+      "confidence": "confirmed",
+      "eventDate": "1926-01-01",
+      "pages": [
+        "research.html"
+      ]
+    },
+    {
+      "id": "find-michael-walsh-ardmore",
+      "foundDate": "2026-11-26",
+      "headline": "The Walsh line goes back to Ardmore, Ireland",
+      "summary": "The 1916 Yonkers Statesman obituary of Michael Walsh, father of Mayor William A. Walsh, says he was born in Ardmore, Ireland, came to America as a boy, and built a carpentry business in Yonkers.",
+      "sourceIds": [
+        "findagrave-michael-walsh-1916"
+      ],
+      "personIds": [
+        "michael-walsh",
+        "william-a-walsh"
+      ],
+      "placeIds": [
+        "ardmore-ireland",
+        "yonkers-ny"
+      ],
+      "confidence": "probable",
+      "eventDate": "1916-07-09",
+      "pages": [
+        "research.html"
+      ]
+    },
+    {
+      "id": "find-hingston-cleary-huntingdon",
+      "foundDate": "2026-11-26",
+      "headline": "Clara Hingston's family came from Huntingdon, Quebec",
+      "summary": "Catherine Jane Cleary Hingston's 1932 obituary names her parents Owen and Catherine Donohue Cleary of Huntingdon, Canada, her 1872 marriage to Samuel J. Hingston, and her daughter Mrs. William A. Walsh.",
+      "sourceIds": [
+        "findagrave-catherine-hingston-1932"
+      ],
+      "personIds": [
+        "catherine-cleary-hingston",
+        "samuel-j-hingston",
+        "clara-hingston-walsh"
+      ],
+      "placeIds": [
+        "huntingdon-quebec",
+        "port-henry-ny",
+        "yonkers-ny"
+      ],
+      "confidence": "probable",
+      "eventDate": "1932-08-31",
+      "pages": [
+        "research.html"
+      ]
+    },
+    {
+      "id": "find-morrisey-ehrenfels-marriage-1922",
+      "foundDate": "2026-11-26",
+      "headline": "James Morrisey and Fernanda Ehrenfels married in 1922",
+      "summary": "The Westchester County marriage index lists James T. Morrisey and Fernanda Ehrenfels on the same certificate, number 37675, in 1922.",
+      "sourceIds": [
+        "westchester-marriage-37675"
+      ],
+      "personIds": [
+        "james-t-morrisey",
+        "fernanda-ehrenfels-morrisey"
+      ],
+      "placeIds": [
+        "westchester-county-ny"
+      ],
+      "confidence": "confirmed",
+      "eventDate": "1922-01-01",
+      "pages": [
+        "research.html"
+      ]
+    },
+    {
+      "id": "find-mignone-rescigno-marriage-1926",
+      "foundDate": "2026-11-26",
+      "headline": "Gerardo Mignone and Susan Rescigno married in 1926",
+      "summary": "The Westchester County marriage index lists Gerardo Mignone and Susan M. Rescigno on certificate 51289 in 1926.",
+      "sourceIds": [
+        "westchester-marriage-51289"
+      ],
+      "personIds": [
+        "gerardo-mignone",
+        "susan-rescigno-mignone"
+      ],
+      "placeIds": [
+        "westchester-county-ny"
+      ],
+      "confidence": "confirmed",
+      "eventDate": "1926-01-01",
+      "pages": [
+        "research.html"
+      ]
+    },
+    {
+      "id": "find-census-1920-first-papers",
+      "foundDate": "2026-11-26",
+      "headline": "1920 census: Vincent Vigliotti had filed first papers",
+      "summary": "The January 1920 census lists Vincent Vigliotte, 34, on Scarsdale Avenue, Eastchester, immigrated 1902, with citizenship Pa, meaning he had declared his intention but was not yet a citizen. His wife Vincenza, 20, had arrived in 1916.",
+      "sourceIds": [
+        "ancestry-census-1920-vigliotte"
+      ],
+      "personIds": [
+        "vincenzo-vigliotti",
+        "vincenza-guida"
+      ],
+      "placeIds": [
+        "eastchester-ny"
+      ],
+      "confidence": "confirmed",
+      "pages": [
+        "research.html",
+        "discoveries.html"
+      ]
+    },
+    {
+      "id": "find-nys-census-1925-citizen-1923",
+      "foundDate": "2026-11-26",
+      "headline": "1925 census: a citizen since 1923, White Plains",
+      "summary": "The June 1925 New York State census at 44 Brambach Avenue marks the head of the Vigliotti household a citizen, with the note 1923 White Plains, and lists sons Vincent, Alfonso, Andrew and Anthony and daughter Madeline.",
+      "sourceIds": [
+        "ancestry-nys-census-1925-vigliotti"
+      ],
+      "personIds": [
+        "vincenzo-vigliotti",
+        "vincenza-guida",
+        "alphonse-j-vigliotti-sr"
+      ],
+      "placeIds": [
+        "eastchester-ny",
+        "white-plains-ny",
+        "brambach-ave-eastchester"
+      ],
+      "confidence": "confirmed",
+      "pages": [
+        "research.html",
+        "discoveries.html"
+      ]
+    },
+    {
+      "id": "find-naturalization-index-1916-1922",
+      "foundDate": "2026-11-26",
+      "headline": "Vincenzo's naturalization papers found under misspellings",
+      "summary": "The Westchester County naturalization index has a 1916 declaration for Vincenzo Viglietto and a 1922 petition for Vincenzo Vigletti (Viglotti). With the census trail, this points to naturalization in 1922 or 1923, after Alphonse Sr. was born in March 1921. The 1928 and 1930 papers in the same index belong to a different Vincenzo, born in 1892 at Bonito.",
+      "sourceIds": [
+        "westchester-naturalization-vigletti"
+      ],
+      "personIds": [
+        "vincenzo-vigliotti",
+        "alphonse-j-vigliotti-sr"
+      ],
+      "placeIds": [
+        "white-plains-ny",
+        "westchester-county-ny"
+      ],
+      "confidence": "probable",
+      "pages": [
+        "research.html",
+        "discoveries.html"
+      ]
+    },
+    {
+      "id": "find-roma-manifest-1903",
+      "foundDate": "2026-11-26",
+      "headline": "The Roma manifest: a 17 year old farm labourer joining a cousin",
+      "summary": "On the S.S. Roma manifest for 1 April 1903, a 17-year-old single farm labourer whose surname is only partly readable, paid his own passage, carried $20, and was going to a cousin at 312 Broadway, Newburgh, New York.",
+      "sourceIds": [
+        "ancestry-roma-manifest-1903"
+      ],
+      "personIds": [
+        "vincenzo-vigliotti"
+      ],
+      "placeIds": [
+        "ellis-island-ny"
+      ],
+      "confidence": "probable",
+      "pages": [
+        "research.html",
+        "discoveries.html"
+      ]
+    },
+    {
+      "id": "find-vincenzo-birth-act-1885",
+      "foundDate": "2026-11-26",
+      "headline": "Vincenzo's Italian birth act: 4 July 1885, Santa Maria a Vico",
+      "summary": "The civil birth register of Santa Maria a Vico shows that Vincenzo Vigliotti was born at 11 at night on 4 July 1885, at Via Rusciano 23, to Andrea Vigliotti, a 32-year-old farmer, and his wife Mariantonia Ruotolo. His father registered the birth the next morning. This settles his birth date and town.",
+      "sourceIds": [
+        "ancestry-caserta-smv-nati-1885-act131"
+      ],
+      "personIds": [
+        "vincenzo-vigliotti",
+        "andrea-vigliotti",
+        "mariantonia-ruotolo"
+      ],
+      "placeIds": [
+        "santa-maria-a-vico"
+      ],
+      "confidence": "confirmed",
+      "pages": [
+        "research.html",
+        "discoveries.html"
+      ]
+    },
+    {
+      "id": "find-vincenza-twins-1899",
+      "foundDate": "2026-11-26",
+      "headline": "Vincenza was a twin, born in Arienzo in 1899",
+      "summary": "Vincenza Pasqualina Guida was born at 11:40 in the morning on 21 September 1899 at via Maddalena 2, Arienzo, the first of twins born to Alfonso Guida, a 33-year-old farmer, and Antonia Vigliotti. Her twin brother, Pasquale Fabrizio, was born second and recorded in the next act.",
+      "sourceIds": [
+        "ancestry-caserta-arienzo-nati-1899-act105"
+      ],
+      "personIds": [
+        "vincenza-guida",
+        "pasquale-fabrizio-guida",
+        "alfonso-guida",
+        "antonia-vigliotti"
+      ],
+      "placeIds": [
+        "arienzo"
+      ],
+      "confidence": "confirmed",
+      "pages": [
+        "research.html",
+        "discoveries.html"
+      ]
+    },
+    {
+      "id": "find-antonia-vigliotti-death-1904",
+      "foundDate": "2026-11-26",
+      "headline": "Vincenza lost her mother at four: Antonia Vigliotti, died 1904",
+      "summary": "Antonia Vigliotti, wife of Alfonso Guida, died at Arienzo on 8 June 1904, aged 38. Her death act says she was born in San Felice a Cancello, the daughter of Raffaele Vigliotti, a farmer, and Pasqualina Carfora.",
+      "sourceIds": [
+        "ancestry-caserta-arienzo-morti-1904-act29"
+      ],
+      "personIds": [
+        "antonia-vigliotti",
+        "alfonso-guida",
+        "raffaele-vigliotti",
+        "pasqualina-carfora",
+        "vincenza-guida"
+      ],
+      "placeIds": [
+        "arienzo",
+        "san-felice-a-cancello"
+      ],
+      "confidence": "confirmed",
+      "pages": [
+        "research.html",
+        "discoveries.html"
+      ]
+    },
+    {
+      "id": "find-andrea-vigliotti-birth-1853",
+      "foundDate": "2026-11-26",
+      "headline": "One generation further back: Andrea Vigliotti, born 1853",
+      "summary": "The 1853 birth register of Santa Maria a Vico, free on Antenati, records Andrea Vigliotti, born 30 November 1853 on Strada Rusciano, the same street where Vincenzo was born 32 years later. His parents were Crescenzo Vigliotti, son of Agostino, a farmer, and Maria Rosa Carfora. He is very probably Vincenzo's father.",
+      "sourceIds": [
+        "antenati-smv-nati-1853-act158"
+      ],
+      "personIds": [
+        "andrea-vigliotti",
+        "crescenzo-vigliotti",
+        "maria-rosa-carfora"
+      ],
+      "placeIds": [
+        "santa-maria-a-vico"
+      ],
+      "confidence": "probable",
+      "pages": [
+        "research.html",
+        "discoveries.html"
+      ]
+    },
+    {
+      "id": "find-mariantonia-ruotolo-candidate-1856",
+      "foundDate": "2026-11-26",
+      "headline": "A probable birth for Vincenzo's mother, Mariantonia Ruotolo, 1856",
+      "summary": "The 1856 Santa Maria a Vico births include Maria Antonia Ruotolo, born 28 June 1856 on Strada Rusciano, the same street as Vincenzo and Andrea, to Giuseppe Ruotolo and Angela Vigliotti. The 18 February 1883 marriage names those same parents and gives the bride's age as 27, which fits 1856 by year subtraction, so this is now probable. A later note on her birth act records a marriage to an Alfonso P. in 1896, or possibly 1876; that remarriage has not been located (1896 act 40 and 1876 act 40 are not matches).",
+      "sourceIds": [
+        "antenati-smv-nati-1856-act96"
+      ],
+      "personIds": [
+        "mariantonia-ruotolo",
+        "giuseppe-ruotolo",
+        "angela-vigliotti"
+      ],
+      "placeIds": [
+        "santa-maria-a-vico"
+      ],
+      "confidence": "probable",
+      "pages": [
+        "research.html",
+        "discoveries.html"
+      ]
+    },
+    {
+      "id": "find-andrea-mariantonia-marriage-1883",
+      "foundDate": "2026-11-26",
+      "headline": "Andrea Vigliotti and Mariantonia Ruotolo married at Santa Maria a Vico in 1883",
+      "summary": "Santa Maria a Vico, Atti di Matrimonio 1883, act 3, records the marriage of Andrea Vigliotti and Mariantonia Ruotolo. The date is read as 18 February 1883; the word Diciotto is uncertain, so the day is flagged. Andrea, 35, a farm worker, is named as the son of Crescenzo and Carfora Mariarosa, both apparently living. Mariantonia, 27, a farm worker, is named as the daughter of Giuseppe and Vigliotti Angela, both apparently living. Those parent names support Andrea's 1853 birth (still probable, because the groom's age implies about 1848) and Mariantonia's 1856 birth (now probable).",
+      "sourceIds": [
+        "ancestry-caserta-smv-matrimoni-1883-act3"
+      ],
+      "personIds": [
+        "andrea-vigliotti",
+        "mariantonia-ruotolo",
+        "crescenzo-vigliotti",
+        "maria-rosa-carfora",
+        "giuseppe-ruotolo",
+        "angela-vigliotti"
+      ],
+      "placeIds": [
+        "santa-maria-a-vico"
+      ],
+      "eventDate": "1883-02-18",
+      "confidence": "confirmed",
+      "pages": [
+        "research.html",
+        "discoveries.html"
+      ],
+      "image": "records/1883-marriage-vigliotti-andrea-ruotolo-mariantonia-santa-maria-a-vico-act3-parties-highlighted.jpg"
+    }
+  ]
+}

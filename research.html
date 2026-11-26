@@ -20,6 +20,8 @@
             <a href="index.html">Home</a>
             <a href="family-tree.html">Family Tree</a>
             <a href="tree-canvas.html">Family Canvas</a>
+            <a href="map.html">Family Map</a>
+            <a href="discoveries.html">Discoveries</a>
             <a href="immigration.html">Immigration</a>
             <a href="blank-page.html">Blank Page</a>
             <a href="research.html" class="active" aria-current="page">Records and Research</a>
@@ -34,38 +36,122 @@
 
     <div class="hero-intro">
         <div class="hero-title">Research Archive</div>
-        <h1>Records, Sources &amp; Next Steps</h1>
+        <h1>Records, Sources and Next Steps</h1>
     </div>
 
-    <div class="template-note">
-        <h2>What will go on this page</h2>
-        <p>This page is the working archive behind every other page, so any claim on the site can be traced to a source.</p>
-        <ul>
-            <li>Documents in hand: each record with its status, where it came from, and what it proves.</li>
-            <li>Leads to follow: records not yet searched, ranked by how much they could unlock.</li>
-            <li>A research log: date, record, where it was searched, what was found, and how sure we are.</li>
-            <li>Open questions about each person, matching the &ldquo;Still to discover&rdquo; list on the canvas.</li>
-        </ul>
+    <div class="section-body">
+        <p>Every claim on this site should be traceable to a source in <code>data/sources.json</code>. Living people are recorded by name and relationship only. Current addresses named in the records have been held back. Vincenzo's 1885 birth at Santa Maria a Vico and Vincenza's 1899 birth at Arienzo are confirmed by the civil acts. His naturalization in 1922 or 1923 is probable, pending a reading of the petition.</p>
     </div>
 
     <h2 class="section-header">Documents In Hand</h2>
     <div class="research-grid">
-        <div class="research-card">
-            <h3>Record title</h3>
-            <p class="placeholder-text"><strong>Status: IN HAND</strong> &mdash; Add the record type, the date, the archive, and what it confirms.</p>
+        <div class="research-card" id="obituary-pasquale-fucale-2026">
+            <h3>Obituary of Pasquale P. Fucale</h3>
+            <p><strong>Status: IN HAND</strong>. Ballard-Durand, after his death on 21 November 2026. Confirms his birth in Cattolica Eraclea, his 1977 marriage to a daughter of the Eastchester Vigliotti family, and names her brother and sister, with their spouses, as his in-laws. <a href="https://www.ballarddurand.com/obituaries/pasquale-fucale">Original page</a>.</p>
         </div>
-        <div class="research-card">
-            <h3>Record title</h3>
-            <p class="placeholder-text"><strong>Status: IN HAND</strong> &mdash; Copy this card for each new record.</p>
+        <div class="research-card" id="obituary-patricia-paul-walsh-2019">
+            <h3>Obituaries: Patricia and Paul Walsh</h3>
+            <p><strong>Status: IN HAND</strong>. The Rye Record, 14 October 2019. Confirms Patricia and Paul, their marriage on 5 May 1951, their parents, and their daughter and her husband. <a href="https://ryerecord.com/obituaries-patricia-paul-walsh/">Original page</a>.</p>
+        </div>
+        <div class="research-card" id="family-testimony-sebastian-2026">
+            <h3>Family testimony: Dylan's parents</h3>
+            <p><strong>Status: IN HAND</strong>. Sebastian named Barbara Ehren Walsh (maiden) and Alphonse John Vigliotti as Dylan's parents. Two obituaries, including one that names Dylan as a grandchild of Alphonse Sr., now confirm that parentage.</p>
+        </div>
+        <div class="research-card" id="obituary-alphonse-vigliotti-sr-2011">
+            <h3>Obituary of Alphonse J. Vigliotti Sr.</h3>
+            <p><strong>Status: IN HAND</strong>. The Journal News, 3 January 2011, transcribed on Find a Grave memorial 63661294. Gives his birth, death, parents, wife, a son, two daughters, and grandchildren, and confirms the sibling link among his children. <a href="https://www.findagrave.com/memorial/63661294/alphonse-j-vigliotti">Memorial</a>.</p>
+        </div>
+        <div class="research-card" id="ancestry-wwii-draft-alphonse-vigliotti-1942">
+            <h3>World War II draft card, 15 February 1942</h3>
+            <p><strong>Status: INDEX IN HAND</strong>. Alphonse John Vigliotti, born 14 March 1921 at Scarsdale, registered at Tuckahoe, naming Vincent Vigliotti as next of kin. The card image has not yet been fully captured.</p>
+        </div>
+        <div class="research-card" id="ancestry-census-1930-vigliotti">
+            <h3>1930 and 1940 censuses, 44 Brambach Avenue</h3>
+            <p><strong>Status: INDEX IN HAND</strong>. Vincent and Vincenza (Winnie) Vigliotti, both born in Italy, with their children including Alphonse, at 44 Brambach Avenue, Eastchester. The 1930 and 1940 images have now been read for the citizenship columns (Na). The 1920 and 1925 censuses were also read: first papers in 1920, and a citizen from 1923 at White Plains in 1925.</p>
+        </div>
+        <div class="research-card" id="scarsdale-inquirer-1942-12-04">
+            <h3>Scarsdale Inquirer family notices, 1942 to 1957</h3>
+            <p><strong>Status: IN HAND</strong>. Four sons in the service (4 December 1942), Vincent's death at Grasslands Hospital (28 April 1944), the Mignone-Vigliotti wedding (24 August 1947), Augusta Ehrenfels's death (8 June 1949), the Walsh-Morrisey wedding (5 May 1951), and Gerard Mignone's death (29 October 1957). Texts from HRVH; some page images were blocked by a human check.</p>
+        </div>
+        <div class="research-card" id="nys-death-index-1944-vigliotti">
+            <h3>New York State death index, 24 April 1944</h3>
+            <p><strong>Status: IN HAND</strong>. Vincent Vigliotti, indexed as VIGHIOTTO, died at Mount Pleasant, certificate 26490. Combined with the newspaper notice, this is treated as Vincent of 44 Brambach Road.</p>
+        </div>
+        <div class="research-card" id="findagrave-william-a-walsh">
+            <h3>William Aloysius Walsh and the Walsh-Hingston line</h3>
+            <p><strong>Status: IN HAND</strong>. Find a Grave memorial 101118568, with the inscription Mayor 1926 1927, and obituaries of Michael Walsh (Yonkers Statesman, 10 July 1916) and Catherine Jane Cleary Hingston (Herald Statesman, 1 September 1932). These take the Walsh line to Ardmore, Ireland, and the Hingston line to Huntingdon, Quebec.</p>
+        </div>
+        <div class="research-card" id="westchester-marriage-37675">
+            <h3>Westchester marriage indexes, 1922 and 1926</h3>
+            <p><strong>Status: INDEX IN HAND</strong>. Certificate 37675, James T. Morrisey and Fernanda Ehrenfels, 1922. Certificate 51289, Gerardo Mignone and Susan M. Rescigno, 1926. The certificates themselves have not been ordered.</p>
+        </div>
+        <div class="research-card" id="ancestry-passenger-list-roma-1903">
+            <h3>Passenger list, ship Roma, 1 April 1903</h3>
+            <p><strong>Status: MANIFEST READ, match probable</strong>. Sheet 18, line 18, a 17-year-old farm labourer from Naples, probably Vincenzo Vigliotti, going to a cousin in Newburgh. The surname is only partly readable.</p>
+        </div>
+        <div class="research-card" id="ancestry-caserta-smv-nati-1885-act131">
+            <h3>Vincenzo's civil birth act, Santa Maria a Vico, 1885</h3>
+            <p><strong>Status: IN HAND, FACT</strong>. Act 131, registered 5 July 1885 by his father Andrea Vigliotti, aged 32. Vincenzo was born at 11 at night on 4 July 1885 at Via Rusciano 23, to Andrea and Mariantonia Ruotolo. A highlighted copy is on his profile. <a href="records/1885-birth-vigliotti-vincenzo-santa-maria-a-vico-act131-highlighted.jpg">Highlighted page</a>.</p>
+        </div>
+        <div class="research-card" id="ancestry-caserta-arienzo-nati-1899-act105">
+            <h3>Vincenza's civil birth act, Arienzo, 1899, and her twin</h3>
+            <p><strong>Status: IN HAND, FACT</strong>. Act 105, registered 23 September 1899 by Alfonso Guida, aged 33. Vincenza Pasqualina was born at 11:40 in the morning on 21 September 1899 at via Maddalena 2, the first of twins; her brother Pasquale Fabrizio was born second. <a href="records/1899-birth-guida-vincenza-pasqualina-arienzo-act105-highlighted.jpg">Highlighted page</a>.</p>
+        </div>
+        <div class="research-card" id="ancestry-caserta-arienzo-morti-1904-act29">
+            <h3>Antonia Vigliotti's civil death act, Arienzo, 1904</h3>
+            <p><strong>Status: IN HAND, FACT</strong>. Act 29, registered 9 June 1904. Antonia, wife of Alfonso Guida, died on 8 June 1904, aged 38. The act says she was born at San Felice a Cancello, daughter of Raffaele Vigliotti and Pasqualina Carfora (those parent names are probable). <a href="records/1904-death-vigliotti-antonia-arienzo-act29-highlighted.jpg">Highlighted page</a>.</p>
+        </div>
+        <div class="research-card" id="antenati-smv-nati-1853-act158">
+            <h3>Andrea Vigliotti's civil birth act, 1853</h3>
+            <p><strong>Status: IN HAND, identification PROBABLE</strong>. Act 158, Santa Maria a Vico, 30 November 1853, son of Crescenzo Vigliotti and Maria Rosa Carfora, of Strada Rusciano. The 1883 marriage names the same parents. He is probably Vincenzo's father, but the groom's stated age of 35 implies a birth about 1848, which conflicts with this act and with his age of 32 in 1885. <a href="records/1853-birth-vigliotti-andrea-santa-maria-a-vico-act158-highlighted.jpg">Highlighted page</a>.</p>
+        </div>
+        <div class="research-card" id="ancestry-caserta-smv-matrimoni-1883-act3">
+            <h3>Andrea and Mariantonia's civil marriage act, 1883</h3>
+            <p><strong>Status: IN HAND, FACT</strong>. Act 3, Santa Maria a Vico, read as 18 February 1883; the day is flagged because the word Diciotto is uncertain. Andrea, 35, a farm worker, son of Crescenzo and Carfora Mariarosa, both apparently living. Mariantonia, 27, a farm worker, daughter of Giuseppe and Vigliotti Angela, both apparently living. <a href="records/1883-marriage-vigliotti-andrea-ruotolo-mariantonia-santa-maria-a-vico-act3-parties-highlighted.jpg">Highlighted page</a> and <a href="records/1883-marriage-index-vigliotti-andrea-ruotolo-mariantonia-santa-maria-a-vico-highlighted.jpg">the index entry</a>.</p>
+        </div>
+        <div class="research-card" id="antenati-smv-nati-1856-act96">
+            <h3>Mariantonia Ruotolo's civil birth act, 1856</h3>
+            <p><strong>Status: IN HAND, identification PROBABLE</strong>. Act 96, Santa Maria a Vico, 28 June 1856, Maria Antonia Ruotolo, daughter of Giuseppe Ruotolo and Angela Vigliotti, of Strada Rusciano. The 1883 marriage names the same parents, and the bride's age of 27 fits 1856 by year subtraction. A later note on the act records a marriage to an Alfonso P. in 1896, or possibly 1876; 1896 act 40 and 1876 act 40 are not that couple. <a href="records/1856-birth-ruotolo-maria-antonia-santa-maria-a-vico-act96-highlighted.jpg">Highlighted page</a>.</p>
+        </div>
+        <div class="research-card" id="westchester-naturalization-vigletti">
+            <h3>Vincenzo's naturalization, 1916 and 1922</h3>
+            <p><strong>Status: INDEX AND CENSUS IN HAND, PROBABLE</strong>. Declaration 1916 (indexed Viglietto) and petition 1922 (indexed Vigletti, also Viglotti), with the 1920 first-papers column and the 1925 note 1923 White Plains. The petition itself has not yet been read. The 1928 and 1930 papers in the same index belong to a different Vincenzo, born in 1892 at Bonito.</p>
         </div>
     </div>
 
     <h2 class="section-header">Leads To Follow</h2>
     <div class="research-grid">
         <div class="research-card">
-            <h3>Record to search</h3>
-            <p class="placeholder-text"><strong>Status: NOT YET SEARCHED</strong> &mdash; Add what it could answer and where to look.</p>
+            <h3>Andrea's death, 1885 to 1903</h3>
+            <p><strong>Status: NEXT STEP</strong>. Santa Maria a Vico death registers after Vincenzo's birth should name Andrea's age, his parents, and his widow. That act would test the 1853 identification, which stays probable because the 1883 marriage gives his age as 35, implying a birth about 1848.</p>
         </div>
+        <div class="research-card">
+            <h3>The Alfonso P. remarriage, and a possible 1848 birth for Andrea</h3>
+            <p><strong>Status: NOT YET FOUND</strong>. A note on the 1856 birth records a later marriage to an Alfonso P. on 15 December 1896, or possibly 1876. Act 40 of 1896 and act 40 of 1876 at Santa Maria a Vico are other couples. The remarriage is still to find, as is any Andrea Vigliotti born around 1848 to Crescenzo and Maria Rosa Carfora. <a href="records/1896-marriage-santa-maria-a-vico-acts39-40-not-ruotolo-highlighted.jpg">1896 acts 39 and 40, not a match</a>.</p>
+        </div>
+        <div class="research-card">
+            <h3>Antonia Vigliotti's birth at San Felice a Cancello</h3>
+            <p><strong>Status: NEXT STEP, PROBABLE as it stands</strong>. Her 1904 death act gives the town and her parents, Raffaele Vigliotti and Pasqualina Carfora. A birth act around 1866 would confirm them.</p>
+        </div>
+        <div class="research-card">
+            <h3>Marriage of Vincent and Vincenza</h3>
+            <p><strong>Status: NOT YET FOUND</strong>. A 1942 notice of a twenty-fifth anniversary points to 1916 or 1917. A member-tree date of 31 July 1916 was not found in the Westchester, New York City, or 1916 New York State marriage indexes. Parish registers, the 1917 state index G pages, or a marriage in Italy remain to be checked. Both families include the surnames Vigliotti and Carfora, so they may have been cousins; that is a lead only, not a fact.</p>
+        </div>
+        <div class="research-card">
+            <h3>Vital records still to order or read</h3>
+            <p><strong>Status: NEXT STEPS</strong>. Birth certificates for Alphonse Sr. (14 March 1921) and Paul Walsh (7 January 1927); death certificate 26490 for Vincent, 1944; Concetta's November 2012 obituary or death record; the 1949 death-index image for Augusta Ehrenfels; the 19 March 1967 New York Times obituary of Mayor Walsh; and the 1872 Huntingdon marriage register. No paid order will be placed without approval.</p>
+        </div>
+    </div>
+
+    <h2 class="section-header">Held back</h2>
+    <div class="section-body">
+        <ul>
+            <li>Current or recent homes of living people, including a 2019 residence named in the Walsh obituary.</li>
+            <li>Dates and addresses for anyone who is or may be living, including siblings of Alphonse Sr. who were named as surviving him in 2011, until a death record is in hand.</li>
+            <li>Grandchildren named only by first name, other than Dylan and Ehren. Ehren is on the tree as a probable child of Alphonse Jr. and Barbara.</li>
+            <li>A 1969 engagement notice naming an Alphonse J. Vigliotti Jr. and a Patricia Patton. That is an unverified lead, and it is not attached to the tree.</li>
+            <li>The unclear wording in Pat's obituary about Josephine Scopelliti. Josephine is on the tree as Pat's sister; no spouse is recorded until that is clear.</li>
+        </ul>
     </div>
 
     <h2 class="section-header">Research Log</h2>
@@ -75,21 +161,63 @@
         </thead>
         <tbody>
             <tr>
-                <td class="placeholder-text">Add date</td>
-                <td class="placeholder-text">Add record</td>
-                <td class="placeholder-text">Add archive or site</td>
-                <td class="placeholder-text">Add what was found</td>
-                <td><span class="confidence-tag unconfirmed">unverified</span></td>
+                <td>26 November 2026</td>
+                <td>Obituaries of Pat Fucale and of Patricia and Paul Walsh</td>
+                <td>Ballard-Durand; The Rye Record</td>
+                <td>Named the living generation, the Walsh parents, and the probable (now confirmed) Vigliotti sibling link.</td>
+                <td><span class="confidence-tag confirmed">confirmed</span></td>
+            </tr>
+            <tr>
+                <td>26 November 2026</td>
+                <td>Alphonse Sr. obituary, draft card, census, and 1944 death index</td>
+                <td>Find a Grave, Ancestry, New York death index, Scarsdale Inquirer</td>
+                <td>Built the line from Alphonse Jr. back to Vincent and Vincenza at 44 Brambach Avenue, and dated Sr.'s birth and death.</td>
+                <td><span class="confidence-tag confirmed">confirmed</span></td>
+            </tr>
+            <tr>
+                <td>26 November 2026</td>
+                <td>KINDRED SPIRITS member tree and Roma passenger index</td>
+                <td>Ancestry</td>
+                <td>The tree first pointed to Santa Maria a Vico and Arienzo. The 1903 arrival was then only an index match.</td>
+                <td><span class="confidence-tag unverified">unverified</span> / <span class="confidence-tag probable">probable</span></td>
+            </tr>
+            <tr>
+                <td>26 November 2026</td>
+                <td>Westchester naturalization index, 1916 and 1922, and census citizenship columns</td>
+                <td>Westchester County Archives, Ancestry</td>
+                <td>Declaration 1916 and petition 1922, with first papers in 1920 and a citizen from 1923 at White Plains. Probable for Vincent of Eastchester. The 1928 and 1930 papers belong to a different man.</td>
+                <td><span class="confidence-tag probable">probable</span></td>
+            </tr>
+            <tr>
+                <td>26 November 2026</td>
+                <td>Walsh, Hingston and Morrisey records</td>
+                <td>Find a Grave, Scarsdale Inquirer, Westchester marriage index</td>
+                <td>Identified Mayor William Aloysius Walsh; Michael Walsh of Ardmore; the Hingston-Cleary family of Huntingdon, Quebec; and the 1922 Morrisey-Ehrenfels marriage.</td>
+                <td><span class="confidence-tag confirmed">confirmed</span></td>
+            </tr>
+            <tr>
+                <td>26 November 2026</td>
+                <td>Italian civil acts and the Roma manifest</td>
+                <td>Ancestry collection 1893, Antenati, NARA T715 roll 334</td>
+                <td>Confirmed Vincenzo's 1885 birth at Santa Maria a Vico, Vincenza and her twin's 1899 births at Arienzo, and Antonia Vigliotti's 1904 death. Added Andrea, Mariantonia, Alfonso, Antonia, Pasquale Fabrizio, Raffaele, Pasqualina, Crescenzo and Maria Rosa. Andrea's 1853 birth is probable; a 1856 Ruotolo birth remains a lead.</td>
+                <td><span class="confidence-tag confirmed">confirmed</span> / <span class="confidence-tag probable">probable</span></td>
+            </tr>
+            <tr>
+                <td>26 November 2026</td>
+                <td>Andrea and Mariantonia's 1883 marriage act</td>
+                <td>Ancestry collection 1893, Santa Maria a Vico, Atti di Matrimonio 1883, act 3</td>
+                <td>The couple married in the town hall, date read as 18 February 1883, with the day flagged. Parents named on the act support Andrea's 1853 birth (still probable, because his age of 35 implies about 1848) and raise Mariantonia's 1856 birth to probable. Giuseppe Ruotolo and Angela Vigliotti added as her probable parents. The Alfonso P. remarriage is still not located.</td>
+                <td><span class="confidence-tag confirmed">confirmed</span> / <span class="confidence-tag probable">probable</span></td>
             </tr>
         </tbody>
     </table>
 
 </div>
+</div>
 
 <footer class="site-footer">
     <div class="footer-crest">Vigliotti</div>
     <p>The Vigliotti family story, in progress.</p>
-    <p style="margin-top: 0.5rem; font-size: 0.8rem;">Template site. Replace the placeholder text on every page as the research grows.</p>
 </footer>
 
 <script src="site.js"></script>

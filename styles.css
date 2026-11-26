@@ -1114,3 +1114,18 @@ body {
     background: rgba(255,255,255,0.4);
 }
 .tree-generation .couple-row { margin-bottom: 0.8rem; }
+
+
+/* Discovery Timeline */
+.discovery-source {
+    font-size: 0.95rem;
+    margin-top: 0.6rem;
+}
+.confidence-tag.confirmed {
+    color: #145024;
+    background: rgba(26, 92, 42, 0.08);
+    border: 1px solid rgba(26, 92, 42, 0.35);
+    padding: 0.1rem 0.45rem;
+    border-radius: 999px;
+    font-size: 0.8rem;
+}
