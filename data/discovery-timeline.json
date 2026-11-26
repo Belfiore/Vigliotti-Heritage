@@ -8,18 +8,13 @@
     {
       "id": "find-obituary-pasquale-fucale-2026",
       "foundDate": "2026-11-26",
-      "headline": "Pat Fucale's obituary names Susan Vigliotti and the Vigliotti in-laws",
-      "summary": "The Ballard-Durand obituary for Pasquale \"Pat\" Fucale (22 September 1952 to 21 November 2026) records his marriage to Susan Vigliotti, of Eastchester, New York, on 30 October 1977, and names Alphonse Vigliotti (Barbara) and Renee Makras (George) as brothers- and sisters-in-law.",
+      "headline": "Pat Fucale's obituary names his wife and the Vigliotti in-laws",
+      "summary": "The Ballard-Durand obituary for Pasquale \"Pat\" Fucale (22 September 1952 to 21 November 2026) records his 1977 marriage to a daughter of the Eastchester Vigliotti family, and names her brother and sister, with their spouses, as his in-laws.",
       "sourceIds": [
         "obituary-pasquale-fucale-2026"
       ],
       "personIds": [
-        "pasquale-fucale",
-        "susan-vigliotti",
-        "alphonse-john-vigliotti",
-        "barbara-ehren-walsh",
-        "renee-makras",
-        "george-makras"
+        "pasquale-fucale"
       ],
       "placeIds": [
         "cattolica-eraclea",
@@ -35,16 +30,14 @@
     {
       "id": "find-obituary-patricia-paul-walsh-2019",
       "foundDate": "2026-11-26",
-      "headline": "The Walsh obituary names Barbara Walsh Vigliotti and her parents",
-      "summary": "The Rye Record obituary of Patricia Morrisey Walsh and Paul H. Walsh, published 14 October 2019, names their daughter Barbara Walsh Vigliotti and her husband Al, and gives Patricia and Paul's own parents, marriage on 5 May 1951, and deaths in September 2019.",
+      "headline": "The Walsh obituary names their daughter and her parents",
+      "summary": "The Rye Record obituary of Patricia Morrisey Walsh and Paul H. Walsh, published 14 October 2019, names their daughter and her husband, and gives Patricia and Paul's own parents, marriage on 5 May 1951, and deaths in September 2019.",
       "sourceIds": [
         "obituary-patricia-paul-walsh-2019"
       ],
       "personIds": [
         "patricia-morrisey-walsh",
         "paul-h-walsh",
-        "barbara-ehren-walsh",
-        "alphonse-john-vigliotti",
         "james-t-morrisey",
         "fernanda-ehrenfels-morrisey",
         "william-a-walsh",
@@ -65,20 +58,15 @@
     {
       "id": "find-obituary-alphonse-vigliotti-sr-2011",
       "foundDate": "2026-11-26",
-      "headline": "Alphonse Vigliotti Sr.'s obituary links Dylan to the Vigliotti line",
-      "summary": "The 2011 Journal News obituary of Alphonse J. Vigliotti Sr. (14 March 1921 to 1 January 2011), transcribed on Find a Grave, names his parents Vincent Vigliotti and Vencenza Guido, his son Alphonse J. Jr. (Barbara), daughters Susan Fucale and Renee Makras, and grandchildren including Dylan and Ehren.",
+      "headline": "Alphonse Vigliotti Sr.'s obituary names his parents and children",
+      "summary": "The 2011 Journal News obituary of Alphonse J. Vigliotti Sr. (14 March 1921 to 1 January 2011), transcribed on Find a Grave, names his parents Vincent Vigliotti and Vencenza Guido, a son, two daughters, and grandchildren.",
       "sourceIds": [
         "obituary-alphonse-vigliotti-sr-2011"
       ],
       "personIds": [
         "alphonse-j-vigliotti-sr",
-        "alphonse-john-vigliotti",
-        "susan-vigliotti",
-        "renee-makras",
-        "dylan-vigliotti",
         "vincenzo-vigliotti",
         "vincenza-guida",
-        "ehren-vigliotti",
         "concetta-mignone"
       ],
       "placeIds": [

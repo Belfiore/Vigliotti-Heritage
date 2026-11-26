@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
     <title>The Vigliotti Family Heritage</title>
-    <meta name="description" content="The Vigliotti family story: family tree, interactive canvas, family map, discovery timeline, immigration, and the records behind them.">
+    <meta name="description" content="The Vigliotti family story: family tree, interactive canvas, family map, discoveries, immigration, and the records behind them.">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
@@ -21,7 +21,7 @@
             <a href="family-tree.html">Family Tree</a>
             <a href="tree-canvas.html">Family Canvas</a>
             <a href="map.html">Family Map</a>
-            <a href="discovery.html">Discovery Timeline</a>
+            <a href="discoveries.html">Discoveries</a>
             <a href="immigration.html">Immigration</a>
             <a href="blank-page.html">Blank Page</a>
             <a href="research.html">Records and Research</a>
@@ -46,7 +46,7 @@
 
     <h2 class="section-header">The Research</h2>
     <div class="section-body" style="margin-bottom: 1.5rem;">
-        <p>Start with the <a href="discovery.html">Discovery Timeline</a> for what has been found so far, or with the <a href="tree-canvas.html">Family Canvas</a> to see how the people connect. The <a href="research.html">Records and Research</a> page lists every source and the next leads.</p>
+        <p>Start with the <a href="discoveries.html">Discoveries</a> page for what has been found so far, or with the <a href="tree-canvas.html">Family Canvas</a> to see how the people connect. The <a href="research.html">Records and Research</a> page lists every source and the next leads.</p>
     </div>
 
     <div class="page-list">
@@ -65,8 +65,8 @@
             <span class="page-link-desc">Every place tied to a person who is no longer living, from one places dataset.</span>
             <span class="page-link-arrow">&rarr;</span>
         </a>
-        <a href="discovery.html" class="page-link">
-            <span class="page-link-title">Discovery Timeline</span>
+        <a href="discoveries.html" class="page-link">
+            <span class="page-link-title">Discoveries</span>
             <span class="page-link-desc">Each research find, with the date it was found and a headline.</span>
             <span class="page-link-arrow">&rarr;</span>
         </a>
@@ -88,13 +88,13 @@
     </div>
 
     <h2 class="section-header" id="key-discoveries">Key Discoveries</h2>
-    <p class="section-body">Each card is a research find. The date is when it was found, not the date of the event. The full list lives on the <a href="discovery.html">Discovery Timeline</a>, and both pages read <code>data/discovery-timeline.json</code>. The same finds are also recorded in <code>data/discoveries.json</code>.</p>
+    <p class="section-body">Each card is a research find. The date is when it was found, not the date of the event. The full list lives on the <a href="discoveries.html">Discoveries</a> page, which is built from the family records and from <code>data/discoveries.json</code>. The cards on this page also read <code>data/discovery-timeline.json</code>.</p>
     <div class="discovery-grid" id="discoveryHome" data-discovery-limit="6">
         <noscript>
             <div class="discovery-card">
                 <span class="discovery-era">Found 26 November 2026</span>
                 <h3>Pat Fucale's obituary names Susan Vigliotti and the Vigliotti in-laws</h3>
-                <p>See the <a href="discovery.html">Discovery Timeline</a> for the full entry and the source.</p>
+                <p>See the <a href="discoveries.html">Discoveries</a> page for the full entry and the source.</p>
             </div>
         </noscript>
         <p class="placeholder-text" id="discoveryHomeFallback">Loading the discoveries.</p>

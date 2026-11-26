@@ -5,6 +5,9 @@
   "engine": {
     "channel": "stable"
   },
+  "timeline": {
+    "enabled": true
+  },
   "site": {
     "name": "Vigliotti",
     "familyName": "the Vigliotti and Walsh families",
@@ -49,10 +52,6 @@
     {
       "href": "map.html",
       "label": "Family Map"
-    },
-    {
-      "href": "discovery.html",
-      "label": "Discovery Timeline"
     },
     {
       "href": "immigration.html",
@@ -310,7 +309,8 @@
     "exclude": [
       "README.md",
       "tests/",
-      "tools/"
+      "tools/",
+      "data/discoveries.json"
     ]
   }
 }

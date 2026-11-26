@@ -1,6 +1,6 @@
 # Vigliotti Family Heritage
 
-The Vigliotti and Walsh families, drawn from Dylan Vigliotti: the home page, the family tree, the interactive canvas, the family map, a Discovery Timeline of each research find, immigration, and the records behind them.
+The Vigliotti and Walsh families, drawn from Dylan Vigliotti: the home page, the family tree, the interactive canvas, the family map, a Discoveries page of each research find, immigration, and the records behind them.
 
 ## How the site is built
 
@@ -11,10 +11,11 @@ The interactive family tree (`tree-canvas.html`), the family map (`map.html`) an
 | `site.config.json` | The site's settings: its name and pages, the navigation, the tree's labels, the map's home region, and the palette. See the engine's `docs/site-config.md` |
 | `data/people.json`, `data/sources.json` | The family and the records. See the engine's `docs/data-format.md` |
 | `data/places.json` | The one places dataset. The website map and any exported map are generated from this file, never edited by hand |
-| `data/discovery-timeline.json` | Each research find, with the date it was found and a headline. The Discovery Timeline page and the Key Discoveries on the home page both read this file |
-| `*.html`, `styles.css`, `family-tree.js`, `discovery-timeline.js` | The home page, the list view of the tree, the Discovery Timeline, the story pages and their scripts |
+| `data/discoveries.json` | Researcher notes for the Discoveries page: a found date and a headline for each find |
+| `data/discovery-timeline.json` | The same finds, kept in step for the Key Discoveries on the home page |
+| `*.html`, `styles.css`, `family-tree.js`, `discovery-timeline.js` | The home page, the list view of the tree, the story pages and their scripts. The Discoveries page is built by the family-site engine |
 | `images/` | Photographs and record images, when the family has them |
-| `tests/` | Checks of the canvas, the map and the Discovery Timeline, run against every build before it is published |
+| `tests/` | Checks of the canvas, the map and the Discoveries page, run against every build before it is published |
 
 On every push to `main`, GitHub Actions checks the data, builds the site with the engine version this site's channel points to (`engine.channel`: `stable`), runs the tests against the build, and publishes it. If anything fails, nothing is published and the live site stays as it was. A pull request gets the same checks without publishing.
 
