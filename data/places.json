@@ -1,13 +1,14 @@
 {
   "meta": {
-    "note": "One places dataset for the Vigliotti Heritage map and for any exported map. Living people are not placed on the map. Town points use a halo; known buildings use a pin. Coordinates are from OpenStreetMap Nominatim, 26 November 2026. Santa Maria a Vico and Arienzo are shown as unverified member-tree claims until the Italian registers are read.",
+    "note": "One places dataset for the Vigliotti Heritage map and for any exported map. Living people are not placed on the map. Town points use a halo; known buildings use a pin. Coordinates are from OpenStreetMap Nominatim, 26 November 2026. Italian towns use the town centre; exact houses on Via Rusciano and via Maddalena are not pinned.",
     "updated": "2026-11-26",
     "notYetOnTheMap": [
+      "The exact houses at Via Rusciano 23, Santa Maria a Vico, and via Maddalena 2, Arienzo, are not pinned; the map uses the town centres.",
+      "A cousin in Newburgh, New York, is named on the 1903 Roma manifest, but the reading is uncertain and is not yet a map event.",
+      "Owen Cleary and Catherine Donohue are named in Catherine Hingston's 1932 obituary and are not yet added as people on the tree.",
       "The town where Pat and Susan married on 30 October 1977 is not named in the obituary.",
       "Patricia Morrisey Walsh's burial place is not yet known.",
-      "Current or recent homes of living people are held back, including a 2019 residence named in the Walsh obituary.",
-      "Andrea Vigliotti, Mariantonia Ruotolo, Alfonso Guida and Antonia Vigliotti are named only as unverified tree claims, and are not yet people or map subjects.",
-      "Owen Cleary and Catherine Donohue are named in Catherine Hingston's 1932 obituary and are not yet added as people on the tree."
+      "Current or recent homes of living people are held back, including a 2019 residence named in the Walsh obituary."
     ]
   },
   "places": [
@@ -134,6 +135,23 @@
           "datePrecision": "day",
           "factRef": "gerardo-mignone.death",
           "summary": "Gerard Mignone died at White Plains Hospital on 29 October 1957."
+        },
+        {
+          "id": "pe-white-plains-naturalized-vincenzo",
+          "type": "civil case",
+          "personIds": [
+            "vincenzo-vigliotti"
+          ],
+          "confidence": "probable",
+          "sourceIds": [
+            "ancestry-nys-census-1925-vigliotti",
+            "westchester-naturalization-vigletti"
+          ],
+          "approximate": true,
+          "date": "1923",
+          "dateStart": "1923",
+          "datePrecision": "year",
+          "summary": "The 1925 New York State census marks Vincent Vigliotti a citizen, with a note reading 1923 White Plains, matching a 1922 petition in the Westchester index."
         }
       ],
       "blurb": "Where the Fucale family settled after Montreal."
@@ -595,7 +613,7 @@
       "inHomeRegion": false,
       "country": "IT",
       "status": "published",
-      "blurb": "A Campanian town near Naples. A member tree names it as Vincenzo Vigliotti's birthplace. That claim has not yet been checked in the Italian civil registers.",
+      "blurb": "A Campanian town near Naples, and the birthplace of Vincenzo Vigliotti, confirmed by his 1885 civil birth act. His father Andrea was probably born on the same street, Strada Rusciano, in 1853.",
       "events": [
         {
           "id": "pe-smav-born-vincenzo",
@@ -603,17 +621,55 @@
           "personIds": [
             "vincenzo-vigliotti"
           ],
-          "confidence": "unverified",
+          "confidence": "confirmed",
           "sourceIds": [
-            "ancestry-tree-kindred-spirits"
+            "ancestry-caserta-smv-nati-1885-act131"
           ],
           "approximate": true,
           "date": "1885",
           "dateStart": "1885-07-04",
-          "dateEnd": "1885-07-04",
           "datePrecision": "day",
+          "summary": "Vincenzo Vigliotti was born here at 11 at night on 4 July 1885, at Via Rusciano 23.",
+          "dateEnd": "1885-07-04",
           "factRef": "vincenzo-vigliotti.birth",
-          "summary": "A member tree says Vincenzo Vigliotti was born here on 4 July 1885. This has not yet been confirmed in the Italian birth register."
+          "note": "The house number and street are from the birth act. The pin is the town centre, not the exact house."
+        },
+        {
+          "id": "pe-smav-born-andrea",
+          "type": "born",
+          "personIds": [
+            "andrea-vigliotti"
+          ],
+          "confidence": "probable",
+          "sourceIds": [
+            "antenati-smv-nati-1853-act158"
+          ],
+          "approximate": true,
+          "date": "1853",
+          "dateStart": "1853-11-30",
+          "datePrecision": "day",
+          "summary": "Andrea Vigliotti was probably born here on 30 November 1853, on Strada Rusciano, and baptised the same day at Sant'Andrea Apostolo.",
+          "dateEnd": "1853-11-30",
+          "factRef": "andrea-vigliotti.birth",
+          "note": "The 1853 act is confirmed. Linking that child to Vincenzo's father is probable."
+        },
+        {
+          "id": "pe-smav-lived-andrea-1885",
+          "type": "lived",
+          "personIds": [
+            "andrea-vigliotti",
+            "mariantonia-ruotolo"
+          ],
+          "confidence": "confirmed",
+          "sourceIds": [
+            "ancestry-caserta-smv-nati-1885-act131"
+          ],
+          "approximate": true,
+          "date": "1885",
+          "dateStart": "1885-07-05",
+          "datePrecision": "day",
+          "summary": "Andrea Vigliotti and Mariantonia Ruotolo were living at Via Rusciano 23 when they registered Vincenzo's birth.",
+          "dateEnd": "1885-07-05"
         }
       ]
     },
@@ -633,7 +689,7 @@
       "inHomeRegion": false,
       "country": "IT",
       "status": "published",
-      "blurb": "A Campanian town next to Santa Maria a Vico. A member tree names it as Vincenza Pasqualina Guida's birthplace. That claim has not yet been checked in the Italian civil registers.",
+      "blurb": "A Campanian town next to Santa Maria a Vico. Vincenza Pasqualina Guida and her twin brother Pasquale Fabrizio were born here on 21 September 1899. Their mother, Antonia Vigliotti, died here in 1904.",
       "events": [
         {
           "id": "pe-arienzo-born-vincenza",
@@ -641,17 +697,70 @@
           "personIds": [
             "vincenza-guida"
           ],
-          "confidence": "unverified",
+          "confidence": "confirmed",
           "sourceIds": [
-            "ancestry-tree-kindred-spirits"
+            "ancestry-caserta-arienzo-nati-1899-act105"
           ],
           "approximate": true,
           "date": "1899",
           "dateStart": "1899-09-21",
-          "dateEnd": "1899-09-21",
           "datePrecision": "day",
-          "factRef": "vincenza-guida.birth",
-          "summary": "A member tree says Vincenza Pasqualina Guida was born here on 21 September 1899. This has not yet been confirmed in the Italian birth register."
+          "summary": "Vincenza Pasqualina Guida was born here at 11:40 in the morning on 21 September 1899, at via Maddalena 2, the first of twins.",
+          "dateEnd": "1899-09-21",
+          "factRef": "vincenza-guida.birth"
+        },
+        {
+          "id": "pe-arienzo-born-pasquale",
+          "type": "born",
+          "personIds": [
+            "pasquale-fabrizio-guida"
+          ],
+          "confidence": "confirmed",
+          "sourceIds": [
+            "ancestry-caserta-arienzo-nati-1899-act105"
+          ],
+          "approximate": true,
+          "date": "1899",
+          "dateStart": "1899-09-21",
+          "datePrecision": "day",
+          "summary": "Pasquale Fabrizio Guida, Vincenza's twin, was born here second on 21 September 1899.",
+          "dateEnd": "1899-09-21",
+          "factRef": "pasquale-fabrizio-guida.birth"
+        },
+        {
+          "id": "pe-arienzo-died-antonia",
+          "type": "died",
+          "personIds": [
+            "antonia-vigliotti"
+          ],
+          "confidence": "confirmed",
+          "sourceIds": [
+            "ancestry-caserta-arienzo-morti-1904-act29"
+          ],
+          "approximate": true,
+          "date": "1904",
+          "dateStart": "1904-06-08",
+          "datePrecision": "day",
+          "summary": "Antonia Vigliotti died here on 8 June 1904, at villaggio Crisci 8, aged 38.",
+          "dateEnd": "1904-06-08",
+          "factRef": "antonia-vigliotti.death"
+        },
+        {
+          "id": "pe-arienzo-lived-alfonso",
+          "type": "lived",
+          "personIds": [
+            "alfonso-guida",
+            "antonia-vigliotti"
+          ],
+          "confidence": "confirmed",
+          "sourceIds": [
+            "ancestry-caserta-arienzo-nati-1899-act105"
+          ],
+          "approximate": true,
+          "date": "1899",
+          "dateStart": "1899-09-21",
+          "datePrecision": "year",
+          "summary": "Alfonso Guida and Antonia Vigliotti were living at via Maddalena 2 when their twins were born."
         }
       ]
     },
@@ -738,6 +847,23 @@
           "factRef": "alphonse-j-vigliotti-sr.birth",
           "summary": "Alphonse J. Vigliotti Sr. was born in Eastchester, New York, on 14 March 1921. His World War II draft card says Scarsdale, which is consistent with a Scarsdale post office in the Town of Eastchester.",
           "note": "The draft card gives Scarsdale as the birthplace. The 2011 obituary gives Eastchester. These are treated as the same community, not as a conflict."
+        },
+        {
+          "id": "pe-eastchester-lived-1920",
+          "type": "lived",
+          "personIds": [
+            "vincenzo-vigliotti",
+            "vincenza-guida"
+          ],
+          "confidence": "confirmed",
+          "sourceIds": [
+            "ancestry-census-1920-vigliotte"
+          ],
+          "approximate": true,
+          "date": "1920",
+          "dateStart": "1920",
+          "datePrecision": "year",
+          "summary": "Vincent and Vincenza Vigliotti were living on Scarsdale Avenue, Eastchester, at the 1920 census. He had filed first papers and was not yet a citizen."
         }
       ]
     },
@@ -1209,8 +1335,8 @@
       "inHomeRegion": false,
       "country": "US",
       "status": "published",
-      "todayNote": "A 1903 New York passenger-list index names the arrival port as New York, on the ship Roma. Ellis Island was the inspection station for steerage passengers at that date. The manifest page has not yet been read.",
-      "blurb": "A Vincenzo Vigliotti, aged 17, probably arrived here on the ship Roma on 1 April 1903.",
+      "todayNote": "The Roma manifest for 1 April 1903, sheet 18 line 18, shows a 17-year-old farm labourer whose surname is only partly readable, arriving from Naples. Ellis Island was the inspection station for steerage passengers at that date.",
+      "blurb": "Vincenzo Vigliotti, aged 17, probably arrived here on the ship Roma on 1 April 1903.",
       "events": [
         {
           "id": "pe-ellis-arrived-vincenzo",
@@ -1220,6 +1346,7 @@
           ],
           "confidence": "probable",
           "sourceIds": [
+            "ancestry-roma-manifest-1903",
             "ancestry-passenger-list-roma-1903"
           ],
           "approximate": false,
@@ -1228,7 +1355,7 @@
           "dateEnd": "1903-04-01",
           "datePrecision": "day",
           "voyageEnd": "arrival",
-          "summary": "A passenger-list index shows Vincenzo Vigliotti, aged 17, arriving at New York on the Roma on 1 April 1903. The match is probable until the manifest page is read."
+          "summary": "A 17-year-old farm labourer, probably Vincenzo Vigliotti, arrived at New York on the Roma on 1 April 1903. The manifest says he paid his own passage, carried $20, and was going to a cousin in Newburgh, New York."
         }
       ]
     },
@@ -1341,6 +1468,43 @@
           "datePrecision": "month",
           "factRef": "clara-hingston-walsh.burial",
           "summary": "A Find a Grave entry places Clara F. Hingston Walsh here after her death on 21 December 1957."
+        }
+      ]
+    },
+    {
+      "id": "san-felice-a-cancello",
+      "name": "San Felice a Cancello, Caserta, Campania, Italy",
+      "historicName": "San Felice a Cancello, Caserta, Campania",
+      "kind": "town",
+      "precision": "town",
+      "lat": 41.0123935,
+      "lng": 14.4829931,
+      "uncertaintyMetres": 2000,
+      "coordinateMethod": "Point from OpenStreetMap Nominatim, looked up on 26 November 2026.",
+      "coordinatePrecision": "town",
+      "coordinateSourceIds": [],
+      "drawAs": "halo",
+      "inHomeRegion": false,
+      "country": "IT",
+      "status": "published",
+      "blurb": "A Campanian town that borders Santa Maria a Vico and Arienzo. Antonia Vigliotti's 1904 death act gives it as her birthplace.",
+      "events": [
+        {
+          "id": "pe-sfc-born-antonia",
+          "type": "born",
+          "personIds": [
+            "antonia-vigliotti"
+          ],
+          "confidence": "probable",
+          "sourceIds": [
+            "ancestry-caserta-arienzo-morti-1904-act29"
+          ],
+          "approximate": true,
+          "date": "1866",
+          "dateStart": "1866",
+          "datePrecision": "year",
+          "summary": "Antonia Vigliotti was probably born here about 1866. The birthplace comes from her 1904 death act at Arienzo.",
+          "factRef": "antonia-vigliotti.birth"
         }
       ]
     }

@@ -199,7 +199,7 @@
       "id": "find-italian-hometowns-tree",
       "foundDate": "2026-11-26",
       "headline": "Another researcher's tree points to Santa Maria a Vico and Arienzo",
-      "summary": "An Ancestry member tree gives Vincenzo Vigliotti's birth as 4 July 1885 at Santa Maria a Vico and Vincenza Pasqualina Guida's as 21 September 1899 at Arienzo, both in Caserta province, with their parents' names. Not yet checked against the Italian birth registers.",
+      "summary": "An Ancestry member tree first pointed to Vincenzo Vigliotti's birth as 4 July 1885 at Santa Maria a Vico and Vincenza Pasqualina Guida's as 21 September 1899 at Arienzo, and named their parents. The civil birth acts have now been read and confirm those dates and towns.",
       "sourceIds": [
         "ancestry-tree-kindred-spirits"
       ],
@@ -221,7 +221,7 @@
       "id": "find-passenger-list-roma-1903",
       "foundDate": "2026-11-26",
       "headline": "Vincenzo Vigliotti arrives on the Roma, 1903",
-      "summary": "A New York passenger list index shows Vincenzo Vigliotti, aged 17, arriving at New York on the ship Roma on 1 April 1903.",
+      "summary": "A New York passenger list index shows Vincenzo Vigliotti, aged 17, arriving at New York on the ship Roma on 1 April 1903. The manifest page itself was later read; see the separate find for that reading.",
       "sourceIds": [
         "ancestry-passenger-list-roma-1903"
       ],
@@ -233,26 +233,6 @@
       ],
       "confidence": "probable",
       "eventDate": "1903-04-01",
-      "pages": [
-        "research.html"
-      ]
-    },
-    {
-      "id": "find-naturalization-index-vincenzo-1928",
-      "foundDate": "2026-11-26",
-      "headline": "A Vincenzo Vigliotti files for citizenship in 1928 and 1930",
-      "summary": "The Westchester County naturalization index lists a Vincenzo Vigliotti declaration of intention in 1928 and petition in 1930, after Alphonse Sr.'s birth in 1921. The petition index gives birth 2 September 1892 at \"Bunito\", so it is not yet proven to be our Vincenzo.",
-      "sourceIds": [
-        "westchester-naturalization-vigliotti"
-      ],
-      "personIds": [
-        "vincenzo-vigliotti"
-      ],
-      "placeIds": [
-        "white-plains-ny"
-      ],
-      "confidence": "unverified",
-      "eventDate": "1930-01-01",
       "pages": [
         "research.html"
       ]
@@ -439,6 +419,205 @@
       "eventDate": "1926-01-01",
       "pages": [
         "research.html"
+      ]
+    },
+    {
+      "id": "find-census-1920-first-papers",
+      "foundDate": "2026-11-26",
+      "headline": "1920 census: Vincent Vigliotti had filed first papers",
+      "summary": "The January 1920 census lists Vincent Vigliotte, 34, on Scarsdale Avenue, Eastchester, immigrated 1902, with citizenship Pa, meaning he had declared his intention but was not yet a citizen. His wife Vincenza, 20, had arrived in 1916.",
+      "sourceIds": [
+        "ancestry-census-1920-vigliotte"
+      ],
+      "personIds": [
+        "vincenzo-vigliotti",
+        "vincenza-guida"
+      ],
+      "placeIds": [
+        "eastchester-ny"
+      ],
+      "confidence": "confirmed",
+      "pages": [
+        "research.html",
+        "discoveries.html"
+      ]
+    },
+    {
+      "id": "find-nys-census-1925-citizen-1923",
+      "foundDate": "2026-11-26",
+      "headline": "1925 census: a citizen since 1923, White Plains",
+      "summary": "The June 1925 New York State census at 44 Brambach Avenue marks the head of the Vigliotti household a citizen, with the note 1923 White Plains, and lists sons Vincent, Alfonso, Andrew and Anthony and daughter Madeline.",
+      "sourceIds": [
+        "ancestry-nys-census-1925-vigliotti"
+      ],
+      "personIds": [
+        "vincenzo-vigliotti",
+        "vincenza-guida",
+        "alphonse-j-vigliotti-sr"
+      ],
+      "placeIds": [
+        "eastchester-ny",
+        "white-plains-ny",
+        "brambach-ave-eastchester"
+      ],
+      "confidence": "confirmed",
+      "pages": [
+        "research.html",
+        "discoveries.html"
+      ]
+    },
+    {
+      "id": "find-naturalization-index-1916-1922",
+      "foundDate": "2026-11-26",
+      "headline": "Vincenzo's naturalization papers found under misspellings",
+      "summary": "The Westchester County naturalization index has a 1916 declaration for Vincenzo Viglietto and a 1922 petition for Vincenzo Vigletti (Viglotti). With the census trail, this points to naturalization in 1922 or 1923, after Alphonse Sr. was born in March 1921. The 1928 and 1930 papers in the same index belong to a different Vincenzo, born in 1892 at Bonito.",
+      "sourceIds": [
+        "westchester-naturalization-vigletti"
+      ],
+      "personIds": [
+        "vincenzo-vigliotti",
+        "alphonse-j-vigliotti-sr"
+      ],
+      "placeIds": [
+        "white-plains-ny",
+        "westchester-county-ny"
+      ],
+      "confidence": "probable",
+      "pages": [
+        "research.html",
+        "discoveries.html"
+      ]
+    },
+    {
+      "id": "find-roma-manifest-1903",
+      "foundDate": "2026-11-26",
+      "headline": "The Roma manifest: a 17 year old farm labourer joining a cousin",
+      "summary": "On the S.S. Roma manifest for 1 April 1903, a 17-year-old single farm labourer whose surname is only partly readable, paid his own passage, carried $20, and was going to a cousin at 312 Broadway, Newburgh, New York.",
+      "sourceIds": [
+        "ancestry-roma-manifest-1903"
+      ],
+      "personIds": [
+        "vincenzo-vigliotti"
+      ],
+      "placeIds": [
+        "ellis-island-ny"
+      ],
+      "confidence": "probable",
+      "pages": [
+        "research.html",
+        "discoveries.html"
+      ]
+    },
+    {
+      "id": "find-vincenzo-birth-act-1885",
+      "foundDate": "2026-11-26",
+      "headline": "Vincenzo's Italian birth act: 4 July 1885, Santa Maria a Vico",
+      "summary": "The civil birth register of Santa Maria a Vico shows that Vincenzo Vigliotti was born at 11 at night on 4 July 1885, at Via Rusciano 23, to Andrea Vigliotti, a 32-year-old farmer, and his wife Mariantonia Ruotolo. His father registered the birth the next morning. This settles his birth date and town.",
+      "sourceIds": [
+        "ancestry-caserta-smv-nati-1885-act131"
+      ],
+      "personIds": [
+        "vincenzo-vigliotti",
+        "andrea-vigliotti",
+        "mariantonia-ruotolo"
+      ],
+      "placeIds": [
+        "santa-maria-a-vico"
+      ],
+      "confidence": "confirmed",
+      "pages": [
+        "research.html",
+        "discoveries.html"
+      ]
+    },
+    {
+      "id": "find-vincenza-twins-1899",
+      "foundDate": "2026-11-26",
+      "headline": "Vincenza was a twin, born in Arienzo in 1899",
+      "summary": "Vincenza Pasqualina Guida was born at 11:40 in the morning on 21 September 1899 at via Maddalena 2, Arienzo, the first of twins born to Alfonso Guida, a 33-year-old farmer, and Antonia Vigliotti. Her twin brother, Pasquale Fabrizio, was born second and recorded in the next act.",
+      "sourceIds": [
+        "ancestry-caserta-arienzo-nati-1899-act105"
+      ],
+      "personIds": [
+        "vincenza-guida",
+        "pasquale-fabrizio-guida",
+        "alfonso-guida",
+        "antonia-vigliotti"
+      ],
+      "placeIds": [
+        "arienzo"
+      ],
+      "confidence": "confirmed",
+      "pages": [
+        "research.html",
+        "discoveries.html"
+      ]
+    },
+    {
+      "id": "find-antonia-vigliotti-death-1904",
+      "foundDate": "2026-11-26",
+      "headline": "Vincenza lost her mother at four: Antonia Vigliotti, died 1904",
+      "summary": "Antonia Vigliotti, wife of Alfonso Guida, died at Arienzo on 8 June 1904, aged 38. Her death act says she was born in San Felice a Cancello, the daughter of Raffaele Vigliotti, a farmer, and Pasqualina Carfora.",
+      "sourceIds": [
+        "ancestry-caserta-arienzo-morti-1904-act29"
+      ],
+      "personIds": [
+        "antonia-vigliotti",
+        "alfonso-guida",
+        "raffaele-vigliotti",
+        "pasqualina-carfora",
+        "vincenza-guida"
+      ],
+      "placeIds": [
+        "arienzo",
+        "san-felice-a-cancello"
+      ],
+      "confidence": "confirmed",
+      "pages": [
+        "research.html",
+        "discoveries.html"
+      ]
+    },
+    {
+      "id": "find-andrea-vigliotti-birth-1853",
+      "foundDate": "2026-11-26",
+      "headline": "One generation further back: Andrea Vigliotti, born 1853",
+      "summary": "The 1853 birth register of Santa Maria a Vico, free on Antenati, records Andrea Vigliotti, born 30 November 1853 on Strada Rusciano, the same street where Vincenzo was born 32 years later. His parents were Crescenzo Vigliotti, son of Agostino, a farmer, and Maria Rosa Carfora. He is very probably Vincenzo's father.",
+      "sourceIds": [
+        "antenati-smv-nati-1853-act158"
+      ],
+      "personIds": [
+        "andrea-vigliotti",
+        "crescenzo-vigliotti",
+        "maria-rosa-carfora"
+      ],
+      "placeIds": [
+        "santa-maria-a-vico"
+      ],
+      "confidence": "probable",
+      "pages": [
+        "research.html",
+        "discoveries.html"
+      ]
+    },
+    {
+      "id": "find-mariantonia-ruotolo-candidate-1856",
+      "foundDate": "2026-11-26",
+      "headline": "A possible birth for Vincenzo's mother, Mariantonia Ruotolo, 1856",
+      "summary": "The 1856 Santa Maria a Vico births include Maria Antonia Ruotolo, born 28 June 1856 on Strada Rusciano, the same street as Vincenzo and Andrea, to Giuseppe Ruotolo and Angela Vigliotti. A later note on her act records a marriage to an Alfonso P. in 1896, or possibly 1876, so she is a candidate, not yet proven, until Andrea and Mariantonia's own marriage act is found.",
+      "sourceIds": [
+        "antenati-smv-nati-1856-act96"
+      ],
+      "personIds": [
+        "mariantonia-ruotolo"
+      ],
+      "placeIds": [
+        "santa-maria-a-vico"
+      ],
+      "confidence": "lead",
+      "pages": [
+        "research.html",
+        "discoveries.html"
       ]
     }
   ]

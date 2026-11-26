@@ -49,12 +49,606 @@
   },
   "people": [
     {
+      "id": "crescenzo-vigliotti",
+      "displayName": "Crescenzo Vigliotti",
+      "givenNames": "Crescenzo",
+      "surname": "Vigliotti",
+      "sex": "M",
+      "generation": 0,
+      "isLiving": false,
+      "isDirectLine": true,
+      "confidence": "probable",
+      "parentLinkConfidence": "probable",
+      "parents": [],
+      "children": [
+        "andrea-vigliotti"
+      ],
+      "spouses": [
+        {
+          "id": "maria-rosa-carfora",
+          "confidence": "probable",
+          "sourceIds": [
+            "antenati-smv-nati-1853-act158"
+          ],
+          "note": "Named as a married couple on Andrea's 1853 birth act."
+        }
+      ],
+      "disambiguator": "Probable grandfather of Vincenzo",
+      "summary": "A farmer of Strada Rusciano, Santa Maria a Vico, named in 1853 as the father of Andrea Vigliotti.",
+      "story": "On 30 November 1853 Crescenzo Vigliotti, son of Agostino, aged 33, a farmer who could not write, registered the birth of his son Andrea at Santa Maria a Vico. He lived on Strada Rusciano with his wife Maria Rosa Carfora.[^antenati-smv-nati-1853-act158]\n\nHe is probably Vincenzo Vigliotti's grandfather. The identification rests on Andrea being the only Andrea Vigliotti born in the town in 1852 or 1853, and on the same street appearing in Vincenzo's 1885 birth act. That link is probable until Andrea's marriage act names his parents.",
+      "birth": {
+        "display": "about 1820",
+        "date": "1820",
+        "dateQualifier": "about",
+        "confidence": "probable",
+        "sourceIds": [
+          "antenati-smv-nati-1853-act158"
+        ],
+        "note": "Aged 33 on 30 November 1853."
+      },
+      "occupations": [
+        {
+          "title": "Farmer (contadino)",
+          "place": "Santa Maria a Vico",
+          "placeId": "santa-maria-a-vico",
+          "confidence": "confirmed",
+          "sourceIds": [
+            "antenati-smv-nati-1853-act158"
+          ]
+        }
+      ],
+      "residences": [
+        {
+          "place": "Strada Rusciano, Santa Maria a Vico",
+          "placeId": "santa-maria-a-vico",
+          "years": "1853",
+          "confidence": "confirmed",
+          "sourceIds": [
+            "antenati-smv-nati-1853-act158"
+          ]
+        }
+      ],
+      "relatedPages": [
+        {
+          "title": "Records and Research",
+          "url": "research.html"
+        }
+      ]
+    },
+    {
+      "id": "maria-rosa-carfora",
+      "displayName": "Maria Rosa Carfora",
+      "givenNames": "Maria Rosa",
+      "surname": "Carfora",
+      "sex": "F",
+      "generation": 0,
+      "isLiving": false,
+      "isDirectLine": true,
+      "confidence": "probable",
+      "parentLinkConfidence": "probable",
+      "parents": [],
+      "children": [
+        "andrea-vigliotti"
+      ],
+      "spouses": [
+        {
+          "id": "crescenzo-vigliotti",
+          "confidence": "probable",
+          "sourceIds": [
+            "antenati-smv-nati-1853-act158"
+          ],
+          "note": "Named as Crescenzo's lawful wife on Andrea's 1853 birth act."
+        }
+      ],
+      "disambiguator": "Probable grandmother of Vincenzo",
+      "summary": "Daughter of the late Francesco Carfora, and mother of Andrea Vigliotti, named on his 1853 birth act at Santa Maria a Vico.",
+      "story": "Maria Rosa Carfora, daughter of the late Francesco, aged 33, was named on 30 November 1853 as the mother of Andrea Vigliotti and the wife of Crescenzo Vigliotti, a farmer of Strada Rusciano, Santa Maria a Vico.[^antenati-smv-nati-1853-act158] Through the probable identification of that Andrea with Vincenzo's father, she is probably Vincenzo's grandmother.",
+      "birth": {
+        "display": "about 1820",
+        "date": "1820",
+        "dateQualifier": "about",
+        "confidence": "probable",
+        "sourceIds": [
+          "antenati-smv-nati-1853-act158"
+        ],
+        "note": "Aged 33 on 30 November 1853."
+      },
+      "relatedPages": [
+        {
+          "title": "Records and Research",
+          "url": "research.html"
+        }
+      ]
+    },
+    {
+      "id": "raffaele-vigliotti",
+      "displayName": "Raffaele Vigliotti",
+      "givenNames": "Raffaele",
+      "surname": "Vigliotti",
+      "sex": "M",
+      "generation": 0,
+      "isLiving": false,
+      "isDirectLine": true,
+      "confidence": "probable",
+      "parentLinkConfidence": "probable",
+      "parents": [],
+      "children": [
+        "antonia-vigliotti"
+      ],
+      "spouses": [
+        {
+          "id": "pasqualina-carfora",
+          "confidence": "probable",
+          "sourceIds": [
+            "ancestry-caserta-arienzo-morti-1904-act29"
+          ],
+          "note": "Named as Antonia's parents on her 1904 death act."
+        }
+      ],
+      "disambiguator": "Antonia Vigliotti's father",
+      "summary": "A farmer, named on Antonia Vigliotti's 1904 death act as her father.",
+      "story": "Raffaele Vigliotti, a farmer, is named on the 9 June 1904 death act of Antonia Vigliotti at Arienzo as her father. The information is secondary, given by the people who reported the death, so the identification of her parents is probable.[^ancestry-caserta-arienzo-morti-1904-act29]",
+      "occupations": [
+        {
+          "title": "Farmer (contadino)",
+          "confidence": "probable",
+          "sourceIds": [
+            "ancestry-caserta-arienzo-morti-1904-act29"
+          ]
+        }
+      ],
+      "relatedPages": [
+        {
+          "title": "Records and Research",
+          "url": "research.html"
+        }
+      ]
+    },
+    {
+      "id": "pasqualina-carfora",
+      "displayName": "Pasqualina Carfora",
+      "givenNames": "Pasqualina",
+      "surname": "Carfora",
+      "sex": "F",
+      "generation": 0,
+      "isLiving": false,
+      "isDirectLine": true,
+      "confidence": "probable",
+      "parentLinkConfidence": "probable",
+      "parents": [],
+      "children": [
+        "antonia-vigliotti"
+      ],
+      "spouses": [
+        {
+          "id": "raffaele-vigliotti",
+          "confidence": "probable",
+          "sourceIds": [
+            "ancestry-caserta-arienzo-morti-1904-act29"
+          ],
+          "note": "Named as Antonia's parents on her 1904 death act."
+        }
+      ],
+      "disambiguator": "Antonia Vigliotti's mother",
+      "nameVariants": [
+        {
+          "name": "Maria Pasqualina Carfora",
+          "note": "The 1904 death act may read Ma. Pasqualina, probably Maria Pasqualina.",
+          "confidence": "probable",
+          "sourceIds": [
+            "ancestry-caserta-arienzo-morti-1904-act29"
+          ]
+        }
+      ],
+      "summary": "Named on Antonia Vigliotti's 1904 death act as her mother.",
+      "story": "Pasqualina Carfora is named on the 9 June 1904 death act of Antonia Vigliotti at Arienzo as her mother. The act may read Maria Pasqualina. The information is secondary, so the identification is probable.[^ancestry-caserta-arienzo-morti-1904-act29]",
+      "relatedPages": [
+        {
+          "title": "Records and Research",
+          "url": "research.html"
+        }
+      ]
+    },
+    {
+      "id": "andrea-vigliotti",
+      "displayName": "Andrea Vigliotti",
+      "givenNames": "Andrea",
+      "surname": "Vigliotti",
+      "sex": "M",
+      "generation": 1,
+      "isLiving": false,
+      "isDirectLine": true,
+      "confidence": "probable",
+      "parentLinkConfidence": "probable",
+      "parents": [
+        "crescenzo-vigliotti",
+        "maria-rosa-carfora"
+      ],
+      "children": [
+        "vincenzo-vigliotti"
+      ],
+      "spouses": [
+        {
+          "id": "mariantonia-ruotolo",
+          "confidence": "confirmed",
+          "sourceIds": [
+            "ancestry-caserta-smv-nati-1885-act131"
+          ],
+          "note": "Named as a married couple on Vincenzo's 1885 birth act. Their own marriage record has not yet been found."
+        }
+      ],
+      "disambiguator": "Vincenzo's father",
+      "summary": "A farm worker of Santa Maria a Vico who registered the birth of his son Vincenzo in 1885, and who was probably born there on 30 November 1853.",
+      "story": "On 5 July 1885 Andrea Vigliotti, a 32-year-old farm worker of Santa Maria a Vico, registered the birth of his son Vincenzo, born the night before to his wife Mariantonia Ruotolo, at Via Rusciano 23.[^ancestry-caserta-smv-nati-1885-act131]\n\nHe is probably the Andrea Vigliotti born on 30 November 1853 on the same street, Strada Rusciano, the son of Crescenzo Vigliotti and Maria Rosa Carfora, and baptised that day at Sant'Andrea Apostolo. That is the only Andrea Vigliotti in the town's 1852 and 1853 birth registers. He would have been 31 in July 1885, against the age 32 given in Vincenzo's act, a common one-year gap. The identification is probable until Andrea and Mariantonia's marriage act names his parents.[^antenati-smv-nati-1853-act158]",
+      "birth": {
+        "display": "30 November 1853, Santa Maria a Vico (probable)",
+        "date": "1853-11-30",
+        "dateQualifier": "exact",
+        "place": "Strada Rusciano, Santa Maria a Vico, Caserta",
+        "placeId": "santa-maria-a-vico",
+        "confidence": "probable",
+        "sourceIds": [
+          "antenati-smv-nati-1853-act158",
+          "ancestry-caserta-smv-nati-1885-act131"
+        ],
+        "note": "The 1853 birth act is a confirmed record of an Andrea Vigliotti of Strada Rusciano. Linking that child to Vincenzo's father is probable: he is the only Andrea Vigliotti born in the town in 1852 or 1853, and the street matches. The 1885 act gives the father's age as 32, one year older than this birth would make him."
+      },
+      "occupations": [
+        {
+          "title": "Farm worker (colono)",
+          "place": "Santa Maria a Vico",
+          "placeId": "santa-maria-a-vico",
+          "years": "1885",
+          "confidence": "confirmed",
+          "sourceIds": [
+            "ancestry-caserta-smv-nati-1885-act131"
+          ]
+        }
+      ],
+      "residences": [
+        {
+          "place": "Via Rusciano 23, Santa Maria a Vico",
+          "placeId": "santa-maria-a-vico",
+          "years": "1885",
+          "confidence": "confirmed",
+          "sourceIds": [
+            "ancestry-caserta-smv-nati-1885-act131"
+          ]
+        }
+      ],
+      "media": [
+        {
+          "type": "document",
+          "file": "records/1853-birth-vigliotti-andrea-santa-maria-a-vico-act158-highlighted.jpg",
+          "thumb": "records/1853-birth-vigliotti-andrea-santa-maria-a-vico-act158-zoom.jpg",
+          "caption": "Civil birth act 158, Santa Maria a Vico, 30 November 1853, with the entry for Andrea Vigliotti highlighted.",
+          "alt": "Highlighted page of the 1853 Santa Maria a Vico birth register, act 158, Andrea Vigliotti.",
+          "sourceId": "antenati-smv-nati-1853-act158"
+        },
+        {
+          "type": "document",
+          "file": "records/1853-birth-vigliotti-andrea-santa-maria-a-vico-act158-continuation-highlighted.jpg",
+          "thumb": "records/1853-birth-vigliotti-andrea-santa-maria-a-vico-act158-continuation-zoom.jpg",
+          "caption": "Continuation of act 158, including the baptism of Andrea Vigliotti the same day at Sant'Andrea Apostolo.",
+          "alt": "Highlighted continuation page of Andrea Vigliotti's 1853 birth act.",
+          "sourceId": "antenati-smv-nati-1853-act158"
+        }
+      ],
+      "openQuestions": [
+        {
+          "question": "Does Andrea and Mariantonia's marriage act name his parents as Crescenzo Vigliotti and Maria Rosa Carfora?",
+          "record": "Santa Maria a Vico marriage register, about 1875 to 1884, Ancestry collection 1893, Atti di Matrimonio."
+        }
+      ],
+      "relatedPages": [
+        {
+          "title": "Records and Research",
+          "url": "research.html"
+        },
+        {
+          "title": "Discoveries",
+          "url": "discoveries.html"
+        }
+      ]
+    },
+    {
+      "id": "mariantonia-ruotolo",
+      "displayName": "Mariantonia Ruotolo",
+      "givenNames": "Mariantonia",
+      "surname": "Ruotolo",
+      "sex": "F",
+      "generation": 1,
+      "isLiving": false,
+      "isDirectLine": true,
+      "confidence": "confirmed",
+      "parentLinkConfidence": "confirmed",
+      "parents": [],
+      "children": [
+        "vincenzo-vigliotti"
+      ],
+      "spouses": [
+        {
+          "id": "andrea-vigliotti",
+          "confidence": "confirmed",
+          "sourceIds": [
+            "ancestry-caserta-smv-nati-1885-act131"
+          ],
+          "note": "Named as Andrea's wife on Vincenzo's 1885 birth act."
+        }
+      ],
+      "disambiguator": "Vincenzo's mother",
+      "summary": "A farm worker of Santa Maria a Vico, named on Vincenzo's 1885 birth act as his mother. Her own birth record is not yet settled.",
+      "story": "Mariantonia Ruotolo, a farm worker, is named on Vincenzo Vigliotti's birth act of 5 July 1885 as his mother, living with her husband Andrea at Via Rusciano 23, Santa Maria a Vico.[^ancestry-caserta-smv-nati-1885-act131]\n\nA possible birth for her is Maria Antonia Ruotolo, born 28 June 1856 on the same street, daughter of Giuseppe Ruotolo and Angela Vigliotti. A later note on that act records a marriage to an Alfonso P. in 1896, or possibly 1876, so she is a candidate, not a proven identity, until Andrea and Mariantonia's own marriage act is found.[^antenati-smv-nati-1856-act96]",
+      "occupations": [
+        {
+          "title": "Farm worker (colona)",
+          "place": "Santa Maria a Vico",
+          "placeId": "santa-maria-a-vico",
+          "years": "1885",
+          "confidence": "confirmed",
+          "sourceIds": [
+            "ancestry-caserta-smv-nati-1885-act131"
+          ]
+        }
+      ],
+      "residences": [
+        {
+          "place": "Via Rusciano 23, Santa Maria a Vico",
+          "placeId": "santa-maria-a-vico",
+          "years": "1885",
+          "confidence": "confirmed",
+          "sourceIds": [
+            "ancestry-caserta-smv-nati-1885-act131"
+          ]
+        }
+      ],
+      "openQuestions": [
+        {
+          "question": "Is the Maria Antonia Ruotolo born on 28 June 1856 at Strada Rusciano the same woman who married Andrea Vigliotti?",
+          "record": "Andrea and Mariantonia's marriage act, and the 1896 or 1876 marriage act no. 40 noted in the margin of the 1856 birth."
+        }
+      ],
+      "relatedPages": [
+        {
+          "title": "Records and Research",
+          "url": "research.html"
+        },
+        {
+          "title": "Discoveries",
+          "url": "discoveries.html"
+        }
+      ]
+    },
+    {
+      "id": "alfonso-guida",
+      "displayName": "Alfonso Guida",
+      "givenNames": "Alfonso",
+      "surname": "Guida",
+      "sex": "M",
+      "generation": 1,
+      "isLiving": false,
+      "isDirectLine": true,
+      "confidence": "confirmed",
+      "parentLinkConfidence": "confirmed",
+      "parents": [],
+      "children": [
+        "vincenza-guida",
+        "pasquale-fabrizio-guida"
+      ],
+      "spouses": [
+        {
+          "id": "antonia-vigliotti",
+          "confidence": "confirmed",
+          "sourceIds": [
+            "ancestry-caserta-arienzo-nati-1899-act105",
+            "ancestry-caserta-arienzo-morti-1904-act29"
+          ],
+          "note": "Named as a married couple on the 1899 twin birth acts and on Antonia's 1904 death act."
+        }
+      ],
+      "disambiguator": "Vincenza's father",
+      "summary": "A farmer of via Maddalena, Arienzo, who registered the birth of his twin children Vincenza Pasqualina and Pasquale Fabrizio in 1899, and was widowed in 1904.",
+      "story": "On 23 September 1899 Alfonso Guida, a 33-year-old farmer of via Maddalena 2, Arienzo, registered the birth of twins born two days earlier to his wife Antonia Vigliotti: first Vincenza Pasqualina, then Pasquale Fabrizio.[^ancestry-caserta-arienzo-nati-1899-act105] He was widowed on 8 June 1904, when Antonia died at Arienzo, aged 38.[^ancestry-caserta-arienzo-morti-1904-act29]",
+      "birth": {
+        "display": "about 1866",
+        "date": "1866",
+        "dateQualifier": "about",
+        "confidence": "confirmed",
+        "sourceIds": [
+          "ancestry-caserta-arienzo-nati-1899-act105"
+        ],
+        "note": "Aged 33 in September 1899."
+      },
+      "occupations": [
+        {
+          "title": "Farmer (contadino)",
+          "place": "Arienzo",
+          "placeId": "arienzo",
+          "years": "1899 to 1904",
+          "confidence": "confirmed",
+          "sourceIds": [
+            "ancestry-caserta-arienzo-nati-1899-act105",
+            "ancestry-caserta-arienzo-morti-1904-act29"
+          ]
+        }
+      ],
+      "residences": [
+        {
+          "place": "Via Maddalena 2, Arienzo",
+          "placeId": "arienzo",
+          "years": "1899",
+          "confidence": "confirmed",
+          "sourceIds": [
+            "ancestry-caserta-arienzo-nati-1899-act105"
+          ]
+        }
+      ],
+      "relatedPages": [
+        {
+          "title": "Records and Research",
+          "url": "research.html"
+        },
+        {
+          "title": "Discoveries",
+          "url": "discoveries.html"
+        }
+      ]
+    },
+    {
+      "id": "antonia-vigliotti",
+      "displayName": "Antonia Vigliotti",
+      "givenNames": "Antonia",
+      "surname": "Vigliotti",
+      "sex": "F",
+      "generation": 1,
+      "isLiving": false,
+      "isDirectLine": true,
+      "confidence": "confirmed",
+      "parentLinkConfidence": "probable",
+      "parents": [
+        "raffaele-vigliotti",
+        "pasqualina-carfora"
+      ],
+      "children": [
+        "vincenza-guida",
+        "pasquale-fabrizio-guida"
+      ],
+      "spouses": [
+        {
+          "id": "alfonso-guida",
+          "confidence": "confirmed",
+          "sourceIds": [
+            "ancestry-caserta-arienzo-nati-1899-act105",
+            "ancestry-caserta-arienzo-morti-1904-act29"
+          ]
+        }
+      ],
+      "disambiguator": "Vincenza's mother",
+      "summary": "A farm worker, born about 1866 at San Felice a Cancello, who married Alfonso Guida, had twins in 1899, and died at Arienzo on 8 June 1904.",
+      "story": "Antonia Vigliotti, a farm worker, is named as the mother of the twins Vincenza Pasqualina and Pasquale Fabrizio Guida, born at Arienzo on 21 September 1899.[^ancestry-caserta-arienzo-nati-1899-act105]\n\nShe died at about 8:40 in the evening on 8 June 1904, aged 38, at villaggio Crisci 8, Arienzo. The death act, registered the next day, says she was born at San Felice a Cancello, the daughter of Raffaele Vigliotti, a farmer, and Pasqualina Carfora. Those parent names and her birthplace are probable, because they are secondary information from the people who reported the death.[^ancestry-caserta-arienzo-morti-1904-act29]",
+      "birth": {
+        "display": "about 1866, San Felice a Cancello (probable)",
+        "date": "1866",
+        "dateQualifier": "about",
+        "place": "San Felice a Cancello, Caserta",
+        "placeId": "san-felice-a-cancello",
+        "confidence": "probable",
+        "sourceIds": [
+          "ancestry-caserta-arienzo-morti-1904-act29"
+        ],
+        "note": "Aged 38 at death on 8 June 1904. The birthplace and parents come from her death act."
+      },
+      "death": {
+        "date": "1904-06-08",
+        "display": "8 June 1904, Arienzo",
+        "dateQualifier": "exact",
+        "place": "Villaggio Crisci 8, Arienzo, Caserta",
+        "placeId": "arienzo",
+        "confidence": "confirmed",
+        "sourceIds": [
+          "ancestry-caserta-arienzo-morti-1904-act29"
+        ],
+        "note": "The hamlet name Crisci, and the time of about 8:40 in the evening, are careful readings of the act."
+      },
+      "occupations": [
+        {
+          "title": "Farm worker (contadina)",
+          "place": "Arienzo",
+          "placeId": "arienzo",
+          "confidence": "confirmed",
+          "sourceIds": [
+            "ancestry-caserta-arienzo-nati-1899-act105",
+            "ancestry-caserta-arienzo-morti-1904-act29"
+          ]
+        }
+      ],
+      "media": [
+        {
+          "type": "document",
+          "file": "records/1904-death-vigliotti-antonia-arienzo-act29-highlighted.jpg",
+          "thumb": "records/1904-death-vigliotti-antonia-arienzo-act29-zoom.jpg",
+          "caption": "Civil death act 29, Arienzo, registered 9 June 1904, with the entry for Antonia Vigliotti highlighted.",
+          "alt": "Highlighted page of the 1904 Arienzo death register, act 29, Antonia Vigliotti.",
+          "sourceId": "ancestry-caserta-arienzo-morti-1904-act29"
+        }
+      ],
+      "relatedPages": [
+        {
+          "title": "Records and Research",
+          "url": "research.html"
+        },
+        {
+          "title": "Discoveries",
+          "url": "discoveries.html"
+        }
+      ]
+    },
+    {
+      "id": "pasquale-fabrizio-guida",
+      "displayName": "Pasquale Fabrizio Guida",
+      "givenNames": "Pasquale Fabrizio",
+      "surname": "Guida",
+      "sex": "M",
+      "generation": 2,
+      "isLiving": false,
+      "isDirectLine": false,
+      "confidence": "confirmed",
+      "parentLinkConfidence": "confirmed",
+      "parents": [
+        "alfonso-guida",
+        "antonia-vigliotti"
+      ],
+      "children": [],
+      "spouses": [],
+      "disambiguator": "Vincenza's twin brother",
+      "summary": "Twin brother of Vincenza Pasqualina Guida, born second at Arienzo on 21 September 1899. His later life is not yet known.",
+      "story": "Pasquale Fabrizio Guida was born at Arienzo on 21 September 1899, the second of twins born to Alfonso Guida and Antonia Vigliotti. His sister Vincenza Pasqualina was born first, and his birth was recorded in the act after hers.[^ancestry-caserta-arienzo-nati-1899-act105] His later life has not yet been traced.",
+      "birth": {
+        "date": "1899-09-21",
+        "display": "21 September 1899, Arienzo",
+        "dateQualifier": "exact",
+        "place": "Via Maddalena 2, Arienzo, Caserta",
+        "placeId": "arienzo",
+        "confidence": "confirmed",
+        "sourceIds": [
+          "ancestry-caserta-arienzo-nati-1899-act105"
+        ],
+        "note": "Born second of the twins, recorded in the act after Vincenza Pasqualina's act 105."
+      },
+      "media": [
+        {
+          "type": "document",
+          "file": "records/1899-birth-guida-pasquale-fabrizio-arienzo-twin-highlighted.jpg",
+          "thumb": "records/1899-birth-guida-pasquale-fabrizio-arienzo-twin-zoom.jpg",
+          "caption": "The Arienzo birth act following no. 105, 23 September 1899, recording the second twin, Pasquale Fabrizio Guida. The entry is highlighted.",
+          "alt": "Highlighted page of the 1899 Arienzo birth register for Pasquale Fabrizio Guida.",
+          "sourceId": "ancestry-caserta-arienzo-nati-1899-act105"
+        }
+      ],
+      "openQuestions": [
+        {
+          "question": "Did Pasquale Fabrizio Guida survive infancy, and where did he later live?",
+          "record": "Arienzo deaths 1899 to 1905, and later Italian or American records under his name."
+        }
+      ],
+      "relatedPages": [
+        {
+          "title": "Records and Research",
+          "url": "research.html"
+        },
+        {
+          "title": "Discoveries",
+          "url": "discoveries.html"
+        }
+      ]
+    },
+    {
       "id": "michael-walsh",
       "displayName": "Michael Walsh",
       "givenNames": "Michael",
       "surname": "Walsh",
       "sex": "M",
-      "generation": 0,
+      "generation": 1,
       "isLiving": false,
       "isDirectLine": true,
       "confidence": "confirmed",
@@ -140,7 +734,7 @@
       "givenNames": "Ellen E.",
       "surname": "Walsh",
       "sex": "F",
-      "generation": 0,
+      "generation": 1,
       "isLiving": false,
       "isDirectLine": true,
       "confidence": "confirmed",
@@ -190,7 +784,7 @@
       "givenNames": "Samuel J.",
       "surname": "Hingston",
       "sex": "M",
-      "generation": 0,
+      "generation": 1,
       "isLiving": false,
       "isDirectLine": true,
       "confidence": "confirmed",
@@ -246,7 +840,7 @@
       "givenNames": "Catherine Jane",
       "surname": "Hingston",
       "sex": "F",
-      "generation": 0,
+      "generation": 1,
       "isLiving": false,
       "isDirectLine": true,
       "confidence": "confirmed",
@@ -322,7 +916,7 @@
       "givenNames": "Augusta R.",
       "surname": "Ehrenfels",
       "sex": "F",
-      "generation": 0,
+      "generation": 1,
       "isLiving": false,
       "isDirectLine": true,
       "confidence": "confirmed",
@@ -387,7 +981,7 @@
       "givenNames": "James T.",
       "surname": "Morrisey",
       "sex": "M",
-      "generation": 1,
+      "generation": 2,
       "isLiving": false,
       "isDirectLine": true,
       "confidence": "confirmed",
@@ -431,7 +1025,7 @@
       "givenNames": "Fernanda",
       "surname": "Morrisey",
       "sex": "F",
-      "generation": 1,
+      "generation": 2,
       "isLiving": false,
       "isDirectLine": true,
       "confidence": "confirmed",
@@ -496,7 +1090,7 @@
       "givenNames": "William Aloysius",
       "surname": "Walsh",
       "sex": "M",
-      "generation": 1,
+      "generation": 2,
       "isLiving": false,
       "isDirectLine": true,
       "confidence": "confirmed",
@@ -609,7 +1203,7 @@
       "givenNames": "Clara F.",
       "surname": "Walsh",
       "sex": "F",
-      "generation": 1,
+      "generation": 2,
       "isLiving": false,
       "isDirectLine": true,
       "confidence": "confirmed",
@@ -709,11 +1303,14 @@
       "givenNames": "Vincenzo",
       "surname": "Vigliotti",
       "sex": "M",
-      "generation": 1,
+      "generation": 2,
       "isLiving": false,
       "isDirectLine": true,
       "confidence": "confirmed",
-      "parents": [],
+      "parents": [
+        "andrea-vigliotti",
+        "mariantonia-ruotolo"
+      ],
       "children": [
         "vincent-joseph-vigliotti",
         "alphonse-j-vigliotti-sr",
@@ -766,46 +1363,53 @@
           "sourceIds": [
             "scarsdale-inquirer-1942-12-04"
           ]
+        },
+        {
+          "name": "Vigliotte",
+          "note": "Spelling used for the household head in the 1920 census.",
+          "confidence": "confirmed",
+          "sourceIds": [
+            "ancestry-census-1920-vigliotte"
+          ]
+        },
+        {
+          "name": "Vincenzo Viglietto",
+          "note": "Spelling in the 1916 Westchester declaration index, a probable match.",
+          "confidence": "probable",
+          "sourceIds": [
+            "westchester-naturalization-vigletti"
+          ]
+        },
+        {
+          "name": "Vincenzo Vigletti",
+          "note": "Spelling in the 1922 Westchester petition index, also called Viglotti, a probable match.",
+          "confidence": "probable",
+          "sourceIds": [
+            "westchester-naturalization-vigletti"
+          ]
+        },
+        {
+          "name": "VIGHIOTTO",
+          "note": "Spelling in the 1944 New York State death index.",
+          "confidence": "confirmed",
+          "sourceIds": [
+            "nys-death-index-1944-vigliotti"
+          ]
         }
       ],
-      "summary": "Born in Italy, he raised a large family with Vincenza Guida at 44 Brambach Avenue, Eastchester, and died at Grasslands Hospital, Mount Pleasant, on 24 April 1944.",
-      "story": "Vincenzo Vigliotti, usually called Vincent in American records, was born in Italy and lived with his wife Vincenza, also called Winnie, at 44 Brambach Avenue in Eastchester, New York.[^ancestry-census-1930-vigliotti][^ancestry-census-1940-vigliotti] The 1930 and 1940 censuses record nine children in the household, including Alphonse.\n\nHis exact birth date and town are not yet settled. Census ages point to about 1886. His 1944 death notice says he was born in Italy fifty-three years earlier, which points to about 1891. A member tree gives 4 July 1885 at Santa Maria a Vico, in the province of Caserta, and names his parents as Andrea Vigliotti and Mariantonia Ruotolo. Those Italian details remain unverified until the civil register is read.[^ancestry-tree-kindred-spirits]\n\nA New York passenger list index shows a Vincenzo Vigliotti, aged 17, arriving on the ship Roma on 1 April 1903. The manifest page has not yet been found on the roll, so the match is probable.[^ancestry-passenger-list-roma-1903]\n\nA Westchester naturalization index lists a Vincenzo Vigliotti declaration in 1928 and a petition in 1930, after Alphonse Sr. was born in March 1921. The petition index gives a birth on 2 September 1892 at Bunito, probably Bonito in Avellino, which does not match this Vincent's other ages. A second Vincenzo Vigliotti in Westchester married Nunziata Santonastoso in 1923 and may be the petitioner. The 1928 and 1930 papers are therefore treated as an open question, not as a fact about this man. If this Vincent never naturalized, or naturalized only after 1921, that would matter for any later Italian citizenship claim. This site does not claim that anyone is eligible.[^westchester-naturalization-vigliotti]\n\nVincent J. Vigliotti of 44 Brambach Road died at Grasslands Hospital, Mount Pleasant, on 24 April 1944, after a long illness. The New York State death index records the death under the spelling VIGHIOTTO, certificate 26490. He was survived by Vincenza Guida Vigliotti, four sons then in the armed forces, and five daughters. Funeral services were held at Immaculate Heart of Mary on 28 April 1944.[^nys-death-index-1944-vigliotti][^scarsdale-inquirer-1944-04-28]",
+      "summary": "Born 4 July 1885 at Santa Maria a Vico, he arrived at New York on the Roma in 1903, raised a large family with Vincenza Guida at 44 Brambach Avenue, Eastchester, and died at Grasslands Hospital, Mount Pleasant, on 24 April 1944.",
+      "story": "Vincenzo Vigliotti, usually called Vincent in American records, was born at 11 at night on 4 July 1885 at Santa Maria a Vico, in the province of Caserta, Italy. His father, Andrea Vigliotti, a 32-year-old farm worker, registered the birth the next morning at the town hall. The act names his mother as Mariantonia Ruotolo, and gives the family's house as Via Rusciano 23, a careful reading of the street name.[^ancestry-caserta-smv-nati-1885-act131]\n\nOn 1 April 1903 a 17-year-old farm labourer whose surname is only partly readable arrived at New York on the ship Roma from Naples. The manifest says he had paid his own passage, carried $20, and was going to a cousin in Newburgh, New York. The match to this Vincenzo is probable.[^ancestry-roma-manifest-1903]\n\nBy January 1920 Vincent and Vincenza were living on Scarsdale Avenue in Eastchester. The census says he had filed first papers and was not yet a citizen.[^ancestry-census-1920-vigliotte] The June 1925 New York State census finds the family at 44 Brambach Avenue and marks him a citizen, with a note reading 1923 White Plains. Sons Vincent, Alfonso, Andrew and Anthony, and daughter Madeline, were in the household.[^ancestry-nys-census-1925-vigliotti] The 1930 and 1940 censuses also list him as naturalized.[^ancestry-census-1930-vigliotti][^ancestry-census-1940-vigliotti]\n\nThe Westchester County naturalization index lists a 1916 declaration for Vincenzo Viglietto and a 1922 petition for Vincenzo Vigletti, also called Viglotti. Together with the census trail, this is a probable match, with citizenship granted in 1922 or 1923, after Alphonse Sr. was born in March 1921. The petition itself has not yet been read. A later 1928 declaration and 1930 petition in the same index belong to a different Vincenzo Vigliotti, born in 1892 at Bonito.[^westchester-naturalization-vigletti][^westchester-naturalization-vigliotti]\n\nVincent and Vincenza raised their children at 44 Brambach Avenue in Eastchester. Vincent J. Vigliotti of that address died at Grasslands Hospital, Mount Pleasant, on 24 April 1944, after a long illness. The New York State death index records the death under the spelling VIGHIOTTO, certificate 26490. He was survived by Vincenza Guida Vigliotti, four sons then in the armed forces, and five daughters. Funeral services were held at Immaculate Heart of Mary on 28 April 1944.[^nys-death-index-1944-vigliotti][^scarsdale-inquirer-1944-04-28]",
       "birth": {
-        "display": "Italy, date not yet settled",
-        "place": "Italy",
+        "date": "1885-07-04",
+        "display": "4 July 1885, Santa Maria a Vico, Caserta",
+        "dateQualifier": "exact",
+        "place": "Via Rusciano 23, Santa Maria a Vico, Caserta, Italy",
+        "placeId": "santa-maria-a-vico",
         "confidence": "confirmed",
         "sourceIds": [
-          "ancestry-census-1930-vigliotti",
-          "ancestry-census-1940-vigliotti",
-          "scarsdale-inquirer-1944-04-28"
+          "ancestry-caserta-smv-nati-1885-act131"
         ],
-        "dateQualifier": "uncertain",
-        "note": "Born in Italy, confirmed by the census and by his 1944 death notice. Exact date and town are unsettled. Census ages point to about 1886. The death notice (age 53 in April 1944) points to about 1891. A member tree gives 4 July 1885 at Santa Maria a Vico. A naturalization index for a different or unproven Vincenzo Vigliotti gives 2 September 1892 at Bunito.",
-        "alternates": [
-          {
-            "display": "4 July 1885, Santa Maria a Vico (member tree, unverified)",
-            "date": "1885-07-04",
-            "sourceIds": [
-              "ancestry-tree-kindred-spirits"
-            ],
-            "note": "Not yet checked in the Italian civil register."
-          },
-          {
-            "display": "about 1886 (census ages)",
-            "date": "1886",
-            "sourceIds": [
-              "ancestry-census-1930-vigliotti",
-              "ancestry-census-1940-vigliotti"
-            ]
-          },
-          {
-            "display": "about 1891 (age 53 at death in April 1944)",
-            "date": "1891",
-            "sourceIds": [
-              "scarsdale-inquirer-1944-04-28"
-            ]
-          }
-        ]
+        "note": "Born at 11 at night on 4 July 1885. His father registered the birth the next morning. The 1944 death index age of 53 was wrong. Census ages of about 1886 agree with this date."
       },
       "death": {
         "date": "1944-04-24",
@@ -822,11 +1426,21 @@
       },
       "residences": [
         {
-          "place": "44 Brambach Avenue, Eastchester, New York",
-          "placeId": "brambach-ave-eastchester",
-          "years": "1930 to 1944",
+          "place": "Scarsdale Avenue, Eastchester, New York",
+          "placeId": "eastchester-ny",
+          "years": "1920",
           "confidence": "confirmed",
           "sourceIds": [
+            "ancestry-census-1920-vigliotte"
+          ]
+        },
+        {
+          "place": "44 Brambach Avenue, Eastchester, New York",
+          "placeId": "brambach-ave-eastchester",
+          "years": "1925 to 1944",
+          "confidence": "confirmed",
+          "sourceIds": [
+            "ancestry-nys-census-1925-vigliotti",
             "ancestry-census-1930-vigliotti",
             "ancestry-census-1940-vigliotti",
             "scarsdale-inquirer-1944-04-28"
@@ -840,42 +1454,86 @@
         "age": 17,
         "confidence": "probable",
         "sourceIds": [
+          "ancestry-roma-manifest-1903",
           "ancestry-passenger-list-roma-1903"
         ],
-        "note": "From a passenger-list index. The manifest page has not yet been found on NARA roll T715, roll 334."
+        "note": "The manifest, sheet 18 line 18, shows a 17-year-old farm labourer whose surname is only partly readable, sailed from Naples on 19 March 1903, paid his own passage, carried $20, and was going to a cousin in Newburgh, New York."
       },
       "openQuestions": [
         {
-          "question": "What do the Italian birth registers at Santa Maria a Vico, and nearby towns, say about a Vincenzo Vigliotti born around 1885 to 1892?",
-          "record": "The civil birth register (atto di nascita), and his 1944 death certificate, which should name parents and a birthplace."
-        },
-        {
-          "question": "Did this Vincent ever file for US citizenship, or do the 1928 and 1930 papers belong to the Vincenzo who married Nunziata Santonastoso in 1923?",
-          "record": "Census citizenship columns for 1920, 1930 and 1940, and petition document 18337 at the Westchester County Archives."
+          "question": "What is the exact date on Vincenzo's naturalization certificate?",
+          "record": "Westchester petition A-0019(39) page 70, and the 1916 declaration A-0008(23) page 246, or the USCIS certificate file."
         },
         {
           "question": "What is the exact date and place of his marriage to Vincenza Guida?",
-          "record": "A civil or church marriage record, perhaps in Italy, or a New York register not yet checked (including the G pages of the 1916 and 1917 state index)."
+          "record": "A civil or church marriage record, perhaps in Italy, or a New York register not yet checked, including the G pages of the 1916 and 1917 state index."
+        },
+        {
+          "question": "Who was the cousin in Newburgh named on the 1903 Roma manifest?",
+          "record": "The reading of the cousin's name is uncertain. A Newburgh directory or 1900 census for a Ferraro at 312 Broadway may help."
         }
       ],
       "relatedPages": [
         {
           "title": "Records and Research",
           "url": "research.html"
+        },
+        {
+          "title": "Discoveries",
+          "url": "discoveries.html"
+        }
+      ],
+      "parentLinkConfidence": "confirmed",
+      "occupations": [
+        {
+          "title": "Farm labourer",
+          "years": "1903",
+          "confidence": "probable",
+          "sourceIds": [
+            "ancestry-roma-manifest-1903"
+          ],
+          "note": "Occupation on the Roma manifest, if this is the right line."
+        }
+      ],
+      "facts": [
+        {
+          "label": "Naturalization",
+          "value": "Declared 1916, petitioned 1922, recorded as a citizen in 1923 at White Plains (index and census; the petition itself has not yet been read)",
+          "confidence": "probable",
+          "sourceIds": [
+            "ancestry-census-1920-vigliotte",
+            "ancestry-nys-census-1925-vigliotti",
+            "ancestry-census-1930-vigliotti",
+            "ancestry-census-1940-vigliotti",
+            "westchester-naturalization-vigletti"
+          ]
+        }
+      ],
+      "media": [
+        {
+          "type": "document",
+          "file": "records/1885-birth-vigliotti-vincenzo-santa-maria-a-vico-act131-highlighted.jpg",
+          "thumb": "records/1885-birth-vigliotti-vincenzo-santa-maria-a-vico-act131-zoom.jpg",
+          "caption": "Civil birth act 131, Santa Maria a Vico, registered 5 July 1885, with the entry for Vincenzo Vigliotti highlighted.",
+          "alt": "Highlighted page of the 1885 Santa Maria a Vico birth register, act 131, Vincenzo Vigliotti.",
+          "sourceId": "ancestry-caserta-smv-nati-1885-act131"
         }
       ]
     },
     {
       "id": "vincenza-guida",
-      "displayName": "Vincenza Pasqualina \"Winnie\" Guida",
+      "displayName": "Vincenza Pasqualina \"Vinnie\" Guida",
       "givenNames": "Vincenza Pasqualina",
       "surname": "Guida",
       "sex": "F",
-      "generation": 1,
+      "generation": 2,
       "isLiving": false,
       "isDirectLine": true,
       "confidence": "confirmed",
-      "parents": [],
+      "parents": [
+        "alfonso-guida",
+        "antonia-vigliotti"
+      ],
       "children": [
         "vincent-joseph-vigliotti",
         "alphonse-j-vigliotti-sr",
@@ -936,27 +1594,19 @@
           ]
         }
       ],
-      "summary": "Born in Italy, she married Vincent Vigliotti and raised nine children at 44 Brambach Avenue, Eastchester. She was already deceased by the time of her son Alphonse Sr.'s 2011 obituary.",
-      "story": "Vincenza, also called Winnie, Vinnie, and in one obituary Vencenza Guido, was born in Italy and appears with Vincent Vigliotti in the 1930 and 1940 censuses at 44 Brambach Avenue, Eastchester.[^ancestry-census-1930-vigliotti][^ancestry-census-1940-vigliotti] The 1944 death notice of her husband names her Vincenza Guida Vigliotti, so Guida is treated as her maiden name.[^scarsdale-inquirer-1944-04-28]\n\nA member tree gives her full name as Vincenza Pasqualina Guida, born 21 September 1899 at Arienzo, in the province of Caserta, daughter of Alfonso Guida and Antonia Vigliotti, and says she died in November 1984 at Scarsdale. Those details remain unverified until a birth or death record is read.[^ancestry-tree-kindred-spirits] Alphonse Sr.'s 2011 obituary calls his parents the late Vincent and Vencenza, so she had died by then, but no death date is published here until a record is in hand.",
+      "summary": "Born 21 September 1899 at Arienzo, the first of twins, she married Vincenzo Vigliotti and raised their children at 44 Brambach Avenue, Eastchester.",
+      "story": "Vincenza Pasqualina Guida, also called Winnie, Vinnie, and in one obituary Vencenza Guido, was born at 11:40 in the morning on 21 September 1899 at via Maddalena 2, Arienzo, in the province of Caserta, Italy. She was the first of twins. Her father, Alfonso Guida, a 33-year-old farmer, registered the birth two days later. Her mother was Antonia Vigliotti. The next act in the register records her twin brother, Pasquale Fabrizio, born second on the same day.[^ancestry-caserta-arienzo-nati-1899-act105]\n\nHer mother died at Arienzo on 8 June 1904, when Vincenza was four. The death act says Antonia was 38, born at San Felice a Cancello, and the daughter of Raffaele Vigliotti and Pasqualina Carfora.[^ancestry-caserta-arienzo-morti-1904-act29]\n\nVincenza appears with Vincent Vigliotti in the 1920 census on Scarsdale Avenue, Eastchester, and from 1925 at 44 Brambach Avenue. The 1920 census says she had arrived in 1916; the 1930 census says 1917.[^ancestry-census-1920-vigliotte][^ancestry-census-1930-vigliotti][^ancestry-census-1940-vigliotti] The 1944 death notice of her husband names her Vincenza Guida Vigliotti.[^scarsdale-inquirer-1944-04-28] Alphonse Sr.'s 2011 obituary calls his parents the late Vincent and Vencenza, so she had died by then, but no death date is published here until a record is in hand.[^obituary-alphonse-vigliotti-sr-2011]",
       "birth": {
-        "display": "Italy, date not yet settled",
-        "place": "Italy",
+        "date": "1899-09-21",
+        "display": "21 September 1899, Arienzo, Caserta",
+        "dateQualifier": "exact",
+        "place": "Via Maddalena 2, Arienzo, Caserta, Italy",
+        "placeId": "arienzo",
         "confidence": "confirmed",
         "sourceIds": [
-          "ancestry-census-1930-vigliotti",
-          "ancestry-census-1940-vigliotti"
+          "ancestry-caserta-arienzo-nati-1899-act105"
         ],
-        "dateQualifier": "uncertain",
-        "note": "Born in Italy, confirmed by the census. A member tree gives 21 September 1899 at Arienzo, which has not been checked in the Italian civil register.",
-        "alternates": [
-          {
-            "display": "21 September 1899, Arienzo (member tree, unverified)",
-            "date": "1899-09-21",
-            "sourceIds": [
-              "ancestry-tree-kindred-spirits"
-            ]
-          }
-        ]
+        "note": "Born at 11:40 in the morning, the first of twins. Her father registered the birth on 23 September 1899."
       },
       "death": {
         "display": "before 2011",
@@ -969,32 +1619,75 @@
       },
       "residences": [
         {
-          "place": "44 Brambach Avenue, Eastchester, New York",
-          "placeId": "brambach-ave-eastchester",
-          "years": "1930 to 1947",
+          "place": "Via Maddalena 2, Arienzo",
+          "placeId": "arienzo",
+          "years": "1899",
           "confidence": "confirmed",
           "sourceIds": [
+            "ancestry-caserta-arienzo-nati-1899-act105"
+          ]
+        },
+        {
+          "place": "Scarsdale Avenue, Eastchester, New York",
+          "placeId": "eastchester-ny",
+          "years": "1920",
+          "confidence": "confirmed",
+          "sourceIds": [
+            "ancestry-census-1920-vigliotte"
+          ]
+        },
+        {
+          "place": "44 Brambach Avenue, Eastchester, New York",
+          "placeId": "brambach-ave-eastchester",
+          "years": "1925 to 1944",
+          "confidence": "confirmed",
+          "sourceIds": [
+            "ancestry-nys-census-1925-vigliotti",
             "ancestry-census-1930-vigliotti",
             "ancestry-census-1940-vigliotti",
-            "scarsdale-inquirer-1944-04-28",
-            "scarsdale-inquirer-1947-08-29"
+            "scarsdale-inquirer-1944-04-28"
           ]
         }
       ],
       "openQuestions": [
         {
-          "question": "What does the Italian birth register at Arienzo say about a Vincenza Pasqualina Guida, daughter of Alfonso Guida and Antonia Vigliotti, around 1899?",
-          "record": "The civil birth register (atto di nascita)."
+          "question": "When and where did Vincenza die?",
+          "record": "A member tree gives November 1984 at Scarsdale. That date is not published here until a death record is in hand. She had died by Alphonse Sr.'s 2011 obituary."
         },
         {
-          "question": "When and where did Vincenza die, and where is she buried?",
-          "record": "A death record, Social Security index, or cemetery entry."
+          "question": "When did she arrive in the United States?",
+          "record": "A passenger list around 1916 or 1917, and any earlier Italian records after her mother's death in 1904."
         }
       ],
       "relatedPages": [
         {
           "title": "Records and Research",
           "url": "research.html"
+        },
+        {
+          "title": "Discoveries",
+          "url": "discoveries.html"
+        }
+      ],
+      "parentLinkConfidence": "confirmed",
+      "immigration": {
+        "date": "1916",
+        "port": "New York",
+        "confidence": "probable",
+        "sourceIds": [
+          "ancestry-census-1920-vigliotte",
+          "ancestry-census-1930-vigliotti"
+        ],
+        "note": "The 1920 census says she immigrated in 1916; the 1930 census says 1917. A passenger list for her arrival has not yet been read."
+      },
+      "media": [
+        {
+          "type": "document",
+          "file": "records/1899-birth-guida-vincenza-pasqualina-arienzo-act105-highlighted.jpg",
+          "thumb": "records/1899-birth-guida-vincenza-pasqualina-arienzo-act105-zoom.jpg",
+          "caption": "Civil birth act 105, Arienzo, registered 23 September 1899, with the entry for Vincenza Pasqualina Guida highlighted.",
+          "alt": "Highlighted page of the 1899 Arienzo birth register, act 105, Vincenza Pasqualina Guida.",
+          "sourceId": "ancestry-caserta-arienzo-nati-1899-act105"
         }
       ]
     },
@@ -1004,7 +1697,7 @@
       "givenNames": "Gerard",
       "surname": "Mignone",
       "sex": "M",
-      "generation": 1,
+      "generation": 2,
       "isLiving": false,
       "isDirectLine": true,
       "confidence": "confirmed",
@@ -1099,7 +1792,7 @@
       "givenNames": "Susan",
       "surname": "Mignone",
       "sex": "F",
-      "generation": 1,
+      "generation": 2,
       "isLiving": false,
       "isDirectLine": true,
       "confidence": "confirmed",
@@ -1166,7 +1859,7 @@
       "givenNames": "Anthony",
       "surname": "Fucale",
       "sex": "M",
-      "generation": 2,
+      "generation": 3,
       "isLiving": false,
       "isDirectLine": false,
       "confidence": "confirmed",
@@ -1207,7 +1900,7 @@
       "givenNames": "Rosa",
       "surname": "Fucale",
       "sex": "F",
-      "generation": 2,
+      "generation": 3,
       "isLiving": false,
       "isDirectLine": false,
       "confidence": "confirmed",
@@ -1248,7 +1941,7 @@
       "givenNames": "Patricia",
       "surname": "Walsh",
       "sex": "F",
-      "generation": 2,
+      "generation": 3,
       "isLiving": false,
       "isDirectLine": true,
       "confidence": "confirmed",
@@ -1365,7 +2058,7 @@
       "givenNames": "Paul Hingston",
       "surname": "Walsh",
       "sex": "M",
-      "generation": 2,
+      "generation": 3,
       "isLiving": false,
       "isDirectLine": true,
       "confidence": "confirmed",
@@ -1477,7 +2170,7 @@
       "givenNames": "Alphonse John",
       "surname": "Vigliotti",
       "sex": "M",
-      "generation": 2,
+      "generation": 3,
       "isLiving": false,
       "isDirectLine": true,
       "confidence": "confirmed",
@@ -1635,7 +2328,7 @@
       "givenNames": "Concetta",
       "surname": "Vigliotti",
       "sex": "F",
-      "generation": 2,
+      "generation": 3,
       "isLiving": false,
       "isDirectLine": true,
       "confidence": "confirmed",
@@ -1726,7 +2419,7 @@
       "givenNames": "Vincent",
       "surname": "Vigliotti",
       "sex": "M",
-      "generation": 2,
+      "generation": 3,
       "isLiving": false,
       "isDirectLine": false,
       "confidence": "confirmed",
@@ -1792,7 +2485,7 @@
       "givenNames": "Andrew",
       "surname": "Vigliotti",
       "sex": "M",
-      "generation": 2,
+      "generation": 3,
       "isLiving": true,
       "isDirectLine": false,
       "confidence": "confirmed",
@@ -1818,7 +2511,7 @@
       "givenNames": "Anthony J.",
       "surname": "Vigliotti",
       "sex": "M",
-      "generation": 2,
+      "generation": 3,
       "isLiving": false,
       "isDirectLine": false,
       "confidence": "confirmed",
@@ -1894,7 +2587,7 @@
       "givenNames": "Madeline",
       "surname": "Woodruff",
       "sex": "F",
-      "generation": 2,
+      "generation": 3,
       "isLiving": false,
       "isDirectLine": false,
       "confidence": "confirmed",
@@ -1950,7 +2643,7 @@
       "givenNames": "Sylvia",
       "surname": "Vigliotti",
       "sex": "F",
-      "generation": 2,
+      "generation": 3,
       "isLiving": true,
       "isDirectLine": false,
       "confidence": "confirmed",
@@ -1976,7 +2669,7 @@
       "givenNames": "Virginia",
       "surname": "Waddell",
       "sex": "F",
-      "generation": 2,
+      "generation": 3,
       "isLiving": true,
       "isDirectLine": false,
       "confidence": "confirmed",
@@ -2002,7 +2695,7 @@
       "givenNames": "Angelina",
       "surname": "Zaino",
       "sex": "F",
-      "generation": 2,
+      "generation": 3,
       "isLiving": true,
       "isDirectLine": false,
       "confidence": "confirmed",
@@ -2028,7 +2721,7 @@
       "givenNames": "Louise",
       "surname": "Vigliotti",
       "sex": "F",
-      "generation": 2,
+      "generation": 3,
       "isLiving": true,
       "isDirectLine": false,
       "confidence": "confirmed",
@@ -2054,7 +2747,7 @@
       "givenNames": "Alphonse John",
       "surname": "Vigliotti",
       "sex": "M",
-      "generation": 3,
+      "generation": 4,
       "isLiving": true,
       "isDirectLine": true,
       "confidence": "confirmed",
@@ -2113,7 +2806,7 @@
       "givenNames": "Barbara Ehren",
       "surname": "Walsh",
       "sex": "F",
-      "generation": 3,
+      "generation": 4,
       "isLiving": true,
       "isDirectLine": true,
       "confidence": "confirmed",
@@ -2164,7 +2857,7 @@
       "givenNames": "Susan",
       "surname": "Vigliotti",
       "sex": "F",
-      "generation": 3,
+      "generation": 4,
       "isLiving": true,
       "isDirectLine": false,
       "confidence": "confirmed",
@@ -2198,7 +2891,7 @@
       "givenNames": "Pasquale P.",
       "surname": "Fucale",
       "sex": "M",
-      "generation": 3,
+      "generation": 4,
       "isLiving": false,
       "isDirectLine": false,
       "confidence": "confirmed",
@@ -2388,7 +3081,7 @@
       "givenNames": "Renee",
       "surname": "Makras",
       "sex": "F",
-      "generation": 3,
+      "generation": 4,
       "isLiving": true,
       "isDirectLine": false,
       "confidence": "confirmed",
@@ -2418,7 +3111,7 @@
       "givenNames": "George",
       "surname": "Makras",
       "sex": "M",
-      "generation": 3,
+      "generation": 4,
       "isLiving": true,
       "isDirectLine": false,
       "confidence": "confirmed",
@@ -2444,7 +3137,7 @@
       "givenNames": "Benny",
       "surname": "Morello",
       "sex": "M",
-      "generation": 3,
+      "generation": 4,
       "isLiving": true,
       "isDirectLine": false,
       "confidence": "confirmed",
@@ -2470,7 +3163,7 @@
       "givenNames": "Fernanda",
       "surname": "Jarasek",
       "sex": "F",
-      "generation": 3,
+      "generation": 4,
       "isLiving": true,
       "isDirectLine": false,
       "confidence": "confirmed",
@@ -2507,7 +3200,7 @@
       "givenNames": "Jeffrey",
       "surname": "Walsh",
       "sex": "M",
-      "generation": 3,
+      "generation": 4,
       "isLiving": true,
       "isDirectLine": false,
       "confidence": "confirmed",
@@ -2538,7 +3231,7 @@
       "givenNames": "Josephine",
       "surname": "Scopelliti",
       "sex": "F",
-      "generation": 3,
+      "generation": 4,
       "isLiving": true,
       "isDirectLine": false,
       "confidence": "confirmed",
@@ -2565,7 +3258,7 @@
       "givenNames": "Konrad",
       "surname": "Wos",
       "sex": "M",
-      "generation": 3,
+      "generation": 4,
       "isLiving": true,
       "isDirectLine": false,
       "confidence": "confirmed",
@@ -2591,7 +3284,7 @@
       "givenNames": "Lilla",
       "surname": "Morello",
       "sex": "F",
-      "generation": 3,
+      "generation": 4,
       "isLiving": true,
       "isDirectLine": false,
       "confidence": "confirmed",
@@ -2622,7 +3315,7 @@
       "givenNames": "Mary Ellen",
       "surname": "Walsh",
       "sex": "F",
-      "generation": 3,
+      "generation": 4,
       "isLiving": true,
       "isDirectLine": false,
       "confidence": "confirmed",
@@ -2648,7 +3341,7 @@
       "givenNames": "Meggan",
       "surname": "Wos",
       "sex": "F",
-      "generation": 3,
+      "generation": 4,
       "isLiving": true,
       "isDirectLine": false,
       "confidence": "confirmed",
@@ -2689,7 +3382,7 @@
       "givenNames": "Dylan",
       "surname": "Vigliotti",
       "sex": "M",
-      "generation": 4,
+      "generation": 5,
       "isLiving": true,
       "isDirectLine": true,
       "confidence": "confirmed",
@@ -2721,7 +3414,7 @@
       "givenNames": "Ehren",
       "surname": "Vigliotti",
       "sex": "U",
-      "generation": 4,
+      "generation": 5,
       "isLiving": true,
       "isDirectLine": false,
       "confidence": "probable",
@@ -2753,7 +3446,7 @@
       "givenNames": "Jennifer",
       "surname": "Gourgareas",
       "sex": "F",
-      "generation": 4,
+      "generation": 5,
       "isLiving": true,
       "isDirectLine": false,
       "confidence": "confirmed",
@@ -2780,7 +3473,7 @@
       "givenNames": "Jessica",
       "surname": "Smith",
       "sex": "F",
-      "generation": 4,
+      "generation": 5,
       "isLiving": true,
       "isDirectLine": false,
       "confidence": "confirmed",
@@ -2807,7 +3500,7 @@
       "givenNames": "Kimberly",
       "surname": "Fucale",
       "sex": "F",
-      "generation": 4,
+      "generation": 5,
       "isLiving": true,
       "isDirectLine": false,
       "confidence": "confirmed",
