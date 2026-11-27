@@ -950,7 +950,10 @@
       "isLiving": false,
       "isDirectLine": true,
       "confidence": "confirmed",
-      "parents": [],
+      "parents": [
+        "father-of-michael-walsh",
+        "mother-of-michael-walsh"
+      ],
       "children": [
         "john-joseph-walsh",
         "james-f-walsh-1861",
@@ -986,7 +989,7 @@
         }
       ],
       "disambiguator": "William A. Walsh's father, of Ardmore",
-      "parentLinkConfidence": "confirmed",
+      "parentLinkConfidence": "unverified",
       "summary": "Born in 1837 at Ardmore, Ireland, he settled in Yonkers about 1853, worked as a carpenter and builder, and died there on 9 July 1916. He married, first, Margaret Farrell, the mother of John J. Walsh and probably of William Aloysius Walsh, and later Ellen E. Kelly, who survived him.",
       "story": "Michael Walsh was born in 1837 at Ardmore, Ireland, came to the United States as a boy, and settled in Yonkers about 1853.[^findagrave-michael-walsh-1916] He worked as a carpenter and builder (Bowler and Walsh), served as a Water Commissioner, and was a leader in the St Vincent de Paul Society. He died on 9 July 1916 at 117 Palisade Avenue, Yonkers.\n\nHis first wife was Margaret Farrell. The 18 December 1946 Herald Statesman obituary of their son John J. Walsh names her as Michael's wife and John's mother.[^herald-statesman-1946-12-18-john-j-walsh] A compiled family letter says they married on 22 November 1857 at St. Mary's Church in Yonkers, and that Margaret died on 5 November 1873, aged 31. It lists six children: John J., James F., Thomas A., Catherine C., Michael A., and William A., later Mayor of Yonkers.[^family-papers-walsh-farrell-2026] James F. and Michael A. are said to have died young and do not appear among the children who survived Michael in 1916.\n\nHis 1916 Yonkers Statesman obituary, transcribed on Find a Grave, names the wife who survived him as Ellen E. Kelly, and his sons as John J., Thomas A., and William A., a lawyer. It also names two daughters, Mrs. Jacob Engle and Miss Agnes Walsh.[^findagrave-michael-walsh-1916] Ellen is probably a later wife, and Agnes Florence Walsh, born in 1889, is probably her daughter. Mrs. Jacob Engle is probably Catherine C. Walsh. Those later identifications remain probable until a marriage or birth record is read. The identification of the son William A. with Mayor William Aloysius Walsh, father of Paul H. Walsh, is supported by William's own memorial, which names Michael as his father.[^findagrave-william-a-walsh]",
       "birth": {
@@ -4086,7 +4089,8 @@
           "sourceId": "herald-statesman-1946-12-18-john-j-walsh"
         }
       ],
-      "cardPlace": "Yonkers, New York"
+      "cardPlace": "Yonkers, New York",
+      "layoutJoin": "michael-walsh"
     },
     {
       "id": "john-joseph-walsh",
@@ -4668,6 +4672,91 @@
         }
       ],
       "cardPlace": "Yonkers, New York"
+    },
+    {
+      "id": "father-of-michael-walsh",
+      "displayName": "Father of Michael Walsh",
+      "givenNames": "",
+      "surname": "Walsh",
+      "sex": "M",
+      "generation": 0,
+      "isLiving": false,
+      "isDirectLine": true,
+      "placeholder": true,
+      "confidence": "unverified",
+      "parentLinkConfidence": "unverified",
+      "parents": [],
+      "children": [
+        "michael-walsh"
+      ],
+      "spouses": [
+        {
+          "id": "mother-of-michael-walsh",
+          "confidence": "unverified",
+          "note": "Stand-in parents. Their names are not yet known."
+        }
+      ],
+      "disambiguator": "Name not yet known, of the Walsh line at Ardmore",
+      "summary": "A stand-in for Michael Walsh's father, whose name is not yet known. Michael was born in 1837 at Ardmore, Ireland.",
+      "story": "Michael Walsh's 1916 obituary says he was born in 1837 at Ardmore, Ireland, but it does not name his parents.[^findagrave-michael-walsh-1916] This card is a stand-in until a baptism, a passenger list, or another record names his father.",
+      "openQuestions": [
+        {
+          "question": "Can a baptism or passenger record be found that names Michael Walsh's father?",
+          "record": "An Irish baptism around 1837, probably at Ardmore, or a passenger list from about 1853."
+        }
+      ],
+      "relatedPages": [
+        {
+          "title": "Records and Research",
+          "url": "research.html"
+        }
+      ]
+    },
+    {
+      "id": "mother-of-michael-walsh",
+      "displayName": "Mother of Michael Walsh",
+      "givenNames": "",
+      "surname": "Walsh",
+      "sex": "F",
+      "generation": 0,
+      "isLiving": false,
+      "isDirectLine": true,
+      "placeholder": true,
+      "confidence": "unverified",
+      "parentLinkConfidence": "unverified",
+      "parents": [],
+      "children": [
+        "michael-walsh"
+      ],
+      "spouses": [
+        {
+          "id": "father-of-michael-walsh",
+          "confidence": "unverified",
+          "note": "Stand-in parents. Their names are not yet known."
+        }
+      ],
+      "nameVariants": [
+        {
+          "name": "Unknown",
+          "note": "Her surname is not yet known. Walsh here is only the married name used for this stand-in card.",
+          "confidence": "unverified"
+        }
+      ],
+      "disambiguator": "Name not yet known",
+      "summary": "A stand-in for Michael Walsh's mother, whose name is not yet known.",
+      "story": "No record in hand names Michael Walsh's mother. This card is a stand-in until a baptism or another record names her.",
+      "openQuestions": [
+        {
+          "question": "Can a baptism or other Irish record be found that names Michael Walsh's mother?",
+          "record": "An Irish baptism around 1837, probably at Ardmore."
+        }
+      ],
+      "relatedPages": [
+        {
+          "title": "Records and Research",
+          "url": "research.html"
+        }
+      ]
     }
   ]
 }

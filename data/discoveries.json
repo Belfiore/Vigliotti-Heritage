@@ -781,6 +781,27 @@
         "yonkers-ny"
       ],
       "image": "records/family-papers-john-j-walsh-annie-fegan-note-highlighted.jpg"
+    },
+    {
+      "id": "find-michael-walsh-parents-unnamed",
+      "personIds": [
+        "father-of-michael-walsh",
+        "mother-of-michael-walsh",
+        "michael-walsh"
+      ],
+      "found": "2026-11-27",
+      "headline": "Stand-in cards for Michael Walsh's parents, whose names are not yet known",
+      "findType": "person",
+      "foundBy": "Stuart",
+      "confidence": "unverified",
+      "source": {
+        "text": "Michael Walsh's 1916 Yonkers Statesman obituary names Ardmore, Ireland, but does not name his parents",
+        "url": null
+      },
+      "changeNote": "These cards are stand-ins. No record in hand names Michael Walsh's parents. They are on the tree so both of his wives, Margaret Farrell and Ellen E. Kelly, can sit in his family on the canvas.",
+      "placeIds": [
+        "ardmore-ireland"
+      ]
     }
   ]
 }

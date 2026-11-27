@@ -832,6 +832,28 @@
         "discoveries.html"
       ],
       "image": "records/family-papers-john-j-walsh-annie-fegan-note-highlighted.jpg"
+    },
+    {
+      "id": "find-michael-walsh-parents-unnamed",
+      "foundDate": "2026-11-27",
+      "headline": "Stand-in cards for Michael Walsh's parents, whose names are not yet known",
+      "summary": "These cards are stand-ins. No record in hand names Michael Walsh's parents. They are on the tree so both of his wives, Margaret Farrell and Ellen E. Kelly, can sit in his family on the canvas.",
+      "sourceIds": [
+        "findagrave-michael-walsh-1916"
+      ],
+      "personIds": [
+        "father-of-michael-walsh",
+        "mother-of-michael-walsh",
+        "michael-walsh"
+      ],
+      "placeIds": [
+        "ardmore-ireland"
+      ],
+      "confidence": "unverified",
+      "pages": [
+        "research.html",
+        "discoveries.html"
+      ]
     }
   ]
 }
