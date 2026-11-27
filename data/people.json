@@ -4176,14 +4176,13 @@
       "occupations": [
         {
           "title": "President, Westchester Ferry Corporation",
-          "dateStart": "1934",
-          "dateEnd": "1946",
           "place": "Yonkers, New York",
           "placeId": "yonkers-ny",
           "confidence": "confirmed",
           "sourceIds": [
             "herald-statesman-1946-12-18-john-j-walsh"
-          ]
+          ],
+          "years": "1934 to 1946"
         }
       ],
       "facts": [
@@ -4212,7 +4211,7 @@
           "sourceId": "herald-statesman-1946-12-18-john-j-walsh"
         },
         {
-          "type": "portrait",
+          "type": "photo",
           "file": "records/1938-portrait-walsh-john-j-ferry.jpg",
           "caption": "John J. Walsh, president of the Yonkers Ferry Company, in a newspaper photograph mounted with a caption about the ferry named for him.",
           "alt": "Newspaper portrait of John J. Walsh standing on a ferry.",
@@ -4632,14 +4631,14 @@
       "occupations": [
         {
           "title": "Justice, New York State Supreme Court",
-          "dateStart": "1970-11-03",
           "place": "White Plains, New York",
           "placeId": "white-plains-ny",
           "confidence": "confirmed",
           "sourceIds": [
             "clipping-judge-walsh-sworn-in",
             "ny-courts-walsh-jr-1970"
-          ]
+          ],
+          "years": "from 3 November 1970"
         }
       ],
       "facts": [
