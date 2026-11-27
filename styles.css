@@ -641,6 +641,7 @@ body {
 .confidence-tag.confirmed { background: #d4edda; color: #155724; }
 .confidence-tag.strong { background: #cce5ff; color: #004085; }
 .confidence-tag.probable { background: #fff3cd; color: #856404; }
+.confidence-tag.family-tradition { background: #e8e0d4; color: #5c4a32; }
 .confidence-tag.unconfirmed { background: #f8d7da; color: #721c24; }
 
 /* ===== TIMELINE ===== */
