@@ -961,6 +961,129 @@
         "yonkers-ny"
       ],
       "image": "records/1930-census-walsh-thomas-a-yonkers-buena-vista-ave-highlighted.jpg"
+    },
+    {
+      "id": "find-walsh-notre-dame-captain-1895",
+      "personIds": [
+        "william-a-walsh"
+      ],
+      "found": "2026-11-27",
+      "headline": "William A. Walsh was elected captain of the Notre Dame football team in 1895",
+      "findType": "record",
+      "foundBy": "Stuart",
+      "confidence": "probable",
+      "source": {
+        "text": "The Sun (New York), 16 December 1895, page 8, Chronicling America",
+        "url": "https://www.loc.gov/resource/sn83030272/1895-12-16/ed-1/?sp=8&st=text"
+      },
+      "changeNote": "A short wire item says William A Walsh of Yonkers was unanimously elected captain of the Notre Dame football team. A Wikipedia article on the Yonkers mayor says he played football at Notre Dame, so the match is probable. This is the first contemporary newspaper item for him in the file.",
+      "placeIds": [
+        "yonkers-ny"
+      ],
+      "image": "records/1895-sun-walsh-notre-dame-captain-highlighted.jpg"
+    },
+    {
+      "id": "find-walsh-city-judge-1917",
+      "personIds": [
+        "william-a-walsh"
+      ],
+      "found": "2026-11-27",
+      "headline": "William A. Walsh was City Judge of Yonkers in 1917 and lost his seat to William F. Bleakley",
+      "findType": "record",
+      "foundBy": "Stuart",
+      "confidence": "confirmed",
+      "source": {
+        "text": "The Sun (New York), 28 October and 7 November 1917, Chronicling America",
+        "url": "https://www.loc.gov/resource/sn83030431/1917-11-07/ed-1/?sp=6&st=text"
+      },
+      "changeNote": "On 28 October 1917 The Sun names William A. Walsh as City Judge of Yonkers. On 7 November it reports that William F. Bleakley defeated City Judge William A. Walsh in the election. This matches Wikipedia's account of the same year.",
+      "placeIds": [
+        "yonkers-ny"
+      ],
+      "image": "records/1917-sun-walsh-city-judge-yonkers-highlighted.jpg"
+    },
+    {
+      "id": "find-walsh-corporation-counsel-1919",
+      "personIds": [
+        "william-a-walsh"
+      ],
+      "found": "2026-11-27",
+      "headline": "William A. Walsh was Corporation Counsel of Yonkers by September 1919",
+      "findType": "record",
+      "foundBy": "Stuart",
+      "confidence": "confirmed",
+      "source": {
+        "text": "The Sun (New York), 23 September 1919, page 22, Chronicling America",
+        "url": "https://www.loc.gov/resource/sn83030431/1919-09-23/ed-1/?sp=22&st=text"
+      },
+      "changeNote": "The Sun reports Corporation Counsel William A. Walsh of Yonkers in court over the Federal Sugar Refining Company tax assessment. This fits the corporation counsel years given by Wikipedia.",
+      "placeIds": [
+        "yonkers-ny"
+      ],
+      "image": "records/1919-sun-corporation-counsel-walsh-yonkers-highlighted.jpg"
+    },
+    {
+      "id": "find-walsh-yonkers-manager-hoax-1942",
+      "personIds": [
+        "william-a-walsh"
+      ],
+      "found": "2026-11-27",
+      "headline": "A 1942 wire story: a hoaxer sent six prominent men to Yonkers City Hall in Manager Walsh's name",
+      "findType": "record",
+      "foundBy": "Stuart",
+      "confidence": "confirmed",
+      "source": {
+        "text": "The Washington Daily News, 17 October 1942, page 23, Chronicling America",
+        "url": "https://www.loc.gov/resource/sn82016181/1942-10-17/ed-1/?sp=23&st=text"
+      },
+      "changeNote": "A news filler about William A. Walsh, Yonkers manager, shows him in office in October 1942, and tells how an impersonator phoned in his name and summoned six of the most prominent men in town to City Hall for appointments.",
+      "placeIds": [
+        "yonkers-ny"
+      ],
+      "image": "records/1942-washington-daily-news-yonkers-manager-walsh-highlighted.jpg"
+    },
+    {
+      "id": "find-alfonso-guida-new-york-1900",
+      "personIds": [
+        "alfonso-guida",
+        "vincenza-guida"
+      ],
+      "found": "2026-11-27",
+      "headline": "Vincenza's father Alfonso Guida probably crossed to New York in October 1900",
+      "findType": "record",
+      "foundBy": "Stuart",
+      "confidence": "probable",
+      "source": {
+        "text": "Statue of Liberty-Ellis Island Foundation arrival index, Burgundia, 2 October 1900",
+        "url": "https://www.statueofliberty.org/arrival-details/?id=JX8Y-GYZ"
+      },
+      "changeNote": "An Alfonso Guida, aged 34, married, of Aninzo (probably Arienzo), arrived on the Burgundia on 2 October 1900. His age and town fit the Alfonso who registered the twins in 1899, but the manifest has not been read, so the match is probable. It opens the question of whether he lived in America before his wife died in 1904.",
+      "placeIds": [
+        "arienzo",
+        "ellis-island-ny"
+      ],
+      "image": "records/1900-arrival-index-guida-alfonso-burgundia-highlighted.jpg"
+    },
+    {
+      "id": "find-smv-vigliotti-arrivals-leads-1903-1911",
+      "personIds": [
+        "vincenzo-vigliotti"
+      ],
+      "found": "2026-11-27",
+      "headline": "Other Vigliotti men from Santa Maria a Vico reached New York in 1903 and 1911, possible relatives",
+      "findType": "connection",
+      "foundBy": "Stuart",
+      "confidence": "unverified",
+      "source": {
+        "text": "Statue of Liberty-Ellis Island Foundation arrival indexes (Attivita 1903, Berlin 1911)",
+        "url": "https://www.statueofliberty.org/arrival-details/?id=JFPP-1MW"
+      },
+      "changeNote": "A Vincenzo Vigliotti, aged 22, of S. Maria a Vico arrived on 20 March 1903, twelve days before our Vincenzo; a Giovanni Vigliotti, aged 26, of the same town arrived in November 1911. No record links either man to Vincenzo, so they stay leads for relatives who may have helped him settle.",
+      "placeIds": [
+        "santa-maria-a-vico",
+        "ellis-island-ny"
+      ],
+      "image": "records/1903-arrival-index-vigliotti-vincenzo-age22-attivita-highlighted.jpg"
     }
   ]
 }

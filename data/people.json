@@ -746,7 +746,7 @@
       ],
       "disambiguator": "Vincenza's father",
       "summary": "A farmer of via Maddalena, Arienzo, who registered the birth of his twin children Vincenza Pasqualina and Pasquale Fabrizio in 1899, and was widowed in 1904.",
-      "story": "On 23 September 1899 Alfonso Guida, a 33-year-old farmer of via Maddalena 2, Arienzo, registered the birth of twins born two days earlier to his wife Antonia Vigliotti: first Vincenza Pasqualina, then Pasquale Fabrizio.[^ancestry-caserta-arienzo-nati-1899-act105] He was widowed on 8 June 1904, when Antonia died at Arienzo, aged 38.[^ancestry-caserta-arienzo-morti-1904-act29]",
+      "story": "On 23 September 1899 Alfonso Guida, a 33-year-old farmer of via Maddalena 2, Arienzo, registered the birth of twins born two days earlier to his wife Antonia Vigliotti: first Vincenza Pasqualina, then Pasquale Fabrizio.[^ancestry-caserta-arienzo-nati-1899-act105] He was widowed on 8 June 1904, when Antonia died at Arienzo, aged 38.[^ancestry-caserta-arienzo-morti-1904-act29]\n\nAn Alfonso Guida, aged 34, married, and giving his last residence as Aninzo (probably Arienzo), arrived at New York on the Burgundia on 2 October 1900. His age, marital status and town fit this Alfonso, who was 33 at the 1899 birth act, so the match is probable. The manifest has not been read, and it is not known whether he stayed or came home before his wife died in 1904.[^ellis-island-arrival-alfonso-guida-1900][^ancestry-caserta-arienzo-nati-1899-act105]",
       "birth": {
         "display": "about 1866",
         "date": "1866",
@@ -789,6 +789,22 @@
         {
           "title": "Discoveries",
           "url": "discoveries.html"
+        }
+      ],
+      "facts": [
+        {
+          "label": "Possible journey to New York, 1900",
+          "value": "Probably the Alfonso Guida, aged 34 and married, who arrived on the Burgundia on 2 October 1900 (index only)",
+          "confidence": "probable",
+          "sourceIds": [
+            "ellis-island-arrival-alfonso-guida-1900"
+          ]
+        }
+      ],
+      "openQuestions": [
+        {
+          "question": "Did Alfonso Guida live in America after October 1900, and did he bring Vincenza to New York?",
+          "record": "The 1900 Burgundia manifest (T715-0151-270, line 27), and any later arrival, return or 1910 census entry."
         }
       ]
     },
@@ -1459,7 +1475,7 @@
       ],
       "disambiguator": "Paul's father, Mayor of Yonkers 1926 to 1927",
       "summary": "Born 18 August 1871 in Yonkers, son of Michael Walsh and, probably, Margaret Farrell. A lawyer, he was Mayor of Yonkers from 1926 to 1927. Husband of Clara F. Hingston and father of Paul H. Walsh and of Justice William A. Walsh Jr. He died in Yonkers on 18 March 1967 and is buried at Saint Joseph's Cemetery.",
-      "story": "William Aloysius Walsh was born on 18 August 1871 in Yonkers, the son of Michael Walsh of Ardmore, Ireland.[^findagrave-william-a-walsh][^findagrave-michael-walsh-1916] His mother was probably Margaret Farrell, named as the wife of Michael and the mother of John J. Walsh in John's 1946 obituary, and listed in a family-history packet as the mother of six children including William A., born 1871.[^herald-statesman-1946-12-18-john-j-walsh][^family-papers-walsh-farrell-2026] That maternal link is probable until an 1871 birth or baptism record names his mother. Ellen E. Kelly, named as Michael's wife in the 1916 obituary, is probably a later wife.\n\nHe was a lawyer, and he served as Mayor of Yonkers from 1926 to 1927, and later as city manager and as a judge. The 1951 wedding notices of his son Paul call him former Mayor William A. Walsh of Yonkers, and his gravestone at Saint Joseph's Cemetery is inscribed Mayor 1926 1927.[^scarsdale-inquirer-1951-05-18][^findagrave-william-a-walsh] A family-held editorial, written as he approached his 92nd birthday, praises a Yonkers Historical Society citation to Judge Walsh. No newspaper date is printed on the clipping; a 92nd birthday in the summer, for a man born 18 August 1871, would fall in the summer of 1963.[^clipping-historical-society-citation-walsh]\n\nHe married Clara F. Hingston in 1913, according to her memorial, and they were the parents of Paul Hingston Walsh. Social Security extracts also name the couple as the parents of William A. Walsh Jr., born in Yonkers in 1914, now on this tree, and of Clayre Walsh O'Hara, born in 1917, who is not yet added here.[^ssa-numident-walsh] He died in Yonkers on 18 March 1967. The New York Times obituary of 19 March 1967 has not yet been read.",
+      "story": "William Aloysius Walsh was born on 18 August 1871 in Yonkers, the son of Michael Walsh of Ardmore, Ireland.[^findagrave-william-a-walsh][^findagrave-michael-walsh-1916] His mother was probably Margaret Farrell, named as the wife of Michael and the mother of John J. Walsh in John's 1946 obituary, and listed in a family-history packet as the mother of six children including William A., born 1871.[^herald-statesman-1946-12-18-john-j-walsh][^family-papers-walsh-farrell-2026] That maternal link is probable until an 1871 birth or baptism record names his mother. Ellen E. Kelly, named as Michael's wife in the 1916 obituary, is probably a later wife.\n\nHe was a lawyer, and he served as Mayor of Yonkers from 1926 to 1927, and later as city manager and as a judge. The 1951 wedding notices of his son Paul call him former Mayor William A. Walsh of Yonkers, and his gravestone at Saint Joseph's Cemetery is inscribed Mayor 1926 1927.[^scarsdale-inquirer-1951-05-18][^findagrave-william-a-walsh] A family-held editorial, written as he approached his 92nd birthday, praises a Yonkers Historical Society citation to Judge Walsh. No newspaper date is printed on the clipping; a 92nd birthday in the summer, for a man born 18 August 1871, would fall in the summer of 1963.[^clipping-historical-society-citation-walsh]\n\nHe married Clara F. Hingston in 1913, according to her memorial, and they were the parents of Paul Hingston Walsh. Social Security extracts also name the couple as the parents of William A. Walsh Jr., born in Yonkers in 1914, now on this tree, and of Clayre Walsh O'Hara, born in 1917, who is not yet added here.[^ssa-numident-walsh] He died in Yonkers on 18 March 1967. The New York Times obituary of 19 March 1967 has not yet been read.\n\nContemporary newspapers fill in his career. In December 1895 The Sun reported that William A Walsh of Yonkers had been unanimously elected captain of the Notre Dame football team; the match to this William is probable, since later accounts say he played football at Notre Dame.[^sun-1895-12-16-walsh-notre-dame-captain] In October 1917 he was City Judge of Yonkers, and in the November election William F. Bleakley defeated him.[^sun-1917-10-28-walsh-city-judge][^sun-1917-11-07-bleakley-defeats-city-judge-walsh] By September 1919 he was the city's Corporation Counsel.[^sun-1919-09-23-walsh-corporation-counsel] In October 1942 a Washington paper called him the Yonkers manager and told how a hoaxer sent six prominent men to City Hall in his name.[^washington-daily-news-1942-10-17-walsh-yonkers-manager]",
       "openQuestions": [
         {
           "question": "Does the 19 March 1967 New York Times obituary list Paul among the survivors, and does an 1871 birth or baptism record name Margaret Farrell as William's mother?",
@@ -1535,6 +1551,43 @@
           "sourceIds": [
             "clipping-historical-society-citation-walsh"
           ]
+        },
+        {
+          "label": "University football",
+          "value": "Elected captain of the Notre Dame football team in December 1895 (a newspaper item about William A Walsh of Yonkers; the match to this William is probable)",
+          "confidence": "probable",
+          "sourceIds": [
+            "sun-1895-12-16-walsh-notre-dame-captain",
+            "wikipedia-william-a-walsh"
+          ]
+        },
+        {
+          "label": "City Judge of Yonkers",
+          "value": "City Judge in October 1917; defeated by William F. Bleakley in the November 1917 election",
+          "confidence": "confirmed",
+          "sourceIds": [
+            "sun-1917-10-28-walsh-city-judge",
+            "sun-1917-11-07-bleakley-defeats-city-judge-walsh",
+            "wikipedia-william-a-walsh"
+          ]
+        },
+        {
+          "label": "Corporation Counsel of Yonkers",
+          "value": "Corporation Counsel of Yonkers by September 1919",
+          "confidence": "confirmed",
+          "sourceIds": [
+            "sun-1919-09-23-walsh-corporation-counsel",
+            "wikipedia-william-a-walsh"
+          ]
+        },
+        {
+          "label": "City manager of Yonkers",
+          "value": "City manager of Yonkers in October 1942",
+          "confidence": "confirmed",
+          "sourceIds": [
+            "washington-daily-news-1942-10-17-walsh-yonkers-manager",
+            "wikipedia-william-a-walsh"
+          ]
         }
       ],
       "occupations": [
@@ -1544,6 +1597,23 @@
           "sourceIds": [
             "findagrave-michael-walsh-1916",
             "findagrave-william-a-walsh"
+          ]
+        },
+        {
+          "title": "City Judge of Yonkers",
+          "confidence": "confirmed",
+          "years": "1917",
+          "sourceIds": [
+            "sun-1917-10-28-walsh-city-judge",
+            "sun-1917-11-07-bleakley-defeats-city-judge-walsh"
+          ]
+        },
+        {
+          "title": "Corporation Counsel of Yonkers",
+          "confidence": "confirmed",
+          "years": "by 1919",
+          "sourceIds": [
+            "sun-1919-09-23-walsh-corporation-counsel"
           ]
         }
       ],
@@ -1863,6 +1933,10 @@
         {
           "question": "Was Giovanni Vigliotti, who married Evelina Golia at Tuckahoe on 29 October 1916, a relative of Vincenzo?",
           "record": "The Tuckahoe parish register, Giovanni's own records, or a godparent or witness link."
+        },
+        {
+          "question": "Were the other Vigliotti men from Santa Maria a Vico who arrived in 1903 and 1911 his relatives?",
+          "record": "The manifests for the Attivita (20 March 1903), the Lahn (5 August 1903) and the Berlin (22 November 1911), and the cousin named on the Roma manifest."
         }
       ],
       "relatedPages": [
@@ -2075,6 +2149,10 @@
         {
           "question": "When did she arrive in the United States?",
           "record": "A passenger list around 1916 or 1917, and any earlier Italian records after her mother's death in 1904."
+        },
+        {
+          "question": "When and how did Vincenza arrive in America?",
+          "record": "The 1920 census says 1916 and the 1930 census says 1917, but the only Ellis Island entries for a Vincenza Guida in 1915 and 1916 are women from Palo del Colle, so they are not hers. Try the spellings Guido and Pasqualina, a 1917 manifest, or a Tuckahoe parish record."
         }
       ],
       "relatedPages": [

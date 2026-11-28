@@ -197,7 +197,7 @@
       "repository": "Ancestry, New York, U.S., Arriving Passenger and Crew Lists (index)",
       "date": "1903-04-01",
       "url": "https://www.ancestry.com/search/collections/7488/records/4039765123",
-      "note": "Index entry for Vincenzo Vigliotti, aged 17, arriving at New York on the Roma on 1 April 1903. The manifest page itself was later read (see ancestry-roma-manifest-1903).",
+      "note": "Index entry for Vincenzo Vigliotti, aged 17, arriving at New York on the Roma on 1 April 1903. The manifest page itself was later read (see ancestry-roma-manifest-1903). The free Ellis Island index shows the same entry: age 17, born 1886, single, sailed from Napoli, last residence transcribed Shignico, image T715-0334-41, line 18 (id JFPY-Y3G).",
       "file": "records/1903-passenger-index-vigliotti-vincenzo-roma-highlighted.jpg"
     },
     {
@@ -571,6 +571,76 @@
       "date": "1942",
       "url": "https://www.ancestry.com/search/collections/1002/records/7268164",
       "note": "Born 5 February 1894 in Italy, living in the Bronx, next of kin Evelyn Vigliotti. Evelyn could be Evelina Golia, but nothing on the index links this man to the 1916 Tuckahoe groom."
+    },
+    {
+      "id": "sun-1895-12-16-walsh-notre-dame-captain",
+      "title": "The Sun (New York), 16 December 1895, page 8: William A Walsh of Yonkers elected captain of the Notre Dame football team",
+      "type": "newspaper",
+      "repository": "Chronicling America, Library of Congress (OCR text view)",
+      "file": "records/1895-sun-walsh-notre-dame-captain-highlighted.jpg",
+      "date": "1895-12-16",
+      "url": "https://www.loc.gov/resource/sn83030272/1895-12-16/ed-1/?sp=8&st=text",
+      "note": "A short item datelined Notre Dame, Ind., Dec 15, says that at a meeting of the varsity held last week William A Walsh of Yonkers, N Y, was unanimously elected captain of the football team. The OCR is rough, so the wording is a careful reading."
+    },
+    {
+      "id": "sun-1917-10-28-walsh-city-judge",
+      "title": "The Sun (New York), 28 October 1917, page 4: William A. Walsh, City Judge of Yonkers",
+      "type": "newspaper",
+      "repository": "Chronicling America, Library of Congress (OCR text view)",
+      "file": "records/1917-sun-walsh-city-judge-yonkers-highlighted.jpg",
+      "date": "1917-10-28",
+      "url": "https://www.loc.gov/resource/sn83030431/1917-10-28/ed-1/?sp=4&st=text",
+      "note": "Two women arrested over a children's nursery were arraigned before William A. Walsh, City Judge of Yonkers, and held in $500 bail."
+    },
+    {
+      "id": "sun-1917-11-07-bleakley-defeats-city-judge-walsh",
+      "title": "The Sun (New York), 7 November 1917, page 6: William F. Bleakley defeated City Judge William A. Walsh",
+      "type": "newspaper",
+      "repository": "Chronicling America, Library of Congress (OCR text view)",
+      "file": "records/1917-sun-bleakley-defeats-city-judge-walsh-highlighted.jpg",
+      "date": "1917-11-07",
+      "url": "https://www.loc.gov/resource/sn83030431/1917-11-07/ed-1/?sp=6&st=text",
+      "note": "In the Yonkers results, the Republican ticket swept the city and William F. Bleakley (OCR: Illeakley) defeated City Judge William A. Walsh."
+    },
+    {
+      "id": "sun-1919-09-23-walsh-corporation-counsel",
+      "title": "The Sun (New York), 23 September 1919, page 22: Corporation Counsel William A. Walsh of Yonkers",
+      "type": "newspaper",
+      "repository": "Chronicling America, Library of Congress (OCR text view)",
+      "file": "records/1919-sun-corporation-counsel-walsh-yonkers-highlighted.jpg",
+      "date": "1919-09-23",
+      "url": "https://www.loc.gov/resource/sn83030431/1919-09-23/ed-1/?sp=22&st=text",
+      "note": "Corporation Counsel William A. Walsh of Yonkers asked Justice Morschauser for an order letting the city photograph the Federal Sugar Refining Company plant in a tax-assessment fight."
+    },
+    {
+      "id": "washington-daily-news-1942-10-17-walsh-yonkers-manager",
+      "title": "The Washington Daily News, 17 October 1942, page 23: William A. Walsh, Yonkers manager",
+      "type": "newspaper",
+      "repository": "Chronicling America, Library of Congress (OCR text view)",
+      "file": "records/1942-washington-daily-news-yonkers-manager-walsh-highlighted.jpg",
+      "date": "1942-10-17",
+      "url": "https://www.loc.gov/resource/sn82016181/1942-10-17/ed-1/?sp=23&st=text",
+      "note": "A news filler says William A. Walsh, Yonkers manager, returned from lunch to find six of the most prominent men in town waiting for him: an impersonator had phoned in his name and told them to come to City Hall for appointments."
+    },
+    {
+      "id": "ellis-island-arrival-alfonso-guida-1900",
+      "title": "Ellis Island arrival record index, Alfonso Guida, ship Burgundia, 2 October 1900",
+      "type": "passenger list",
+      "repository": "Statue of Liberty-Ellis Island Foundation, Arrival Records (free name search), New York Passenger Arrival Lists 1892-1925",
+      "file": "records/1900-arrival-index-guida-alfonso-burgundia-highlighted.jpg",
+      "date": "1900-10-02",
+      "url": "https://www.statueofliberty.org/arrival-details/?id=JX8Y-GYZ",
+      "note": "Alfonso Guida, aged 34 (born 1866), married, last residence transcribed Aninzo, sailed from Naples on the Burgundia and arrived on 2 October 1900. Image reference T715-0151-270, line 27. Index view only; the manifest image has not been read."
+    },
+    {
+      "id": "ellis-island-arrival-vigliotti-smv-leads-1903-1911",
+      "title": "Ellis Island arrival record indexes, Vigliotti men from Santa Maria a Vico, 1903 and 1911",
+      "type": "passenger list",
+      "repository": "Statue of Liberty-Ellis Island Foundation, Arrival Records (free name search)",
+      "file": "records/1903-arrival-index-vigliotti-vincenzo-age22-attivita-highlighted.jpg",
+      "date": "1903-03-20",
+      "url": "https://www.statueofliberty.org/arrival-details/?id=JFPP-1MW",
+      "note": "Vincenzo Vigliotti, aged 22, single, of S. Maria a Vico, arrived on the Attivita on 20 March 1903 (T715-0330-262, line 26). Giovanni Vigliotti, aged 26, single, of Santa Maria a Vico, arrived on the Berlin on 22 November 1911 (T715-1774-1148, line 2, id JJP7-MZN). Neither is the Vincenzo of the Roma (age 17) nor the Giovanni who married in 1916. Kept as leads for relatives from the same town."
     }
   ]
 }
