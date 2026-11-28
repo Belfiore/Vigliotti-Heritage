@@ -1851,7 +1851,8 @@
             "sun-1917-10-28-walsh-city-judge",
             "sun-1917-11-07-bleakley-defeats-city-judge-walsh"
           ],
-          "title_de": "Stadtrichter von Yonkers"
+          "title_de": "Stadtrichter von Yonkers",
+          "placeId": "yonkers-ny"
         },
         {
           "title": "Corporation Counsel of Yonkers",
@@ -1860,7 +1861,8 @@
           "sourceIds": [
             "sun-1919-09-23-walsh-corporation-counsel"
           ],
-          "title_de": "Städtischer Rechtsberater von Yonkers"
+          "title_de": "Städtischer Rechtsberater von Yonkers",
+          "placeId": "yonkers-ny"
         }
       ],
       "cardPlace": "Yonkers, New York",
@@ -2983,7 +2985,9 @@
         "confidence": "confirmed",
         "sourceIds": [
           "obituary-patricia-paul-walsh-2019"
-        ]
+        ],
+        "place": "Rye, New York",
+        "placeId": "rye-ny"
       },
       "residences": [
         {
@@ -4034,7 +4038,8 @@
           "sourceIds": [
             "obituary-pasquale-fucale-2026"
           ],
-          "title_de": "Schulweghelfer"
+          "title_de": "Schulweghelfer",
+          "placeId": "pleasantville-ny"
         }
       ],
       "cardPlace": "Valhalla, New York",

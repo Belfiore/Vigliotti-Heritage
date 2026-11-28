@@ -1111,6 +1111,38 @@
           "datePrecision": "year",
           "summary": "Vincent Vigliotti registered for the World War I draft while living on Scarsdale Avenue, Westchester County.",
           "summary_de": "Vincent Vigliotti ließ sich zur Wehrpflicht des Ersten Weltkriegs registrieren, als er in der Scarsdale Avenue, Westchester County, wohnte."
+        },
+        {
+          "id": "pe-eastchester-lived-mignone-1950",
+          "type": "lived",
+          "personIds": [
+            "gerardo-mignone",
+            "susan-rescigno-mignone"
+          ],
+          "confidence": "confirmed",
+          "sourceIds": [
+            "census-1950-mignone"
+          ],
+          "approximate": false,
+          "date": "1950",
+          "dateStart": "1950",
+          "datePrecision": "year",
+          "summary": "Gerard and Susan Mignone were living on Brook Street, Eastchester, with their younger children at the 1950 census.",
+          "summary_de": "Gerard und Susan Mignone wohnten bei der Volkszählung von 1950 mit ihren jüngeren Kindern in der Brook Street, Eastchester."
+        },
+        {
+          "id": "pe-eastchester-worked-sr-ap",
+          "type": "worked",
+          "personIds": [
+            "alphonse-j-vigliotti-sr"
+          ],
+          "confidence": "confirmed",
+          "sourceIds": [
+            "obituary-alphonse-vigliotti-sr-2011"
+          ],
+          "approximate": true,
+          "summary": "Alphonse J. Vigliotti Sr. worked as a manager for A&P in Eastchester, and was a member of the Eastchester Volunteer Fire Department.",
+          "summary_de": "Alphonse J. Vigliotti Sr. arbeitete als Filialleiter für A&P in Eastchester und war Mitglied der Freiwilligen Feuerwehr Eastchester."
         }
       ],
       "name_de": "Eastchester, New York",
@@ -1842,6 +1874,66 @@
       "name_de": "San Felice a Cancello, Caserta, Campania, Italien",
       "historicName_de": "San Felice a Cancello, Caserta, Campania",
       "blurb_de": "Ein kampanischer Ort, der an Santa Maria a Vico und Arienzo grenzt. Der Sterbeakt von Antonia Vigliotti von 1904 nennt ihn als ihren Geburtsort."
+    },
+    {
+      "id": "pleasantville-ny",
+      "name": "Pleasantville, New York",
+      "historicName": "Village of Pleasantville, Westchester County, New York",
+      "kind": "town",
+      "precision": "town",
+      "lat": 41.1329,
+      "lng": -73.7926,
+      "uncertaintyMetres": 2500,
+      "coordinateMethod": "Point from OpenStreetMap Nominatim (Village of Pleasantville), looked up on 28 November 2026.",
+      "coordinatePrecision": "town",
+      "coordinateSourceIds": [],
+      "drawAs": "halo",
+      "inHomeRegion": true,
+      "country": "US",
+      "status": "published",
+      "blurb": "Where Pat Fucale worked as a crossing guard for the Pleasantville School District after he retired.",
+      "blurb_de": "Hier arbeitete Pat Fucale nach seiner Pensionierung als Schülerlotse für den Pleasantville School District.",
+      "events": []
+    },
+    {
+      "id": "naples-italy",
+      "name": "Naples, Italy",
+      "historicName": "Napoli, Campania, Italy",
+      "kind": "port",
+      "precision": "town",
+      "lat": 40.8359,
+      "lng": 14.2488,
+      "uncertaintyMetres": 2500,
+      "coordinateMethod": "Point from OpenStreetMap Nominatim (city of Naples), looked up on 28 November 2026.",
+      "coordinatePrecision": "town",
+      "coordinateSourceIds": [],
+      "drawAs": "halo",
+      "inHomeRegion": false,
+      "country": "IT",
+      "status": "published",
+      "blurb": "The port the Roma sailed from in 1903, with the 17-year-old who is probably Vincenzo Vigliotti on board.",
+      "blurb_de": "Der Hafen, von dem die Roma 1903 ablegte, mit dem 17-Jährigen an Bord, der wahrscheinlich Vincenzo Vigliotti ist.",
+      "events": [
+        {
+          "id": "pe-naples-sailed-vincenzo",
+          "type": "sailed",
+          "personIds": [
+            "vincenzo-vigliotti"
+          ],
+          "confidence": "probable",
+          "sourceIds": [
+            "ancestry-roma-manifest-1903",
+            "ancestry-passenger-list-roma-1903"
+          ],
+          "approximate": true,
+          "date": "1903",
+          "dateStart": "1903",
+          "datePrecision": "year",
+          "voyageEnd": "departure",
+          "summary": "A 17-year-old farm labourer, probably Vincenzo Vigliotti, sailed from Naples on the Roma, which reached New York on 1 April 1903.",
+          "summary_de": "Ein 17 Jahre alter Landarbeiter, wahrscheinlich Vincenzo Vigliotti, fuhr mit der Roma von Neapel ab; das Schiff erreichte New York am 1. April 1903."
+        }
+      ]
     }
   ]
 }
