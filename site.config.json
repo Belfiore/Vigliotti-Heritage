@@ -12,8 +12,7 @@
   "language": {
     "default": "en",
     "available": [
-      "en",
-      "de"
+      "en"
     ]
   },
   "visitor": {
