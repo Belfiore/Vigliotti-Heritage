@@ -177,8 +177,9 @@
       "type": "military",
       "repository": "Ancestry, U.S., World War II Draft Cards Young Men, 1940 to 1947 (index)",
       "date": "1942-02-15",
-      "url": null,
-      "note": "Registered at Tuckahoe on 15 February 1942. Born 14 March 1921 at Scarsdale, New York. Next of kin, or the person who would always know his address, Vincent Vigliotti. Index view; the card image has not yet been fully captured."
+      "url": "https://www.ancestry.com/search/collections/2238/records/303399372",
+      "note": "Registered at Tuckahoe on 15 February 1942. Born 14 March 1921 at Scarsdale, New York. Next of kin, or the person who would always know his address, Vincent Vigliotti. Index view; the card image has not yet been fully captured. Employer: Buymore Foods, 58 East Parkway, Scarsdale. He was living in Eastchester at the time.",
+      "file": "records/1942-draft-vigliotti-alphonse-sr-scarsdale-highlighted.jpg"
     },
     {
       "id": "ancestry-tree-kindred-spirits",
@@ -195,8 +196,9 @@
       "type": "passenger list",
       "repository": "Ancestry, New York, U.S., Arriving Passenger and Crew Lists (index)",
       "date": "1903-04-01",
-      "url": null,
-      "note": "Index entry for Vincenzo Vigliotti, aged 17, arriving at New York on the Roma on 1 April 1903. The manifest page itself was later read (see ancestry-roma-manifest-1903)."
+      "url": "https://www.ancestry.com/search/collections/7488/records/4039765123",
+      "note": "Index entry for Vincenzo Vigliotti, aged 17, arriving at New York on the Roma on 1 April 1903. The manifest page itself was later read (see ancestry-roma-manifest-1903).",
+      "file": "records/1903-passenger-index-vigliotti-vincenzo-roma-highlighted.jpg"
     },
     {
       "id": "find-a-grave-concetta-2012",
@@ -499,6 +501,76 @@
       "repository": "Family-held clipping in the Walsh family-history packet provided on 27 November 2026.",
       "file": "records/clipping-william-walsh-and-son.jpg",
       "note": "A bold four-line heading, William Walsh and Son, mounted with the Judge Walsh clippings. Smaller text on the block is not clearly readable in the photograph. Kept as a period piece about the Walsh law office, not as a source for new facts."
+    },
+    {
+      "id": "ancestry-wwi-draft-vincenzo-vigliotti-1917-18",
+      "title": "World War I draft registration, Vincenzo Vigliotti, 1917 to 1918",
+      "type": "military",
+      "repository": "Ancestry, U.S., World War I Draft Registration Cards, 1917-1918 (index; also on Fold3)",
+      "file": "records/1917-18-draft-wwi-vigliotti-vincenzo-scarsdale-ave-highlighted.jpg",
+      "date": "1917",
+      "url": "https://www.ancestry.com/search/collections/6482/records/16125493",
+      "note": "Index entry for Vincenzo Vigliotti, also indexed as Vincengo Vighotti. Born 5 July 1885, living on Scarsdale Avenue (indexed Scorsdle Ave), Westchester County, New York, Draft Board 6. The relative named on the card is Vicenza Vigliotti. Index view only; the card image has not yet been read at card resolution."
+    },
+    {
+      "id": "ancestry-wwii-draft-vincenzo-vigliotti-1942",
+      "title": "World War II draft registration, Vincenzo Vigliotti, 1942 (the \"old man's\" draft)",
+      "type": "military",
+      "repository": "Ancestry, U.S., World War II Draft Registration Cards, 1942 (index; also on Fold3)",
+      "file": "records/1942-draft-wwii-vigliotti-vincenzo-scarsdale-highlighted.jpg",
+      "date": "1942",
+      "url": "https://www.ancestry.com/search/collections/1002/records/17058930",
+      "note": "Index entry gives birth 7 July 1885 and a birthplace indexed as Buffalo, Italy, which is an indexing error for the Italian town. Residence Scarsdale, New York; the card header reads about 49 Brambach Avenue. Next of kin is his son Vincent Jr. Index view; the card image has not yet been read at card resolution."
+    },
+    {
+      "id": "ancestry-ny-marriage-index-giovanni-vigliotti-golia-1916",
+      "title": "New York State marriage index, Giovanni Vigliotti and Evelina Golia, Tuckahoe, 29 October 1916",
+      "type": "marriage index",
+      "repository": "Ancestry, New York State, Marriage Index, 1881-1967",
+      "file": "records/1916-marriage-index-vigliotti-giovanni-golia-evelina-tuckahoe-highlighted.jpg",
+      "date": "1916-10-29",
+      "url": "https://www.ancestry.com/search/collections/61632/records/5735035",
+      "note": "Giovanni Vigliotti married Evelina Golia at Tuckahoe on 29 October 1916, certificate 37504. The state index page itself (certificate 37504) was also read directly."
+    },
+    {
+      "id": "ancestry-wwii-draft-william-a-walsh-jr-1940",
+      "title": "World War II draft registration, William A. Walsh Jr., 16 October 1940",
+      "type": "military",
+      "repository": "Ancestry, U.S., World War II Draft Cards Young Men, 1940-1947 (index)",
+      "file": "records/1940-draft-walsh-william-a-jr-yonkers-highlighted.jpg",
+      "date": "1940-10-16",
+      "url": "https://www.ancestry.com/search/collections/2238/records/304160176",
+      "note": "William A. Walsh Jr., born 10 May 1914 at Yonkers, living at Colonial, West Yonkers (as indexed), registered at Yonkers on 16 October 1940. Employer indexed as Walsh Baird Home & Cameron. Index view only."
+    },
+    {
+      "id": "ancestry-ny-death-index-john-j-walsh-1946",
+      "title": "New York death index, John J Walsh, 17 December 1946, Yonkers, certificate 74279",
+      "type": "death index",
+      "repository": "Ancestry, New York, U.S., Death Index, 1852-1956",
+      "file": "records/1946-death-index-walsh-john-j-yonkers-cert74279-highlighted.jpg",
+      "date": "1946-12-17",
+      "url": "https://www.ancestry.com/search/collections/61535/records/1536658",
+      "note": "Age 86, died 17 December 1946 at Yonkers, certificate 74279. Birth indexed as about 1860."
+    },
+    {
+      "id": "ancestry-census-1930-thomas-a-walsh",
+      "title": "1930 census, Thomas A Walsh, Buena Vista Avenue, Yonkers",
+      "type": "census",
+      "repository": "Ancestry, 1930 United States Federal Census (index)",
+      "file": "records/1930-census-walsh-thomas-a-yonkers-buena-vista-ave-highlighted.jpg",
+      "date": "1930",
+      "url": "https://www.ancestry.com/search/collections/6224/records/47250638",
+      "note": "Thomas A Walsh, age 66 (born about 1864 in New York), head of household on Buena Vista Avenue, Yonkers, first ward, married. The same record is reported to list his wife Mary E, a chemist, and parents born in Ireland; those lines are not in the saved screen. Whether he is Michael Walsh's son is a probable match, not a proven one."
+    },
+    {
+      "id": "ancestry-wwii-draft-giovanni-john-vigliotti-1942",
+      "title": "World War II draft registration, Giovanni John Vigliotti, 1942 (candidate match)",
+      "type": "military",
+      "repository": "Ancestry, U.S., World War II Draft Registration Cards, 1942 (index)",
+      "file": "records/1942-draft-vigliotti-giovanni-john-bronx-candidate-highlighted.jpg",
+      "date": "1942",
+      "url": "https://www.ancestry.com/search/collections/1002/records/7268164",
+      "note": "Born 5 February 1894 in Italy, living in the Bronx, next of kin Evelyn Vigliotti. Evelyn could be Evelina Golia, but nothing on the index links this man to the 1916 Tuckahoe groom."
     }
   ]
 }

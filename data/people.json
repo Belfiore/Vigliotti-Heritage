@@ -1700,9 +1700,10 @@
           "confidence": "confirmed",
           "sourceIds": [
             "scarsdale-inquirer-1944-04-28",
-            "scarsdale-inquirer-1942-12-04"
+            "scarsdale-inquirer-1942-12-04",
+            "ancestry-wwi-draft-vincenzo-vigliotti-1917-18"
           ],
-          "note": "They were married, as his 1944 death notice and the census show. A 4 December 1942 newspaper item says they had recently marked a twenty-fifth wedding anniversary, which points to 1916 or 1917. A member tree gives 31 July 1916, but that exact date was not found in the Westchester, New York City, or 1916 New York State marriage indexes, so it is not used here."
+          "note": "They were married, as his 1944 death notice and the census show. A 4 December 1942 newspaper item says they had recently marked a twenty-fifth wedding anniversary, which points to 1916 or 1917. A member tree gives 31 July 1916, but that exact date was not found in the Westchester, New York City, or 1916 New York State marriage indexes, so it is not used here. His World War I draft card index for 1917 to 1918 names a relative, Vicenza Vigliotti, which points to a marriage before that registration."
         }
       ],
       "disambiguator": "Alphonse Sr.'s father, also called Vincent",
@@ -1765,10 +1766,18 @@
           "sourceIds": [
             "nys-death-index-1944-vigliotti"
           ]
+        },
+        {
+          "name": "Vincengo Vighotti",
+          "note": "The bracketed spelling in the index of his World War I draft card.",
+          "confidence": "confirmed",
+          "sourceIds": [
+            "ancestry-wwi-draft-vincenzo-vigliotti-1917-18"
+          ]
         }
       ],
       "summary": "Born 4 July 1885 at Santa Maria a Vico, he arrived at New York on the Roma in 1903, raised a large family with Vincenza Guida at 44 Brambach Avenue, Eastchester, and died at Grasslands Hospital, Mount Pleasant, on 24 April 1944.",
-      "story": "Vincenzo Vigliotti, usually called Vincent in American records, was born at 11 at night on 4 July 1885 at Santa Maria a Vico, in the province of Caserta, Italy. His father, Andrea Vigliotti, a 32-year-old farm worker, registered the birth the next morning at the town hall. The act names his mother as Mariantonia Ruotolo, and gives the family's house as Via Rusciano 23, a careful reading of the street name.[^ancestry-caserta-smv-nati-1885-act131]\n\nHis parents had married at the town hall of Santa Maria a Vico on 18 February 1883, a date whose day is a careful reading.[^ancestry-caserta-smv-matrimoni-1883-act3]\n\nOn 1 April 1903 a 17-year-old farm labourer whose surname is only partly readable arrived at New York on the ship Roma from Naples. The manifest says he had paid his own passage, carried $20, and was going to a cousin in Newburgh, New York. The match to this Vincenzo is probable.[^ancestry-roma-manifest-1903]\n\nBy January 1920 Vincent and Vincenza were living on Scarsdale Avenue in Eastchester. The census says he had filed first papers and was not yet a citizen.[^ancestry-census-1920-vigliotte] The June 1925 New York State census finds the family at 44 Brambach Avenue and marks him a citizen, with a note reading 1923 White Plains. Sons Vincent, Alfonso, Andrew and Anthony, and daughter Madeline, were in the household.[^ancestry-nys-census-1925-vigliotti] The 1930 and 1940 censuses also list him as naturalized.[^ancestry-census-1930-vigliotti][^ancestry-census-1940-vigliotti]\n\nThe Westchester County naturalization index lists a 1916 declaration for Vincenzo Viglietto and a 1922 petition for Vincenzo Vigletti, also called Viglotti. Together with the census trail, this is a probable match, with citizenship granted in 1922 or 1923, after Alphonse Sr. was born in March 1921. The petition itself has not yet been read. A later 1928 declaration and 1930 petition in the same index belong to a different Vincenzo Vigliotti, born in 1892 at Bonito.[^westchester-naturalization-vigletti][^westchester-naturalization-vigliotti]\n\nVincent and Vincenza raised their children at 44 Brambach Avenue in Eastchester. Vincent J. Vigliotti of that address died at Grasslands Hospital, Mount Pleasant, on 24 April 1944, after a long illness. The New York State death index records the death under the spelling VIGHIOTTO, certificate 26490. He was survived by Vincenza Guida Vigliotti, four sons then in the armed forces, and five daughters. Funeral services were held at Immaculate Heart of Mary on 28 April 1944.[^nys-death-index-1944-vigliotti][^scarsdale-inquirer-1944-04-28]",
+      "story": "Vincenzo Vigliotti, usually called Vincent in American records, was born at 11 at night on 4 July 1885 at Santa Maria a Vico, in the province of Caserta, Italy. His father, Andrea Vigliotti, a 32-year-old farm worker, registered the birth the next morning at the town hall. The act names his mother as Mariantonia Ruotolo, and gives the family's house as Via Rusciano 23, a careful reading of the street name.[^ancestry-caserta-smv-nati-1885-act131]\n\nHis parents had married at the town hall of Santa Maria a Vico on 18 February 1883, a date whose day is a careful reading.[^ancestry-caserta-smv-matrimoni-1883-act3]\n\nOn 1 April 1903 a 17-year-old farm labourer whose surname is only partly readable arrived at New York on the ship Roma from Naples. The manifest says he had paid his own passage, carried $20, and was going to a cousin in Newburgh, New York. The match to this Vincenzo is probable.[^ancestry-roma-manifest-1903]\n\nBy January 1920 Vincent and Vincenza were living on Scarsdale Avenue in Eastchester. The census says he had filed first papers and was not yet a citizen.[^ancestry-census-1920-vigliotte] The June 1925 New York State census finds the family at 44 Brambach Avenue and marks him a citizen, with a note reading 1923 White Plains. Sons Vincent, Alfonso, Andrew and Anthony, and daughter Madeline, were in the household.[^ancestry-nys-census-1925-vigliotti] The 1930 and 1940 censuses also list him as naturalized.[^ancestry-census-1930-vigliotti][^ancestry-census-1940-vigliotti]\n\nThe Westchester County naturalization index lists a 1916 declaration for Vincenzo Viglietto and a 1922 petition for Vincenzo Vigletti, also called Viglotti. Together with the census trail, this is a probable match, with citizenship granted in 1922 or 1923, after Alphonse Sr. was born in March 1921. The petition itself has not yet been read. A later 1928 declaration and 1930 petition in the same index belong to a different Vincenzo Vigliotti, born in 1892 at Bonito.[^westchester-naturalization-vigletti][^westchester-naturalization-vigliotti]\n\nVincent and Vincenza raised their children at 44 Brambach Avenue in Eastchester. Vincent J. Vigliotti of that address died at Grasslands Hospital, Mount Pleasant, on 24 April 1944, after a long illness. The New York State death index records the death under the spelling VIGHIOTTO, certificate 26490. He was survived by Vincenza Guida Vigliotti, four sons then in the armed forces, and five daughters. Funeral services were held at Immaculate Heart of Mary on 28 April 1944.[^nys-death-index-1944-vigliotti][^scarsdale-inquirer-1944-04-28]\n\nHis World War I draft registration for 1917 to 1918 lists him on Scarsdale Avenue, born 5 July 1885, with a relative named Vicenza Vigliotti, which suggests that he and Vincenza were already married by then.[^ancestry-wwi-draft-vincenzo-vigliotti-1917-18] In 1942 he registered again, in the draft of men born between 1877 and 1897. The index gives his birth as 7 July 1885 and his birthplace as Buffalo, Italy, which looks like an indexing error; the Italian civil act above, which gives 4 July, still decides the date.[^ancestry-wwii-draft-vincenzo-vigliotti-1942]",
       "birth": {
         "date": "1885-07-04",
         "display": "4 July 1885, Santa Maria a Vico, Caserta",
@@ -1795,6 +1804,15 @@
         "note": "The death index spells the surname VIGHIOTTO, certificate 26490. The Scarsdale Inquirer names Vincent J. Vigliotti of 44 Brambach Road, dying at Grasslands Hospital."
       },
       "residences": [
+        {
+          "place": "Scarsdale Avenue, Westchester County, New York",
+          "placeId": "eastchester-ny",
+          "years": "1917 to 1918",
+          "confidence": "confirmed",
+          "sourceIds": [
+            "ancestry-wwi-draft-vincenzo-vigliotti-1917-18"
+          ]
+        },
         {
           "place": "Scarsdale Avenue, Eastchester, New York",
           "placeId": "eastchester-ny",
@@ -1836,11 +1854,15 @@
         },
         {
           "question": "What is the exact date and place of his marriage to Vincenza Guida?",
-          "record": "A civil or church marriage record, perhaps in Italy, or a New York register not yet checked, including the G pages of the 1916 and 1917 state index."
+          "record": "A civil or church marriage record, perhaps in Italy, or a New York register not yet checked, including the G pages of the 1916 and 1917 state index. The 1917 to 1918 draft card already names Vicenza as a relative, so the marriage was probably before it."
         },
         {
           "question": "Who was the cousin in Newburgh named on the 1903 Roma manifest?",
           "record": "The reading of the cousin's name is uncertain. A Newburgh directory or 1900 census for a Ferraro at 312 Broadway may help."
+        },
+        {
+          "question": "Was Giovanni Vigliotti, who married Evelina Golia at Tuckahoe on 29 October 1916, a relative of Vincenzo?",
+          "record": "The Tuckahoe parish register, Giovanni's own records, or a godparent or witness link."
         }
       ],
       "relatedPages": [
@@ -1876,6 +1898,32 @@
             "ancestry-census-1930-vigliotti",
             "ancestry-census-1940-vigliotti",
             "westchester-naturalization-vigletti"
+          ]
+        },
+        {
+          "label": "World War I draft registration",
+          "value": "Registered in 1917 or 1918 with Draft Board 6, living on Scarsdale Avenue, Westchester County; the card names a relative, Vicenza Vigliotti (index; the card image has not yet been read)",
+          "confidence": "confirmed",
+          "sourceIds": [
+            "ancestry-wwi-draft-vincenzo-vigliotti-1917-18"
+          ]
+        },
+        {
+          "label": "World War II draft registration",
+          "value": "Registered in 1942 at Scarsdale, New York, with his son Vincent Jr. as next of kin (index; the card image has not yet been read)",
+          "confidence": "confirmed",
+          "sourceIds": [
+            "ancestry-wwii-draft-vincenzo-vigliotti-1942"
+          ]
+        },
+        {
+          "label": "Birth day on US draft cards",
+          "value": "The 1917 to 1918 index gives 5 July 1885 and the 1942 index gives 7 July 1885. The Italian civil act, which is kept here, gives 4 July 1885 at 11 at night and was registered on 5 July.",
+          "confidence": "probable",
+          "sourceIds": [
+            "ancestry-caserta-smv-nati-1885-act131",
+            "ancestry-wwi-draft-vincenzo-vigliotti-1917-18",
+            "ancestry-wwii-draft-vincenzo-vigliotti-1942"
           ]
         }
       ],
@@ -1965,7 +2013,7 @@
         }
       ],
       "summary": "Born 21 September 1899 at Arienzo, the first of twins, she married Vincenzo Vigliotti and raised their children at 44 Brambach Avenue, Eastchester.",
-      "story": "Vincenza Pasqualina Guida, also called Winnie, Vinnie, and in one obituary Vencenza Guido, was born at 11:40 in the morning on 21 September 1899 at via Maddalena 2, Arienzo, in the province of Caserta, Italy. She was the first of twins. Her father, Alfonso Guida, a 33-year-old farmer, registered the birth two days later. Her mother was Antonia Vigliotti. The next act in the register records her twin brother, Pasquale Fabrizio, born second on the same day.[^ancestry-caserta-arienzo-nati-1899-act105]\n\nHer mother died at Arienzo on 8 June 1904, when Vincenza was four. The death act says Antonia was 38, born at San Felice a Cancello, and the daughter of Raffaele Vigliotti and Pasqualina Carfora.[^ancestry-caserta-arienzo-morti-1904-act29]\n\nVincenza appears with Vincent Vigliotti in the 1920 census on Scarsdale Avenue, Eastchester, and from 1925 at 44 Brambach Avenue. The 1920 census says she had arrived in 1916; the 1930 census says 1917.[^ancestry-census-1920-vigliotte][^ancestry-census-1930-vigliotti][^ancestry-census-1940-vigliotti] The 1944 death notice of her husband names her Vincenza Guida Vigliotti.[^scarsdale-inquirer-1944-04-28] Alphonse Sr.'s 2011 obituary calls his parents the late Vincent and Vencenza, so she had died by then, but no death date is published here until a record is in hand.[^obituary-alphonse-vigliotti-sr-2011]",
+      "story": "Vincenza Pasqualina Guida, also called Winnie, Vinnie, and in one obituary Vencenza Guido, was born at 11:40 in the morning on 21 September 1899 at via Maddalena 2, Arienzo, in the province of Caserta, Italy. She was the first of twins. Her father, Alfonso Guida, a 33-year-old farmer, registered the birth two days later. Her mother was Antonia Vigliotti. The next act in the register records her twin brother, Pasquale Fabrizio, born second on the same day.[^ancestry-caserta-arienzo-nati-1899-act105]\n\nHer mother died at Arienzo on 8 June 1904, when Vincenza was four. The death act says Antonia was 38, born at San Felice a Cancello, and the daughter of Raffaele Vigliotti and Pasqualina Carfora.[^ancestry-caserta-arienzo-morti-1904-act29]\n\nVincenza appears with Vincent Vigliotti in the 1920 census on Scarsdale Avenue, Eastchester, and from 1925 at 44 Brambach Avenue. The 1920 census says she had arrived in 1916; the 1930 census says 1917.[^ancestry-census-1920-vigliotte][^ancestry-census-1930-vigliotti][^ancestry-census-1940-vigliotti] The 1944 death notice of her husband names her Vincenza Guida Vigliotti.[^scarsdale-inquirer-1944-04-28] Alphonse Sr.'s 2011 obituary calls his parents the late Vincent and Vencenza, so she had died by then, but no death date is published here until a record is in hand.[^obituary-alphonse-vigliotti-sr-2011]\n\nHer husband's 1917 to 1918 draft card names a relative, Vicenza Vigliotti, probably Vincenza as his wife.[^ancestry-wwi-draft-vincenzo-vigliotti-1917-18]",
       "birth": {
         "date": "1899-09-21",
         "display": "21 September 1899, Arienzo, Caserta",
@@ -4125,7 +4173,7 @@
       "disambiguator": "Older brother of Mayor William A. Walsh, banker and ferry president",
       "parentLinkConfidence": "confirmed",
       "summary": "Born in Yonkers, a son of Michael Walsh and Margaret Farrell. An artist, inventor, banker and president of the Westchester Ferry Corporation, he died in Yonkers on 17 December 1946, aged 86, and was buried at Saint Joseph's Cemetery.",
-      "story": "John J. Walsh died on 17 December 1946 in St. John's Riverside Hospital, Yonkers, after one day as a patient, at the age of 86. His home was at 246 North Broadway. His obituary in The Herald Statesman the next day, read from a family-held clipping, says he was a son of Michael Walsh, building contractor, and the former Margaret Farrell, a brother of William A. Walsh, former Mayor and former City Manager, and of Thomas A. Walsh, a former pharmacist and City Bacteriologist, and that he was president of the Westchester Ferry Corporation from 1934 until his death.[^herald-statesman-1946-12-18-john-j-walsh] A requiem mass was to be celebrated at the Church of Our Lady of the Rosary on Lamartine Avenue, with burial at Saint Joseph's Cemetery.\n\nThe same notice, and a compiled biography in the family papers, describe his work as a portrait painter trained at Cooper Union, his telephone-cable clamp and other inventions, a partnership with Frederick B. Fuller, the presidency of the First National Bank of Hastings and of the Yonkers Trust Company, and his retirement from banking in 1933. He organised the Yonkers Automobile Club in 1904 and built a steam car he called the Ardsley.[^family-papers-walsh-farrell-2026][^eye-on-yonkers-1961-fuller-walsh] A ferry named the John J. Walsh ran between Yonkers and Alpine, New Jersey; a caption in the family packet gives its first day of service as 11 January 1938.[^clipping-ferry-john-j-walsh-1938]\n\nA typed note in the packet says he married Annie Fegan in 1880 at St. Joseph's Church in Yonkers, that they had a son, Harry F. Walsh, a musician, and a daughter, Margaret Walsh, who married Charles R. Brown, and that Annie died in 1929.[^family-papers-walsh-farrell-2026] The 1946 obituary names those two children, and a granddaughter and great-grandson who are not added to this tree. A Find a Grave memorial gives his birth as 22 March 1860 and links a spouse Ann Fagan Walsh, 1861 to 1929. Fegan and Fagan are treated as spelling variants until a marriage register is read.[^findagrave-john-j-walsh-1946]",
+      "story": "John J. Walsh died on 17 December 1946 in St. John's Riverside Hospital, Yonkers, after one day as a patient, at the age of 86. His home was at 246 North Broadway. His obituary in The Herald Statesman the next day, read from a family-held clipping, says he was a son of Michael Walsh, building contractor, and the former Margaret Farrell, a brother of William A. Walsh, former Mayor and former City Manager, and of Thomas A. Walsh, a former pharmacist and City Bacteriologist, and that he was president of the Westchester Ferry Corporation from 1934 until his death.[^herald-statesman-1946-12-18-john-j-walsh] A requiem mass was to be celebrated at the Church of Our Lady of the Rosary on Lamartine Avenue, with burial at Saint Joseph's Cemetery.\n\nThe same notice, and a compiled biography in the family papers, describe his work as a portrait painter trained at Cooper Union, his telephone-cable clamp and other inventions, a partnership with Frederick B. Fuller, the presidency of the First National Bank of Hastings and of the Yonkers Trust Company, and his retirement from banking in 1933. He organised the Yonkers Automobile Club in 1904 and built a steam car he called the Ardsley.[^family-papers-walsh-farrell-2026][^eye-on-yonkers-1961-fuller-walsh] A ferry named the John J. Walsh ran between Yonkers and Alpine, New Jersey; a caption in the family packet gives its first day of service as 11 January 1938.[^clipping-ferry-john-j-walsh-1938]\n\nA typed note in the packet says he married Annie Fegan in 1880 at St. Joseph's Church in Yonkers, that they had a son, Harry F. Walsh, a musician, and a daughter, Margaret Walsh, who married Charles R. Brown, and that Annie died in 1929.[^family-papers-walsh-farrell-2026] The 1946 obituary names those two children, and a granddaughter and great-grandson who are not added to this tree. A Find a Grave memorial gives his birth as 22 March 1860 and links a spouse Ann Fagan Walsh, 1861 to 1929. Fegan and Fagan are treated as spelling variants until a marriage register is read.[^findagrave-john-j-walsh-1946]\n\nThe New York death index agrees: John J Walsh, aged 86, died at Yonkers on 17 December 1946, certificate 74279.[^ancestry-ny-death-index-john-j-walsh-1946]",
       "relatedPages": [
         {
           "title": "Records and Research",
@@ -4164,7 +4212,8 @@
         "confidence": "confirmed",
         "sourceIds": [
           "herald-statesman-1946-12-18-john-j-walsh",
-          "findagrave-john-j-walsh-1946"
+          "findagrave-john-j-walsh-1946",
+          "ancestry-ny-death-index-john-j-walsh-1946"
         ]
       },
       "burial": {
@@ -4196,6 +4245,14 @@
           "confidence": "confirmed",
           "sourceIds": [
             "herald-statesman-1946-12-18-john-j-walsh"
+          ]
+        },
+        {
+          "label": "Death certificate",
+          "value": "New York death certificate number 74279, died 17 December 1946 at Yonkers, aged 86",
+          "confidence": "confirmed",
+          "sourceIds": [
+            "ancestry-ny-death-index-john-j-walsh-1946"
           ]
         }
       ],
@@ -4386,7 +4443,7 @@
       "disambiguator": "Brother of Mayor William A. Walsh, pharmacist and City Bacteriologist",
       "parentLinkConfidence": "confirmed",
       "summary": "Son of Michael Walsh, and a brother of John J. Walsh and of Mayor William A. Walsh. He was a pharmacist and served as City Bacteriologist in Yonkers. A memorial gives the years 1863 to 1948.",
-      "story": "Thomas A. Walsh survived his father in 1916, when the Yonkers Statesman described him as an assistant in the chemist's department of the local Health Bureau, and he survived his brother John J. in 1946, when the Herald Statesman called him a former pharmacist and City Bacteriologist for ten years.[^findagrave-michael-walsh-1916][^herald-statesman-1946-12-18-john-j-walsh] A compiled family list gives his birth year as 1862; a volunteer memorial already used in this project gives 1863 to 1948. The 1863 figure is kept as the usual year, with 1862 noted as the family-paper alternative.[^family-papers-walsh-farrell-2026] A grandson named James F. Walsh, son of Thomas A., is mentioned in the 1916 notice and in the family packet; he is not added as a full profile here.",
+      "story": "Thomas A. Walsh survived his father in 1916, when the Yonkers Statesman described him as an assistant in the chemist's department of the local Health Bureau, and he survived his brother John J. in 1946, when the Herald Statesman called him a former pharmacist and City Bacteriologist for ten years.[^findagrave-michael-walsh-1916][^herald-statesman-1946-12-18-john-j-walsh] A compiled family list gives his birth year as 1862; a volunteer memorial already used in this project gives 1863 to 1948. The 1863 figure is kept as the usual year, with 1862 noted as the family-paper alternative.[^family-papers-walsh-farrell-2026] A grandson named James F. Walsh, son of Thomas A., is mentioned in the 1916 notice and in the family packet; he is not added as a full profile here.\n\nThe 1930 census lists a Thomas A Walsh, aged 66 and born in New York, as head of a household on Buena Vista Avenue in Yonkers. The match to Michael Walsh's son is probable: it rests on the name, the town and the age, and the record is reported to give Irish-born parents.[^ancestry-census-1930-thomas-a-walsh]",
       "relatedPages": [
         {
           "title": "Records and Research",
@@ -4431,6 +4488,21 @@
         {
           "question": "Can Thomas A. Walsh's exact birth and death dates be read from a record or a stone?",
           "record": "A birth or baptism record, and a 1948 obituary or gravestone."
+        },
+        {
+          "question": "Does the 1930 census household on Buena Vista Avenue, and his death index entry, confirm his parents Michael Walsh and Margaret Farrell and his wife?",
+          "record": "The census image, and the New York death index entry for March 1948 (Ancestry 61535/302158, not yet opened)."
+        }
+      ],
+      "residences": [
+        {
+          "place": "Buena Vista Avenue, Yonkers, New York",
+          "placeId": "yonkers-ny",
+          "years": "1930",
+          "confidence": "probable",
+          "sourceIds": [
+            "ancestry-census-1930-thomas-a-walsh"
+          ]
         }
       ]
     },
@@ -4605,7 +4677,7 @@
       "disambiguator": "Son of Mayor William A. Walsh, later a State Supreme Court justice",
       "parentLinkConfidence": "confirmed",
       "summary": "Son of William Aloysius Walsh and Clara F. Hingston, born in Yonkers on 10 May 1914. He served as Yonkers city manager and as a judge, and was elected to the New York State Supreme Court in November 1970. He died on 30 January 1999.",
-      "story": "Social Security records name William A. Walsh Jr., born 10 May 1914 in Yonkers, as a son of William A. Walsh and Clara Hingston, and give his death as 30 January 1999.[^ssa-numident-walsh] A family-held newspaper clipping, datelined White Plains, describes his swearing-in as a justice of the State Supreme Court after election the previous November to a 14-year term. It calls him a former Yonkers city manager and judge of the Family and County Courts, and notes that his father, William A. Walsh Sr., had been city manager, mayor and judge of the City of Yonkers.[^clipping-judge-walsh-sworn-in] An official listing of Supreme Court justices gives his first elected or appointed date as 3 November 1970, which would place the ceremony about January 1971, though no date is printed on the clipping itself.[^ny-courts-walsh-jr-1970] The article mentions three daughters, who are not named and are not added to this tree.",
+      "story": "Social Security records name William A. Walsh Jr., born 10 May 1914 in Yonkers, as a son of William A. Walsh and Clara Hingston, and give his death as 30 January 1999.[^ssa-numident-walsh] A family-held newspaper clipping, datelined White Plains, describes his swearing-in as a justice of the State Supreme Court after election the previous November to a 14-year term. It calls him a former Yonkers city manager and judge of the Family and County Courts, and notes that his father, William A. Walsh Sr., had been city manager, mayor and judge of the City of Yonkers.[^clipping-judge-walsh-sworn-in] An official listing of Supreme Court justices gives his first elected or appointed date as 3 November 1970, which would place the ceremony about January 1971, though no date is printed on the clipping itself.[^ny-courts-walsh-jr-1970] The article mentions three daughters, who are not named and are not added to this tree.\n\nHis World War II draft registration of 16 October 1940 gives the same birth date and place, 10 May 1914 at Yonkers.[^ancestry-wwii-draft-william-a-walsh-jr-1940]",
       "relatedPages": [
         {
           "title": "Records and Research",
@@ -4653,6 +4725,14 @@
           "sourceIds": [
             "clipping-judge-walsh-sworn-in",
             "wikipedia-william-a-walsh"
+          ]
+        },
+        {
+          "label": "World War II draft registration",
+          "value": "Registered at Yonkers on 16 October 1940, aged 26, living at Colonial, West Yonkers (as indexed); employer indexed as Walsh Baird Home & Cameron",
+          "confidence": "confirmed",
+          "sourceIds": [
+            "ancestry-wwii-draft-william-a-walsh-jr-1940"
           ]
         }
       ],
