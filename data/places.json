@@ -1014,6 +1014,23 @@
           "dateStart": "1920",
           "datePrecision": "year",
           "summary": "Vincent and Vincenza Vigliotti were living on Scarsdale Avenue, Eastchester, at the 1920 census. He had filed first papers and was not yet a citizen."
+        },
+        {
+          "id": "pe-eastchester-lived-1917-vincenzo",
+          "type": "lived",
+          "personIds": [
+            "vincenzo-vigliotti"
+          ],
+          "confidence": "confirmed",
+          "sourceIds": [
+            "ancestry-wwi-draft-vincenzo-vigliotti-1917-18"
+          ],
+          "approximate": true,
+          "date": "1917",
+          "dateStart": "1917",
+          "dateEnd": "1918",
+          "datePrecision": "year",
+          "summary": "Vincent Vigliotti registered for the World War I draft while living on Scarsdale Avenue, Westchester County."
         }
       ]
     },

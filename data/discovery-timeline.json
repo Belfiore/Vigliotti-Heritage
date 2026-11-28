@@ -854,6 +854,289 @@
         "research.html",
         "discoveries.html"
       ]
+    },
+    {
+      "id": "find-wwi-draft-card-vincenzo-1917",
+      "foundDate": "2026-11-27",
+      "headline": "Vincenzo's World War I draft card index: born 5 July 1885, Scarsdale Avenue",
+      "summary": "The 1917 to 1918 draft index lists Vincenzo Vigliotti on Scarsdale Avenue in Westchester County, Draft Board 6, born 5 July 1885. It differs by a day from the Italian birth act, which gives 4 July. The card image has not yet been read at card resolution.",
+      "sourceIds": [
+        "ancestry-wwi-draft-vincenzo-vigliotti-1917-18"
+      ],
+      "personIds": [
+        "vincenzo-vigliotti"
+      ],
+      "placeIds": [
+        "eastchester-ny"
+      ],
+      "confidence": "confirmed",
+      "pages": [
+        "research.html",
+        "discoveries.html"
+      ]
+    },
+    {
+      "id": "find-vicenza-named-on-wwi-card-1917",
+      "foundDate": "2026-11-27",
+      "headline": "The 1917 to 1918 draft card names a relative, Vicenza Vigliotti, so the couple were probably married by then",
+      "summary": "The index names Vicenza Vigliotti as his relative. This is probably Vincenza Guida as his wife, which would put the marriage before the 1917 or 1918 registration. It does not prove the 31 July 1916 date from a member tree, and no marriage record has been found yet.",
+      "sourceIds": [
+        "ancestry-wwi-draft-vincenzo-vigliotti-1917-18"
+      ],
+      "personIds": [
+        "vincenzo-vigliotti",
+        "vincenza-guida"
+      ],
+      "placeIds": [
+        "eastchester-ny"
+      ],
+      "confidence": "probable",
+      "pages": [
+        "research.html",
+        "discoveries.html"
+      ]
+    },
+    {
+      "id": "find-wwii-draft-vincenzo-1942",
+      "foundDate": "2026-11-27",
+      "headline": "Vincenzo's 1942 draft card index: 7 July 1885, with \"Buffalo, Italy\" as an indexing slip",
+      "summary": "The 1942 \"old man's\" draft index lists Vincenzo Vigliotti of Scarsdale, born 7 July 1885, with the birthplace indexed as Buffalo, Italy. His son Vincent Jr. is the next of kin. The Italian birth act, 4 July 1885, still decides his birth date.",
+      "sourceIds": [
+        "ancestry-wwii-draft-vincenzo-vigliotti-1942"
+      ],
+      "personIds": [
+        "vincenzo-vigliotti"
+      ],
+      "placeIds": [
+        "scarsdale-ny"
+      ],
+      "confidence": "confirmed",
+      "pages": [
+        "research.html",
+        "discoveries.html"
+      ]
+    },
+    {
+      "id": "find-giovanni-vigliotti-golia-marriage-1916",
+      "foundDate": "2026-11-27",
+      "headline": "A Giovanni Vigliotti married Evelina Golia at Tuckahoe on 29 October 1916, a possible relative of Vincenzo",
+      "summary": "The state index names the groom Giovanni Vigliotti, the bride Evelina Golia, Tuckahoe, 29 October 1916, certificate 37504. The index entry is certain. Whether Giovanni is a relative of Vincenzo is not proven; they share a surname, the Tuckahoe and Eastchester area and the same period.",
+      "sourceIds": [
+        "ancestry-ny-marriage-index-giovanni-vigliotti-golia-1916"
+      ],
+      "personIds": [
+        "vincenzo-vigliotti"
+      ],
+      "placeIds": [
+        "tuckahoe-ny"
+      ],
+      "confidence": "probable",
+      "pages": [
+        "research.html",
+        "discoveries.html"
+      ]
+    },
+    {
+      "id": "find-wwii-draft-giovanni-john-vigliotti-1942-candidate",
+      "foundDate": "2026-11-27",
+      "headline": "A Giovanni John Vigliotti, born 1894, has next of kin Evelyn, which could be Evelina Golia",
+      "summary": "Born 5 February 1894 in Italy and living in the Bronx in 1942, with next of kin Evelyn Vigliotti. This could be the 1916 Tuckahoe groom, but nothing on the index proves it.",
+      "sourceIds": [
+        "ancestry-wwii-draft-giovanni-john-vigliotti-1942"
+      ],
+      "personIds": [
+        "vincenzo-vigliotti"
+      ],
+      "placeIds": [],
+      "confidence": "unverified",
+      "pages": [
+        "research.html",
+        "discoveries.html"
+      ]
+    },
+    {
+      "id": "find-wwii-draft-william-a-walsh-jr-1940",
+      "foundDate": "2026-11-27",
+      "headline": "William A. Walsh Jr.'s 1940 draft card confirms his birth: 10 May 1914, Yonkers",
+      "summary": "He registered at Yonkers on 16 October 1940, aged 26, born 10 May 1914 at Yonkers. This agrees with the Social Security record already used for him.",
+      "sourceIds": [
+        "ancestry-wwii-draft-william-a-walsh-jr-1940"
+      ],
+      "personIds": [
+        "william-a-walsh-jr"
+      ],
+      "placeIds": [
+        "yonkers-ny"
+      ],
+      "confidence": "confirmed",
+      "pages": [
+        "research.html",
+        "discoveries.html"
+      ]
+    },
+    {
+      "id": "find-death-index-john-j-walsh-1946",
+      "foundDate": "2026-11-27",
+      "headline": "John J. Walsh's death certificate number: 74279, Yonkers, 17 December 1946",
+      "summary": "The state death index lists John J Walsh, aged 86, died at Yonkers on 17 December 1946, certificate 74279. It agrees with his 1946 obituary and his son-of-Michael-and-Margaret record.",
+      "sourceIds": [
+        "ancestry-ny-death-index-john-j-walsh-1946"
+      ],
+      "personIds": [
+        "john-joseph-walsh"
+      ],
+      "placeIds": [
+        "yonkers-ny"
+      ],
+      "confidence": "confirmed",
+      "pages": [
+        "research.html",
+        "discoveries.html"
+      ]
+    },
+    {
+      "id": "find-thomas-a-walsh-1930-census-yonkers",
+      "foundDate": "2026-11-27",
+      "headline": "Thomas A. Walsh in the 1930 census: Buena Vista Avenue, Yonkers, aged 66",
+      "summary": "A Thomas A Walsh, aged 66 and born in New York, heads a household on Buena Vista Avenue in Yonkers. He is probably Michael Walsh's son. The record is reported to list a wife Mary E and Irish-born parents. A search card suggests he was born in 1863, died on 19 March 1948 and was the son of Michael Walsh and Margaret Farrell; that card has not been opened.",
+      "sourceIds": [
+        "ancestry-census-1930-thomas-a-walsh"
+      ],
+      "personIds": [
+        "thomas-a-walsh"
+      ],
+      "placeIds": [
+        "yonkers-ny"
+      ],
+      "confidence": "probable",
+      "pages": [
+        "research.html",
+        "discoveries.html"
+      ]
+    },
+    {
+      "id": "find-walsh-notre-dame-captain-1895",
+      "foundDate": "2026-11-27",
+      "headline": "William A. Walsh was elected captain of the Notre Dame football team in 1895",
+      "summary": "A short wire item says William A Walsh of Yonkers was unanimously elected captain of the Notre Dame football team. A Wikipedia article on the Yonkers mayor says he played football at Notre Dame, so the match is probable. This is the first contemporary newspaper item for him in the file.",
+      "sourceIds": [
+        "sun-1895-12-16-walsh-notre-dame-captain"
+      ],
+      "personIds": [
+        "william-a-walsh"
+      ],
+      "placeIds": [
+        "yonkers-ny"
+      ],
+      "confidence": "probable",
+      "pages": [
+        "research.html",
+        "discoveries.html"
+      ]
+    },
+    {
+      "id": "find-walsh-city-judge-1917",
+      "foundDate": "2026-11-27",
+      "headline": "William A. Walsh was City Judge of Yonkers in 1917 and lost his seat to William F. Bleakley",
+      "summary": "On 28 October 1917 The Sun names William A. Walsh as City Judge of Yonkers. On 7 November it reports that William F. Bleakley defeated City Judge William A. Walsh in the election. This matches Wikipedia's account of the same year.",
+      "sourceIds": [
+        "sun-1917-10-28-walsh-city-judge",
+        "sun-1917-11-07-bleakley-defeats-city-judge-walsh"
+      ],
+      "personIds": [
+        "william-a-walsh"
+      ],
+      "placeIds": [
+        "yonkers-ny"
+      ],
+      "confidence": "confirmed",
+      "pages": [
+        "research.html",
+        "discoveries.html"
+      ]
+    },
+    {
+      "id": "find-walsh-corporation-counsel-1919",
+      "foundDate": "2026-11-27",
+      "headline": "William A. Walsh was Corporation Counsel of Yonkers by September 1919",
+      "summary": "The Sun reports Corporation Counsel William A. Walsh of Yonkers in court over the Federal Sugar Refining Company tax assessment. This fits the corporation counsel years given by Wikipedia.",
+      "sourceIds": [
+        "sun-1919-09-23-walsh-corporation-counsel"
+      ],
+      "personIds": [
+        "william-a-walsh"
+      ],
+      "placeIds": [
+        "yonkers-ny"
+      ],
+      "confidence": "confirmed",
+      "pages": [
+        "research.html",
+        "discoveries.html"
+      ]
+    },
+    {
+      "id": "find-walsh-yonkers-manager-hoax-1942",
+      "foundDate": "2026-11-27",
+      "headline": "A 1942 wire story: a hoaxer sent six prominent men to Yonkers City Hall in Manager Walsh's name",
+      "summary": "A news filler about William A. Walsh, Yonkers manager, shows him in office in October 1942, and tells how an impersonator phoned in his name and summoned six of the most prominent men in town to City Hall for appointments.",
+      "sourceIds": [
+        "washington-daily-news-1942-10-17-walsh-yonkers-manager"
+      ],
+      "personIds": [
+        "william-a-walsh"
+      ],
+      "placeIds": [
+        "yonkers-ny"
+      ],
+      "confidence": "confirmed",
+      "pages": [
+        "research.html",
+        "discoveries.html"
+      ]
+    },
+    {
+      "id": "find-alfonso-guida-new-york-1900",
+      "foundDate": "2026-11-27",
+      "headline": "Vincenza's father Alfonso Guida probably crossed to New York in October 1900",
+      "summary": "An Alfonso Guida, aged 34, married, of Aninzo (probably Arienzo), arrived on the Burgundia on 2 October 1900. His age and town fit the Alfonso who registered the twins in 1899, but the manifest has not been read, so the match is probable. It opens the question of whether he lived in America before his wife died in 1904.",
+      "sourceIds": [
+        "ellis-island-arrival-alfonso-guida-1900"
+      ],
+      "personIds": [
+        "alfonso-guida",
+        "vincenza-guida"
+      ],
+      "placeIds": [
+        "arienzo",
+        "ellis-island-ny"
+      ],
+      "confidence": "probable",
+      "pages": [
+        "research.html",
+        "discoveries.html"
+      ]
+    },
+    {
+      "id": "find-smv-vigliotti-arrivals-leads-1903-1911",
+      "foundDate": "2026-11-27",
+      "headline": "Other Vigliotti men from Santa Maria a Vico reached New York in 1903 and 1911, possible relatives",
+      "summary": "A Vincenzo Vigliotti, aged 22, of S. Maria a Vico arrived on 20 March 1903, twelve days before our Vincenzo; a Giovanni Vigliotti, aged 26, of the same town arrived in November 1911. No record links either man to Vincenzo, so they stay leads for relatives who may have helped him settle.",
+      "sourceIds": [
+        "ellis-island-arrival-vigliotti-smv-leads-1903-1911"
+      ],
+      "personIds": [
+        "vincenzo-vigliotti"
+      ],
+      "placeIds": [
+        "santa-maria-a-vico",
+        "ellis-island-ny"
+      ],
+      "confidence": "unverified",
+      "pages": [
+        "research.html",
+        "discoveries.html"
+      ]
     }
   ]
 }
