@@ -2,7 +2,7 @@
   "meta": {
     "schemaVersion": 1,
     "title": "Vigliotti family",
-    "updated": "2026-11-27",
+    "updated": "2026-11-28",
     "confidenceScale": [
       "confirmed",
       "probable",
@@ -18,30 +18,36 @@
       {
         "generation": 0,
         "label": "I",
-        "title": "Great-great-grandparents",
-        "range": "Walsh, Farrell, Hingston, Cleary and Ehrenfels"
+        "title": "Great-great-great-grandparents",
+        "range": "Vigliotti, Carfora, Ruotolo, Farrell, and Michael Walsh's parents"
       },
       {
         "generation": 1,
         "label": "II",
-        "title": "Great-grandparents",
-        "range": "Vigliotti, Guida, Mignone, Walsh, Morrisey and Fucale"
+        "title": "Great-great-grandparents",
+        "range": "Vigliotti, Guida, Walsh, Farrell, Hingston, Cleary and Ehrenfels"
       },
       {
         "generation": 2,
         "label": "III",
-        "title": "Grandparents",
-        "range": "Alphonse Sr., Concetta, Patricia, Paul, and Sr.'s brothers and sisters"
+        "title": "Great-grandparents",
+        "range": "Vigliotti, Guida, Walsh, Morrisey, Ehrenfels and Mignone"
       },
       {
         "generation": 3,
         "label": "IV",
-        "title": "Parents' generation",
-        "range": ""
+        "title": "Grandparents",
+        "range": "Alphonse Sr., Concetta, Patricia, Paul, and Sr.'s brothers and sisters"
       },
       {
         "generation": 4,
         "label": "V",
+        "title": "Parents' generation",
+        "range": ""
+      },
+      {
+        "generation": 5,
+        "label": "VI",
         "title": "Dylan's generation",
         "range": ""
       }

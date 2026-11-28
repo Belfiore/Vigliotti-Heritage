@@ -138,6 +138,16 @@ const YEARISH = /\b(19|20)\d{2}\b/;
         if (w === 1280) {
             if (report.geom.length) report.geom.forEach(g => fail('layout: ' + g));
             else ok('every child is below their parents, couples share a row, and no cards overlap');
+
+            const rail = await page.evaluate(() => Array.from(document.querySelectorAll('#genrail .gen')).map(n => ({
+                g: n.getAttribute('data-g'),
+                title: (n.querySelector('.gen-title') || {}).textContent || ''
+            })));
+            const titleOf = g => (rail.find(r => r.g === String(g)) || {}).title || '';
+            if (titleOf(0) !== 'Great-great-great-grandparents') fail('generation I is labelled ' + JSON.stringify(titleOf(0)));
+            else ok('generation I is the great-great-great-grandparents');
+            if (titleOf(5) !== "Dylan's generation") fail('generation VI is labelled ' + JSON.stringify(titleOf(5)));
+            else ok("generation VI is Dylan's generation");
         }
 
         await page.goto(base + 'tree-canvas.html#/person/dylan-vigliotti', { waitUntil: 'networkidle' });
@@ -151,6 +161,22 @@ const YEARISH = /\b(19|20)\d{2}\b/;
             return p ? p.innerText : '';
         });
         if (panelText && HELD_BACK.test(panelText)) fail(w + 'px: person panel shows a held-back place');
+
+        if (w === 1280) {
+            await page.goto(base + 'tree-canvas.html#/person/vincenzo-vigliotti', { waitUntil: 'networkidle' });
+            await page.waitForFunction(() => document.body.innerText.includes('Vincenzo'));
+            const vincenzo = await page.evaluate(() => document.body.innerText);
+            if (!/Overall/i.test(vincenzo)) fail('Vincenzo profile does not show an overall confidence');
+            else ok('a deceased profile still shows confidence');
+
+            await page.goto(base + 'family-tree.html', { waitUntil: 'networkidle' });
+            await page.waitForFunction(() => document.querySelectorAll('.gen-label').length >= 6);
+            const list = await page.evaluate(() => Array.from(document.querySelectorAll('.gen-label')).map(n => n.textContent));
+            if (!list.includes('Generation I, Great-great-great-grandparents')) fail('the list view does not label generation I', list.join(' | '));
+            else ok('the list view labels generation I');
+            if (!list.includes("Generation VI, Dylan's generation")) fail('the list view does not label generation VI', list.join(' | '));
+            else ok('the list view labels generation VI');
+        }
 
         if (SHOTS) {
             await page.goto(base + 'tree-canvas.html', { waitUntil: 'networkidle' });

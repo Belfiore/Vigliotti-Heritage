@@ -96,6 +96,12 @@ const check = (cond, m, detail) => { if (cond) console.log('  ok   ' + m); else 
     await page.waitForFunction(() => window.FM && (FM.ready || (FM.DATA && FM.DATA.events)));
     await page.waitForTimeout(1500);
     check(!errs.length, 'map page has no errors', errs.join(' | '));
+    const chrome = await page.evaluate(() => ({
+        label: (document.querySelector('label[for="vpSel"]') || {}).textContent || '',
+        preview: !!document.querySelector('script[src*="source-preview.js"]')
+    }));
+    check(/Relationships to/.test(chrome.label), 'the map has Relationships to', chrome.label);
+    check(chrome.preview, 'the map loads the source preview');
 
     const st = await page.evaluate(() => {
         const D = FM.DATA;
@@ -120,6 +126,9 @@ const check = (cond, m, detail) => { if (cond) console.log('  ok   ' + m); else 
         return { shown: p ? !p.hidden : !!art, text: (art || p || document.body).innerText };
     });
     check(/Gate of Heaven/i.test(panel.text), 'the cemetery place opens from the URL', (panel.text || '').slice(0, 160));
+    check(!/No Street View/i.test(panel.text), 'a place without Street View says nothing about it');
+    const sourceLink = await page.evaluate(() => !!document.querySelector('article.pn a.sp-link'));
+    check(sourceLink, 'a cited source opens from the place panel');
 
     await browser.close();
     srv.close();

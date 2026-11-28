@@ -1,7 +1,7 @@
 {
   "meta": {
-    "updated": "2026-11-27",
-    "note": "Canonical discoveries list. Keep data/discovery-timeline.json in step for the current 1.0.1 custom pages."
+    "updated": "2026-11-28",
+    "note": "Canonical discoveries list. data/discovery-timeline.json stays in step because the Key Discoveries on the home page read that file."
   },
   "discoveries": [
     {

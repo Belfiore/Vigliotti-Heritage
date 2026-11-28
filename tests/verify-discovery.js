@@ -109,6 +109,9 @@ const check = (cond, m, detail) => { if (cond) console.log('  ok   ' + m); else 
         if (el) check(el.date === f.found, 'discoveries page dates ' + (f.id || 'note') + ' on ' + f.found, el.date);
     });
     check(rendered.days.includes('2026-11-26'), 'the page groups finds under 26 November 2026');
+    const confCount = await page.locator('.tl-conf').count();
+    check(confCount > 0, 'confidence labels are shown (' + confCount + ')');
+    check(rendered.cards.some(c => /Confirmed/i.test(c.text)), 'a confirmed find shows its confidence');
 
     errs.length = 0;
     await page.goto(base + 'index.html', { waitUntil: 'networkidle' });
