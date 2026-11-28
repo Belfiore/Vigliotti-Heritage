@@ -5,14 +5,14 @@
   "engine": {
     "channel": "stable"
   },
+  "admin": {"enabled": true},
   "timeline": {
     "enabled": true
   },
   "language": {
     "default": "en",
     "available": [
-      "en",
-      "de"
+      "en"
     ]
   },
   "visitor": {
