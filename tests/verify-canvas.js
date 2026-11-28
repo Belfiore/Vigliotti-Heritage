@@ -37,6 +37,14 @@ function serve() {
     });
 }
 
+async function pastVisitor(page) {
+    const skip = page.locator('.fv-quiet');
+    try {
+        await skip.first().waitFor({ state: 'visible', timeout: 4000 });
+        await skip.first().click();
+    } catch (e) { /* the visitor question is already answered, or it is off */ }
+}
+
 const failures = [];
 const fail = (m) => { failures.push(m); console.log('  FAIL ' + m); };
 const ok = (m) => console.log('  ok   ' + m);
@@ -87,6 +95,7 @@ const YEARISH = /\b(19|20)\d{2}\b/;
         page.on('pageerror', e => errs.push(e.message));
         page.on('console', m => { if (m.type() === 'error') errs.push(m.text()); });
         await page.goto(base + 'tree-canvas.html', { waitUntil: 'networkidle' });
+        await pastVisitor(page);
         await page.waitForFunction(() => window.__tree && document.querySelectorAll('.card').length > 0);
         await page.evaluate(() => document.fonts.ready);
         await page.waitForTimeout(500);
@@ -151,6 +160,7 @@ const YEARISH = /\b(19|20)\d{2}\b/;
         }
 
         await page.goto(base + 'tree-canvas.html#/person/dylan-vigliotti', { waitUntil: 'networkidle' });
+        await pastVisitor(page);
         await page.waitForFunction(() => window.__tree && document.body.innerText.includes('Dylan Vigliotti'));
         const profile = await page.evaluate(() => document.body.innerText);
         if (YEARISH.test(profile) && /Phoenixville|Rowayton/.test(profile)) fail(w + 'px: Dylan profile shows a held-back place');
@@ -164,12 +174,17 @@ const YEARISH = /\b(19|20)\d{2}\b/;
 
         if (w === 1280) {
             await page.goto(base + 'tree-canvas.html#/person/vincenzo-vigliotti', { waitUntil: 'networkidle' });
+            await pastVisitor(page);
             await page.waitForFunction(() => document.body.innerText.includes('Vincenzo'));
-            const vincenzo = await page.evaluate(() => document.body.innerText);
-            if (!/Overall/i.test(vincenzo)) fail('Vincenzo profile does not show an overall confidence');
-            else ok('a deceased profile still shows confidence');
+            const vincenzo = await page.evaluate(() => ({
+                text: document.body.innerText,
+                badges: document.querySelectorAll('.conf-tag, .badge.conf-confirmed, .badge.conf-probable').length
+            }));
+            if (vincenzo.badges) fail('confidence badges are showing');
+            else ok('confidence badges stay off');
 
             await page.goto(base + 'family-tree.html', { waitUntil: 'networkidle' });
+            await pastVisitor(page);
             await page.waitForFunction(() => document.querySelectorAll('.gen-label').length >= 6);
             const list = await page.evaluate(() => Array.from(document.querySelectorAll('.gen-label')).map(n => n.textContent));
             if (!list.includes('Generation I, Great-great-great-grandparents')) fail('the list view does not label generation I', list.join(' | '));

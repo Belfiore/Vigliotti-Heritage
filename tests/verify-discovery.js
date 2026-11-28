@@ -29,6 +29,14 @@ function serve() {
     });
 }
 
+async function pastVisitor(page) {
+    const skip = page.locator('.fv-quiet');
+    try {
+        await skip.first().waitFor({ state: 'visible', timeout: 4000 });
+        await skip.first().click();
+    } catch (e) { /* the visitor question is already answered, or it is off */ }
+}
+
 const failures = [];
 const check = (cond, m, detail) => { if (cond) console.log('  ok   ' + m); else { failures.push(m + (detail ? ': ' + detail : '')); console.log('  FAIL ' + m + (detail ? ': ' + detail : '')); } };
 
@@ -81,6 +89,7 @@ const check = (cond, m, detail) => { if (cond) console.log('  ok   ' + m); else 
     page.on('console', m => { if (m.type() === 'error') errs.push(m.text()); });
 
     await page.goto(base + 'discoveries.html', { waitUntil: 'networkidle' });
+    await pastVisitor(page);
     await page.waitForSelector('.tl-card, .tl-day');
     // Busy days fold after a few cards; open every "show more" so all headlines can be read.
     const mores = page.locator('.tl-more');
@@ -110,11 +119,11 @@ const check = (cond, m, detail) => { if (cond) console.log('  ok   ' + m); else 
     });
     check(rendered.days.includes('2026-11-26'), 'the page groups finds under 26 November 2026');
     const confCount = await page.locator('.tl-conf').count();
-    check(confCount > 0, 'confidence labels are shown (' + confCount + ')');
-    check(rendered.cards.some(c => /Confirmed/i.test(c.text)), 'a confirmed find shows its confidence');
+    check(confCount === 0, 'confidence labels stay off the discoveries page', String(confCount));
 
     errs.length = 0;
     await page.goto(base + 'index.html', { waitUntil: 'networkidle' });
+    await pastVisitor(page);
     await page.waitForFunction(() => document.querySelectorAll('#discoveryHome [data-find-id]').length > 0);
     const home = await page.evaluate(() => Array.from(document.querySelectorAll('#discoveryHome [data-find-id]')).map(el => ({
         id: el.getAttribute('data-find-id'),

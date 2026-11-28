@@ -31,6 +31,14 @@ function serve() {
     });
 }
 
+async function pastVisitor(page) {
+    const skip = page.locator('.fv-quiet');
+    try {
+        await skip.first().waitFor({ state: 'visible', timeout: 4000 });
+        await skip.first().click();
+    } catch (e) { /* the visitor question is already answered, or it is off */ }
+}
+
 const failures = [];
 const fail = (m) => { failures.push(m); console.log('  FAIL ' + m); };
 const check = (cond, m, detail) => { if (cond) console.log('  ok   ' + m); else { failures.push(m + (detail ? ': ' + detail : '')); console.log('  FAIL ' + m + (detail ? ': ' + detail : '')); } };
@@ -93,6 +101,7 @@ const check = (cond, m, detail) => { if (cond) console.log('  ok   ' + m); else 
     page.on('pageerror', e => errs.push(e.message));
     page.on('console', m => { if (m.type() === 'error') errs.push(m.text()); });
     await page.goto(base + 'map.html', { waitUntil: 'networkidle' });
+    await pastVisitor(page);
     await page.waitForFunction(() => window.FM && (FM.ready || (FM.DATA && FM.DATA.events)));
     await page.waitForTimeout(1500);
     check(!errs.length, 'map page has no errors', errs.join(' | '));
@@ -118,6 +127,7 @@ const check = (cond, m, detail) => { if (cond) console.log('  ok   ' + m); else 
     check(!livingOnMap.length, 'the built map names no living people', livingOnMap.join(', '));
 
     await page.goto(base + 'map.html?place=gate-of-heaven-hawthorne', { waitUntil: 'networkidle' });
+    await pastVisitor(page);
     await page.waitForFunction(() => window.FM && FM.ready);
     await page.waitForFunction(() => document.querySelector('article.pn[data-place="gate-of-heaven-hawthorne"]'));
     const panel = await page.evaluate(() => {

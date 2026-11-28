@@ -11,7 +11,8 @@
       "Current or recent homes of living people are held back, including a 2019 residence named in the Walsh obituary.",
       "Margaret Farrell's reported burial at Saint Joseph's Cemetery, Yonkers, after her death on 5 November 1873, is not pinned. That cemetery was purchased in 1877, so the original burial place is still an open question, and the stone has not been photographed.",
       "Later Farrell descendants named only in the compiled family letter, and the three daughters mentioned but not named in the swearing-in clipping of Justice William A. Walsh Jr., are not added to the tree or the map."
-    ]
+    ],
+    "note_de": "Ein Ortsdatensatz für die Karte von Vigliotti Heritage und für jede exportierte Karte. Lebende Personen werden nicht auf die Karte gesetzt. Punkte für Orte erhalten einen Halo; bekannte Gebäude eine Nadel. Die Koordinaten stammen von OpenStreetMap Nominatim, 26. November 2026. Für italienische Orte gilt die Ortsmitte; die genauen Häuser an der Via Rusciano und in der via Maddalena sind nicht mit einer Nadel markiert."
   },
   "places": [
     {
@@ -46,11 +47,15 @@
           "dateEnd": "1952-09-22",
           "datePrecision": "day",
           "factRef": "pasquale-fucale.birth",
-          "summary": "Pasquale \"Pat\" Fucale was born here on 22 September 1952."
+          "summary": "Pasquale \"Pat\" Fucale was born here on 22 September 1952.",
+          "summary_de": "Pasquale „Pat“ Fucale wurde am 22. September 1952 hier geboren."
         }
       ],
       "historicName": "Cattolica Eraclea, Agrigento, Sicily",
-      "blurb": "The Sicilian town where Pasquale \"Pat\" Fucale was born."
+      "blurb": "The Sicilian town where Pasquale \"Pat\" Fucale was born.",
+      "name_de": "Cattolica Eraclea, Agrigento, Sizilien",
+      "historicName_de": "Cattolica Eraclea, Agrigento, Sizilien",
+      "blurb_de": "Der sizilianische Ort, in dem Pasquale „Pat“ Fucale geboren wurde."
     },
     {
       "id": "montreal",
@@ -83,10 +88,13 @@
           "dateStart": "1956",
           "dateEnd": "1962",
           "datePrecision": "year",
-          "summary": "Pat and his family immigrated here when he was four, and stayed about six years."
+          "summary": "Pat and his family immigrated here when he was four, and stayed about six years.",
+          "summary_de": "Pat und seine Familie wanderten hier ein, als er vier war, und blieben etwa sechs Jahre."
         }
       ],
-      "blurb": "Where the Fucale family first settled after leaving Sicily."
+      "blurb": "Where the Fucale family first settled after leaving Sicily.",
+      "name_de": "Montreal, Kanada",
+      "blurb_de": "Wo sich die Familie Fucale nach dem Verlassen Siziliens zuerst niederließ."
     },
     {
       "id": "white-plains-ny",
@@ -118,7 +126,8 @@
           "date": "1962",
           "dateStart": "1962",
           "datePrecision": "year",
-          "summary": "The Fucale family settled in White Plains, where Pat graduated from high school in 1970."
+          "summary": "The Fucale family settled in White Plains, where Pat graduated from high school in 1970.",
+          "summary_de": "Die Familie Fucale ließ sich in White Plains nieder, wo Pat 1970 die Highschool abschloss."
         },
         {
           "id": "pe-white-plains-died-gerard",
@@ -136,7 +145,8 @@
           "dateEnd": "1957-10-29",
           "datePrecision": "day",
           "factRef": "gerardo-mignone.death",
-          "summary": "Gerard Mignone died at White Plains Hospital on 29 October 1957."
+          "summary": "Gerard Mignone died at White Plains Hospital on 29 October 1957.",
+          "summary_de": "Gerard Mignone starb am 29. Oktober 1957 im White Plains Hospital."
         },
         {
           "id": "pe-white-plains-naturalized-vincenzo",
@@ -153,7 +163,8 @@
           "date": "1923",
           "dateStart": "1923",
           "datePrecision": "year",
-          "summary": "The 1925 New York State census marks Vincent Vigliotti a citizen, with a note reading 1923 White Plains, matching a 1922 petition in the Westchester index."
+          "summary": "The 1925 New York State census marks Vincent Vigliotti a citizen, with a note reading 1923 White Plains, matching a 1922 petition in the Westchester index.",
+          "summary_de": "Die Volkszählung des Staates New York von 1925 führt Vincent Vigliotti als Bürger, mit dem Vermerk 1923 White Plains, passend zu einem Antrag von 1922 im Index von Westchester."
         },
         {
           "id": "pe-white-plains-served-william-walsh-jr",
@@ -170,10 +181,13 @@
           "date": "1971",
           "dateStart": "1971-01",
           "datePrecision": "month",
-          "summary": "A family-held clipping, datelined White Plains, describes the swearing-in of Justice William A. Walsh Jr. at the County Courthouse after his election the previous November. An official listing gives his first elected or appointed date as 3 November 1970, which would place the ceremony about January 1971."
+          "summary": "A family-held clipping, datelined White Plains, describes the swearing-in of Justice William A. Walsh Jr. at the County Courthouse after his election the previous November. An official listing gives his first elected or appointed date as 3 November 1970, which would place the ceremony about January 1971.",
+          "summary_de": "Ein Ausschnitt aus dem Familienbesitz, mit der Datumszeile White Plains, beschreibt die Vereidigung von Richter William A. Walsh Jr. im County Courthouse nach seiner Wahl im vorangegangenen November. Ein offizielles Verzeichnis gibt als Datum der ersten Wahl oder Ernennung den 3. November 1970 an, was die Zeremonie etwa auf Januar 1971 legen würde."
         }
       ],
-      "blurb": "Where the Fucale family settled after Montreal. Justice William A. Walsh Jr. was sworn in at the County Courthouse here."
+      "blurb": "Where the Fucale family settled after Montreal. Justice William A. Walsh Jr. was sworn in at the County Courthouse here.",
+      "name_de": "White Plains, New York",
+      "blurb_de": "Wo sich die Familie Fucale nach der Zeit in Montreal niederließ. Richter William A. Walsh Jr. wurde hier im County Courthouse vereidigt."
     },
     {
       "id": "valhalla-ny",
@@ -204,7 +218,8 @@
           "approximate": false,
           "dateEnd": "2026-11-21",
           "datePrecision": "year",
-          "summary": "Pat was of Valhalla, New York, at the time of his death."
+          "summary": "Pat was of Valhalla, New York, at the time of his death.",
+          "summary_de": "Pat war zum Zeitpunkt seines Todes aus Valhalla, New York."
         },
         {
           "id": "pe-valhalla-died-pat",
@@ -222,10 +237,13 @@
           "dateEnd": "2026-11-21",
           "datePrecision": "day",
           "factRef": "pasquale-fucale.death",
-          "summary": "Pat died on 21 November 2026."
+          "summary": "Pat died on 21 November 2026.",
+          "summary_de": "Pat starb am 21. November 2026."
         }
       ],
-      "blurb": "The Westchester town where Pat Fucale lived in later life and died."
+      "blurb": "The Westchester town where Pat Fucale lived in later life and died.",
+      "name_de": "Valhalla, New York",
+      "blurb_de": "Der Ort in Westchester, in dem Pat Fucale im späteren Leben wohnte und starb."
     },
     {
       "id": "holy-name-of-jesus-valhalla",
@@ -258,12 +276,15 @@
           "dateStart": "2026-11-24",
           "dateEnd": "2026-11-24",
           "datePrecision": "day",
-          "summary": "A funeral mass for Pat was held here on 24 November 2026. He had also volunteered as a Sunday morning usher at this church."
+          "summary": "A funeral mass for Pat was held here on 24 November 2026. He had also volunteered as a Sunday morning usher at this church.",
+          "summary_de": "Eine Totenmesse für Pat fand hier am 24. November 2026 statt. Er war an dieser Kirche auch ehrenamtlich Platzanweiser am Sonntagmorgen."
         }
       ],
       "address": "2 Broadway, Valhalla, New York",
       "modernAddress": "2 Broadway, Valhalla, NY 10595",
-      "blurb": "The church in Valhalla where Pat ushered and where his funeral mass was held."
+      "blurb": "The church in Valhalla where Pat ushered and where his funeral mass was held.",
+      "name_de": "Kirche zum Heiligen Namen Jesu, Valhalla, New York",
+      "blurb_de": "Die Kirche in Valhalla, in der Pat Platzanweiser war und in der seine Totenmesse stattfand."
     },
     {
       "id": "gate-of-heaven-hawthorne",
@@ -297,7 +318,8 @@
           "dateEnd": "2026-11-24",
           "datePrecision": "day",
           "factRef": "pasquale-fucale.burial",
-          "summary": "Pat was buried here on 24 November 2026."
+          "summary": "Pat was buried here on 24 November 2026.",
+          "summary_de": "Pat wurde hier am 24. November 2026 begraben."
         },
         {
           "id": "pe-goh-buried-sr",
@@ -315,7 +337,8 @@
           "dateEnd": "2011-01-06",
           "datePrecision": "month",
           "factRef": "alphonse-j-vigliotti-sr.burial",
-          "summary": "Alphonse J. Vigliotti Sr. was buried here after his death on 1 January 2011."
+          "summary": "Alphonse J. Vigliotti Sr. was buried here after his death on 1 January 2011.",
+          "summary_de": "Alphonse J. Vigliotti Sr. wurde nach seinem Tod am 1. Januar 2011 hier beigesetzt."
         },
         {
           "id": "pe-goh-buried-concetta",
@@ -333,12 +356,15 @@
           "dateEnd": "2012-11-16",
           "datePrecision": "day",
           "factRef": "concetta-mignone.burial",
-          "summary": "A Find a Grave entry places Concetta Vigliotti here, Section 28, A, Row I, Grave 29, with a date of 16 November 2012 that may be the interment date."
+          "summary": "A Find a Grave entry places Concetta Vigliotti here, Section 28, A, Row I, Grave 29, with a date of 16 November 2012 that may be the interment date.",
+          "summary_de": "Ein Eintrag bei Find a Grave setzt Concetta Vigliotti hierher, Abteilung 28, A, Reihe I, Grab 29, mit dem Datum 16. November 2012, bei dem es sich um das Beisetzungsdatum handeln kann."
         }
       ],
       "address": "10 W Stevens Avenue, Hawthorne, New York",
       "modernAddress": "10 W Stevens Avenue, Hawthorne, NY 10532",
-      "blurb": "The cemetery in Hawthorne where Pat Fucale was buried."
+      "blurb": "The cemetery in Hawthorne where Pat Fucale was buried.",
+      "name_de": "Friedhof Gate of Heaven, Hawthorne, New York",
+      "blurb_de": "Der Friedhof in Hawthorne, auf dem Pat Fucale beigesetzt wurde."
     },
     {
       "id": "bronxville-ny",
@@ -372,7 +398,8 @@
           "dateEnd": "1928",
           "datePrecision": "year",
           "factRef": "patricia-morrisey-walsh.birth",
-          "summary": "Patricia Morrisey Walsh was born in Bronxville, New York."
+          "summary": "Patricia Morrisey Walsh was born in Bronxville, New York.",
+          "summary_de": "Patricia Morrisey Walsh wurde in Bronxville, New York, geboren."
         },
         {
           "id": "pe-bronxville-died-augusta",
@@ -391,7 +418,9 @@
           "datePrecision": "day",
           "factRef": "augusta-ehrenfels.death",
           "summary": "Augusta R. Ehrenfels died at Lawrence Hospital, Bronxville, on 8 June 1949. A death-index transcription giving 6 April 1949 has not yet been reconciled.",
-          "note": "A New York State death index transcription gives 6 April 1949. The contemporary newspaper notice is followed until the index image is read."
+          "note": "A New York State death index transcription gives 6 April 1949. The contemporary newspaper notice is followed until the index image is read.",
+          "summary_de": "Augusta R. Ehrenfels starb am 8. Juni 1949 im Lawrence Hospital in Bronxville. Eine Abschrift des Sterbeindex, die den 6. April 1949 nennt, ist noch nicht abgeglichen.",
+          "note_de": "Eine Abschrift des Sterbeindex des Staates New York nennt den 6. April 1949. Bis das Indexbild gelesen ist, gilt die zeitgenössische Zeitungsnotiz."
         },
         {
           "id": "pe-bronxville-died-clara",
@@ -409,10 +438,13 @@
           "dateEnd": "1957-12-21",
           "datePrecision": "day",
           "factRef": "clara-hingston-walsh.death",
-          "summary": "A Find a Grave entry says Clara F. Hingston Walsh died in Bronxville on 21 December 1957."
+          "summary": "A Find a Grave entry says Clara F. Hingston Walsh died in Bronxville on 21 December 1957.",
+          "summary_de": "Ein Eintrag bei Find a Grave sagt, Clara F. Hingston Walsh sei am 21. Dezember 1957 in Bronxville gestorben."
         }
       ],
-      "blurb": "The Westchester village where Patricia Morrisey Walsh was born."
+      "blurb": "The Westchester village where Patricia Morrisey Walsh was born.",
+      "name_de": "Bronxville, New York",
+      "blurb_de": "Das Dorf in Westchester, in dem Patricia Morrisey Walsh geboren wurde."
     },
     {
       "id": "yonkers-ny",
@@ -447,7 +479,8 @@
           "dateEnd": "1927-01-07",
           "datePrecision": "day",
           "factRef": "paul-h-walsh.birth",
-          "summary": "Paul Hingston Walsh was born in Yonkers, New York, on 7 January 1927."
+          "summary": "Paul Hingston Walsh was born in Yonkers, New York, on 7 January 1927.",
+          "summary_de": "Paul Hingston Walsh wurde am 7. Januar 1927 in Yonkers, New York, geboren."
         },
         {
           "id": "pe-yonkers-died-william",
@@ -465,7 +498,8 @@
           "dateEnd": "1967-03-18",
           "datePrecision": "day",
           "factRef": "william-a-walsh.death",
-          "summary": "William Aloysius Walsh died in Yonkers on 18 March 1967."
+          "summary": "William Aloysius Walsh died in Yonkers on 18 March 1967.",
+          "summary_de": "William Aloysius Walsh starb am 18. März 1967 in Yonkers."
         },
         {
           "id": "pe-yonkers-born-william",
@@ -483,7 +517,8 @@
           "dateEnd": "1871-08-18",
           "datePrecision": "day",
           "factRef": "william-a-walsh.birth",
-          "summary": "William Aloysius Walsh was born in Yonkers on 18 August 1871."
+          "summary": "William Aloysius Walsh was born in Yonkers on 18 August 1871.",
+          "summary_de": "William Aloysius Walsh wurde am 18. August 1871 in Yonkers geboren."
         },
         {
           "id": "pe-yonkers-died-michael",
@@ -501,7 +536,8 @@
           "dateEnd": "1916-07-09",
           "datePrecision": "day",
           "factRef": "michael-walsh.death",
-          "summary": "Michael Walsh died at 117 Palisade Avenue, Yonkers, on 9 July 1916."
+          "summary": "Michael Walsh died at 117 Palisade Avenue, Yonkers, on 9 July 1916.",
+          "summary_de": "Michael Walsh starb am 9. Juli 1916 in der 117 Palisade Avenue, Yonkers."
         },
         {
           "id": "pe-yonkers-died-catherine",
@@ -519,7 +555,8 @@
           "dateEnd": "1932-08-31",
           "datePrecision": "day",
           "factRef": "catherine-cleary-hingston.death",
-          "summary": "Catherine Jane Cleary Hingston died at the Walsh home, 51 Park Avenue, Yonkers, on 31 August 1932."
+          "summary": "Catherine Jane Cleary Hingston died at the Walsh home, 51 Park Avenue, Yonkers, on 31 August 1932.",
+          "summary_de": "Catherine Jane Cleary Hingston starb am 31. August 1932 im Haus der Familie Walsh, 51 Park Avenue, Yonkers."
         },
         {
           "id": "pe-yonkers-born-john-joseph-walsh",
@@ -538,7 +575,8 @@
           "dateEnd": "1860-03-22",
           "datePrecision": "day",
           "factRef": "john-joseph-walsh.birth",
-          "summary": "John Joseph Walsh was born in Yonkers, probably on 22 March 1860. The exact day comes from a volunteer memorial; his 1946 obituary says he was born in Yonkers 86 years earlier."
+          "summary": "John Joseph Walsh was born in Yonkers, probably on 22 March 1860. The exact day comes from a volunteer memorial; his 1946 obituary says he was born in Yonkers 86 years earlier.",
+          "summary_de": "John Joseph Walsh wurde in Yonkers geboren, wahrscheinlich am 22. März 1860. Der genaue Tag stammt aus einer Gedenkseite von Freiwilligen; sein Nachruf von 1946 sagt, er sei 86 Jahre zuvor in Yonkers geboren worden."
         },
         {
           "id": "pe-yonkers-died-john-joseph-walsh",
@@ -557,7 +595,8 @@
           "dateEnd": "1946-12-17",
           "datePrecision": "day",
           "factRef": "john-joseph-walsh.death",
-          "summary": "John J. Walsh died at St. John's Riverside Hospital, Yonkers, on 17 December 1946."
+          "summary": "John J. Walsh died at St. John's Riverside Hospital, Yonkers, on 17 December 1946.",
+          "summary_de": "John J. Walsh starb am 17. Dezember 1946 im St. John's Riverside Hospital, Yonkers."
         },
         {
           "id": "pe-yonkers-married-michael-margaret",
@@ -575,7 +614,8 @@
           "dateStart": "1857-11-22",
           "dateEnd": "1857-11-22",
           "datePrecision": "day",
-          "summary": "A compiled family letter says Michael Walsh and Margaret Farrell married at St. Mary's Church, Yonkers, on 22 November 1857. The register has not yet been read."
+          "summary": "A compiled family letter says Michael Walsh and Margaret Farrell married at St. Mary's Church, Yonkers, on 22 November 1857. The register has not yet been read.",
+          "summary_de": "Ein zusammengestellter Familienbrief sagt, Michael Walsh und Margaret Farrell hätten am 22. November 1857 in der St. Mary's Church, Yonkers, geheiratet. Das Register ist noch nicht gelesen worden."
         },
         {
           "id": "pe-yonkers-died-margaret-farrell",
@@ -593,7 +633,8 @@
           "dateEnd": "1873-11-05",
           "datePrecision": "day",
           "factRef": "margaret-farrell-walsh.death",
-          "summary": "A compiled family letter says Margaret Farrell Walsh died in Yonkers on 5 November 1873, aged 31. The death record and headstone have not yet been read."
+          "summary": "A compiled family letter says Margaret Farrell Walsh died in Yonkers on 5 November 1873, aged 31. The death record and headstone have not yet been read.",
+          "summary_de": "Ein zusammengestellter Familienbrief sagt, Margaret Farrell Walsh sei am 5. November 1873 in Yonkers gestorben, 31 Jahre alt. Die Sterbeurkunde und der Grabstein sind noch nicht gelesen worden."
         },
         {
           "id": "pe-yonkers-born-william-walsh-jr",
@@ -611,10 +652,13 @@
           "dateEnd": "1914-05-10",
           "datePrecision": "day",
           "factRef": "william-a-walsh-jr.birth",
-          "summary": "William A. Walsh Jr. was born in Yonkers on 10 May 1914."
+          "summary": "William A. Walsh Jr. was born in Yonkers on 10 May 1914.",
+          "summary_de": "William A. Walsh Jr. wurde am 10. Mai 1914 in Yonkers geboren."
         }
       ],
-      "blurb": "The city where Paul H. Walsh was born."
+      "blurb": "The city where Paul H. Walsh was born.",
+      "name_de": "Yonkers, New York",
+      "blurb_de": "Die Stadt, in der Paul H. Walsh geboren wurde."
     },
     {
       "id": "larchmont-ny",
@@ -647,10 +691,13 @@
           "date": "1951",
           "dateStart": "1951",
           "datePrecision": "year",
-          "summary": "Patricia and Paul Walsh raised their four children in Larchmont."
+          "summary": "Patricia and Paul Walsh raised their four children in Larchmont.",
+          "summary_de": "Patricia und Paul Walsh zogen ihre vier Kinder in Larchmont groß."
         }
       ],
-      "blurb": "Where Patricia and Paul Walsh raised their children."
+      "blurb": "Where Patricia and Paul Walsh raised their children.",
+      "name_de": "Larchmont, New York",
+      "blurb_de": "Wo Patricia und Paul Walsh ihre Kinder großzogen."
     },
     {
       "id": "rye-ny",
@@ -684,7 +731,8 @@
           "dateStart": "1990",
           "dateEnd": "2019",
           "datePrecision": "year",
-          "summary": "The 2019 obituary says they had moved to Rye twenty-nine years earlier."
+          "summary": "The 2019 obituary says they had moved to Rye twenty-nine years earlier.",
+          "summary_de": "Der Nachruf von 2019 sagt, dass sie neunundzwanzig Jahre zuvor nach Rye gezogen waren."
         },
         {
           "id": "pe-rye-died-paul",
@@ -703,10 +751,13 @@
           "dateEnd": "2019-09-27",
           "datePrecision": "day",
           "factRef": "paul-h-walsh.death",
-          "summary": "Paul H. Walsh died in Rye, New York, on 27 September 2019."
+          "summary": "Paul H. Walsh died in Rye, New York, on 27 September 2019.",
+          "summary_de": "Paul H. Walsh starb am 27. September 2019 in Rye, New York."
         }
       ],
-      "blurb": "Where Patricia and Paul Walsh lived in later life."
+      "blurb": "Where Patricia and Paul Walsh lived in later life.",
+      "name_de": "Rye, New York",
+      "blurb_de": "Wo Patricia und Paul Walsh im späteren Leben wohnten."
     },
     {
       "id": "santa-maria-a-vico",
@@ -743,7 +794,9 @@
           "summary": "Vincenzo Vigliotti was born here at 11 at night on 4 July 1885, at Via Rusciano 23.",
           "dateEnd": "1885-07-04",
           "factRef": "vincenzo-vigliotti.birth",
-          "note": "The house number and street are from the birth act. The pin is the town centre, not the exact house."
+          "note": "The house number and street are from the birth act. The pin is the town centre, not the exact house.",
+          "summary_de": "Vincenzo Vigliotti wurde hier am 4. Juli 1885 um 11 Uhr nachts in der Via Rusciano 23 geboren.",
+          "note_de": "Hausnummer und Straße stammen aus dem Geburtsakt. Die Nadel sitzt in der Ortsmitte, nicht am genauen Haus."
         },
         {
           "id": "pe-smav-born-andrea",
@@ -762,7 +815,9 @@
           "summary": "Andrea Vigliotti was probably born here on 30 November 1853, on Strada Rusciano, and baptised the same day at Sant'Andrea Apostolo.",
           "dateEnd": "1853-11-30",
           "factRef": "andrea-vigliotti.birth",
-          "note": "The 1853 act is confirmed. Linking that child to Vincenzo's father is probable: the 1883 marriage names the same parents, but the groom's stated age of 35 conflicts with 1853."
+          "note": "The 1853 act is confirmed. Linking that child to Vincenzo's father is probable: the 1883 marriage names the same parents, but the groom's stated age of 35 conflicts with 1853.",
+          "summary_de": "Andrea Vigliotti wurde wahrscheinlich am 30. November 1853 hier geboren, in der Strada Rusciano, und am selben Tag in Sant'Andrea Apostolo getauft.",
+          "note_de": "Der Akt von 1853 ist bestätigt. Die Zuordnung dieses Kindes zu Vincenzos Vater ist wahrscheinlich: die Heirat von 1883 nennt dieselben Eltern, doch das angegebene Alter des Bräutigams von 35 widerspricht 1853."
         },
         {
           "id": "pe-smav-married-andrea-mariantonia",
@@ -781,7 +836,9 @@
           "dateEnd": "1883-02-18",
           "datePrecision": "day",
           "summary": "Andrea Vigliotti and Mariantonia Ruotolo were married here on 18 February 1883, a date whose day is a careful reading, in the town hall.",
-          "note": "The year and the month February are clear. The day is read as the 18th; the word Diciotto is uncertain, so the day is flagged. The pin is the town centre, not the exact building."
+          "note": "The year and the month February are clear. The day is read as the 18th; the word Diciotto is uncertain, so the day is flagged. The pin is the town centre, not the exact building.",
+          "summary_de": "Andrea Vigliotti und Mariantonia Ruotolo haben hier am 18. Februar 1883 im Rathaus geheiratet, ein Datum, dessen Tag eine sorgfältige Lesung ist.",
+          "note_de": "Das Jahr und der Monat Februar sind klar. Der Tag wird als der 18. gelesen; das Wort Diciotto ist unsicher, daher ist der Tag markiert. Die Nadel sitzt in der Ortsmitte, nicht am genauen Gebäude."
         },
         {
           "id": "pe-smav-lived-andrea-1885",
@@ -799,7 +856,8 @@
           "dateStart": "1885-07-05",
           "datePrecision": "day",
           "summary": "Andrea Vigliotti and Mariantonia Ruotolo were living at Via Rusciano 23 when they registered Vincenzo's birth.",
-          "dateEnd": "1885-07-05"
+          "dateEnd": "1885-07-05",
+          "summary_de": "Andrea Vigliotti und Mariantonia Ruotolo wohnten in der Via Rusciano 23, als sie Vincenzos Geburt eintragen ließen."
         },
         {
           "id": "pe-smav-born-mariantonia",
@@ -819,9 +877,14 @@
           "datePrecision": "day",
           "summary": "Mariantonia Ruotolo was probably born here on 28 June 1856, on Strada Rusciano.",
           "factRef": "mariantonia-ruotolo.birth",
-          "note": "The 1856 act is confirmed. Linking that child to Vincenzo's mother is probable, because the 1883 marriage names the same parents and an age that fits."
+          "note": "The 1856 act is confirmed. Linking that child to Vincenzo's mother is probable, because the 1883 marriage names the same parents and an age that fits.",
+          "summary_de": "Mariantonia Ruotolo wurde wahrscheinlich am 28. Juni 1856 hier geboren, in der Strada Rusciano.",
+          "note_de": "Der Akt von 1856 ist bestätigt. Die Zuordnung dieses Kindes zu Vincenzos Mutter ist wahrscheinlich, weil die Heirat von 1883 dieselben Eltern und ein passendes Alter nennt."
         }
-      ]
+      ],
+      "name_de": "Santa Maria a Vico, Caserta, Campania, Italien",
+      "historicName_de": "Santa Maria a Vico, Caserta, Campania",
+      "blurb_de": "Ein kampanischer Ort bei Naples und der Geburtsort von Vincenzo Vigliotti, bestätigt durch seinen zivilen Geburtsakt von 1885. Seine Eltern, Andrea Vigliotti und Mariantonia Ruotolo, heirateten im Februar 1883 im Rathaus. Andrea wurde wahrscheinlich 1853 in derselben Straße, der Strada Rusciano, geboren, und Mariantonia wurde wahrscheinlich 1856 dort geboren."
     },
     {
       "id": "arienzo",
@@ -857,7 +920,8 @@
           "datePrecision": "day",
           "summary": "Vincenza Pasqualina Guida was born here at 11:40 in the morning on 21 September 1899, at via Maddalena 2, the first of twins.",
           "dateEnd": "1899-09-21",
-          "factRef": "vincenza-guida.birth"
+          "factRef": "vincenza-guida.birth",
+          "summary_de": "Vincenza Pasqualina Guida wurde hier am 21. September 1899 um 11:40 Uhr morgens in der via Maddalena 2 geboren, als Erste der Zwillinge."
         },
         {
           "id": "pe-arienzo-born-pasquale",
@@ -875,7 +939,8 @@
           "datePrecision": "day",
           "summary": "Pasquale Fabrizio Guida, Vincenza's twin, was born here second on 21 September 1899.",
           "dateEnd": "1899-09-21",
-          "factRef": "pasquale-fabrizio-guida.birth"
+          "factRef": "pasquale-fabrizio-guida.birth",
+          "summary_de": "Pasquale Fabrizio Guida, Vincenzas Zwilling, wurde hier am 21. September 1899 als Zweiter geboren."
         },
         {
           "id": "pe-arienzo-died-antonia",
@@ -893,7 +958,8 @@
           "datePrecision": "day",
           "summary": "Antonia Vigliotti died here on 8 June 1904, at villaggio Crisci 8, aged 38.",
           "dateEnd": "1904-06-08",
-          "factRef": "antonia-vigliotti.death"
+          "factRef": "antonia-vigliotti.death",
+          "summary_de": "Antonia Vigliotti starb hier am 8. Juni 1904 im villaggio Crisci 8, 38 Jahre alt."
         },
         {
           "id": "pe-arienzo-lived-alfonso",
@@ -910,9 +976,13 @@
           "date": "1899",
           "dateStart": "1899-09-21",
           "datePrecision": "year",
-          "summary": "Alfonso Guida and Antonia Vigliotti were living at via Maddalena 2 when their twins were born."
+          "summary": "Alfonso Guida and Antonia Vigliotti were living at via Maddalena 2 when their twins were born.",
+          "summary_de": "Alfonso Guida und Antonia Vigliotti wohnten in der via Maddalena 2, als ihre Zwillinge geboren wurden."
         }
-      ]
+      ],
+      "name_de": "Arienzo, Caserta, Campania, Italien",
+      "historicName_de": "Arienzo, Caserta, Campania",
+      "blurb_de": "Ein kampanischer Ort neben Santa Maria a Vico. Vincenza Pasqualina Guida und ihr Zwillingsbruder Pasquale Fabrizio wurden hier am 21. September 1899 geboren. Ihre Mutter, Antonia Vigliotti, starb hier 1904."
     },
     {
       "id": "brambach-ave-eastchester",
@@ -957,9 +1027,15 @@
           "dateStart": "1930",
           "dateEnd": "1947",
           "datePrecision": "year",
-          "summary": "Vincent and Vincenza Vigliotti raised their family at 44 Brambach Avenue, Eastchester. The 1930 and 1940 censuses record the household here, and 1940s newspaper notices still use this address. Only deceased members of the household are named on the map."
+          "summary": "Vincent and Vincenza Vigliotti raised their family at 44 Brambach Avenue, Eastchester. The 1930 and 1940 censuses record the household here, and 1940s newspaper notices still use this address. Only deceased members of the household are named on the map.",
+          "summary_de": "Vincent und Vincenza Vigliotti zogen ihre Familie in der 44 Brambach Avenue, Eastchester, groß. Die Volkszählungen von 1930 und 1940 verzeichnen den Haushalt hier, und Zeitungsmeldungen der 1940er Jahre verwenden noch diese Adresse. Auf der Karte sind nur verstorbene Mitglieder des Haushalts genannt."
         }
-      ]
+      ],
+      "name_de": "44 Brambach Avenue, Eastchester, New York",
+      "historicName_de": "44 Brambach Avenue (also Brambach Road), Eastchester, New York",
+      "address_de": "44 Brambach Avenue, Eastchester, New York",
+      "todayNote_de": "Nominatim setzt 44 Brambach Avenue in das Village of Scarsdale, ZIP 10583, an die Grenze zu Eastchester. Die Volkszählung von 1930 und spätere Zeitungsmeldungen sagen 44 Brambach Avenue oder Road, Eastchester. Ein Artikel von 1942 sagt 40 Brambach Road. Ob das heutige Haus dasselbe Gebäude ist, ist nicht bekannt.",
+      "blurb_de": "Das Zuhause der Familie Vigliotti in den Volkszählungen von 1930 und 1940, und in den 1940er Jahren weiterhin als Adresse von Vincent und Vincenza genannt."
     },
     {
       "id": "eastchester-ny",
@@ -996,7 +1072,9 @@
           "datePrecision": "day",
           "factRef": "alphonse-j-vigliotti-sr.birth",
           "summary": "Alphonse J. Vigliotti Sr. was born in Eastchester, New York, on 14 March 1921. His World War II draft card says Scarsdale, which is consistent with a Scarsdale post office in the Town of Eastchester.",
-          "note": "The draft card gives Scarsdale as the birthplace. The 2011 obituary gives Eastchester. These are treated as the same community, not as a conflict."
+          "note": "The draft card gives Scarsdale as the birthplace. The 2011 obituary gives Eastchester. These are treated as the same community, not as a conflict.",
+          "summary_de": "Alphonse J. Vigliotti Sr. wurde am 14. März 1921 in Eastchester, New York, geboren. Seine Musterungskarte aus dem Zweiten Weltkrieg nennt Scarsdale, was zu einem Postamt Scarsdale in der Town of Eastchester passt.",
+          "note_de": "Die Musterungskarte nennt Scarsdale als Geburtsort. Der Nachruf von 2011 nennt Eastchester. Beides gilt als dieselbe Gemeinde, nicht als Widerspruch."
         },
         {
           "id": "pe-eastchester-lived-1920",
@@ -1013,7 +1091,8 @@
           "date": "1920",
           "dateStart": "1920",
           "datePrecision": "year",
-          "summary": "Vincent and Vincenza Vigliotti were living on Scarsdale Avenue, Eastchester, at the 1920 census. He had filed first papers and was not yet a citizen."
+          "summary": "Vincent and Vincenza Vigliotti were living on Scarsdale Avenue, Eastchester, at the 1920 census. He had filed first papers and was not yet a citizen.",
+          "summary_de": "Vincent und Vincenza Vigliotti wohnten bei der Volkszählung von 1920 in der Scarsdale Avenue, Eastchester. Er hatte die ersten Papiere eingereicht und war noch nicht Bürger."
         },
         {
           "id": "pe-eastchester-lived-1917-vincenzo",
@@ -1030,9 +1109,13 @@
           "dateStart": "1917",
           "dateEnd": "1918",
           "datePrecision": "year",
-          "summary": "Vincent Vigliotti registered for the World War I draft while living on Scarsdale Avenue, Westchester County."
+          "summary": "Vincent Vigliotti registered for the World War I draft while living on Scarsdale Avenue, Westchester County.",
+          "summary_de": "Vincent Vigliotti ließ sich zur Wehrpflicht des Ersten Weltkriegs registrieren, als er in der Scarsdale Avenue, Westchester County, wohnte."
         }
-      ]
+      ],
+      "name_de": "Eastchester, New York",
+      "historicName_de": "Town of Eastchester, Westchester County, New York",
+      "blurb_de": "Der Ort, an dem Alphonse J. Vigliotti Sr. geboren wurde und an dem die Familie in der Brambach Avenue wohnte."
     },
     {
       "id": "dobbs-ferry-ny",
@@ -1069,9 +1152,13 @@
           "dateEnd": "2011-01-01",
           "datePrecision": "day",
           "factRef": "alphonse-j-vigliotti-sr.death",
-          "summary": "Alphonse J. Vigliotti Sr. died at Dobbs Ferry Hospital, Dobbs Ferry, New York, on 1 January 2011."
+          "summary": "Alphonse J. Vigliotti Sr. died at Dobbs Ferry Hospital, Dobbs Ferry, New York, on 1 January 2011.",
+          "summary_de": "Alphonse J. Vigliotti Sr. starb am 1. Januar 2011 im Dobbs Ferry Hospital, Dobbs Ferry, New York."
         }
-      ]
+      ],
+      "name_de": "Dobbs Ferry, New York",
+      "historicName_de": "Village of Dobbs Ferry, Town of Greenburgh, New York",
+      "blurb_de": "Alphonse J. Vigliotti Sr. starb am 1. Januar 2011 im Dobbs Ferry Hospital."
     },
     {
       "id": "mount-pleasant-ny",
@@ -1109,9 +1196,14 @@
           "dateEnd": "1944-04-24",
           "datePrecision": "day",
           "factRef": "vincenzo-vigliotti.death",
-          "summary": "Vincent J. Vigliotti died at Grasslands Hospital, in the Town of Mount Pleasant, New York, on 24 April 1944."
+          "summary": "Vincent J. Vigliotti died at Grasslands Hospital, in the Town of Mount Pleasant, New York, on 24 April 1944.",
+          "summary_de": "Vincent J. Vigliotti starb am 24. April 1944 im Grasslands Hospital, in der Town of Mount Pleasant, New York."
         }
-      ]
+      ],
+      "name_de": "Krankenhaus Grasslands, Mount Pleasant, New York",
+      "historicName_de": "Grasslands Hospital, Town of Mount Pleasant, New York",
+      "todayNote_de": "Nominatim gibt diesen Campus jetzt als Westchester Medical Center, Woods Road, Hawthorne, in der Town of Mount Pleasant aus. Das Grasslands Hospital stand auf diesem Gelände.",
+      "blurb_de": "Vincent Vigliotti starb hier am 24. April 1944. Der Sterbeindex des Staates New York verzeichnet den Tod in Mount Pleasant; der Scarsdale Inquirer nennt das Grasslands Hospital."
     },
     {
       "id": "immaculate-heart-of-mary-scarsdale",
@@ -1148,7 +1240,8 @@
           "dateStart": "1947-08-24",
           "dateEnd": "1947-08-24",
           "datePrecision": "day",
-          "summary": "Alphonse J. Vigliotti and Concetta Mignone were married here on 24 August 1947."
+          "summary": "Alphonse J. Vigliotti and Concetta Mignone were married here on 24 August 1947.",
+          "summary_de": "Alphonse J. Vigliotti und Concetta Mignone haben hier am 24. August 1947 geheiratet."
         },
         {
           "id": "pe-ihm-married-paul-patricia",
@@ -1167,7 +1260,8 @@
           "dateStart": "1951-05-05",
           "dateEnd": "1951-05-05",
           "datePrecision": "day",
-          "summary": "Paul H. Walsh and Patricia Morrisey were married here on 5 May 1951."
+          "summary": "Paul H. Walsh and Patricia Morrisey were married here on 5 May 1951.",
+          "summary_de": "Paul H. Walsh und Patricia Morrisey haben hier am 5. Mai 1951 geheiratet."
         },
         {
           "id": "pe-ihm-funeral-vincenzo",
@@ -1184,7 +1278,8 @@
           "dateStart": "1944-04-28",
           "dateEnd": "1944-04-28",
           "datePrecision": "day",
-          "summary": "Funeral services for Vincent J. Vigliotti were held here on the morning of 28 April 1944."
+          "summary": "Funeral services for Vincent J. Vigliotti were held here on the morning of 28 April 1944.",
+          "summary_de": "Die Trauerfeier für Vincent J. Vigliotti fand hier am Morgen des 28. April 1944 statt."
         },
         {
           "id": "pe-ihm-funeral-sr",
@@ -1201,7 +1296,8 @@
           "dateStart": "2011-01-04",
           "dateEnd": "2011-01-04",
           "datePrecision": "day",
-          "summary": "A Funeral Mass for Alphonse J. Vigliotti Sr. was celebrated here on 4 January 2011 (the Tuesday after his death)."
+          "summary": "A Funeral Mass for Alphonse J. Vigliotti Sr. was celebrated here on 4 January 2011 (the Tuesday after his death).",
+          "summary_de": "Eine Totenmesse für Alphonse J. Vigliotti Sr. wurde hier am 4. Januar 2011 gefeiert (der Dienstag nach seinem Tod)."
         },
         {
           "id": "pe-ihm-funeral-augusta",
@@ -1218,9 +1314,13 @@
           "dateStart": "1949-06-11",
           "dateEnd": "1949-06-11",
           "datePrecision": "day",
-          "summary": "Funeral services for Augusta R. Ehrenfels were held here on Saturday morning, 11 June 1949."
+          "summary": "Funeral services for Augusta R. Ehrenfels were held here on Saturday morning, 11 June 1949.",
+          "summary_de": "Die Trauerfeier für Augusta R. Ehrenfels fand hier am Samstagmorgen, dem 11. Juni 1949, statt."
         }
-      ]
+      ],
+      "name_de": "Immaculate Heart of Mary Church, Scarsdale, New York",
+      "historicName_de": "Church of the Immaculate Heart of Mary, Scarsdale, New York",
+      "blurb_de": "Die Pfarrkirche für mehrere Hochzeiten und Beerdigungen der Familien Vigliotti und Walsh."
     },
     {
       "id": "greenwood-union-cemetery-rye",
@@ -1256,9 +1356,13 @@
           "dateEnd": "2019-10-03",
           "datePrecision": "month",
           "factRef": "paul-h-walsh.burial",
-          "summary": "Paul Hingston Walsh was buried here after a Mass at the Church of the Resurrection in Rye."
+          "summary": "Paul Hingston Walsh was buried here after a Mass at the Church of the Resurrection in Rye.",
+          "summary_de": "Paul Hingston Walsh wurde hier nach einer Messe in der Church of the Resurrection in Rye beigesetzt."
         }
-      ]
+      ],
+      "name_de": "Friedhof Greenwood Union, Rye, New York",
+      "historicName_de": "Friedhof Greenwood Union, Rye, New York",
+      "blurb_de": "Paul H. Walsh wurde hier 2019 begraben."
     },
     {
       "id": "mount-vernon-ny",
@@ -1293,9 +1397,13 @@
           "dateStart": "1949",
           "dateEnd": "1949",
           "datePrecision": "year",
-          "summary": "The Scarsdale Inquirer describes Augusta R. Ehrenfels as of Mount Vernon at the time of her death."
+          "summary": "The Scarsdale Inquirer describes Augusta R. Ehrenfels as of Mount Vernon at the time of her death.",
+          "summary_de": "Der Scarsdale Inquirer bezeichnet Augusta R. Ehrenfels zum Zeitpunkt ihres Todes als aus Mount Vernon."
         }
-      ]
+      ],
+      "name_de": "Mount Vernon, New York",
+      "historicName_de": "City of Mount Vernon, Westchester County, New York",
+      "blurb_de": "Augusta R. Ehrenfels war aus Mount Vernon, als sie 1949 starb."
     },
     {
       "id": "ardmore-ireland",
@@ -1332,9 +1440,14 @@
           "dateEnd": "1837",
           "datePrecision": "year",
           "factRef": "michael-walsh.birth",
-          "summary": "Michael Walsh was born in Ardmore, Ireland, in 1837. The county is not named in the obituary; the pin is the village in County Waterford."
+          "summary": "Michael Walsh was born in Ardmore, Ireland, in 1837. The county is not named in the obituary; the pin is the village in County Waterford.",
+          "summary_de": "Michael Walsh wurde 1837 in Ardmore, Irland, geboren. Die Grafschaft ist im Nachruf nicht genannt; die Nadel markiert das Dorf in der Grafschaft Waterford."
         }
-      ]
+      ],
+      "name_de": "Ardmore, County Waterford, Irland",
+      "historicName_de": "Ardmore, Irland",
+      "todayNote_de": "Der Nachruf von 1916 nennt nur Ardmore, Irland, und gibt die Grafschaft nicht an. Diese Koordinaten gelten für das Dorf Ardmore in der Grafschaft Waterford, den üblichen Ort dieses Namens.",
+      "blurb_de": "Michael Walsh wurde laut seinem Nachruf im Yonkers Statesman von 1916 im Jahr 1837 hier geboren."
     },
     {
       "id": "huntingdon-quebec",
@@ -1370,7 +1483,8 @@
           "dateEnd": "1845",
           "datePrecision": "year",
           "factRef": "catherine-cleary-hingston.birth",
-          "summary": "Catherine Jane Cleary was born in Huntingdon, Canada, in 1845, according to her 1932 obituary."
+          "summary": "Catherine Jane Cleary was born in Huntingdon, Canada, in 1845, according to her 1932 obituary.",
+          "summary_de": "Catherine Jane Cleary wurde laut ihrem Nachruf von 1932 im Jahr 1845 in Huntingdon, Kanada, geboren."
         },
         {
           "id": "pe-huntingdon-married-hingston",
@@ -1388,9 +1502,13 @@
           "dateStart": "1872",
           "dateEnd": "1872",
           "datePrecision": "year",
-          "summary": "Samuel J. Hingston and Catherine Jane Cleary were married in Huntingdon, Quebec, in 1872."
+          "summary": "Samuel J. Hingston and Catherine Jane Cleary were married in Huntingdon, Quebec, in 1872.",
+          "summary_de": "Samuel J. Hingston und Catherine Jane Cleary haben 1872 in Huntingdon, Québec, geheiratet."
         }
-      ]
+      ],
+      "name_de": "Huntingdon, Québec, Kanada",
+      "historicName_de": "Huntingdon, Kanada-Ost",
+      "blurb_de": "Catherine Jane Cleary wurde 1845 hier geboren, und sie und Samuel J. Hingston haben 1872 hier geheiratet."
     },
     {
       "id": "port-henry-ny",
@@ -1426,9 +1544,13 @@
           "dateEnd": "1885-11-25",
           "datePrecision": "day",
           "factRef": "clara-hingston-walsh.birth",
-          "summary": "Clara F. Hingston was probably born in Port Henry, Essex County, New York, on 25 November 1885."
+          "summary": "Clara F. Hingston was probably born in Port Henry, Essex County, New York, on 25 November 1885.",
+          "summary_de": "Clara F. Hingston wurde wahrscheinlich am 25. November 1885 in Port Henry, Essex County, New York, geboren."
         }
-      ]
+      ],
+      "name_de": "Port Henry, New York",
+      "historicName_de": "Port Henry, Town of Moriah, Essex County, New York",
+      "blurb_de": "Ein Eintrag bei Find a Grave nennt Port Henry als Geburtsort von Clara F. Hingston im Jahr 1885."
     },
     {
       "id": "tuckahoe-ny",
@@ -1463,9 +1585,13 @@
           "dateStart": "1942-02-15",
           "dateEnd": "1942-02-15",
           "datePrecision": "day",
-          "summary": "Alphonse John Vigliotti registered for the World War II draft at Tuckahoe on 15 February 1942."
+          "summary": "Alphonse John Vigliotti registered for the World War II draft at Tuckahoe on 15 February 1942.",
+          "summary_de": "Alphonse John Vigliotti ließ sich am 15. Februar 1942 in Tuckahoe zur Wehrpflicht des Zweiten Weltkriegs registrieren."
         }
-      ]
+      ],
+      "name_de": "Tuckahoe, New York",
+      "historicName_de": "Village of Tuckahoe, Town of Eastchester, New York",
+      "blurb_de": "Alphonse J. Vigliotti Sr. ließ sich hier am 15. Februar 1942 zur Wehrpflicht des Zweiten Weltkriegs registrieren."
     },
     {
       "id": "scarsdale-ny",
@@ -1484,7 +1610,10 @@
       "country": "US",
       "status": "published",
       "blurb": "The village adjoining Eastchester. Immaculate Heart of Mary Church is here, and Alphonse Sr.'s draft card names Scarsdale as his birthplace.",
-      "events": []
+      "events": [],
+      "name_de": "Scarsdale, New York",
+      "historicName_de": "Village of Scarsdale, Westchester County, New York",
+      "blurb_de": "Das an Eastchester angrenzende Dorf. Hier steht die Immaculate Heart of Mary Church, und die Musterungskarte von Alphonse Sr. nennt Scarsdale als seinen Geburtsort."
     },
     {
       "id": "ellis-island-ny",
@@ -1522,9 +1651,14 @@
           "dateEnd": "1903-04-01",
           "datePrecision": "day",
           "voyageEnd": "arrival",
-          "summary": "A 17-year-old farm labourer, probably Vincenzo Vigliotti, arrived at New York on the Roma on 1 April 1903. The manifest says he paid his own passage, carried $20, and was going to a cousin in Newburgh, New York."
+          "summary": "A 17-year-old farm labourer, probably Vincenzo Vigliotti, arrived at New York on the Roma on 1 April 1903. The manifest says he paid his own passage, carried $20, and was going to a cousin in Newburgh, New York.",
+          "summary_de": "Ein 17 Jahre alter Landarbeiter, wahrscheinlich Vincenzo Vigliotti, kam am 1. April 1903 mit der Roma in New York an. Die Passagierliste sagt, er bezahlte die Überfahrt selbst, hatte $20 bei sich und wollte zu einem Cousin in Newburgh, New York."
         }
-      ]
+      ],
+      "name_de": "Ellis Island, New York",
+      "historicName_de": "Ellis Island immigration station, New York Harbor",
+      "todayNote_de": "Die Passagierliste der Roma vom 1. April 1903, Blatt 18, Zeile 18, zeigt einen 17 Jahre alten Landarbeiter, dessen Nachname nur teilweise lesbar ist, bei der Ankunft aus Naples. Ellis Island war zu diesem Zeitpunkt die Kontrollstation für Zwischendeckpassagiere.",
+      "blurb_de": "Vincenzo Vigliotti, 17 Jahre alt, kam wahrscheinlich am 1. April 1903 mit dem Schiff Roma hier an."
     },
     {
       "id": "westchester-county-ny",
@@ -1538,7 +1672,7 @@
       "coordinateMethod": "Point from OpenStreetMap Nominatim, looked up on 26 November 2026.",
       "coordinatePrecision": "county",
       "coordinateSourceIds": [],
-      "drawAs": "halo",
+      "drawAs": "area",
       "inHomeRegion": true,
       "country": "US",
       "status": "published",
@@ -1560,7 +1694,8 @@
           "dateStart": "1922",
           "dateEnd": "1922",
           "datePrecision": "year",
-          "summary": "James T. Morrisey and Fernanda Ehrenfels were married in Westchester County in 1922 (certificate 37675). The index does not name the town or the exact day."
+          "summary": "James T. Morrisey and Fernanda Ehrenfels were married in Westchester County in 1922 (certificate 37675). The index does not name the town or the exact day.",
+          "summary_de": "James T. Morrisey und Fernanda Ehrenfels heirateten 1922 in Westchester County (Urkunde 37675). Der Index nennt weder den Ort noch den genauen Tag."
         },
         {
           "id": "pe-westchester-married-mignone",
@@ -1578,9 +1713,13 @@
           "dateStart": "1926",
           "dateEnd": "1926",
           "datePrecision": "year",
-          "summary": "Gerardo Mignone and Susan M. Rescigno were married in Westchester County in 1926 (certificate 51289). The index does not name the town or the exact day."
+          "summary": "Gerardo Mignone and Susan M. Rescigno were married in Westchester County in 1926 (certificate 51289). The index does not name the town or the exact day.",
+          "summary_de": "Gerardo Mignone und Susan M. Rescigno heirateten 1926 in Westchester County (Urkunde 51289). Der Index nennt weder den Ort noch den genauen Tag."
         }
-      ]
+      ],
+      "name_de": "Westchester County, New York",
+      "historicName_de": "Westchester County, New York",
+      "blurb_de": "Der Heiratsindex von Westchester verzeichnet hier zwei Heiraten der Familie, ohne einen Ort zu nennen."
     },
     {
       "id": "st-josephs-cemetery-yonkers",
@@ -1616,7 +1755,8 @@
           "dateEnd": "1967-03-22",
           "datePrecision": "month",
           "factRef": "william-a-walsh.burial",
-          "summary": "William Aloysius Walsh was buried here. The stone is inscribed Mayor 1926 1927."
+          "summary": "William Aloysius Walsh was buried here. The stone is inscribed Mayor 1926 1927.",
+          "summary_de": "William Aloysius Walsh wurde hier beigesetzt. Der Stein trägt die Inschrift Mayor 1926 1927."
         },
         {
           "id": "pe-stjoseph-buried-clara",
@@ -1634,7 +1774,8 @@
           "dateEnd": "1957-12-24",
           "datePrecision": "month",
           "factRef": "clara-hingston-walsh.burial",
-          "summary": "A Find a Grave entry places Clara F. Hingston Walsh here after her death on 21 December 1957."
+          "summary": "A Find a Grave entry places Clara F. Hingston Walsh here after her death on 21 December 1957.",
+          "summary_de": "Ein Eintrag bei Find a Grave setzt Clara F. Hingston Walsh nach ihrem Tod am 21. Dezember 1957 hierher."
         },
         {
           "id": "pe-stjoseph-buried-john-joseph-walsh",
@@ -1653,9 +1794,13 @@
           "dateEnd": "1946-12-20",
           "datePrecision": "month",
           "factRef": "john-joseph-walsh.burial",
-          "summary": "John J. Walsh was buried at Saint Joseph's Cemetery, Yonkers, after his death on 17 December 1946."
+          "summary": "John J. Walsh was buried at Saint Joseph's Cemetery, Yonkers, after his death on 17 December 1946.",
+          "summary_de": "John J. Walsh wurde nach seinem Tod am 17. Dezember 1946 auf dem Saint Joseph's Cemetery in Yonkers beigesetzt."
         }
-      ]
+      ],
+      "name_de": "Friedhof St. Joseph, Yonkers, New York",
+      "historicName_de": "Friedhof St. Joseph, Yonkers, New York",
+      "blurb_de": "William Aloysius Walsh, Clara F. Hingston Walsh und John J. Walsh sind hier begraben."
     },
     {
       "id": "san-felice-a-cancello",
@@ -1690,9 +1835,13 @@
           "dateStart": "1866",
           "datePrecision": "year",
           "summary": "Antonia Vigliotti was probably born here about 1866. The birthplace comes from her 1904 death act at Arienzo.",
-          "factRef": "antonia-vigliotti.birth"
+          "factRef": "antonia-vigliotti.birth",
+          "summary_de": "Antonia Vigliotti wurde wahrscheinlich um 1866 hier geboren. Der Geburtsort stammt aus ihrem Sterbeakt von 1904 in Arienzo."
         }
-      ]
+      ],
+      "name_de": "San Felice a Cancello, Caserta, Campania, Italien",
+      "historicName_de": "San Felice a Cancello, Caserta, Campania",
+      "blurb_de": "Ein kampanischer Ort, der an Santa Maria a Vico und Arienzo grenzt. Der Sterbeakt von Antonia Vigliotti von 1904 nennt ihn als ihren Geburtsort."
     }
   ]
 }

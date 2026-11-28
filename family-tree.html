@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-    <title>Family Tree: Vigliotti</title>
+    <title data-html-de="Stammbaum: Vigliotti">Family Tree: Vigliotti</title>
     <meta name="description" content="The Vigliotti family tree, generation by generation, with Dylan at the center.">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -37,19 +37,19 @@
     <div class="tree-main">
 
         <div class="tree-header">
-            <h1>The Vigliotti Family Tree</h1>
-            <p>Every known family member, by generation. Click anyone to read their summary. Living people are shown by name and relationship only.</p>
+            <h1 data-label-de="Der Stammbaum der Familie Vigliotti">The Vigliotti Family Tree</h1>
+            <p data-label-de="Jedes bekannte Familienmitglied, nach Generation. Klicken Sie auf eine Person, um die Zusammenfassung zu lesen. Lebende Personen erscheinen nur mit Name und Verwandtschaft.">Every known family member, by generation. Click anyone to read their summary. Living people are shown by name and relationship only.</p>
         </div>
 
         <div class="tree-filter" id="treeFilter">
-            <button class="tree-btn active" data-view="full" type="button">All Family</button>
-            <button class="tree-btn" data-view="direct" type="button">Direct Line</button>
+            <button class="tree-btn active" data-view="full" type="button" data-label-de="Ganze Familie">All Family</button>
+            <button class="tree-btn" data-view="direct" type="button" data-label-de="Direkte Linie">Direct Line</button>
         </div>
 
         <div id="treeRoot" aria-live="polite">
-            <p class="placeholder-text">Loading the family tree.</p>
+            <p class="placeholder-text" data-label-de="Der Stammbaum wird geladen.">Loading the family tree.</p>
         </div>
-        <noscript><p class="placeholder-text">The tree list needs JavaScript. The data lives in data/people.json.</p></noscript>
+        <noscript><p class="placeholder-text" data-label-de="Die Liste braucht JavaScript. Die Daten stehen in data/people.json.">The tree list needs JavaScript. The data lives in data/people.json.</p></noscript>
 
     </div>
 
@@ -57,9 +57,9 @@
 
     <div class="tree-sidebar" id="bioSidebar">
         <button class="tree-sidebar-close" id="sidebarClose" type="button" aria-label="Close biography">&times;</button>
-        <h2>Biography</h2>
+        <h2 data-label-de="Lebenslauf">Biography</h2>
         <div id="bioContent">
-            <p class="bio-placeholder">Click on any person in the tree to read their summary.</p>
+            <p class="bio-placeholder" data-label-de="Klicken Sie auf eine Person im Stammbaum, um die Zusammenfassung zu lesen.">Click on any person in the tree to read their summary.</p>
         </div>
     </div>
 

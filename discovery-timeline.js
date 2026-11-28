@@ -10,8 +10,14 @@
             .replace(/"/g, '&quot;');
     }
 
+    function german() { return window.FamilyI18n && FamilyI18n.lang === 'de'; }
+
     function formatFound(date) {
         if (!date) return '';
+        if (window.FamilyI18n && FamilyI18n.lang !== 'en' && FamilyI18n.date) {
+            var prefix = german() ? 'Gefunden am ' : 'Found ';
+            return prefix + FamilyI18n.date(date);
+        }
         var parts = String(date).split('-');
         if (parts.length === 3) {
             var months = ['January', 'February', 'March', 'April', 'May', 'June',
@@ -32,24 +38,31 @@
         return String(b.foundDate || '').localeCompare(String(a.foundDate || ''));
     }
 
+    function pick(find, field) {
+        if (german() && find[field + '_de']) return find[field + '_de'];
+        return find[field];
+    }
+
     function cardHTML(find) {
+        var sourceLabel = german() ? 'Quelle und Urkunden' : 'Source and records';
         return '<div class="discovery-card" data-find-id="' + esc(find.id) + '">' +
             '<span class="discovery-era">' + esc(formatFound(find.foundDate)) + '</span>' +
-            '<h3>' + esc(find.headline) + '</h3>' +
-            (find.summary ? '<p>' + esc(find.summary) + '</p>' : '') +
+            '<h3>' + esc(pick(find, 'headline')) + '</h3>' +
+            (pick(find, 'summary') ? '<p>' + esc(pick(find, 'summary')) + '</p>' : '') +
             (find.sourceIds && find.sourceIds.length
-                ? '<p class="discovery-source"><a href="research.html#' + encodeURIComponent(find.sourceIds[0]) + '">Source and records</a></p>'
+                ? '<p class="discovery-source"><a href="research.html#' + encodeURIComponent(find.sourceIds[0]) + '">' + sourceLabel + '</a></p>'
                 : '') +
             '</div>';
     }
 
     function itemHTML(find) {
+        var sourceLabel = german() ? 'Quelle und Urkunden' : 'Source and records';
         return '<div class="timeline-item" data-find-id="' + esc(find.id) + '">' +
             '<div class="timeline-year">' + esc(formatFound(find.foundDate)) + '</div>' +
-            '<h3>' + esc(find.headline) + '</h3>' +
-            (find.summary ? '<p>' + esc(find.summary) + '</p>' : '') +
+            '<h3>' + esc(pick(find, 'headline')) + '</h3>' +
+            (pick(find, 'summary') ? '<p>' + esc(pick(find, 'summary')) + '</p>' : '') +
             (find.sourceIds && find.sourceIds.length
-                ? '<p><a href="research.html#' + encodeURIComponent(find.sourceIds[0]) + '">Source and records</a></p>'
+                ? '<p><a href="research.html#' + encodeURIComponent(find.sourceIds[0]) + '">' + sourceLabel + '</a></p>'
                 : '') +
             '</div>';
     }
@@ -60,7 +73,7 @@
         var list = finds.slice();
         if (limit) list = list.slice(0, limit);
         el.innerHTML = list.map(asTimeline ? itemHTML : cardHTML).join('') ||
-            '<p class="placeholder-text">No discoveries have been recorded yet.</p>';
+            '<p class="placeholder-text">' + (german() ? 'Es sind noch keine Funde eingetragen.' : 'No discoveries have been recorded yet.') + '</p>';
     }
 
     fetch('data/discovery-timeline.json').then(function (r) {
