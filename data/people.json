@@ -2,7 +2,7 @@
   "meta": {
     "schemaVersion": 1,
     "title": "Vigliotti family",
-    "updated": "2026-11-26",
+    "updated": "2026-11-27",
     "confidenceScale": [
       "confirmed",
       "probable",
@@ -19,7 +19,7 @@
         "generation": 0,
         "label": "I",
         "title": "Great-great-grandparents",
-        "range": "Walsh, Hingston, Cleary and Ehrenfels"
+        "range": "Walsh, Farrell, Hingston, Cleary and Ehrenfels"
       },
       {
         "generation": 1,
@@ -950,24 +950,48 @@
       "isLiving": false,
       "isDirectLine": true,
       "confidence": "confirmed",
-      "parents": [],
+      "parents": [
+        "father-of-michael-walsh",
+        "mother-of-michael-walsh"
+      ],
       "children": [
-        "william-a-walsh"
+        "john-joseph-walsh",
+        "james-f-walsh-1861",
+        "thomas-a-walsh",
+        "catherine-c-walsh",
+        "michael-a-walsh-1869",
+        "william-a-walsh",
+        "agnes-florence-walsh"
       ],
       "spouses": [
         {
+          "id": "margaret-farrell-walsh",
+          "order": 1,
+          "marriageDate": "1857-11-22",
+          "marriageDisplay": "22 November 1857 (family tradition)",
+          "place": "St. Mary's Church, Yonkers, New York",
+          "placeId": "yonkers-ny",
+          "confidence": "family tradition",
+          "sourceIds": [
+            "family-papers-walsh-farrell-2026",
+            "herald-statesman-1946-12-18-john-j-walsh"
+          ],
+          "note": "The date and church come from a compiled family letter. The 1946 obituary of their son John J. Walsh independently names Margaret Farrell as Michael's wife and John's mother."
+        },
+        {
           "id": "ellen-e-kelly",
+          "order": 2,
           "confidence": "probable",
           "sourceIds": [
             "findagrave-michael-walsh-1916"
           ],
-          "note": "His 1916 obituary says he married Ellen E. Kelly."
+          "note": "His 1916 obituary names Ellen E. Kelly as his wife, the woman who survived him. She is probably a later wife, after Margaret Farrell's reported death in 1873."
         }
       ],
       "disambiguator": "William A. Walsh's father, of Ardmore",
-      "parentLinkConfidence": "confirmed",
-      "summary": "Born in 1837 at Ardmore, Ireland, he settled in Yonkers about 1853, worked as a carpenter and builder, and died there on 9 July 1916. Father of William Aloysius Walsh.",
-      "story": "Michael Walsh was born in 1837 at Ardmore, Ireland, came to the United States as a boy, and settled in Yonkers about 1853.[^findagrave-michael-walsh-1916] He worked as a carpenter and builder (Bowler and Walsh), served as a Water Commissioner, and was a leader in the St Vincent de Paul Society. He died on 9 July 1916 at 117 Palisade Avenue, Yonkers.\n\nHis 1916 Yonkers Statesman obituary, transcribed on Find a Grave, names his wife as Ellen E. Kelly and his sons as John J., Thomas A., and William A., a lawyer. The identification of that son with Mayor William Aloysius Walsh, father of Paul H. Walsh, is supported by William's own memorial, which names Michael as his father.[^findagrave-william-a-walsh] Other children named in the notice are not added to this tree in this pass.",
+      "parentLinkConfidence": "unverified",
+      "summary": "Born in 1837 at Ardmore, Ireland, he settled in Yonkers about 1853, worked as a carpenter and builder, and died there on 9 July 1916. He married, first, Margaret Farrell, the mother of John J. Walsh and probably of William Aloysius Walsh, and later Ellen E. Kelly, who survived him.",
+      "story": "Michael Walsh was born in 1837 at Ardmore, Ireland, came to the United States as a boy, and settled in Yonkers about 1853.[^findagrave-michael-walsh-1916] He worked as a carpenter and builder (Bowler and Walsh), served as a Water Commissioner, and was a leader in the St Vincent de Paul Society. He died on 9 July 1916 at 117 Palisade Avenue, Yonkers.\n\nHis first wife was Margaret Farrell. The 18 December 1946 Herald Statesman obituary of their son John J. Walsh names her as Michael's wife and John's mother.[^herald-statesman-1946-12-18-john-j-walsh] A compiled family letter says they married on 22 November 1857 at St. Mary's Church in Yonkers, and that Margaret died on 5 November 1873, aged 31. It lists six children: John J., James F., Thomas A., Catherine C., Michael A., and William A., later Mayor of Yonkers.[^family-papers-walsh-farrell-2026] James F. and Michael A. are said to have died young and do not appear among the children who survived Michael in 1916.\n\nHis 1916 Yonkers Statesman obituary, transcribed on Find a Grave, names the wife who survived him as Ellen E. Kelly, and his sons as John J., Thomas A., and William A., a lawyer. It also names two daughters, Mrs. Jacob Engle and Miss Agnes Walsh.[^findagrave-michael-walsh-1916] Ellen is probably a later wife, and Agnes Florence Walsh, born in 1889, is probably her daughter. Mrs. Jacob Engle is probably Catherine C. Walsh. Those later identifications remain probable until a marriage or birth record is read. The identification of the son William A. with Mayor William Aloysius Walsh, father of Paul H. Walsh, is supported by William's own memorial, which names Michael as his father.[^findagrave-william-a-walsh]",
       "birth": {
         "date": "1837",
         "display": "1837, Ardmore, Ireland",
@@ -1017,12 +1041,26 @@
         {
           "question": "Can the original Yonkers Statesman page be saved, and is there a baptism or passenger record that names Michael's parents?",
           "record": "The 10 July 1916 newspaper page, and an Irish baptism or a passenger list."
+        },
+        {
+          "question": "When did Michael marry Ellen E. Kelly, and do the 1860 and 1870 census households show Margaret still living?",
+          "record": "A marriage record after 1873, and the census images for Yonkers."
         }
       ],
       "relatedPages": [
         {
           "title": "Records and Research",
           "url": "research.html"
+        }
+      ],
+      "media": [
+        {
+          "type": "document",
+          "file": "records/1946-obituary-walsh-john-j-herald-statesman-highlighted.jpg",
+          "thumb": "records/1946-obituary-walsh-john-j-herald-statesman-zoom.jpg",
+          "caption": "John J. Walsh's Herald Statesman obituary of 18 December 1946, with the lines naming his parents, Michael Walsh and Margaret Farrell, highlighted.",
+          "alt": "Highlighted 1946 newspaper obituary naming Michael Walsh and Margaret Farrell as the parents of John J. Walsh.",
+          "sourceId": "herald-statesman-1946-12-18-john-j-walsh"
         }
       ]
     },
@@ -1034,11 +1072,11 @@
       "sex": "F",
       "generation": 1,
       "isLiving": false,
-      "isDirectLine": true,
+      "isDirectLine": false,
       "confidence": "confirmed",
       "parents": [],
       "children": [
-        "william-a-walsh"
+        "agnes-florence-walsh"
       ],
       "spouses": [
         {
@@ -1046,10 +1084,11 @@
           "confidence": "probable",
           "sourceIds": [
             "findagrave-michael-walsh-1916"
-          ]
+          ],
+          "note": "Named as the wife who survived Michael Walsh in his 1916 obituary. Probably a later wife, after Margaret Farrell."
         }
       ],
-      "disambiguator": "William A. Walsh's mother, born Kelly",
+      "disambiguator": "Later wife of Michael Walsh, born Kelly",
       "nameVariants": [
         {
           "name": "Ellen E. Kelly",
@@ -1061,12 +1100,16 @@
         }
       ],
       "parentLinkConfidence": "probable",
-      "summary": "Named as Ellen E. Kelly, wife of Michael Walsh, in his 1916 obituary. Probably the mother of William Aloysius Walsh.",
-      "story": "Michael Walsh's 1916 obituary says he married Miss Ellen E. Kelly.[^findagrave-michael-walsh-1916] No birth or death record for her is in hand yet, so the link is probable until a vital record names her as William's mother.",
+      "summary": "Named as Ellen E. Kelly, wife of Michael Walsh, in his 1916 obituary, the woman who survived him. She is probably a later wife, not the mother of William Aloysius Walsh, and is probably the mother of Agnes Florence Walsh.",
+      "story": "Michael Walsh's 1916 obituary says he married Miss Ellen E. Kelly, and names her as the wife who survived him.[^findagrave-michael-walsh-1916] A later family-history packet, and the 1946 obituary of John J. Walsh, show that Michael's first wife was Margaret Farrell, who is named as John's mother and who is said to have died in 1873.[^herald-statesman-1946-12-18-john-j-walsh][^family-papers-walsh-farrell-2026] On that reading Ellen is a later wife, and William Aloysius Walsh, born in 1871, is probably Margaret's son, not Ellen's. Agnes Florence Walsh, born in 1889, is probably Ellen's daughter. Both of those maternal links remain probable until a birth or marriage record is read.",
       "openQuestions": [
         {
-          "question": "When and where was Ellen E. Kelly born and when did she die, and does a record name her as William's mother?",
-          "record": "William's 1871 birth or baptism record, and a death record for Ellen."
+          "question": "When and where did Ellen E. Kelly marry Michael Walsh, and when did she die?",
+          "record": "A marriage record after 1873, and a death record or later notice for Ellen."
+        },
+        {
+          "question": "Does a birth or baptism record for Agnes Florence Walsh, about 1889, name Ellen as her mother?",
+          "record": "An 1889 Yonkers birth or baptism record."
         }
       ],
       "relatedPages": [
@@ -1394,9 +1437,10 @@
       "confidence": "confirmed",
       "parents": [
         "michael-walsh",
-        "ellen-e-kelly"
+        "margaret-farrell-walsh"
       ],
       "children": [
+        "william-a-walsh-jr",
         "paul-h-walsh"
       ],
       "spouses": [
@@ -1414,11 +1458,11 @@
         }
       ],
       "disambiguator": "Paul's father, Mayor of Yonkers 1926 to 1927",
-      "summary": "Born 18 August 1871 in Yonkers, son of Michael Walsh. A lawyer, he was Mayor of Yonkers from 1926 to 1927. Husband of Clara F. Hingston and father of Paul H. Walsh. He died in Yonkers on 18 March 1967 and is buried at Saint Joseph's Cemetery.",
-      "story": "William Aloysius Walsh was born on 18 August 1871 in Yonkers, the son of Michael Walsh of Ardmore, Ireland.[^findagrave-william-a-walsh][^findagrave-michael-walsh-1916] His mother was probably Ellen E. Kelly, named as Michael's wife in the 1916 obituary. He was a lawyer, and he served as Mayor of Yonkers from 1926 to 1927. The 1951 wedding notices of his son Paul call him former Mayor William A. Walsh of Yonkers, and his gravestone at Saint Joseph's Cemetery is inscribed Mayor 1926 1927.[^scarsdale-inquirer-1951-05-18][^findagrave-william-a-walsh] He married Clara F. Hingston in 1913, according to her memorial, and they were the parents of Paul Hingston Walsh. Social Security extracts also name the couple as the parents of William A. Walsh Jr., born in Yonkers in 1914, and Clayre Walsh O'Hara, born in 1917; those siblings are not yet added to this tree.[^ssa-numident-walsh] He died in Yonkers on 18 March 1967. The New York Times obituary of 19 March 1967 has not yet been read.",
+      "summary": "Born 18 August 1871 in Yonkers, son of Michael Walsh and, probably, Margaret Farrell. A lawyer, he was Mayor of Yonkers from 1926 to 1927. Husband of Clara F. Hingston and father of Paul H. Walsh and of Justice William A. Walsh Jr. He died in Yonkers on 18 March 1967 and is buried at Saint Joseph's Cemetery.",
+      "story": "William Aloysius Walsh was born on 18 August 1871 in Yonkers, the son of Michael Walsh of Ardmore, Ireland.[^findagrave-william-a-walsh][^findagrave-michael-walsh-1916] His mother was probably Margaret Farrell, named as the wife of Michael and the mother of John J. Walsh in John's 1946 obituary, and listed in a family-history packet as the mother of six children including William A., born 1871.[^herald-statesman-1946-12-18-john-j-walsh][^family-papers-walsh-farrell-2026] That maternal link is probable until an 1871 birth or baptism record names his mother. Ellen E. Kelly, named as Michael's wife in the 1916 obituary, is probably a later wife.\n\nHe was a lawyer, and he served as Mayor of Yonkers from 1926 to 1927, and later as city manager and as a judge. The 1951 wedding notices of his son Paul call him former Mayor William A. Walsh of Yonkers, and his gravestone at Saint Joseph's Cemetery is inscribed Mayor 1926 1927.[^scarsdale-inquirer-1951-05-18][^findagrave-william-a-walsh] A family-held editorial, written as he approached his 92nd birthday, praises a Yonkers Historical Society citation to Judge Walsh. No newspaper date is printed on the clipping; a 92nd birthday in the summer, for a man born 18 August 1871, would fall in the summer of 1963.[^clipping-historical-society-citation-walsh]\n\nHe married Clara F. Hingston in 1913, according to her memorial, and they were the parents of Paul Hingston Walsh. Social Security extracts also name the couple as the parents of William A. Walsh Jr., born in Yonkers in 1914, now on this tree, and of Clayre Walsh O'Hara, born in 1917, who is not yet added here.[^ssa-numident-walsh] He died in Yonkers on 18 March 1967. The New York Times obituary of 19 March 1967 has not yet been read.",
       "openQuestions": [
         {
-          "question": "Does the 19 March 1967 New York Times obituary list Paul among the survivors, and is there a birth record naming Ellen E. Kelly as his mother?",
+          "question": "Does the 19 March 1967 New York Times obituary list Paul among the survivors, and does an 1871 birth or baptism record name Margaret Farrell as William's mother?",
           "record": "The Times obituary, and an 1871 Yonkers birth or baptism record."
         }
       ],
@@ -1475,11 +1519,21 @@
       "facts": [
         {
           "label": "Public office",
-          "value": "Mayor of Yonkers, 1926 to 1927",
+          "value": "Mayor of Yonkers, 1926 to 1927; later city manager and judge",
           "confidence": "confirmed",
           "sourceIds": [
             "scarsdale-inquirer-1951-05-18",
-            "findagrave-william-a-walsh"
+            "findagrave-william-a-walsh",
+            "clipping-judge-walsh-sworn-in",
+            "wikipedia-william-a-walsh"
+          ]
+        },
+        {
+          "label": "Yonkers Historical Society citation",
+          "value": "Praised in an undated editorial written as he approached his 92nd birthday, which would be the summer of 1963",
+          "confidence": "probable",
+          "sourceIds": [
+            "clipping-historical-society-citation-walsh"
           ]
         }
       ],
@@ -1493,7 +1547,24 @@
           ]
         }
       ],
-      "cardPlace": "Yonkers, New York"
+      "cardPlace": "Yonkers, New York",
+      "media": [
+        {
+          "type": "document",
+          "file": "records/clipping-historical-society-citation-judge-walsh-highlighted.jpg",
+          "thumb": "records/clipping-historical-society-citation-judge-walsh-zoom.jpg",
+          "caption": "Editorial, That Historical Society Citation To Judge Walsh Is Richly Merited, from the family papers, with the lines about his approaching 92nd birthday highlighted.",
+          "alt": "Highlighted newspaper editorial praising a Yonkers Historical Society citation to Judge Walsh as he approached his 92nd birthday.",
+          "sourceId": "clipping-historical-society-citation-walsh"
+        },
+        {
+          "type": "document",
+          "file": "records/clipping-william-walsh-and-son.jpg",
+          "caption": "Family-held clipping headed WILLIAM WALSH AND SON, mounted with notices about Mayor William A. Walsh and Justice William A. Walsh Jr.",
+          "alt": "Bold newspaper or scrapbook heading reading WILLIAM WALSH AND SON.",
+          "sourceId": "clipping-william-walsh-and-son"
+        }
+      ]
     },
     {
       "id": "clara-hingston-walsh",
@@ -1529,6 +1600,7 @@
         "catherine-cleary-hingston"
       ],
       "children": [
+        "william-a-walsh-jr",
         "paul-h-walsh"
       ],
       "spouses": [
@@ -1546,8 +1618,8 @@
         }
       ],
       "disambiguator": "Paul's mother, born Hingston",
-      "summary": "Born probably on 25 November 1885 at Port Henry, New York, the daughter of Samuel J. Hingston and Catherine Jane Cleary. Wife of William Aloysius Walsh and mother of Paul H. Walsh. A Find a Grave entry gives her death as 21 December 1957 in Bronxville.",
-      "story": "Clara, born Hingston, is named as the mother of Paul H. Walsh in the Rye Record obituary of Patricia and Paul Walsh.[^obituary-patricia-paul-walsh-2019] Her mother's 1932 obituary names her as Mrs William A. Walsh, daughter of Samuel J. Hingston and Catherine Jane Cleary of Huntingdon, Quebec.[^findagrave-catherine-hingston-1932] A Find a Grave memorial gives her birth as 25 November 1885 at Port Henry, Essex County, New York, a marriage in 1913, a death on 21 December 1957 in Bronxville, and burial at Saint Joseph's Cemetery, Yonkers. Those dates are probable until a vital record is read.[^findagrave-clara-hingston-walsh]",
+      "summary": "Born probably on 25 November 1885 at Port Henry, New York, the daughter of Samuel J. Hingston and Catherine Jane Cleary. Wife of William Aloysius Walsh, and mother of Justice William A. Walsh Jr. and of Paul H. Walsh. A Find a Grave entry gives her death as 21 December 1957 in Bronxville.",
+      "story": "Clara, born Hingston, is named as the mother of Paul H. Walsh in the Rye Record obituary of Patricia and Paul Walsh.[^obituary-patricia-paul-walsh-2019] Her mother's 1932 obituary names her as Mrs William A. Walsh, daughter of Samuel J. Hingston and Catherine Jane Cleary of Huntingdon, Quebec.[^findagrave-catherine-hingston-1932] A Find a Grave memorial gives her birth as 25 November 1885 at Port Henry, Essex County, New York, a marriage in 1913, a death on 21 December 1957 in Bronxville, and burial at Saint Joseph's Cemetery, Yonkers. Those dates are probable until a vital record is read.[^findagrave-clara-hingston-walsh] Social Security extracts also name her as the mother of William A. Walsh Jr., born in Yonkers on 10 May 1914, who is now on this tree, and of Clayre Walsh O'Hara, born in 1917, who is not yet added.[^ssa-numident-walsh]",
       "openQuestions": [
         {
           "question": "Can a birth record for 25 November 1885 at Port Henry, and a 1913 marriage record, be found?",
@@ -3818,6 +3890,873 @@
       ],
       "order": 3,
       "parentLinkConfidence": "confirmed"
+    },
+    {
+      "id": "john-farrell",
+      "displayName": "John Farrell",
+      "givenNames": "John",
+      "surname": "Farrell",
+      "sex": "M",
+      "generation": 0,
+      "isLiving": false,
+      "isDirectLine": true,
+      "confidence": "family tradition",
+      "parents": [],
+      "children": [
+        "margaret-farrell-walsh"
+      ],
+      "spouses": [
+        {
+          "id": "morna-fitzgerald-farrell",
+          "confidence": "family tradition",
+          "sourceIds": [
+            "family-papers-walsh-farrell-2026"
+          ]
+        }
+      ],
+      "disambiguator": "Margaret Farrell's father, of Yonkers",
+      "parentLinkConfidence": "family tradition",
+      "summary": "Named in a family-history packet as the father of Margaret Farrell, and as an Irish immigrant who came to Yonkers about 1844 with his wife, Morna Fitzgerald. The compiler also recorded later family lore about his age and a Waterloo story, which the same compiler doubted.",
+      "story": "A compiled research letter in the Walsh family papers says Margaret Farrell was the daughter of John Farrell and Morna Fitzgerald, who came from Ireland to Yonkers in about 1844.[^family-papers-walsh-farrell-2026] The compiler, drawing on family lore and on an old newspaper notice not included in the six photographs, wrote that John Farrell was said to have fought at Waterloo and to have been 107 when he died in Yonkers in 1896, but that census ages pointed instead to a man of about 85. That census work has not yet been read independently, so these statements remain family tradition. The Waterloo story is kept and labelled, not treated as a fact.",
+      "relatedPages": [
+        {
+          "title": "Records and Research",
+          "url": "research.html"
+        }
+      ],
+      "openQuestions": [
+        {
+          "question": "Can the 1860, 1870 and 1880 Yonkers census households, and the 1896 death notice, be read to test the compiler's account?",
+          "record": "The census images and the 1896 Yonkers newspaper notice of John Farrell's death."
+        }
+      ]
+    },
+    {
+      "id": "morna-fitzgerald-farrell",
+      "displayName": "Morna (Fitzgerald) Farrell",
+      "givenNames": "Morna",
+      "surname": "Farrell",
+      "sex": "F",
+      "generation": 0,
+      "isLiving": false,
+      "isDirectLine": true,
+      "confidence": "family tradition",
+      "parents": [],
+      "children": [
+        "margaret-farrell-walsh"
+      ],
+      "spouses": [
+        {
+          "id": "john-farrell",
+          "confidence": "family tradition",
+          "sourceIds": [
+            "family-papers-walsh-farrell-2026"
+          ]
+        }
+      ],
+      "disambiguator": "Margaret Farrell's mother, also called Mary",
+      "parentLinkConfidence": "family tradition",
+      "summary": "Named in a family-history packet as Morna Fitzgerald, wife of John Farrell and mother of Margaret Farrell. The compiler also called her Mary on the census.",
+      "story": "The same compiled letter that names Margaret Farrell's parents calls her mother Morna Fitzgerald, and later refers to her as Morna \"Mary\" Farrell on the 1860 census of Yonkers.[^family-papers-walsh-farrell-2026] Those census images have not yet been read independently, so the identification remains family tradition.",
+      "relatedPages": [
+        {
+          "title": "Records and Research",
+          "url": "research.html"
+        }
+      ],
+      "nameVariants": [
+        {
+          "name": "Morna Fitzgerald",
+          "note": "Maiden name, as given in the family-history packet.",
+          "confidence": "family tradition",
+          "sourceIds": [
+            "family-papers-walsh-farrell-2026"
+          ]
+        },
+        {
+          "name": "Mary Farrell",
+          "note": "The compiler wrote that the 1860 census lists her as Morna \"Mary\" Farrell.",
+          "confidence": "family tradition",
+          "sourceIds": [
+            "family-papers-walsh-farrell-2026"
+          ]
+        }
+      ],
+      "openQuestions": [
+        {
+          "question": "Does the 1860 Yonkers census, once read, list her as Morna or Mary Farrell, wife of John and neighbour of Michael Walsh?",
+          "record": "The 1860 census image for Yonkers."
+        }
+      ]
+    },
+    {
+      "id": "margaret-farrell-walsh",
+      "displayName": "Margaret (Farrell) Walsh",
+      "givenNames": "Margaret",
+      "surname": "Walsh",
+      "sex": "F",
+      "generation": 1,
+      "isLiving": false,
+      "isDirectLine": true,
+      "confidence": "confirmed",
+      "parents": [
+        "john-farrell",
+        "morna-fitzgerald-farrell"
+      ],
+      "children": [
+        "john-joseph-walsh",
+        "james-f-walsh-1861",
+        "thomas-a-walsh",
+        "catherine-c-walsh",
+        "michael-a-walsh-1869",
+        "william-a-walsh"
+      ],
+      "spouses": [
+        {
+          "id": "michael-walsh",
+          "order": 1,
+          "marriageDate": "1857-11-22",
+          "marriageDisplay": "22 November 1857 (family tradition)",
+          "place": "St. Mary's Church, Yonkers, New York",
+          "placeId": "yonkers-ny",
+          "confidence": "family tradition",
+          "sourceIds": [
+            "family-papers-walsh-farrell-2026"
+          ],
+          "note": "The date and church come from a compiled family letter. The 1946 obituary of her son John J. Walsh independently names her as Margaret Farrell, wife of Michael Walsh."
+        }
+      ],
+      "disambiguator": "William A. Walsh's mother, born Farrell",
+      "parentLinkConfidence": "family tradition",
+      "summary": "First wife of Michael Walsh of Yonkers, and the mother of John J. Walsh. She is probably also the mother of William Aloysius Walsh. A family-history packet says she was born about 1842, married Michael on 22 November 1857 at St. Mary's Church, Yonkers, and died on 5 November 1873, aged 31.",
+      "story": "The 18 December 1946 Herald Statesman obituary of John J. Walsh, read from a family-held clipping, says he was a son of Michael Walsh, building contractor, and the former Margaret Farrell.[^herald-statesman-1946-12-18-john-j-walsh] That is a contemporary newspaper statement, and it is the firm starting point for her place in the family.\n\nA compiled research letter in the same family packet says Margaret was the daughter of John Farrell and Morna Fitzgerald, was born about 1842, married Michael Walsh on 22 November 1857 at St. Mary's Church in Yonkers, and died on 5 November 1873, aged 31, in childbirth with a pregnancy after William's birth in 1871. It says her headstone at Saint Joseph's Cemetery in Yonkers carries that death date and age, and it lists six children: John J., James F., Thomas A., Catherine C., Michael A., and William A.[^family-papers-walsh-farrell-2026] Those compiled dates have not yet been confirmed from a church register, a civil record, or a photograph of the stone. Saint Joseph's Cemetery itself was not purchased until 1877, so a 1873 burial there, if the date is right, would have to be a later reburial, or the cemetery may be misremembered; St. Mary's was the earlier Catholic cemetery in Yonkers.\n\nWilliam was born in 1871, two years before the reported death, so if that death date holds he is her son, not the son of Michael's later wife, Ellen E. Kelly. The link is probable until a birth or baptism record for William names his mother.",
+      "relatedPages": [
+        {
+          "title": "Records and Research",
+          "url": "research.html"
+        }
+      ],
+      "nameVariants": [
+        {
+          "name": "Margaret Farrell",
+          "note": "Maiden name, given in her son John J. Walsh's 1946 obituary and in the family-history packet.",
+          "confidence": "confirmed",
+          "sourceIds": [
+            "herald-statesman-1946-12-18-john-j-walsh",
+            "family-papers-walsh-farrell-2026"
+          ]
+        }
+      ],
+      "birth": {
+        "date": "1842",
+        "display": "about 1842",
+        "dateQualifier": "about",
+        "confidence": "family tradition",
+        "sourceIds": [
+          "family-papers-walsh-farrell-2026"
+        ],
+        "note": "Compiled family letter. Age 31 on a reported 5 November 1873 headstone would point to a birth about 1842."
+      },
+      "death": {
+        "date": "1873-11-05",
+        "display": "5 November 1873 (family tradition)",
+        "dateQualifier": "exact",
+        "place": "Yonkers, New York",
+        "placeId": "yonkers-ny",
+        "confidence": "family tradition",
+        "sourceIds": [
+          "family-papers-walsh-farrell-2026"
+        ],
+        "note": "The compiled letter says the date and the age 31 are on her headstone at Saint Joseph's Cemetery, Yonkers. The stone has not yet been photographed, and that cemetery was purchased in 1877, so the burial place remains an open question."
+      },
+      "openQuestions": [
+        {
+          "question": "Can Margaret's 1857 marriage, her 1873 death, and her headstone be read in original records or a photograph?",
+          "record": "St. Mary's, Yonkers, marriage register for 22 November 1857; a death record or parish burial entry; and a photograph of the stone, wherever it stands."
+        },
+        {
+          "question": "Does an 1860 or 1870 census household show Michael and Margaret Walsh with a son John, as the compiler reported?",
+          "record": "The 1860 and 1870 census images for Yonkers."
+        }
+      ],
+      "media": [
+        {
+          "type": "document",
+          "file": "records/1946-obituary-walsh-john-j-herald-statesman-highlighted.jpg",
+          "thumb": "records/1946-obituary-walsh-john-j-herald-statesman-zoom.jpg",
+          "caption": "Left column of John J. Walsh's 1946 Herald Statesman obituary, with the lines naming his parents, Michael Walsh and Margaret Farrell, highlighted.",
+          "alt": "Highlighted newspaper column naming Michael Walsh and the former Margaret Farrell as John J. Walsh's parents.",
+          "sourceId": "herald-statesman-1946-12-18-john-j-walsh"
+        }
+      ],
+      "cardPlace": "Yonkers, New York",
+      "layoutJoin": "michael-walsh"
+    },
+    {
+      "id": "john-joseph-walsh",
+      "displayName": "John Joseph Walsh",
+      "givenNames": "John Joseph",
+      "surname": "Walsh",
+      "sex": "M",
+      "generation": 2,
+      "isLiving": false,
+      "isDirectLine": false,
+      "confidence": "confirmed",
+      "parents": [
+        "michael-walsh",
+        "margaret-farrell-walsh"
+      ],
+      "children": [],
+      "spouses": [
+        {
+          "id": "annie-fegan-walsh",
+          "order": 1,
+          "marriageDate": "1880",
+          "marriageDisplay": "1880 (family tradition)",
+          "place": "St. Joseph's Church, Yonkers, New York",
+          "placeId": "yonkers-ny",
+          "confidence": "family tradition",
+          "sourceIds": [
+            "family-papers-walsh-farrell-2026"
+          ],
+          "note": "The year and church come from a typed note in the family papers. The 1946 obituary names the same two children, Harry F. Walsh and Mrs. Charles R. Brown."
+        }
+      ],
+      "disambiguator": "Older brother of Mayor William A. Walsh, banker and ferry president",
+      "parentLinkConfidence": "confirmed",
+      "summary": "Born in Yonkers, a son of Michael Walsh and Margaret Farrell. An artist, inventor, banker and president of the Westchester Ferry Corporation, he died in Yonkers on 17 December 1946, aged 86, and was buried at Saint Joseph's Cemetery.",
+      "story": "John J. Walsh died on 17 December 1946 in St. John's Riverside Hospital, Yonkers, after one day as a patient, at the age of 86. His home was at 246 North Broadway. His obituary in The Herald Statesman the next day, read from a family-held clipping, says he was a son of Michael Walsh, building contractor, and the former Margaret Farrell, a brother of William A. Walsh, former Mayor and former City Manager, and of Thomas A. Walsh, a former pharmacist and City Bacteriologist, and that he was president of the Westchester Ferry Corporation from 1934 until his death.[^herald-statesman-1946-12-18-john-j-walsh] A requiem mass was to be celebrated at the Church of Our Lady of the Rosary on Lamartine Avenue, with burial at Saint Joseph's Cemetery.\n\nThe same notice, and a compiled biography in the family papers, describe his work as a portrait painter trained at Cooper Union, his telephone-cable clamp and other inventions, a partnership with Frederick B. Fuller, the presidency of the First National Bank of Hastings and of the Yonkers Trust Company, and his retirement from banking in 1933. He organised the Yonkers Automobile Club in 1904 and built a steam car he called the Ardsley.[^family-papers-walsh-farrell-2026][^eye-on-yonkers-1961-fuller-walsh] A ferry named the John J. Walsh ran between Yonkers and Alpine, New Jersey; a caption in the family packet gives its first day of service as 11 January 1938.[^clipping-ferry-john-j-walsh-1938]\n\nA typed note in the packet says he married Annie Fegan in 1880 at St. Joseph's Church in Yonkers, that they had a son, Harry F. Walsh, a musician, and a daughter, Margaret Walsh, who married Charles R. Brown, and that Annie died in 1929.[^family-papers-walsh-farrell-2026] The 1946 obituary names those two children, and a granddaughter and great-grandson who are not added to this tree. A Find a Grave memorial gives his birth as 22 March 1860 and links a spouse Ann Fagan Walsh, 1861 to 1929. Fegan and Fagan are treated as spelling variants until a marriage register is read.[^findagrave-john-j-walsh-1946]",
+      "relatedPages": [
+        {
+          "title": "Records and Research",
+          "url": "research.html"
+        }
+      ],
+      "nameVariants": [
+        {
+          "name": "John J. Walsh",
+          "note": "The usual short form, used in his obituary and on the ferry named after him.",
+          "confidence": "confirmed",
+          "sourceIds": [
+            "herald-statesman-1946-12-18-john-j-walsh"
+          ]
+        }
+      ],
+      "birth": {
+        "date": "1860-03-22",
+        "display": "22 March 1860 (probable)",
+        "dateQualifier": "exact",
+        "place": "Yonkers, New York",
+        "placeId": "yonkers-ny",
+        "confidence": "probable",
+        "sourceIds": [
+          "findagrave-john-j-walsh-1946",
+          "herald-statesman-1946-12-18-john-j-walsh"
+        ],
+        "note": "The exact day comes from a volunteer memorial. The 1946 obituary says he was born in Yonkers 86 years earlier, a year before the Civil War, which fits 1860. A compiled family list gives the year as 1859."
+      },
+      "death": {
+        "date": "1946-12-17",
+        "display": "17 December 1946",
+        "dateQualifier": "exact",
+        "place": "St. John's Riverside Hospital, Yonkers, New York",
+        "placeId": "yonkers-ny",
+        "confidence": "confirmed",
+        "sourceIds": [
+          "herald-statesman-1946-12-18-john-j-walsh",
+          "findagrave-john-j-walsh-1946"
+        ]
+      },
+      "burial": {
+        "display": "Saint Joseph's Cemetery, Yonkers, New York",
+        "place": "Saint Joseph's Cemetery, Yonkers, New York",
+        "placeId": "st-josephs-cemetery-yonkers",
+        "confidence": "confirmed",
+        "sourceIds": [
+          "herald-statesman-1946-12-18-john-j-walsh",
+          "findagrave-john-j-walsh-1946"
+        ]
+      },
+      "occupations": [
+        {
+          "title": "President, Westchester Ferry Corporation",
+          "place": "Yonkers, New York",
+          "placeId": "yonkers-ny",
+          "confidence": "confirmed",
+          "sourceIds": [
+            "herald-statesman-1946-12-18-john-j-walsh"
+          ],
+          "years": "1934 to 1946"
+        }
+      ],
+      "facts": [
+        {
+          "label": "Home in 1946",
+          "value": "246 North Broadway, Yonkers",
+          "confidence": "confirmed",
+          "sourceIds": [
+            "herald-statesman-1946-12-18-john-j-walsh"
+          ]
+        }
+      ],
+      "openQuestions": [
+        {
+          "question": "Can the 1880 marriage register at St. Joseph's, Yonkers, be read for the spelling Fegan or Fagan, and is there a birth record for 22 March 1860?",
+          "record": "The parish marriage register, and a Yonkers birth or baptism record."
+        }
+      ],
+      "media": [
+        {
+          "type": "document",
+          "file": "records/1946-obituary-walsh-john-j-herald-statesman-highlighted.jpg",
+          "thumb": "records/1946-obituary-walsh-john-j-herald-statesman-zoom.jpg",
+          "caption": "Obituary of John J. Walsh, Herald Statesman, 18 December 1946, with the lines naming his parents, Michael Walsh and Margaret Farrell, highlighted in the left column.",
+          "alt": "Highlighted 1946 newspaper obituary of John J. Walsh, left column, naming his parents.",
+          "sourceId": "herald-statesman-1946-12-18-john-j-walsh"
+        },
+        {
+          "type": "photo",
+          "file": "records/1938-portrait-walsh-john-j-ferry.jpg",
+          "caption": "John J. Walsh, president of the Yonkers Ferry Company, in a newspaper photograph mounted with a caption about the ferry named for him.",
+          "alt": "Newspaper portrait of John J. Walsh standing on a ferry.",
+          "sourceId": "clipping-ferry-john-j-walsh-1938"
+        },
+        {
+          "type": "document",
+          "file": "records/family-papers-john-j-walsh-biography.jpg",
+          "caption": "Compiled biography of John J. Walsh from the family-history packet provided on 27 November 2026.",
+          "alt": "Typed biography of John J. Walsh headed JOHN J. WALSH.",
+          "sourceId": "family-papers-walsh-farrell-2026"
+        },
+        {
+          "type": "document",
+          "file": "records/1938-clipping-ferry-john-j-walsh.jpg",
+          "caption": "Newspaper clipping, Jersey-Yonkers Commuters To Get Streamlined Ferry, from the family papers, about the ferry named for John J. Walsh.",
+          "alt": "Newspaper clipping about a streamlined ferry for commuters between New Jersey and Yonkers, headed Jersey-Yonkers Commuters To Get Streamlined Ferry.",
+          "sourceId": "clipping-ferry-john-j-walsh-1938"
+        },
+        {
+          "type": "document",
+          "file": "records/1961-eye-on-yonkers-fuller-and-walsh.jpg",
+          "caption": "1961 Eye on Yonkers column, When Fuller and Walsh Made Automobiles, from the family papers, recalling John J. Walsh's automobile work and naming him as the older brother of former City Manager William A. Walsh.",
+          "alt": "Newspaper column headed 1961 Eye on Yonkers, When Fuller and Walsh Made Automobiles.",
+          "sourceId": "eye-on-yonkers-1961-fuller-walsh"
+        }
+      ],
+      "photo": "records/1938-portrait-walsh-john-j-ferry.jpg",
+      "cardPlace": "Yonkers, New York"
+    },
+    {
+      "id": "annie-fegan-walsh",
+      "displayName": "Annie (Fegan) Walsh",
+      "givenNames": "Annie",
+      "surname": "Walsh",
+      "sex": "F",
+      "generation": 2,
+      "isLiving": false,
+      "isDirectLine": false,
+      "confidence": "probable",
+      "parents": [],
+      "children": [],
+      "spouses": [
+        {
+          "id": "john-joseph-walsh",
+          "confidence": "family tradition",
+          "sourceIds": [
+            "family-papers-walsh-farrell-2026",
+            "findagrave-john-j-walsh-1946"
+          ]
+        }
+      ],
+      "disambiguator": "Wife of John J. Walsh, also recorded as Ann Fagan",
+      "parentLinkConfidence": "family tradition",
+      "summary": "Wife of John J. Walsh. A family note says they married in 1880 at St. Joseph's Church, Yonkers, and that she died in 1929. A memorial gives the spelling Ann Fagan and the years 1861 to 1929.",
+      "story": "A typed note in the Walsh family papers says John J. Walsh married Annie Fegan in 1880 at St. Joseph's Church in Yonkers, that they had a son, Harry F. Walsh, and a daughter, Margaret, later Mrs. Charles R. Brown, and that Annie Walsh died in 1929.[^family-papers-walsh-farrell-2026] The 1946 obituary of her husband names those two children but does not name her, and a volunteer memorial linked to him uses the spelling Ann Fagan Walsh, 1861 to 1929.[^findagrave-john-j-walsh-1946][^herald-statesman-1946-12-18-john-j-walsh] The marriage remains family tradition until the register is read. Fegan and Fagan are kept as variants, not as two women.",
+      "relatedPages": [
+        {
+          "title": "Records and Research",
+          "url": "research.html"
+        }
+      ],
+      "nameVariants": [
+        {
+          "name": "Annie Fegan",
+          "note": "The form used in a typed note in the family papers.",
+          "confidence": "family tradition",
+          "sourceIds": [
+            "family-papers-walsh-farrell-2026"
+          ]
+        },
+        {
+          "name": "Ann Fagan Walsh",
+          "note": "The form used on a volunteer Find a Grave memorial linked to John Joseph Walsh.",
+          "confidence": "probable",
+          "sourceIds": [
+            "findagrave-john-j-walsh-1946"
+          ]
+        }
+      ],
+      "death": {
+        "date": "1929",
+        "display": "1929",
+        "dateQualifier": "year",
+        "confidence": "probable",
+        "sourceIds": [
+          "family-papers-walsh-farrell-2026",
+          "findagrave-john-j-walsh-1946"
+        ]
+      },
+      "openQuestions": [
+        {
+          "question": "Does the 1880 marriage register at St. Joseph's, Yonkers, use Fegan or Fagan, and is there a death record for 1929?",
+          "record": "The parish register and a 1929 death notice or index."
+        }
+      ],
+      "media": [
+        {
+          "type": "document",
+          "file": "records/family-papers-john-j-walsh-annie-fegan-note-highlighted.jpg",
+          "thumb": "records/family-papers-john-j-walsh-annie-fegan-note-zoom.jpg",
+          "caption": "Typed note in the family papers on John J. Walsh's automobile work and his marriage to Annie Fegan in 1880, with the marriage lines highlighted.",
+          "alt": "Highlighted typed note naming Annie Fegan, Harry F. Walsh, Margaret Walsh Brown, and Annie's death in 1929.",
+          "sourceId": "family-papers-walsh-farrell-2026"
+        }
+      ]
+    },
+    {
+      "id": "james-f-walsh-1861",
+      "displayName": "James F. Walsh",
+      "givenNames": "James F.",
+      "surname": "Walsh",
+      "sex": "M",
+      "generation": 2,
+      "isLiving": false,
+      "isDirectLine": false,
+      "confidence": "family tradition",
+      "parents": [
+        "michael-walsh",
+        "margaret-farrell-walsh"
+      ],
+      "children": [],
+      "spouses": [],
+      "disambiguator": "Son of Michael Walsh and Margaret Farrell, born about 1861, not the later James F. Walsh who was a grandson",
+      "parentLinkConfidence": "family tradition",
+      "summary": "Named in a family-history packet as a son of Michael Walsh and Margaret Farrell, born in 1861. The same letter says he died at a young age. He is not among the children who survived Michael in 1916.",
+      "story": "A compiled list in the Walsh family papers names James F. Walsh, born 1861, as the second of six children of Michael Walsh and Margaret Farrell, and says he died at a young age.[^family-papers-walsh-farrell-2026] He does not appear among the three sons who survived Michael in 1916, which supports an early death but does not date it.[^findagrave-michael-walsh-1916] He is not the later James F. Walsh, a grandson named in that 1916 notice, who was a son of Thomas A. Walsh.",
+      "relatedPages": [
+        {
+          "title": "Records and Research",
+          "url": "research.html"
+        }
+      ],
+      "birth": {
+        "date": "1861",
+        "display": "1861 (family tradition)",
+        "dateQualifier": "year",
+        "place": "Yonkers, New York",
+        "placeId": "yonkers-ny",
+        "confidence": "family tradition",
+        "sourceIds": [
+          "family-papers-walsh-farrell-2026"
+        ]
+      },
+      "openQuestions": [
+        {
+          "question": "Can a birth, baptism, or an early obituary be found for this James F. Walsh?",
+          "record": "A Yonkers birth or baptism in 1861, or one of the early obituaries the compiler said had been found but which are not in the six photographs."
+        }
+      ]
+    },
+    {
+      "id": "thomas-a-walsh",
+      "displayName": "Thomas A. Walsh",
+      "givenNames": "Thomas A.",
+      "surname": "Walsh",
+      "sex": "M",
+      "generation": 2,
+      "isLiving": false,
+      "isDirectLine": false,
+      "confidence": "confirmed",
+      "parents": [
+        "michael-walsh",
+        "margaret-farrell-walsh"
+      ],
+      "children": [],
+      "spouses": [],
+      "disambiguator": "Brother of Mayor William A. Walsh, pharmacist and City Bacteriologist",
+      "parentLinkConfidence": "confirmed",
+      "summary": "Son of Michael Walsh, and a brother of John J. Walsh and of Mayor William A. Walsh. He was a pharmacist and served as City Bacteriologist in Yonkers. A memorial gives the years 1863 to 1948.",
+      "story": "Thomas A. Walsh survived his father in 1916, when the Yonkers Statesman described him as an assistant in the chemist's department of the local Health Bureau, and he survived his brother John J. in 1946, when the Herald Statesman called him a former pharmacist and City Bacteriologist for ten years.[^findagrave-michael-walsh-1916][^herald-statesman-1946-12-18-john-j-walsh] A compiled family list gives his birth year as 1862; a volunteer memorial already used in this project gives 1863 to 1948. The 1863 figure is kept as the usual year, with 1862 noted as the family-paper alternative.[^family-papers-walsh-farrell-2026] A grandson named James F. Walsh, son of Thomas A., is mentioned in the 1916 notice and in the family packet; he is not added as a full profile here.",
+      "relatedPages": [
+        {
+          "title": "Records and Research",
+          "url": "research.html"
+        }
+      ],
+      "birth": {
+        "date": "1863",
+        "display": "1863 (probable)",
+        "dateQualifier": "year",
+        "place": "Yonkers, New York",
+        "placeId": "yonkers-ny",
+        "confidence": "probable",
+        "sourceIds": [
+          "findagrave-john-j-walsh-1946",
+          "family-papers-walsh-farrell-2026"
+        ],
+        "note": "Volunteer memorial 1863; family-paper list 1862."
+      },
+      "death": {
+        "date": "1948",
+        "display": "1948 (probable)",
+        "dateQualifier": "year",
+        "confidence": "probable",
+        "sourceIds": [
+          "findagrave-john-j-walsh-1946"
+        ],
+        "note": "Year from a volunteer memorial already used for this family. The 1946 obituary of his brother shows Thomas still living then."
+      },
+      "occupations": [
+        {
+          "title": "Pharmacist and City Bacteriologist",
+          "place": "Yonkers, New York",
+          "placeId": "yonkers-ny",
+          "confidence": "confirmed",
+          "sourceIds": [
+            "herald-statesman-1946-12-18-john-j-walsh"
+          ]
+        }
+      ],
+      "openQuestions": [
+        {
+          "question": "Can Thomas A. Walsh's exact birth and death dates be read from a record or a stone?",
+          "record": "A birth or baptism record, and a 1948 obituary or gravestone."
+        }
+      ]
+    },
+    {
+      "id": "catherine-c-walsh",
+      "displayName": "Catherine C. Walsh",
+      "givenNames": "Catherine C.",
+      "surname": "Walsh",
+      "sex": "F",
+      "generation": 2,
+      "isLiving": false,
+      "isDirectLine": false,
+      "confidence": "probable",
+      "parents": [
+        "michael-walsh",
+        "margaret-farrell-walsh"
+      ],
+      "children": [],
+      "spouses": [],
+      "disambiguator": "Daughter of Michael Walsh, probably Mrs Jacob Engle",
+      "parentLinkConfidence": "probable",
+      "summary": "Named in a family-history packet as Catherine C. Walsh, born 1865, a daughter of Michael Walsh and Margaret Farrell. She is probably the Mrs. Jacob Engle who survived Michael in 1916.",
+      "story": "The compiled list of six children of Michael Walsh and Margaret Farrell includes Catherine C. Walsh, born 1865, the only daughter in that list.[^family-papers-walsh-farrell-2026] Michael's 1916 obituary names two surviving daughters, Mrs. Jacob Engle and Miss Agnes Walsh.[^findagrave-michael-walsh-1916] Agnes Florence Walsh was born in 1889, after Margaret's reported 1873 death, and is treated as a later child, probably of Ellen E. Kelly. That leaves Mrs. Jacob Engle as the likely married name of Catherine C., but the identification is still probable, not confirmed, until a marriage record or a notice that uses both names is read. Grandchildren named Engle in the 1916 notice are not added to the tree in this pass.",
+      "relatedPages": [
+        {
+          "title": "Records and Research",
+          "url": "research.html"
+        }
+      ],
+      "nameVariants": [
+        {
+          "name": "Mrs. Jacob Engle",
+          "note": "A daughter who survived Michael Walsh in 1916 was named Mrs. Jacob Engle. The identification with Catherine C. Walsh, the only daughter in the compiled list of Margaret Farrell's six children, is probable but not yet proved.",
+          "confidence": "probable",
+          "sourceIds": [
+            "findagrave-michael-walsh-1916",
+            "family-papers-walsh-farrell-2026"
+          ]
+        }
+      ],
+      "birth": {
+        "date": "1865",
+        "display": "1865 (family tradition)",
+        "dateQualifier": "year",
+        "place": "Yonkers, New York",
+        "placeId": "yonkers-ny",
+        "confidence": "family tradition",
+        "sourceIds": [
+          "family-papers-walsh-farrell-2026"
+        ]
+      },
+      "openQuestions": [
+        {
+          "question": "Does a marriage record or later notice show Catherine C. Walsh as Mrs. Jacob Engle?",
+          "record": "A Yonkers marriage record, or a later obituary that uses both names."
+        }
+      ]
+    },
+    {
+      "id": "michael-a-walsh-1869",
+      "displayName": "Michael A. Walsh",
+      "givenNames": "Michael A.",
+      "surname": "Walsh",
+      "sex": "M",
+      "generation": 2,
+      "isLiving": false,
+      "isDirectLine": false,
+      "confidence": "family tradition",
+      "parents": [
+        "michael-walsh",
+        "margaret-farrell-walsh"
+      ],
+      "children": [],
+      "spouses": [],
+      "disambiguator": "Son of Michael Walsh and Margaret Farrell, born about 1869",
+      "parentLinkConfidence": "family tradition",
+      "summary": "Named in a family-history packet as a son of Michael Walsh and Margaret Farrell, born in 1869. The same letter says he died at a young age. He is not among the children who survived Michael in 1916.",
+      "story": "The compiled list in the family papers names Michael A. Walsh, born 1869, as the fifth of six children of Michael Walsh and Margaret Farrell, and says he, like James F., died at a young age.[^family-papers-walsh-farrell-2026] He is not named among the survivors in the 1916 obituary.[^findagrave-michael-walsh-1916] No death date is in hand.",
+      "relatedPages": [
+        {
+          "title": "Records and Research",
+          "url": "research.html"
+        }
+      ],
+      "birth": {
+        "date": "1869",
+        "display": "1869 (family tradition)",
+        "dateQualifier": "year",
+        "place": "Yonkers, New York",
+        "placeId": "yonkers-ny",
+        "confidence": "family tradition",
+        "sourceIds": [
+          "family-papers-walsh-farrell-2026"
+        ]
+      },
+      "openQuestions": [
+        {
+          "question": "Can a birth record or an early obituary be found for Michael A. Walsh?",
+          "record": "A Yonkers birth or baptism about 1869, or one of the early obituaries the compiler said had been found but which are not in the six photographs."
+        }
+      ]
+    },
+    {
+      "id": "agnes-florence-walsh",
+      "displayName": "Agnes Florence Walsh",
+      "givenNames": "Agnes Florence",
+      "surname": "Walsh",
+      "sex": "F",
+      "generation": 2,
+      "isLiving": false,
+      "isDirectLine": false,
+      "confidence": "confirmed",
+      "parents": [
+        "michael-walsh",
+        "ellen-e-kelly"
+      ],
+      "children": [],
+      "spouses": [],
+      "disambiguator": "Younger daughter of Michael Walsh, probably a child of Ellen E. Kelly",
+      "parentLinkConfidence": "confirmed",
+      "summary": "Daughter of Michael Walsh, named as Miss Agnes Walsh in his 1916 obituary. A memorial gives the years 1889 to 1928. If Margaret Farrell died in 1873, Agnes is probably a daughter of Michael's later wife, Ellen E. Kelly.",
+      "story": "Michael Walsh's 1916 obituary names Miss Agnes Walsh as one of two surviving daughters.[^findagrave-michael-walsh-1916] A volunteer memorial linked to the family gives Agnes Florence Walsh the years 1889 to 1928.[^findagrave-john-j-walsh-1946] Those years fall well after Margaret Farrell's reported death in 1873, so Agnes is probably a child of Ellen E. Kelly, the wife who survived Michael, and not of Margaret. That maternal link remains probable until a birth record names her mother.",
+      "relatedPages": [
+        {
+          "title": "Records and Research",
+          "url": "research.html"
+        }
+      ],
+      "birth": {
+        "date": "1889",
+        "display": "1889 (probable)",
+        "dateQualifier": "year",
+        "place": "Yonkers, New York",
+        "placeId": "yonkers-ny",
+        "confidence": "probable",
+        "sourceIds": [
+          "findagrave-john-j-walsh-1946"
+        ]
+      },
+      "death": {
+        "date": "1928",
+        "display": "1928 (probable)",
+        "dateQualifier": "year",
+        "confidence": "probable",
+        "sourceIds": [
+          "findagrave-john-j-walsh-1946"
+        ]
+      },
+      "openQuestions": [
+        {
+          "question": "Does a birth or baptism record for Agnes name her mother as Ellen E. Kelly?",
+          "record": "An 1889 Yonkers birth or baptism record, and a 1928 death notice."
+        }
+      ]
+    },
+    {
+      "id": "william-a-walsh-jr",
+      "displayName": "William A. Walsh Jr.",
+      "givenNames": "William A.",
+      "surname": "Walsh",
+      "sex": "M",
+      "generation": 3,
+      "isLiving": false,
+      "isDirectLine": false,
+      "confidence": "confirmed",
+      "parents": [
+        "william-a-walsh",
+        "clara-hingston-walsh"
+      ],
+      "children": [],
+      "spouses": [],
+      "disambiguator": "Son of Mayor William A. Walsh, later a State Supreme Court justice",
+      "parentLinkConfidence": "confirmed",
+      "summary": "Son of William Aloysius Walsh and Clara F. Hingston, born in Yonkers on 10 May 1914. He served as Yonkers city manager and as a judge, and was elected to the New York State Supreme Court in November 1970. He died on 30 January 1999.",
+      "story": "Social Security records name William A. Walsh Jr., born 10 May 1914 in Yonkers, as a son of William A. Walsh and Clara Hingston, and give his death as 30 January 1999.[^ssa-numident-walsh] A family-held newspaper clipping, datelined White Plains, describes his swearing-in as a justice of the State Supreme Court after election the previous November to a 14-year term. It calls him a former Yonkers city manager and judge of the Family and County Courts, and notes that his father, William A. Walsh Sr., had been city manager, mayor and judge of the City of Yonkers.[^clipping-judge-walsh-sworn-in] An official listing of Supreme Court justices gives his first elected or appointed date as 3 November 1970, which would place the ceremony about January 1971, though no date is printed on the clipping itself.[^ny-courts-walsh-jr-1970] The article mentions three daughters, who are not named and are not added to this tree.",
+      "relatedPages": [
+        {
+          "title": "Records and Research",
+          "url": "research.html"
+        }
+      ],
+      "birth": {
+        "date": "1914-05-10",
+        "display": "10 May 1914",
+        "dateQualifier": "exact",
+        "place": "Yonkers, New York",
+        "placeId": "yonkers-ny",
+        "confidence": "confirmed",
+        "sourceIds": [
+          "ssa-numident-walsh"
+        ]
+      },
+      "death": {
+        "date": "1999-01-30",
+        "display": "30 January 1999",
+        "dateQualifier": "exact",
+        "confidence": "confirmed",
+        "sourceIds": [
+          "ssa-numident-walsh"
+        ]
+      },
+      "occupations": [
+        {
+          "title": "Justice, New York State Supreme Court",
+          "place": "White Plains, New York",
+          "placeId": "white-plains-ny",
+          "confidence": "confirmed",
+          "sourceIds": [
+            "clipping-judge-walsh-sworn-in",
+            "ny-courts-walsh-jr-1970"
+          ],
+          "years": "from 3 November 1970"
+        }
+      ],
+      "facts": [
+        {
+          "label": "Public office",
+          "value": "Yonkers city manager; judge of the Family and County Courts; Justice of the State Supreme Court",
+          "confidence": "confirmed",
+          "sourceIds": [
+            "clipping-judge-walsh-sworn-in",
+            "wikipedia-william-a-walsh"
+          ]
+        }
+      ],
+      "openQuestions": [
+        {
+          "question": "Can the newspaper and exact date of the swearing-in clipping be identified?",
+          "record": "A dated page of a White Plains or Yonkers newspaper from about January 1971."
+        }
+      ],
+      "media": [
+        {
+          "type": "document",
+          "file": "records/clipping-judge-walsh-sworn-in-as-justice.jpg",
+          "caption": "Undated newspaper clipping, Judge Walsh Is Sworn In As Justice, describing the induction of Justice William A. Walsh Jr. at the County Courthouse in White Plains, and naming his father, William A. Walsh Sr.",
+          "alt": "Newspaper clipping and portrait headed Judge Walsh Is Sworn In As Justice, with a photograph captioned William Walsh Jr., Supreme Court.",
+          "sourceId": "clipping-judge-walsh-sworn-in"
+        }
+      ],
+      "cardPlace": "Yonkers, New York"
+    },
+    {
+      "id": "father-of-michael-walsh",
+      "displayName": "Father of Michael Walsh",
+      "givenNames": "",
+      "surname": "Walsh",
+      "sex": "M",
+      "generation": 0,
+      "isLiving": false,
+      "isDirectLine": true,
+      "placeholder": true,
+      "confidence": "unverified",
+      "parentLinkConfidence": "unverified",
+      "parents": [],
+      "children": [
+        "michael-walsh"
+      ],
+      "spouses": [
+        {
+          "id": "mother-of-michael-walsh",
+          "confidence": "unverified",
+          "note": "Stand-in parents. Their names are not yet known."
+        }
+      ],
+      "disambiguator": "Name not yet known, of the Walsh line at Ardmore",
+      "summary": "A stand-in for Michael Walsh's father, whose name is not yet known. Michael was born in 1837 at Ardmore, Ireland.",
+      "story": "Michael Walsh's 1916 obituary says he was born in 1837 at Ardmore, Ireland, but it does not name his parents.[^findagrave-michael-walsh-1916] This card is a stand-in until a baptism, a passenger list, or another record names his father.",
+      "openQuestions": [
+        {
+          "question": "Can a baptism or passenger record be found that names Michael Walsh's father?",
+          "record": "An Irish baptism around 1837, probably at Ardmore, or a passenger list from about 1853."
+        }
+      ],
+      "relatedPages": [
+        {
+          "title": "Records and Research",
+          "url": "research.html"
+        }
+      ]
+    },
+    {
+      "id": "mother-of-michael-walsh",
+      "displayName": "Mother of Michael Walsh",
+      "givenNames": "",
+      "surname": "Walsh",
+      "sex": "F",
+      "generation": 0,
+      "isLiving": false,
+      "isDirectLine": true,
+      "placeholder": true,
+      "confidence": "unverified",
+      "parentLinkConfidence": "unverified",
+      "parents": [],
+      "children": [
+        "michael-walsh"
+      ],
+      "spouses": [
+        {
+          "id": "father-of-michael-walsh",
+          "confidence": "unverified",
+          "note": "Stand-in parents. Their names are not yet known."
+        }
+      ],
+      "nameVariants": [
+        {
+          "name": "Unknown",
+          "note": "Her surname is not yet known. Walsh here is only the married name used for this stand-in card.",
+          "confidence": "unverified"
+        }
+      ],
+      "disambiguator": "Name not yet known",
+      "summary": "A stand-in for Michael Walsh's mother, whose name is not yet known.",
+      "story": "No record in hand names Michael Walsh's mother. This card is a stand-in until a baptism or another record names her.",
+      "openQuestions": [
+        {
+          "question": "Can a baptism or other Irish record be found that names Michael Walsh's mother?",
+          "record": "An Irish baptism around 1837, probably at Ardmore."
+        }
+      ],
+      "relatedPages": [
+        {
+          "title": "Records and Research",
+          "url": "research.html"
+        }
+      ]
     }
   ]
 }

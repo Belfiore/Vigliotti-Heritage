@@ -1,14 +1,16 @@
 {
   "meta": {
     "note": "One places dataset for the Vigliotti Heritage map and for any exported map. Living people are not placed on the map. Town points use a halo; known buildings use a pin. Coordinates are from OpenStreetMap Nominatim, 26 November 2026. Italian towns use the town centre; exact houses on Via Rusciano and via Maddalena are not pinned.",
-    "updated": "2026-11-26",
+    "updated": "2026-11-27",
     "notYetOnTheMap": [
       "The exact houses at Via Rusciano 23, Santa Maria a Vico, and via Maddalena 2, Arienzo, are not pinned; the map uses the town centres.",
       "A cousin in Newburgh, New York, is named on the 1903 Roma manifest, but the reading is uncertain and is not yet a map event.",
       "Owen Cleary and Catherine Donohue are named in Catherine Hingston's 1932 obituary and are not yet added as people on the tree.",
       "The town where Pat and Susan married on 30 October 1977 is not named in the obituary.",
       "Patricia Morrisey Walsh's burial place is not yet known.",
-      "Current or recent homes of living people are held back, including a 2019 residence named in the Walsh obituary."
+      "Current or recent homes of living people are held back, including a 2019 residence named in the Walsh obituary.",
+      "Margaret Farrell's reported burial at Saint Joseph's Cemetery, Yonkers, after her death on 5 November 1873, is not pinned. That cemetery was purchased in 1877, so the original burial place is still an open question, and the stone has not been photographed.",
+      "Later Farrell descendants named only in the compiled family letter, and the three daughters mentioned but not named in the swearing-in clipping of Justice William A. Walsh Jr., are not added to the tree or the map."
     ]
   },
   "places": [
@@ -152,9 +154,26 @@
           "dateStart": "1923",
           "datePrecision": "year",
           "summary": "The 1925 New York State census marks Vincent Vigliotti a citizen, with a note reading 1923 White Plains, matching a 1922 petition in the Westchester index."
+        },
+        {
+          "id": "pe-white-plains-served-william-walsh-jr",
+          "type": "served",
+          "personIds": [
+            "william-a-walsh-jr"
+          ],
+          "confidence": "probable",
+          "sourceIds": [
+            "clipping-judge-walsh-sworn-in",
+            "ny-courts-walsh-jr-1970"
+          ],
+          "approximate": true,
+          "date": "1971",
+          "dateStart": "1971-01",
+          "datePrecision": "month",
+          "summary": "A family-held clipping, datelined White Plains, describes the swearing-in of Justice William A. Walsh Jr. at the County Courthouse after his election the previous November. An official listing gives his first elected or appointed date as 3 November 1970, which would place the ceremony about January 1971."
         }
       ],
-      "blurb": "Where the Fucale family settled after Montreal."
+      "blurb": "Where the Fucale family settled after Montreal. Justice William A. Walsh Jr. was sworn in at the County Courthouse here."
     },
     {
       "id": "valhalla-ny",
@@ -501,6 +520,98 @@
           "datePrecision": "day",
           "factRef": "catherine-cleary-hingston.death",
           "summary": "Catherine Jane Cleary Hingston died at the Walsh home, 51 Park Avenue, Yonkers, on 31 August 1932."
+        },
+        {
+          "id": "pe-yonkers-born-john-joseph-walsh",
+          "type": "born",
+          "personIds": [
+            "john-joseph-walsh"
+          ],
+          "confidence": "probable",
+          "sourceIds": [
+            "findagrave-john-j-walsh-1946",
+            "herald-statesman-1946-12-18-john-j-walsh"
+          ],
+          "approximate": false,
+          "date": "1860",
+          "dateStart": "1860-03-22",
+          "dateEnd": "1860-03-22",
+          "datePrecision": "day",
+          "factRef": "john-joseph-walsh.birth",
+          "summary": "John Joseph Walsh was born in Yonkers, probably on 22 March 1860. The exact day comes from a volunteer memorial; his 1946 obituary says he was born in Yonkers 86 years earlier."
+        },
+        {
+          "id": "pe-yonkers-died-john-joseph-walsh",
+          "type": "died",
+          "personIds": [
+            "john-joseph-walsh"
+          ],
+          "confidence": "confirmed",
+          "sourceIds": [
+            "herald-statesman-1946-12-18-john-j-walsh",
+            "findagrave-john-j-walsh-1946"
+          ],
+          "approximate": false,
+          "date": "1946",
+          "dateStart": "1946-12-17",
+          "dateEnd": "1946-12-17",
+          "datePrecision": "day",
+          "factRef": "john-joseph-walsh.death",
+          "summary": "John J. Walsh died at St. John's Riverside Hospital, Yonkers, on 17 December 1946."
+        },
+        {
+          "id": "pe-yonkers-married-michael-margaret",
+          "type": "married",
+          "personIds": [
+            "michael-walsh",
+            "margaret-farrell-walsh"
+          ],
+          "confidence": "family tradition",
+          "sourceIds": [
+            "family-papers-walsh-farrell-2026"
+          ],
+          "approximate": false,
+          "date": "1857",
+          "dateStart": "1857-11-22",
+          "dateEnd": "1857-11-22",
+          "datePrecision": "day",
+          "summary": "A compiled family letter says Michael Walsh and Margaret Farrell married at St. Mary's Church, Yonkers, on 22 November 1857. The register has not yet been read."
+        },
+        {
+          "id": "pe-yonkers-died-margaret-farrell",
+          "type": "died",
+          "personIds": [
+            "margaret-farrell-walsh"
+          ],
+          "confidence": "family tradition",
+          "sourceIds": [
+            "family-papers-walsh-farrell-2026"
+          ],
+          "approximate": false,
+          "date": "1873",
+          "dateStart": "1873-11-05",
+          "dateEnd": "1873-11-05",
+          "datePrecision": "day",
+          "factRef": "margaret-farrell-walsh.death",
+          "summary": "A compiled family letter says Margaret Farrell Walsh died in Yonkers on 5 November 1873, aged 31. The death record and headstone have not yet been read."
+        },
+        {
+          "id": "pe-yonkers-born-william-walsh-jr",
+          "type": "born",
+          "personIds": [
+            "william-a-walsh-jr"
+          ],
+          "confidence": "confirmed",
+          "sourceIds": [
+            "ssa-numident-walsh"
+          ],
+          "approximate": false,
+          "date": "1914",
+          "dateStart": "1914-05-10",
+          "dateEnd": "1914-05-10",
+          "datePrecision": "day",
+          "factRef": "william-a-walsh-jr.birth",
+          "summary": "William A. Walsh Jr. was born in Yonkers on 10 May 1914."
         }
       ],
       "blurb": "The city where Paul H. Walsh was born."
@@ -1470,7 +1581,7 @@
       "inHomeRegion": true,
       "country": "US",
       "status": "published",
-      "blurb": "William Aloysius Walsh and Clara F. Hingston Walsh are buried here.",
+      "blurb": "William Aloysius Walsh, Clara F. Hingston Walsh, and John J. Walsh are buried here.",
       "events": [
         {
           "id": "pe-stjoseph-buried-william",
@@ -1507,6 +1618,25 @@
           "datePrecision": "month",
           "factRef": "clara-hingston-walsh.burial",
           "summary": "A Find a Grave entry places Clara F. Hingston Walsh here after her death on 21 December 1957."
+        },
+        {
+          "id": "pe-stjoseph-buried-john-joseph-walsh",
+          "type": "buried",
+          "personIds": [
+            "john-joseph-walsh"
+          ],
+          "confidence": "confirmed",
+          "sourceIds": [
+            "herald-statesman-1946-12-18-john-j-walsh",
+            "findagrave-john-j-walsh-1946"
+          ],
+          "approximate": false,
+          "date": "1946",
+          "dateStart": "1946-12-17",
+          "dateEnd": "1946-12-20",
+          "datePrecision": "month",
+          "factRef": "john-joseph-walsh.burial",
+          "summary": "John J. Walsh was buried at Saint Joseph's Cemetery, Yonkers, after his death on 17 December 1946."
         }
       ]
     },
