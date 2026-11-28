@@ -24,9 +24,9 @@
     function marriageLabel(a, bId) {
         var rec = (a.spouses || []).filter(function (s) { return s.id === bId; })[0];
         var partner = byId[bId];
-        if ((a && a.isLiving) || (partner && partner.isLiving)) return 'married';
+        if ((a && a.isLiving) || (partner && partner.isLiving)) return tr('married', 'verheiratet');
         var yr = rec && rec.marriageDate ? String(rec.marriageDate).slice(0, 4) : '';
-        return yr ? 'married ' + yr : 'married';
+        return yr ? tr('married ', 'verheiratet ') + yr : tr('married', 'verheiratet');
     }
 
     function render() {
@@ -49,7 +49,7 @@
             });
             if (singles) rows += '<div class="gen-people">' + singles + '</div>';
             html += (gi ? '<div class="gen-connector">&#9661;</div>' : '') +
-                '<div class="tree-generation"><div class="gen-label">Generation ' + esc(g.label) + ', ' + esc(g.title) + '</div>' +
+                '<div class="tree-generation"><div class="gen-label">' + esc(tr('Generation ', 'Generation ')) + esc(g.label) + ', ' + esc(g.title) + '</div>' +
                 (g.range ? '<div class="gen-subtitle">' + esc(g.range) + '</div>' : '') + rows + '</div>';
         });
         root.innerHTML = html;
@@ -78,20 +78,20 @@
         Array.prototype.forEach.call(root.querySelectorAll('.tree-person'), function (n) { n.classList.toggle('active', n.dataset.id === id); });
         var gen = (meta.generations || []).filter(function (g) { return g.generation === p.generation; })[0];
         var tags = [];
-        if (gen) tags.push('Generation ' + gen.label);
+        if (gen) tags.push(tr('Generation ', 'Generation ') + gen.label);
         if (p.isDirectLine) tags.push(meta.directLineLabel || 'Direct line');
         if (p.isLiving) tags.push('Living');
-        var details = row('Parents', names(p.parents)) +
-            row('Spouse', names((p.spouses || []).map(function (s) { return s.id; }))) +
-            row('Siblings', names(siblings(p))) +
-            row('Children', names(p.children));
+        var details = row(tr('Parents', 'Eltern'), names(p.parents)) +
+            row(tr('Spouse', 'Ehepartner'), names((p.spouses || []).map(function (s) { return s.id; }))) +
+            row(tr('Siblings', 'Geschwister'), names(siblings(p))) +
+            row(tr('Children', 'Kinder'), names(p.children));
         bio.innerHTML =
             '<h3 class="bio-name">' + esc(p.displayName) + '</h3>' +
             '<p class="bio-subtitle">' + esc(p.disambiguator || '') + '</p>' +
             '<div class="bio-tags">' + tags.map(function (t) { return '<span class="bio-tag">' + esc(t) + '</span>'; }).join('') + '</div>' +
             '<p class="bio-description">' + esc(p.summary || '') + '</p>' +
             (details ? '<div class="bio-details">' + details + '</div>' : '') +
-            '<div class="bio-links"><h4>Full profile</h4><a class="bio-link" href="tree-canvas.html#/person/' + encodeURIComponent(p.id) + '"><span class="bio-link-label">Open on the Family Canvas</span> &rarr;</a></div>';
+            '<div class="bio-links"><h4>' + esc(tr('Full profile', 'Vollst\u00e4ndiges Profil')) + '</h4><a class="bio-link" href="tree-canvas.html#/person/' + encodeURIComponent(p.id) + '"><span class="bio-link-label">' + esc(tr('Open on the Family Canvas', 'Auf der Familienleinwand \u00f6ffnen')) + '</span> &rarr;</a></div>';
         if (window.innerWidth <= 768) {
             sidebar.classList.add('has-bio');
             requestAnimationFrame(function () { requestAnimationFrame(function () { sidebar.classList.add('open'); }); });
@@ -119,7 +119,13 @@
         });
     });
 
+    function de() { return window.FamilyI18n && FamilyI18n.lang === 'de'; }
+    function tr(en, german) { return de() ? german : en; }
+
     fetch('data/people.json').then(function (r) { return r.json(); }).then(function (d) {
+        if (window.FamilyI18n && FamilyI18n.localize) FamilyI18n.localize(d);
+        var closeBtn = document.getElementById('sidebarClose');
+        if (de() && closeBtn) closeBtn.setAttribute('aria-label', 'Lebenslauf schließen');
         meta = d.meta; people = d.people;
         people.forEach(function (p) { byId[p.id] = p; });
         render();

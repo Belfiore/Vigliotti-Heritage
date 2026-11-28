@@ -17,7 +17,7 @@ The interactive family tree (`tree-canvas.html`), the family map (`map.html`) an
 | `images/` | Photographs and record images, when the family has them |
 | `tests/` | Checks of the canvas, the map and the Discoveries page, run against every build before it is published |
 
-On every push to `main`, GitHub Actions checks the data, builds the site with the engine version this site's channel points to (`engine.channel`: `stable`), runs the tests against the build, and publishes it. If anything fails, nothing is published and the live site stays as it was. A pull request gets the same checks without publishing.
+On every push to `main`, GitHub Actions checks the data, builds the site with the engine version this site's channel points to (`engine.channel`: `stable`), runs the tests against the build, and publishes it. The check and deploy workflows call `build-site.yml@v1.5.0`. That pin is the reusable workflow. The engine code inside the build is still the channel version, which is 1.5.0 on stable. If anything fails, nothing is published and the live site stays as it was. A pull request gets the same checks without publishing.
 
 The Pages source should be **GitHub Actions**, not "Deploy from a branch". The live site will keep its older files until the first engine build is approved and merged.
 
@@ -47,6 +47,6 @@ node tests/verify-discovery.js
 
 If an engine release breaks something here: **Actions > Build and publish the site > Run workflow**, with the engine version that last worked. To stay on it until a fix is out, set `"engine": { "version": "1.0.1" }` in `site.config.json`, and remove it afterwards.
 
-## Follow-up in the engine repository
+## When the engine moves
 
-This site is not yet listed in `sites.json` in Belfiore/family-site-engine, so it will not be told automatically when the stable channel moves. Adding `{ "repo": "Belfiore/Vigliotti-Heritage", "name": "Vigliotti", "channel": "stable" }` there is a separate change, and needs a dispatch token that can reach this repository.
+This site is listed in `sites.json` in Belfiore/family-site-engine on the stable channel, so a move of that channel asks this repository to rebuild. A change to the reusable workflow itself does not arrive that way. After an engine release that changes `build-site.yml`, the `@v1.5.0` pin in `deploy.yml` and `check.yml` has to be raised in this repository.

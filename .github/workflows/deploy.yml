@@ -18,7 +18,7 @@ on:
   workflow_dispatch:
     inputs:
       engine-version:
-        description: Build with this engine version instead of the channel (for example 1.0.1, to roll back). Leave empty to follow the channel.
+        description: Build with this engine version instead of the channel (for example 1.2.0, to roll back). Leave empty to follow the channel.
         required: false
         default: ''
 
@@ -34,7 +34,7 @@ concurrency:
 
 jobs:
   site:
-    uses: Belfiore/family-site-engine/.github/workflows/build-site.yml@v1.2.0
+    uses: Belfiore/family-site-engine/.github/workflows/build-site.yml@v1.5.0
     with:
       engine-version: ${{ inputs.engine-version || '' }}
       site-tests: |

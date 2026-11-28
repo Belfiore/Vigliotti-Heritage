@@ -37,6 +37,14 @@ function serve() {
     });
 }
 
+async function pastVisitor(page) {
+    const skip = page.locator('.fv-quiet');
+    try {
+        await skip.first().waitFor({ state: 'visible', timeout: 4000 });
+        await skip.first().click();
+    } catch (e) { /* the visitor question is already answered, or it is off */ }
+}
+
 const failures = [];
 const fail = (m) => { failures.push(m); console.log('  FAIL ' + m); };
 const ok = (m) => console.log('  ok   ' + m);
@@ -87,6 +95,7 @@ const YEARISH = /\b(19|20)\d{2}\b/;
         page.on('pageerror', e => errs.push(e.message));
         page.on('console', m => { if (m.type() === 'error') errs.push(m.text()); });
         await page.goto(base + 'tree-canvas.html', { waitUntil: 'networkidle' });
+        await pastVisitor(page);
         await page.waitForFunction(() => window.__tree && document.querySelectorAll('.card').length > 0);
         await page.evaluate(() => document.fonts.ready);
         await page.waitForTimeout(500);
@@ -138,9 +147,20 @@ const YEARISH = /\b(19|20)\d{2}\b/;
         if (w === 1280) {
             if (report.geom.length) report.geom.forEach(g => fail('layout: ' + g));
             else ok('every child is below their parents, couples share a row, and no cards overlap');
+
+            const rail = await page.evaluate(() => Array.from(document.querySelectorAll('#genrail .gen')).map(n => ({
+                g: n.getAttribute('data-g'),
+                title: (n.querySelector('.gen-title') || {}).textContent || ''
+            })));
+            const titleOf = g => (rail.find(r => r.g === String(g)) || {}).title || '';
+            if (titleOf(0) !== 'Great-great-great-grandparents') fail('generation I is labelled ' + JSON.stringify(titleOf(0)));
+            else ok('generation I is the great-great-great-grandparents');
+            if (titleOf(5) !== "Dylan's generation") fail('generation VI is labelled ' + JSON.stringify(titleOf(5)));
+            else ok("generation VI is Dylan's generation");
         }
 
         await page.goto(base + 'tree-canvas.html#/person/dylan-vigliotti', { waitUntil: 'networkidle' });
+        await pastVisitor(page);
         await page.waitForFunction(() => window.__tree && document.body.innerText.includes('Dylan Vigliotti'));
         const profile = await page.evaluate(() => document.body.innerText);
         if (YEARISH.test(profile) && /Phoenixville|Rowayton/.test(profile)) fail(w + 'px: Dylan profile shows a held-back place');
@@ -151,6 +171,27 @@ const YEARISH = /\b(19|20)\d{2}\b/;
             return p ? p.innerText : '';
         });
         if (panelText && HELD_BACK.test(panelText)) fail(w + 'px: person panel shows a held-back place');
+
+        if (w === 1280) {
+            await page.goto(base + 'tree-canvas.html#/person/vincenzo-vigliotti', { waitUntil: 'networkidle' });
+            await pastVisitor(page);
+            await page.waitForFunction(() => document.body.innerText.includes('Vincenzo'));
+            const vincenzo = await page.evaluate(() => ({
+                text: document.body.innerText,
+                badges: document.querySelectorAll('.conf-tag, .badge.conf-confirmed, .badge.conf-probable').length
+            }));
+            if (vincenzo.badges) fail('confidence badges are showing');
+            else ok('confidence badges stay off');
+
+            await page.goto(base + 'family-tree.html', { waitUntil: 'networkidle' });
+            await pastVisitor(page);
+            await page.waitForFunction(() => document.querySelectorAll('.gen-label').length >= 6);
+            const list = await page.evaluate(() => Array.from(document.querySelectorAll('.gen-label')).map(n => n.textContent));
+            if (!list.includes('Generation I, Great-great-great-grandparents')) fail('the list view does not label generation I', list.join(' | '));
+            else ok('the list view labels generation I');
+            if (!list.includes("Generation VI, Dylan's generation")) fail('the list view does not label generation VI', list.join(' | '));
+            else ok('the list view labels generation VI');
+        }
 
         if (SHOTS) {
             await page.goto(base + 'tree-canvas.html', { waitUntil: 'networkidle' });

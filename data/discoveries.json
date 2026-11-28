@@ -1,7 +1,8 @@
 {
   "meta": {
-    "updated": "2026-11-27",
-    "note": "Canonical discoveries list. Keep data/discovery-timeline.json in step for the current 1.0.1 custom pages."
+    "updated": "2026-11-28",
+    "note": "Canonical discoveries list. data/discovery-timeline.json stays in step because the Key Discoveries on the home page read that file.",
+    "note_de": "Kanonische Fundliste. data/discovery-timeline.json bleibt auf demselben Stand, weil die Wichtigen Funde auf der Startseite diese Datei lesen."
   },
   "discoveries": [
     {
@@ -16,14 +17,18 @@
       "confidence": "confirmed",
       "source": {
         "text": "Obituary of Pasquale P. Fucale",
-        "url": "https://www.ballarddurand.com/obituaries/pasquale-fucale"
+        "url": "https://www.ballarddurand.com/obituaries/pasquale-fucale",
+        "text_de": "Nachruf auf Pasquale P. Fucale"
       },
       "changeNote": "The Ballard-Durand obituary for Pasquale \"Pat\" Fucale (22 September 1952 to 21 November 2026) records his 1977 marriage to a daughter of the Eastchester Vigliotti family, and names her brother and sister, with their spouses, as his in-laws.",
       "placeIds": [
         "cattolica-eraclea",
         "valhalla-ny",
         "gate-of-heaven-hawthorne"
-      ]
+      ],
+      "headline_de": "Der Nachruf auf Pat Fucale nennt seine Ehefrau und die angeheirateten Vigliotti",
+      "foundBy_de": "Stuart",
+      "changeNote_de": "Der Nachruf von Ballard-Durand auf Pasquale „Pat“ Fucale (22. September 1952 bis 21. November 2026) verzeichnet seine Heirat von 1977 mit einer Tochter der Familie Vigliotti aus Eastchester und nennt ihren Bruder und ihre Schwester, mit ihren Ehepartnern, als seine angeheirateten Verwandten."
     },
     {
       "id": "find-obituary-patricia-paul-walsh-2019",
@@ -42,7 +47,8 @@
       "confidence": "confirmed",
       "source": {
         "text": "Obituaries: Patricia and Paul Walsh",
-        "url": "https://ryerecord.com/obituaries-patricia-paul-walsh/"
+        "url": "https://ryerecord.com/obituaries-patricia-paul-walsh/",
+        "text_de": "Nachrufe: Patricia und Paul Walsh"
       },
       "changeNote": "The Rye Record obituary of Patricia Morrisey Walsh and Paul H. Walsh, published 14 October 2019, names their daughter and her husband, and gives Patricia and Paul's own parents, marriage on 5 May 1951, and deaths in September 2019.",
       "placeIds": [
@@ -50,7 +56,10 @@
         "yonkers-ny",
         "larchmont-ny",
         "rye-ny"
-      ]
+      ],
+      "headline_de": "Der Walsh-Nachruf nennt ihre Tochter und deren Eltern",
+      "foundBy_de": "Stuart",
+      "changeNote_de": "Der Nachruf im Rye Record auf Patricia Morrisey Walsh und Paul H. Walsh, veröffentlicht am 14. Oktober 2019, nennt ihre Tochter und deren Ehemann und gibt die eigenen Eltern von Patricia und Paul, die Heirat am 5. Mai 1951 und die Todesfälle im September 2019 an."
     },
     {
       "id": "find-obituary-alphonse-vigliotti-sr-2011",
@@ -67,14 +76,18 @@
       "confidence": "confirmed",
       "source": {
         "text": "Obituary of Alphonse J. Vigliotti Sr., Find a Grave memorial 63661294",
-        "url": "https://www.findagrave.com/memorial/63661294/alphonse-j-vigliotti"
+        "url": "https://www.findagrave.com/memorial/63661294/alphonse-j-vigliotti",
+        "text_de": "Nachruf auf Alphonse J. Vigliotti Sr., Find a Grave, Memorial 63661294"
       },
       "changeNote": "The 2011 Journal News obituary of Alphonse J. Vigliotti Sr. (14 March 1921 to 1 January 2011), transcribed on Find a Grave, names his parents Vincent Vigliotti and Vencenza Guido, a son, two daughters, and grandchildren.",
       "placeIds": [
         "eastchester-ny",
         "dobbs-ferry-ny",
         "gate-of-heaven-hawthorne"
-      ]
+      ],
+      "headline_de": "Der Nachruf auf Alphonse Vigliotti Sr. nennt seine Eltern und Kinder",
+      "foundBy_de": "Stuart",
+      "changeNote_de": "Der Nachruf im Journal News von 2011 auf Alphonse J. Vigliotti Sr. (14. März 1921 bis 1. Januar 2011), transkribiert bei Find a Grave, nennt seine Eltern Vincent Vigliotti und Vencenza Guido, einen Sohn, zwei Töchter und Enkelkinder."
     },
     {
       "id": "find-wwii-draft-card-alphonse-sr-1942",
@@ -89,13 +102,17 @@
       "confidence": "confirmed",
       "source": {
         "text": "World War II draft registration, Alphonse John Vigliotti, 15 February 1942",
-        "url": null
+        "url": null,
+        "text_de": "Wehrpflichtregistrierung zum Zweiten Weltkrieg, Alphonse John Vigliotti, 15. Februar 1942"
       },
       "changeNote": "Alphonse John Vigliotti registered at Tuckahoe on 15 February 1942, born 14 March 1921 at Scarsdale, New York, naming Vincent Vigliotti as the person who would always know his address.",
       "placeIds": [
         "tuckahoe-ny",
         "scarsdale-ny"
-      ]
+      ],
+      "headline_de": "Die Musterungskarte aus dem Zweiten Weltkrieg nennt Geburtsdatum und Vater von Alphonse Sr",
+      "foundBy_de": "Stuart",
+      "changeNote_de": "Alphonse John Vigliotti ließ sich am 15. Februar 1942 in Tuckahoe registrieren, geboren am 14. März 1921 in Scarsdale, New York, und nannte Vincent Vigliotti als die Person, die seine Anschrift immer kennen würde."
     },
     {
       "id": "find-census-1930-1940-brambach-ave",
@@ -111,13 +128,17 @@
       "confidence": "confirmed",
       "source": {
         "text": "1930 United States census, Vigliotti household, 44 Brambach Avenue, Eastchester",
-        "url": null
+        "url": null,
+        "text_de": "Volkszählung der Vereinigten Staaten 1930, Haushalt Vigliotti, 44 Brambach Avenue, Eastchester"
       },
       "changeNote": "The 1930 and 1940 censuses show Vincent and Vincenza Vigliotti, both born in Italy, with their children including Alphonse, at 44 Brambach Avenue, Eastchester.",
       "placeIds": [
         "eastchester-ny",
         "brambach-ave-eastchester"
-      ]
+      ],
+      "headline_de": "Der Haushalt Vigliotti in der 44 Brambach Avenue, Eastchester",
+      "foundBy_de": "Stuart",
+      "changeNote_de": "Die Volkszählungen von 1930 und 1940 zeigen Vincent und Vincenza Vigliotti, beide in Italien geboren, mit ihren Kindern, darunter Alphonse, in der 44 Brambach Avenue, Eastchester."
     },
     {
       "id": "find-scarsdale-inquirer-four-sons-1942",
@@ -133,13 +154,17 @@
       "confidence": "confirmed",
       "source": {
         "text": "Four Sons in the Service",
-        "url": "https://news.hrvh.org/veridian/?a=d&d=scarsdaleinquire19421204.2.21"
+        "url": "https://news.hrvh.org/veridian/?a=d&d=scarsdaleinquire19421204.2.21",
+        "text_de": "Vier Söhne im Dienst"
       },
       "changeNote": "The Scarsdale Inquirer of 4 December 1942 reported that Mr. and Mrs. Vincent Vigliotti of Brambach Road had four sons in the armed forces and had just marked 25 years of marriage.",
       "placeIds": [
         "eastchester-ny",
         "brambach-ave-eastchester"
-      ]
+      ],
+      "headline_de": "Vier Vigliotti-Söhne im Dienst, 1942",
+      "foundBy_de": "Stuart",
+      "changeNote_de": "Der Scarsdale Inquirer vom 4. Dezember 1942 berichtete, dass Herr und Frau Vincent Vigliotti aus der Brambach Road vier Söhne in den Streitkräften hatten und gerade 25 Ehejahre begangen hatten."
     },
     {
       "id": "find-death-vincenzo-vigliotti-1944",
@@ -153,13 +178,17 @@
       "confidence": "confirmed",
       "source": {
         "text": "New York State death index, Vincent Vigliotti, indexed as VIGHIOTTO, certificate 26490",
-        "url": null
+        "url": null,
+        "text_de": "Sterbeindex des Staates New York, Vincent Vigliotti, indexiert als VIGHIOTTO, Urkunde 26490"
       },
       "changeNote": "The New York State death index (indexed as VIGHIOTTO) and the Scarsdale Inquirer record the death of Vincent J. Vigliotti, aged 53, at Grasslands Hospital, Mount Pleasant, on 24 April 1944.",
       "placeIds": [
         "mount-pleasant-ny",
         "brambach-ave-eastchester"
-      ]
+      ],
+      "headline_de": "Tod von Vincent Vigliotti 1944",
+      "foundBy_de": "Stuart",
+      "changeNote_de": "Der Sterbeindex des Staates New York (indexiert als VIGHIOTTO) und der Scarsdale Inquirer verzeichnen den Tod von Vincent J. Vigliotti, 53 Jahre alt, im Grasslands Hospital, Mount Pleasant, am 24. April 1944."
     },
     {
       "id": "find-concetta-mignone-wedding-1947",
@@ -175,13 +204,17 @@
       "confidence": "confirmed",
       "source": {
         "text": "Concetta Mignone Is Future Bride",
-        "url": "https://news.hrvh.org/veridian/?a=d&d=scarsdaleinquire19470404.2.135"
+        "url": "https://news.hrvh.org/veridian/?a=d&d=scarsdaleinquire19470404.2.135",
+        "text_de": "Concetta Mignone ist künftige Braut"
       },
       "changeNote": "The Scarsdale Inquirer announced the engagement (4 April 1947) and the 24 August 1947 wedding at Immaculate Heart of Mary, Scarsdale, of Concetta, daughter of Mr. and Mrs. Gerard Mignone, and Alphonse J., son of Mrs. Vincent Vigliotti.",
       "placeIds": [
         "scarsdale-ny",
         "immaculate-heart-of-mary-scarsdale"
-      ]
+      ],
+      "headline_de": "Alphonse Vigliotti heiratet Concetta Mignone, 1947",
+      "foundBy_de": "Stuart",
+      "changeNote_de": "Der Scarsdale Inquirer gab die Verlobung (4. April 1947) und die Hochzeit vom 24. August 1947 in Immaculate Heart of Mary, Scarsdale, von Concetta, Tochter von Herrn und Frau Gerard Mignone, und Alphonse J., Sohn von Frau Vincent Vigliotti, bekannt."
     },
     {
       "id": "find-italian-hometowns-tree",
@@ -196,13 +229,17 @@
       "confidence": "unverified",
       "source": {
         "text": "Ancestry member tree KINDRED SPIRITS (tree 65434896)",
-        "url": null
+        "url": null,
+        "text_de": "Ancestry-Mitgliederstammbaum KINDRED SPIRITS (Baum 65434896)"
       },
       "changeNote": "An Ancestry member tree first pointed to Vincenzo Vigliotti's birth as 4 July 1885 at Santa Maria a Vico and Vincenza Pasqualina Guida's as 21 September 1899 at Arienzo, and named their parents. The civil birth acts have now been read and confirm those dates and towns.",
       "placeIds": [
         "santa-maria-a-vico",
         "arienzo"
-      ]
+      ],
+      "headline_de": "Der Stammbaum eines anderen Forschers weist auf Santa Maria a Vico und Arienzo",
+      "foundBy_de": "Stuart",
+      "changeNote_de": "Ein Ancestry-Mitgliederstammbaum wies zuerst auf die Geburt von Vincenzo Vigliotti am 4. Juli 1885 in Santa Maria a Vico und auf die von Vincenza Pasqualina Guida am 21. September 1899 in Arienzo hin und nannte ihre Eltern. Die zivilen Geburtsakte sind inzwischen gelesen und bestätigen diese Daten und Orte."
     },
     {
       "id": "find-passenger-list-roma-1903",
@@ -216,12 +253,16 @@
       "confidence": "probable",
       "source": {
         "text": "New York arriving passenger list, Vincenzo Vigliotti, ship Roma, 1 April 1903",
-        "url": null
+        "url": null,
+        "text_de": "Ankommende Passagierliste New York, Vincenzo Vigliotti, Schiff Roma, 1. April 1903"
       },
       "changeNote": "A New York passenger list index shows Vincenzo Vigliotti, aged 17, arriving at New York on the ship Roma on 1 April 1903. The manifest page itself was later read; see the separate find for that reading.",
       "placeIds": [
         "ellis-island-ny"
-      ]
+      ],
+      "headline_de": "Vincenzo Vigliotti kommt 1903 auf der Roma an",
+      "foundBy_de": "Stuart",
+      "changeNote_de": "Ein Index der Passagierlisten von New York zeigt Vincenzo Vigliotti, 17 Jahre alt, mit Ankunft in New York auf dem Schiff Roma am 1. April 1903. Die Seite der Passagierliste selbst wurde später gelesen; siehe den gesonderten Fund zu dieser Lesung."
     },
     {
       "id": "find-mignone-family",
@@ -237,12 +278,16 @@
       "confidence": "confirmed",
       "source": {
         "text": "Gerard Mignone Dies Eastchester Resident",
-        "url": "https://news.hrvh.org/veridian/?a=d&d=scarsdaleinquire19571108.2.167"
+        "url": "https://news.hrvh.org/veridian/?a=d&d=scarsdaleinquire19571108.2.167",
+        "text_de": "Gerard Mignone, Einwohner von Eastchester, gestorben"
       },
       "changeNote": "The Scarsdale Inquirer obituary of Gerard Mignone (died 29 October 1957), the 1950 census and the Westchester naturalization index (1923 declaration, 1929 petition) identify Concetta's parents as Gerard and Susan (Rescigno) Mignone.",
       "placeIds": [
         "eastchester-ny"
-      ]
+      ],
+      "headline_de": "Gerard Mignone, Concettas Vater",
+      "foundBy_de": "Stuart",
+      "changeNote_de": "Der Nachruf des Scarsdale Inquirer auf Gerard Mignone (gestorben am 29. Oktober 1957), die Volkszählung von 1950 und der Einbürgerungsindex von Westchester (Erklärung 1923, Antrag 1929) nennen die Eltern von Concetta als Gerard und Susan (Rescigno) Mignone."
     },
     {
       "id": "find-walsh-morrisey-wedding-1951",
@@ -259,14 +304,18 @@
       "confidence": "confirmed",
       "source": {
         "text": "Mr. Walsh Fiance Of Miss Morrisey",
-        "url": "https://news.hrvh.org/veridian/?a=d&d=scarsdaleinquire19510119.2.132"
+        "url": "https://news.hrvh.org/veridian/?a=d&d=scarsdaleinquire19510119.2.132",
+        "text_de": "Mr. Walsh, Verlobter von Miss Morrisey"
       },
       "changeNote": "The Scarsdale Inquirer reported the engagement (19 January 1951) and the 5 May 1951 wedding of Patricia Morrissey, daughter of Mr. and Mrs. James T. Morrissey of Downer Avenue, and Paul H. Walsh, son of former Mayor and Mrs. William A. Walsh of Yonkers.",
       "placeIds": [
         "scarsdale-ny",
         "yonkers-ny",
         "immaculate-heart-of-mary-scarsdale"
-      ]
+      ],
+      "headline_de": "Paul Walsh und Patricia Morrisey heirateten 1951 in Scarsdale",
+      "foundBy_de": "Stuart",
+      "changeNote_de": "Der Scarsdale Inquirer meldete die Verlobung (19. Januar 1951) und die Hochzeit vom 5. Mai 1951 von Patricia Morrissey, Tochter von Herrn und Frau James T. Morrissey aus der Downer Avenue, und Paul H. Walsh, Sohn von früherem Bürgermeister und Frau William A. Walsh aus Yonkers."
     },
     {
       "id": "find-augusta-ehrenfels-1949",
@@ -281,13 +330,17 @@
       "confidence": "confirmed",
       "source": {
         "text": "Resident's Mother Dies",
-        "url": "https://news.hrvh.org/veridian/?a=d&d=scarsdaleinquire19490617.2.81"
+        "url": "https://news.hrvh.org/veridian/?a=d&d=scarsdaleinquire19490617.2.81",
+        "text_de": "Mutter einer Einwohnerin gestorben"
       },
       "changeNote": "The Scarsdale Inquirer of 17 June 1949 reports the death of Mrs. Augusta R. Ehrenfels of Mount Vernon, mother of Mrs. James Morrissey.",
       "placeIds": [
         "mount-vernon-ny",
         "bronxville-ny"
-      ]
+      ],
+      "headline_de": "Barbaras Urgroßmutter Augusta Ehrenfels",
+      "foundBy_de": "Stuart",
+      "changeNote_de": "Der Scarsdale Inquirer vom 17. Juni 1949 meldet den Tod von Frau Augusta R. Ehrenfels aus Mount Vernon, Mutter von Frau James Morrissey."
     },
     {
       "id": "find-mayor-william-a-walsh",
@@ -303,12 +356,16 @@
       "confidence": "confirmed",
       "source": {
         "text": "Wikipedia, William A. Walsh, Mayor of Yonkers 1926 to 1927",
-        "url": "https://en.wikipedia.org/wiki/William_A._Walsh"
+        "url": "https://en.wikipedia.org/wiki/William_A._Walsh",
+        "text_de": "Wikipedia, William A. Walsh, Bürgermeister von Yonkers 1926 bis 1927"
       },
       "changeNote": "Paul Walsh's wedding notice calls his father \"former Mayor\" William A. Walsh of Yonkers; William A. Walsh (1871 to 1967) was Mayor of Yonkers 1926 to 1927, and Social Security records name William A. Walsh and Clara Hingston as parents of children born in Yonkers in 1914 and 1917.",
       "placeIds": [
         "yonkers-ny"
-      ]
+      ],
+      "headline_de": "Barbaras Großvater war Bürgermeister von Yonkers",
+      "foundBy_de": "Stuart",
+      "changeNote_de": "Die Hochzeitsanzeige von Paul Walsh nennt seinen Vater den „früheren Bürgermeister“ William A. Walsh aus Yonkers; William A. Walsh (1871 bis 1967) war von 1926 bis 1927 Bürgermeister von Yonkers, und Social-Security-Unterlagen nennen William A. Walsh und Clara Hingston als Eltern von Kindern, die 1914 und 1917 in Yonkers geboren wurden."
     },
     {
       "id": "find-michael-walsh-ardmore",
@@ -323,13 +380,17 @@
       "confidence": "probable",
       "source": {
         "text": "Find a Grave memorial 104844535, Michael Walsh, with Yonkers Statesman obituary, 10 July 1916",
-        "url": "https://www.findagrave.com/memorial/104844535/michael-walsh"
+        "url": "https://www.findagrave.com/memorial/104844535/michael-walsh",
+        "text_de": "Find a Grave, Memorial 104844535, Michael Walsh, mit Nachruf im Yonkers Statesman, 10. Juli 1916"
       },
       "changeNote": "The 1916 Yonkers Statesman obituary of Michael Walsh, father of Mayor William A. Walsh, says he was born in Ardmore, Ireland, came to America as a boy, and built a carpentry business in Yonkers.",
       "placeIds": [
         "ardmore-ireland",
         "yonkers-ny"
-      ]
+      ],
+      "headline_de": "Die Walsh-Linie geht bis Ardmore, Irland, zurück",
+      "foundBy_de": "Stuart",
+      "changeNote_de": "Der Nachruf im Yonkers Statesman von 1916 auf Michael Walsh, den Vater von Bürgermeister William A. Walsh, sagt, er wurde in Ardmore, Irland, geboren, kam als Junge nach Amerika und baute in Yonkers einen Zimmereibetrieb auf."
     },
     {
       "id": "find-hingston-cleary-huntingdon",
@@ -345,14 +406,18 @@
       "confidence": "probable",
       "source": {
         "text": "Find a Grave memorial 197940245, Catherine Jane Cleary Hingston, with Herald Statesman obituary, 1 September 1932",
-        "url": "https://www.findagrave.com/memorial/197940245/catherine-jane-hingston"
+        "url": "https://www.findagrave.com/memorial/197940245/catherine-jane-hingston",
+        "text_de": "Find a Grave, Memorial 197940245, Catherine Jane Cleary Hingston, mit Nachruf im Herald Statesman, 1. September 1932"
       },
       "changeNote": "Catherine Jane Cleary Hingston's 1932 obituary names her parents Owen and Catherine Donohue Cleary of Huntingdon, Canada, her 1872 marriage to Samuel J. Hingston, and her daughter Mrs. William A. Walsh.",
       "placeIds": [
         "huntingdon-quebec",
         "port-henry-ny",
         "yonkers-ny"
-      ]
+      ],
+      "headline_de": "Clara Hingstons Familie kam aus Huntingdon, Québec",
+      "foundBy_de": "Stuart",
+      "changeNote_de": "Der Nachruf von 1932 auf Catherine Jane Cleary Hingston nennt ihre Eltern Owen und Catherine Donohue Cleary aus Huntingdon, Kanada, ihre Heirat mit Samuel J. Hingston 1872 und ihre Tochter Frau William A. Walsh."
     },
     {
       "id": "find-morrisey-ehrenfels-marriage-1922",
@@ -367,12 +432,16 @@
       "confidence": "confirmed",
       "source": {
         "text": "Westchester County marriage index, certificate 37675 (1922), James T. Morrisey and Fernanda Ehrenfels",
-        "url": "https://recordcenter.westchestergov.com/MarriagesSearch.aspx"
+        "url": "https://recordcenter.westchestergov.com/MarriagesSearch.aspx",
+        "text_de": "Heiratsindex von Westchester County, Urkunde 37675 (1922), James T. Morrisey und Fernanda Ehrenfels"
       },
       "changeNote": "The Westchester County marriage index lists James T. Morrisey and Fernanda Ehrenfels on the same certificate, number 37675, in 1922.",
       "placeIds": [
         "westchester-county-ny"
-      ]
+      ],
+      "headline_de": "James Morrisey und Fernanda Ehrenfels heirateten 1922",
+      "foundBy_de": "Stuart",
+      "changeNote_de": "Der Heiratsindex von Westchester County führt James T. Morrisey und Fernanda Ehrenfels 1922 auf derselben Urkunde, Nummer 37675."
     },
     {
       "id": "find-mignone-rescigno-marriage-1926",
@@ -387,12 +456,16 @@
       "confidence": "confirmed",
       "source": {
         "text": "Westchester County marriage index, certificate 51289 (1926), Gerardo Mignone and Susan M. Rescigno",
-        "url": "https://recordcenter.westchestergov.com/MarriagesSearch.aspx"
+        "url": "https://recordcenter.westchestergov.com/MarriagesSearch.aspx",
+        "text_de": "Heiratsindex von Westchester County, Urkunde 51289 (1926), Gerardo Mignone und Susan M. Rescigno"
       },
       "changeNote": "The Westchester County marriage index lists Gerardo Mignone and Susan M. Rescigno on certificate 51289 in 1926.",
       "placeIds": [
         "westchester-county-ny"
-      ]
+      ],
+      "headline_de": "Gerardo Mignone und Susan Rescigno heirateten 1926",
+      "foundBy_de": "Stuart",
+      "changeNote_de": "Der Heiratsindex von Westchester County führt Gerardo Mignone und Susan M. Rescigno 1926 auf Urkunde 51289."
     },
     {
       "id": "find-census-1920-first-papers",
@@ -407,12 +480,16 @@
       "confidence": "confirmed",
       "source": {
         "text": "1920 United States census, Eastchester, ED 25, sheet 11A, Scarsdale Avenue",
-        "url": "https://www.ancestry.com/search/collections/6061/"
+        "url": "https://www.ancestry.com/search/collections/6061/",
+        "text_de": "Volkszählung der Vereinigten Staaten 1920, Eastchester, ED 25, Blatt 11A, Scarsdale Avenue"
       },
       "changeNote": "The January 1920 census lists Vincent Vigliotte, 34, on Scarsdale Avenue, Eastchester, immigrated 1902, with citizenship Pa, meaning he had declared his intention but was not yet a citizen. His wife Vincenza, 20, had arrived in 1916.",
       "placeIds": [
         "eastchester-ny"
-      ]
+      ],
+      "headline_de": "Volkszählung 1920: Vincent Vigliotti hatte die ersten Papiere eingereicht",
+      "foundBy_de": "Stuart",
+      "changeNote_de": "Die Volkszählung vom Januar 1920 führt Vincent Vigliotte, 34, in der Scarsdale Avenue, Eastchester, eingewandert 1902, mit der Staatsangehörigkeit Pa, das heißt, er hatte seine Absicht erklärt, war aber noch nicht Bürger. Seine Frau Vincenza, 20, war 1916 angekommen."
     },
     {
       "id": "find-nys-census-1925-citizen-1923",
@@ -428,14 +505,18 @@
       "confidence": "confirmed",
       "source": {
         "text": "1925 New York State census, Eastchester, A.D. 01, E.D. 01, page 7, line 44",
-        "url": "https://www.ancestry.com/search/collections/2704/"
+        "url": "https://www.ancestry.com/search/collections/2704/",
+        "text_de": "Volkszählung des Staates New York 1925, Eastchester, A.D. 01, E.D. 01, Seite 7, Zeile 44"
       },
       "changeNote": "The June 1925 New York State census at 44 Brambach Avenue marks the head of the Vigliotti household a citizen, with the note 1923 White Plains, and lists sons Vincent, Alfonso, Andrew and Anthony and daughter Madeline.",
       "placeIds": [
         "eastchester-ny",
         "white-plains-ny",
         "brambach-ave-eastchester"
-      ]
+      ],
+      "headline_de": "Volkszählung 1925: seit 1923 Bürger, White Plains",
+      "foundBy_de": "Stuart",
+      "changeNote_de": "Die Volkszählung des Staates New York vom Juni 1925 in der 44 Brambach Avenue führt den Haushaltsvorstand im Haushalt Vigliotti als Bürger, mit dem Vermerk 1923 White Plains, und nennt die Söhne Vincent, Alfonso, Andrew und Anthony sowie die Tochter Madeline."
     },
     {
       "id": "find-naturalization-index-1916-1922",
@@ -450,13 +531,17 @@
       "confidence": "probable",
       "source": {
         "text": "Westchester County naturalization index, Viglietto 1916 and Vigletti 1922",
-        "url": "https://recordcenter.westchestergov.com/NaturalizationsSearch.aspx"
+        "url": "https://recordcenter.westchestergov.com/NaturalizationsSearch.aspx",
+        "text_de": "Einbürgerungsindex von Westchester County, Viglietto 1916 und Vigletti 1922"
       },
       "changeNote": "The Westchester County naturalization index has a 1916 declaration for Vincenzo Viglietto and a 1922 petition for Vincenzo Vigletti (Viglotti). With the census trail, this points to naturalization in 1922 or 1923, after Alphonse Sr. was born in March 1921. The 1928 and 1930 papers in the same index belong to a different Vincenzo, born in 1892 at Bonito.",
       "placeIds": [
         "white-plains-ny",
         "westchester-county-ny"
-      ]
+      ],
+      "headline_de": "Vincenzos Einbürgerungsunterlagen, gefunden unter Fehlschreibungen",
+      "foundBy_de": "Stuart",
+      "changeNote_de": "Der Einbürgerungsindex von Westchester County enthält eine Erklärung von 1916 für Vincenzo Viglietto und einen Antrag von 1922 für Vincenzo Vigletti (Viglotti). Zusammen mit den Volkszählungen deutet das auf eine Einbürgerung 1922 oder 1923, nach der Geburt von Alphonse Sr. im März 1921. Die Unterlagen von 1928 und 1930 im selben Index gehören zu einem anderen Vincenzo, 1892 in Bonito geboren."
     },
     {
       "id": "find-roma-manifest-1903",
@@ -470,12 +555,16 @@
       "confidence": "probable",
       "source": {
         "text": "S.S. Roma passenger manifest, sheet 18, line 18, arrived 1 April 1903",
-        "url": "https://www.ancestry.com/search/collections/7488/"
+        "url": "https://www.ancestry.com/search/collections/7488/",
+        "text_de": "Passagierliste der S.S. Roma, Blatt 18, Zeile 18, Ankunft 1. April 1903"
       },
       "changeNote": "On the S.S. Roma manifest for 1 April 1903, a 17-year-old single farm labourer whose surname is only partly readable, paid his own passage, carried $20, and was going to a cousin at 312 Broadway, Newburgh, New York.",
       "placeIds": [
         "ellis-island-ny"
-      ]
+      ],
+      "headline_de": "Die Roma-Passagierliste: ein 17 Jahre alter Landarbeiter, der zu einem Cousin kommt",
+      "foundBy_de": "Stuart",
+      "changeNote_de": "Auf der Passagierliste der S.S. Roma vom 1. April 1903 bezahlte ein 17 Jahre alter lediger Landarbeiter, dessen Nachname nur teilweise lesbar ist, die Überfahrt selbst, hatte $20 bei sich und wollte zu einem Cousin unter 312 Broadway, Newburgh, New York."
     },
     {
       "id": "find-vincenzo-birth-act-1885",
@@ -491,13 +580,17 @@
       "confidence": "confirmed",
       "source": {
         "text": "Civil birth act 131, Santa Maria a Vico, 5 July 1885",
-        "url": "https://www.ancestry.com/search/collections/1893/"
+        "url": "https://www.ancestry.com/search/collections/1893/",
+        "text_de": "Ziviler Geburtsakt 131, Santa Maria a Vico, 5. Juli 1885"
       },
       "changeNote": "The civil birth register of Santa Maria a Vico shows that Vincenzo Vigliotti was born at 11 at night on 4 July 1885, at Via Rusciano 23, to Andrea Vigliotti, a 32-year-old farmer, and his wife Mariantonia Ruotolo. His father registered the birth the next morning. This settles his birth date and town.",
       "placeIds": [
         "santa-maria-a-vico"
       ],
-      "image": "records/1885-birth-vigliotti-vincenzo-santa-maria-a-vico-act131-zoom.jpg"
+      "image": "records/1885-birth-vigliotti-vincenzo-santa-maria-a-vico-act131-zoom.jpg",
+      "headline_de": "Vincenzos italienischer Geburtsakt: 4. Juli 1885, Santa Maria a Vico",
+      "foundBy_de": "Stuart",
+      "changeNote_de": "Das zivile Geburtsregister von Santa Maria a Vico zeigt, dass Vincenzo Vigliotti am 4. Juli 1885 um 11 Uhr nachts in der Via Rusciano 23 geboren wurde, als Sohn von Andrea Vigliotti, einem 32 Jahre alten Bauern, und seiner Frau Mariantonia Ruotolo. Sein Vater trug die Geburt am nächsten Morgen ein. Damit sind Geburtsdatum und Geburtsort geklärt."
     },
     {
       "id": "find-vincenza-twins-1899",
@@ -514,13 +607,17 @@
       "confidence": "confirmed",
       "source": {
         "text": "Civil birth act 105, Arienzo, 23 September 1899, and the following twin act",
-        "url": "https://www.ancestry.com/search/collections/1893/"
+        "url": "https://www.ancestry.com/search/collections/1893/",
+        "text_de": "Ziviler Geburtsakt 105, Arienzo, 23. September 1899, und der folgende Zwillingsakt"
       },
       "changeNote": "Vincenza Pasqualina Guida was born at 11:40 in the morning on 21 September 1899 at via Maddalena 2, Arienzo, the first of twins born to Alfonso Guida, a 33-year-old farmer, and Antonia Vigliotti. Her twin brother, Pasquale Fabrizio, was born second and recorded in the next act.",
       "placeIds": [
         "arienzo"
       ],
-      "image": "records/1899-birth-guida-vincenza-pasqualina-arienzo-act105-zoom.jpg"
+      "image": "records/1899-birth-guida-vincenza-pasqualina-arienzo-act105-zoom.jpg",
+      "headline_de": "Vincenza war ein Zwilling, 1899 in Arienzo geboren",
+      "foundBy_de": "Stuart",
+      "changeNote_de": "Vincenza Pasqualina Guida wurde um 11:40 Uhr morgens am 21. September 1899 in der via Maddalena 2 in Arienzo geboren, als Erste der Zwillinge von Alfonso Guida, einem 33 Jahre alten Bauern, und Antonia Vigliotti. Ihr Zwillingsbruder Pasquale Fabrizio wurde als Zweiter geboren und im nächsten Akt eingetragen."
     },
     {
       "id": "find-antonia-vigliotti-death-1904",
@@ -538,14 +635,18 @@
       "confidence": "confirmed",
       "source": {
         "text": "Civil death act 29, Arienzo, 9 June 1904",
-        "url": "https://www.ancestry.com/search/collections/1893/"
+        "url": "https://www.ancestry.com/search/collections/1893/",
+        "text_de": "Ziviler Sterbeakt 29, Arienzo, 9. Juni 1904"
       },
       "changeNote": "Antonia Vigliotti, wife of Alfonso Guida, died at Arienzo on 8 June 1904, aged 38. Her death act says she was born in San Felice a Cancello, the daughter of Raffaele Vigliotti, a farmer, and Pasqualina Carfora.",
       "placeIds": [
         "arienzo",
         "san-felice-a-cancello"
       ],
-      "image": "records/1904-death-vigliotti-antonia-arienzo-act29-zoom.jpg"
+      "image": "records/1904-death-vigliotti-antonia-arienzo-act29-zoom.jpg",
+      "headline_de": "Vincenza verlor ihre Mutter mit vier: Antonia Vigliotti, gestorben 1904",
+      "foundBy_de": "Stuart",
+      "changeNote_de": "Antonia Vigliotti, Ehefrau von Alfonso Guida, starb am 8. Juni 1904 in Arienzo, 38 Jahre alt. Ihr Sterbeakt sagt, sie wurde in San Felice a Cancello geboren, als Tochter von Raffaele Vigliotti, einem Bauern, und Pasqualina Carfora."
     },
     {
       "id": "find-andrea-vigliotti-birth-1853",
@@ -561,13 +662,17 @@
       "confidence": "probable",
       "source": {
         "text": "Civil birth act 158, Santa Maria a Vico, 30 November 1853",
-        "url": "https://antenati.cultura.gov.it/ark:/12657/an_ua55905"
+        "url": "https://antenati.cultura.gov.it/ark:/12657/an_ua55905",
+        "text_de": "Ziviler Geburtsakt 158, Santa Maria a Vico, 30. November 1853"
       },
       "changeNote": "The 1853 birth register of Santa Maria a Vico, free on Antenati, records Andrea Vigliotti, born 30 November 1853 on Strada Rusciano, the same street where Vincenzo was born 32 years later. His parents were Crescenzo Vigliotti, son of Agostino, a farmer, and Maria Rosa Carfora. He is very probably Vincenzo's father.",
       "placeIds": [
         "santa-maria-a-vico"
       ],
-      "image": "records/1853-birth-vigliotti-andrea-santa-maria-a-vico-act158-zoom.jpg"
+      "image": "records/1853-birth-vigliotti-andrea-santa-maria-a-vico-act158-zoom.jpg",
+      "headline_de": "Eine Generation weiter zurück: Andrea Vigliotti, geboren 1853",
+      "foundBy_de": "Stuart",
+      "changeNote_de": "Das Geburtsregister von 1853 aus Santa Maria a Vico, kostenlos auf Antenati, verzeichnet Andrea Vigliotti, geboren am 30. November 1853 in der Strada Rusciano, derselben Straße, in der Vincenzo 32 Jahre später geboren wurde. Seine Eltern waren Crescenzo Vigliotti, Sohn von Agostino, Bauer, und Maria Rosa Carfora. Er ist sehr wahrscheinlich Vincenzos Vater."
     },
     {
       "id": "find-mariantonia-ruotolo-candidate-1856",
@@ -583,13 +688,17 @@
       "confidence": "probable",
       "source": {
         "text": "Civil birth act 96, Maria Antonia Ruotolo, Santa Maria a Vico, 28 June 1856",
-        "url": "https://antenati.cultura.gov.it/ark:/12657/an_ua55908"
+        "url": "https://antenati.cultura.gov.it/ark:/12657/an_ua55908",
+        "text_de": "Ziviler Geburtsakt 96, Maria Antonia Ruotolo, Santa Maria a Vico, 28. Juni 1856"
       },
       "changeNote": "The 1856 Santa Maria a Vico births include Maria Antonia Ruotolo, born 28 June 1856 on Strada Rusciano, the same street as Vincenzo and Andrea, to Giuseppe Ruotolo and Angela Vigliotti. The 18 February 1883 marriage names those same parents and gives the bride's age as 27, which fits 1856 by year subtraction, so this is now probable. A later note on her birth act records a marriage to an Alfonso P. in 1896, or possibly 1876; that remarriage has not been located (1896 act 40 and 1876 act 40 are not matches).",
       "placeIds": [
         "santa-maria-a-vico"
       ],
-      "image": "records/1856-birth-ruotolo-maria-antonia-santa-maria-a-vico-act96-zoom.jpg"
+      "image": "records/1856-birth-ruotolo-maria-antonia-santa-maria-a-vico-act96-zoom.jpg",
+      "headline_de": "Eine wahrscheinliche Geburt für Vincenzos Mutter, Mariantonia Ruotolo, 1856",
+      "foundBy_de": "Stuart",
+      "changeNote_de": "Die Geburten von Santa Maria a Vico aus dem Jahr 1856 umfassen Maria Antonia Ruotolo, geboren am 28. Juni 1856 in der Strada Rusciano, derselben Straße wie Vincenzo und Andrea, als Kind von Giuseppe Ruotolo und Angela Vigliotti. Die Heirat vom 18. Februar 1883 nennt dieselben Eltern und gibt das Alter der Braut mit 27 an, was durch Subtraktion der Jahre zu 1856 passt, sodass dies nun wahrscheinlich ist. Eine spätere Notiz auf ihrem Geburtsakt verzeichnet eine Heirat mit einem Alfonso P. im Jahr 1896 oder möglicherweise 1876; diese Wiederverheiratung ist nicht aufgefunden worden (Akt 40 von 1896 und Akt 40 von 1876 sind keine Übereinstimmungen)."
     },
     {
       "id": "find-andrea-mariantonia-marriage-1883",
@@ -608,13 +717,17 @@
       "confidence": "confirmed",
       "source": {
         "text": "Civil marriage act 3, Andrea Vigliotti and Mariantonia Ruotolo, Santa Maria a Vico, 18 February 1883",
-        "url": "https://www.ancestry.com/imageviewer/collections/1893/images/31752_221104-00641?usePUB=true&pId=151698"
+        "url": "https://www.ancestry.com/imageviewer/collections/1893/images/31752_221104-00641?usePUB=true&pId=151698",
+        "text_de": "Ziviler Heiratsakt 3, Andrea Vigliotti und Mariantonia Ruotolo, Santa Maria a Vico, 18. Februar 1883"
       },
       "changeNote": "Santa Maria a Vico, Atti di Matrimonio 1883, act 3, records the marriage of Andrea Vigliotti and Mariantonia Ruotolo. The date is read as 18 February 1883; the word Diciotto is uncertain, so the day is flagged. Andrea, 35, a farm worker, is named as the son of Crescenzo and Carfora Mariarosa, both apparently living. Mariantonia, 27, a farm worker, is named as the daughter of Giuseppe and Vigliotti Angela, both apparently living. Those parent names support Andrea's 1853 birth (still probable, because the groom's age implies about 1848) and Mariantonia's 1856 birth (now probable).",
       "placeIds": [
         "santa-maria-a-vico"
       ],
-      "image": "records/1883-marriage-vigliotti-andrea-ruotolo-mariantonia-santa-maria-a-vico-act3-parties-highlighted.jpg"
+      "image": "records/1883-marriage-vigliotti-andrea-ruotolo-mariantonia-santa-maria-a-vico-act3-parties-highlighted.jpg",
+      "headline_de": "Andrea Vigliotti und Mariantonia Ruotolo heirateten 1883 in Santa Maria a Vico",
+      "foundBy_de": "Stuart",
+      "changeNote_de": "Santa Maria a Vico, Atti di Matrimonio 1883, Akt 3, verzeichnet die Heirat von Andrea Vigliotti und Mariantonia Ruotolo. Das Datum wird als 18. Februar 1883 gelesen; das Wort Diciotto ist unsicher, daher ist der Tag markiert. Andrea, 35, Landarbeiter, wird als Sohn von Crescenzo und Carfora Mariarosa genannt, beide offenbar am Leben. Mariantonia, 27, Landarbeiterin, wird als Tochter von Giuseppe und Vigliotti Angela genannt, beide offenbar am Leben. Diese Elternnamen stützen die Geburt von Andrea im Jahr 1853 (weiterhin wahrscheinlich, weil das Alter des Bräutigams etwa 1848 nahelegt) und die Geburt von Mariantonia im Jahr 1856 (nun wahrscheinlich)."
     },
     {
       "id": "find-walsh-family-papers-2026",
@@ -633,13 +746,17 @@
       "confidence": "confirmed",
       "source": {
         "text": "Walsh family-history packet, photographed 26 November 2026",
-        "url": null
+        "url": null,
+        "text_de": "Familienhistorisches Konvolut der Familie Walsh, fotografiert am 26. November 2026"
       },
       "changeNote": "Six photographs of a family-history packet, provided on 26 and 27 November 2026, include published clippings about John J. Walsh and Justice William A. Walsh Jr., a compiled biography of John J., and a compiled account of Margaret Farrell and her parents. Private letters in the same packet are held back from the public site.",
       "placeIds": [
         "yonkers-ny"
       ],
-      "image": "records/family-papers-john-j-walsh-biography.jpg"
+      "image": "records/family-papers-john-j-walsh-biography.jpg",
+      "foundBy_de": "Stuart",
+      "headline_de": "Familienpapiere ergänzen die Linie von Margaret Farrell und eine Reihe von Zeitungsausschnitten der Walsh",
+      "changeNote_de": "Sechs Fotografien eines Konvoluts zur Familiengeschichte, bereitgestellt am 26. und 27. November 2026, enthalten veröffentlichte Ausschnitte über John J. Walsh und Richter William A. Walsh Jr., eine zusammengestellte Biografie von John J. und eine zusammengestellte Darstellung von Margaret Farrell und ihren Eltern. Private Briefe im selben Konvolut werden der öffentlichen Website vorenthalten."
     },
     {
       "id": "find-john-j-walsh-obituary-1946-margaret-farrell",
@@ -657,14 +774,18 @@
       "confidence": "confirmed",
       "source": {
         "text": "Obituary of John J. Walsh, The Herald Statesman (Yonkers), 18 December 1946",
-        "url": "https://www.findagrave.com/memorial/197268246/john-joseph-walsh"
+        "url": "https://www.findagrave.com/memorial/197268246/john-joseph-walsh",
+        "text_de": "Nachruf auf John J. Walsh, The Herald Statesman (Yonkers), 18. Dezember 1946"
       },
       "changeNote": "A family-held clipping of the 18 December 1946 Herald Statesman says John J. Walsh died the day before at St. John's Riverside Hospital, Yonkers, aged 86, a son of Michael Walsh, building contractor, and the former Margaret Farrell, and a brother of William A. Walsh, former Mayor and former City Manager, and of Thomas A. Walsh. Burial was at Saint Joseph's Cemetery. This is the first contemporary newspaper statement in hand that names Margaret Farrell as Michael's wife and John's mother.",
       "placeIds": [
         "yonkers-ny",
         "st-josephs-cemetery-yonkers"
       ],
-      "image": "records/1946-obituary-walsh-john-j-herald-statesman-highlighted.jpg"
+      "image": "records/1946-obituary-walsh-john-j-herald-statesman-highlighted.jpg",
+      "foundBy_de": "Stuart",
+      "headline_de": "Der Nachruf auf John J. Walsh von 1946 nennt seine Mutter als Margaret Farrell",
+      "changeNote_de": "Ein Ausschnitt aus dem Familienbesitz vom Herald Statesman des 18. Dezember 1946 sagt, John J. Walsh sei am Vortag im St. John's Riverside Hospital in Yonkers gestorben, 86 Jahre alt, ein Sohn von Michael Walsh, Bauunternehmer, und der geborenen Margaret Farrell, und ein Bruder von William A. Walsh, früherem Bürgermeister und früherem Stadtmanager, und von Thomas A. Walsh. Die Beisetzung war auf dem Saint Joseph's Cemetery. Dies ist die erste vorliegende zeitgenössische Zeitungsaussage, die Margaret Farrell als Ehefrau von Michael und als Mutter von John nennt."
     },
     {
       "id": "find-margaret-farrell-walsh-family-report",
@@ -687,12 +808,16 @@
       "confidence": "family tradition",
       "source": {
         "text": "Compiled account of Margaret Farrell in the Walsh family-history packet",
-        "url": null
+        "url": null,
+        "text_de": "Zusammengestellte Darstellung von Margaret Farrell im Konvolut zur Familiengeschichte der Walsh"
       },
       "changeNote": "The compiled report says Margaret Farrell was the daughter of John Farrell and Morna Fitzgerald, who came from Ireland to Yonkers about 1844, that she was born about 1842, married Michael Walsh on 22 November 1857 at St. Mary's Church in Yonkers, and died on 5 November 1873, aged 31. It lists six children: John J., James F., Thomas A., Catherine C., Michael A., and William A. Those compiled dates remain family tradition until a register, a civil record, or a photograph of her stone is read. Saint Joseph's Cemetery was not purchased until 1877, so a 1873 burial there is not pinned on the map.",
       "placeIds": [
         "yonkers-ny"
-      ]
+      ],
+      "foundBy_de": "Stuart",
+      "headline_de": "Ein Familienbericht nennt die Eltern und sechs Kinder von Margaret Farrell",
+      "changeNote_de": "Der zusammengestellte Bericht sagt, Margaret Farrell sei die Tochter von John Farrell und Morna Fitzgerald gewesen, die etwa 1844 aus Irland nach Yonkers kamen, sie sei etwa 1842 geboren, habe Michael Walsh am 22. November 1857 in der St. Mary's Church in Yonkers geheiratet und sei am 5. November 1873 im Alter von 31 Jahren gestorben. Er führt sechs Kinder auf: John J., James F., Thomas A., Catherine C., Michael A. und William A. Diese zusammengestellten Daten bleiben Familientradition, bis ein Register, ein Zivilakt oder eine Fotografie ihres Steins gelesen ist. Der Saint Joseph's Cemetery wurde erst 1877 gekauft, sodass eine Beisetzung von 1873 dort auf der Karte nicht festgelegt ist."
     },
     {
       "id": "find-correction-ellen-kelly-later-wife",
@@ -710,13 +835,17 @@
       "confidence": "probable",
       "source": {
         "text": "John J. Walsh obituary, 18 December 1946, read with Michael Walsh's 1916 notice and the family report of Margaret Farrell",
-        "url": "https://www.findagrave.com/memorial/197268246/john-joseph-walsh"
+        "url": "https://www.findagrave.com/memorial/197268246/john-joseph-walsh",
+        "text_de": "Nachruf auf John J. Walsh, 18. Dezember 1946, gelesen mit der Notiz zu Michael Walsh von 1916 und dem Familienbericht über Margaret Farrell"
       },
       "changeNote": "Earlier site text treated Ellen E. Kelly, the wife named in Michael Walsh's 1916 obituary, as the probable mother of William Aloysius Walsh. The 1946 obituary of John J. Walsh names Margaret Farrell as John's mother, and a family report says Margaret died on 5 November 1873, two years after William's birth in 1871. The best reading is that Margaret was the first wife and is probably William's mother, and that Ellen was a later wife who survived Michael. Agnes Florence Walsh, born in 1889, is probably Ellen's daughter. An 1871 birth or baptism record for William is still needed to settle the maternal link.",
       "placeIds": [
         "yonkers-ny"
       ],
-      "image": "records/1946-obituary-walsh-john-j-herald-statesman-highlighted.jpg"
+      "image": "records/1946-obituary-walsh-john-j-herald-statesman-highlighted.jpg",
+      "foundBy_de": "Stuart",
+      "headline_de": "Ellen E. Kelly ist wahrscheinlich die spätere Ehefrau von Michael Walsh, nicht Williams Mutter",
+      "changeNote_de": "Ein früherer Text der Website behandelte Ellen E. Kelly, die im Nachruf auf Michael Walsh von 1916 genannte Ehefrau, als die wahrscheinliche Mutter von William Aloysius Walsh. Der Nachruf von 1946 auf John J. Walsh nennt Margaret Farrell als Johns Mutter, und ein Familienbericht sagt, Margaret sei am 5. November 1873 gestorben, zwei Jahre nach Williams Geburt 1871. Die beste Lesart ist, dass Margaret die erste Ehefrau war und wahrscheinlich Williams Mutter ist und dass Ellen eine spätere Ehefrau war, die Michael überlebte. Agnes Florence Walsh, geboren 1889, ist wahrscheinlich Ellens Tochter. Ein Geburts- oder Taufeintrag von 1871 für William wird noch gebraucht, um die mütterliche Zuordnung zu klären."
     },
     {
       "id": "find-william-walsh-historical-society-citation",
@@ -730,13 +859,17 @@
       "confidence": "probable",
       "source": {
         "text": "Newspaper editorial, That Historical Society Citation To Judge Walsh Is Richly Merited",
-        "url": null
+        "url": null,
+        "text_de": "Zeitungsleitartikel, That Historical Society Citation To Judge Walsh Is Richly Merited"
       },
       "changeNote": "A family-held editorial praises a Yonkers Historical Society citation to Judge Walsh, the first of what it intended as an annual award, and says he was approaching his 92nd birthday that summer. No newspaper name or date is printed on the clipping. For William Aloysius Walsh, born 18 August 1871, a 92nd birthday in the summer would fall in 1963.",
       "placeIds": [
         "yonkers-ny"
       ],
-      "image": "records/clipping-historical-society-citation-judge-walsh-highlighted.jpg"
+      "image": "records/clipping-historical-society-citation-judge-walsh-highlighted.jpg",
+      "foundBy_de": "Stuart",
+      "headline_de": "Eine Ehrung der Yonkers Historical Society für Richter William A. Walsh, etwa im Sommer 1963",
+      "changeNote_de": "Ein Leitartikel aus dem Familienbesitz würdigt eine Ehrung der Yonkers Historical Society für Richter Walsh, die erste einer Auszeichnung, die sie als jährlich vorgesehen hatte, und sagt, er habe sich in jenem Sommer seinem 92. Geburtstag genähert. Auf dem Ausschnitt sind kein Zeitungsname und kein Datum gedruckt. Für William Aloysius Walsh, geboren am 18. August 1871, fiele ein 92. Geburtstag im Sommer in das Jahr 1963."
     },
     {
       "id": "find-william-walsh-jr-sworn-in-justice",
@@ -752,14 +885,18 @@
       "confidence": "confirmed",
       "source": {
         "text": "Newspaper clipping, Judge Walsh Is Sworn In As Justice, read with the official listing of New York State Supreme Court justices",
-        "url": "https://history.nycourts.gov/figure/supreme-court-w/"
+        "url": "https://history.nycourts.gov/figure/supreme-court-w/",
+        "text_de": "Zeitungsausschnitt Judge Walsh Is Sworn In As Justice, gelesen mit dem offiziellen Verzeichnis der Richter des New York State Supreme Court"
       },
       "changeNote": "A family-held clipping, datelined White Plains, describes the induction of Justice William A. Walsh Jr. after his election the previous November to a 14-year term. It calls him a former Yonkers city manager and a judge of the Family and County Courts, and names his father, William A. Walsh Sr., as a former city manager, mayor and judge. An official listing gives his first elected or appointed date as 3 November 1970, which would place the ceremony about January 1971, though no date is printed on the clipping. Social Security records already named him as a son of William A. Walsh and Clara Hingston, born in Yonkers on 10 May 1914, and gave his death as 30 January 1999.",
       "placeIds": [
         "yonkers-ny",
         "white-plains-ny"
       ],
-      "image": "records/clipping-judge-walsh-sworn-in-as-justice.jpg"
+      "image": "records/clipping-judge-walsh-sworn-in-as-justice.jpg",
+      "foundBy_de": "Stuart",
+      "headline_de": "William A. Walsh Jr. wurde als Richter am Supreme Court des Staates vereidigt",
+      "changeNote_de": "Ein Ausschnitt im Familienbesitz, mit der Ortsmarke White Plains, beschreibt die Amtseinführung von Richter William A. Walsh Jr. nach seiner Wahl im vorangegangenen November für eine Amtszeit von 14 Jahren. Er nennt ihn einen früheren Stadtmanager von Yonkers und einen Richter der Family Courts und der County Courts und nennt seinen Vater, William A. Walsh Sr., als früheren Stadtmanager, Bürgermeister und Richter. Ein amtliches Verzeichnis gibt als erstes Wahl- oder Ernennungsdatum den 3. November 1970 an, was die Feier etwa auf Januar 1971 legen würde, obwohl auf dem Ausschnitt kein Datum gedruckt ist. Social-Security-Unterlagen nannten ihn bereits als Sohn von William A. Walsh und Clara Hingston, geboren in Yonkers am 10. Mai 1914, und gaben seinen Tod als 30. Januar 1999 an."
     },
     {
       "id": "find-annie-fegan-walsh-marriage-1880",
@@ -774,13 +911,17 @@
       "confidence": "family tradition",
       "source": {
         "text": "Typed note on John J. Walsh and Annie Fegan in the Walsh family-history packet",
-        "url": null
+        "url": null,
+        "text_de": "Maschinengeschriebene Notiz zu John J. Walsh und Annie Fegan im familienhistorischen Konvolut der Familie Walsh"
       },
       "changeNote": "A typed note in the family papers says John J. Walsh married Annie Fegan in 1880 at St. Joseph's Church in Yonkers, that they had a son, Harry F. Walsh, and a daughter, Margaret, later Mrs. Charles R. Brown, and that Annie died in 1929. A volunteer memorial uses the spelling Ann Fagan Walsh, 1861 to 1929. Fegan and Fagan are treated as variants. The marriage remains family tradition until the register is read. Their children are named in the 1946 obituary but are not added as full profiles in this pass.",
       "placeIds": [
         "yonkers-ny"
       ],
-      "image": "records/family-papers-john-j-walsh-annie-fegan-note-highlighted.jpg"
+      "image": "records/family-papers-john-j-walsh-annie-fegan-note-highlighted.jpg",
+      "foundBy_de": "Stuart",
+      "headline_de": "John J. Walsh heiratete 1880 Annie Fegan, laut einer Familiennotiz",
+      "changeNote_de": "Eine maschinengeschriebene Notiz in den Familienpapieren sagt, John J. Walsh habe Annie Fegan 1880 in der St. Joseph's Church in Yonkers geheiratet, sie hätten einen Sohn gehabt, Harry F. Walsh, und eine Tochter, Margaret, später Mrs. Charles R. Brown, und Annie sei 1929 gestorben. Ein ehrenamtlicher Gedenkeintrag verwendet die Schreibweise Ann Fagan Walsh, 1861 bis 1929. Fegan und Fagan werden als Varianten behandelt. Die Heirat bleibt Familientradition, bis das Register gelesen wird. Ihre Kinder werden im Nachruf von 1946 genannt, in diesem Durchgang aber nicht als vollständige Profile hinzugefügt."
     },
     {
       "id": "find-michael-walsh-parents-unnamed",
@@ -796,12 +937,16 @@
       "confidence": "unverified",
       "source": {
         "text": "Michael Walsh's 1916 Yonkers Statesman obituary names Ardmore, Ireland, but does not name his parents",
-        "url": null
+        "url": null,
+        "text_de": "Der Nachruf im Yonkers Statesman von 1916 auf Michael Walsh nennt Ardmore, Irland, nennt aber nicht seine Eltern"
       },
       "changeNote": "These cards are stand-ins. No record in hand names Michael Walsh's parents. They are on the tree so both of his wives, Margaret Farrell and Ellen E. Kelly, can sit in his family on the canvas.",
       "placeIds": [
         "ardmore-ireland"
-      ]
+      ],
+      "foundBy_de": "Stuart",
+      "headline_de": "Platzhalterkarten für die Eltern von Michael Walsh, deren Namen noch nicht bekannt sind",
+      "changeNote_de": "Diese Karten sind Platzhalter. Kein vorliegender Eintrag nennt die Eltern von Michael Walsh. Sie stehen im Stammbaum, damit seine beiden Ehefrauen, Margaret Farrell und Ellen E. Kelly, in seiner Familie auf der Familienleinwand sitzen können."
     },
     {
       "id": "find-wwi-draft-card-vincenzo-1917",
@@ -815,13 +960,17 @@
       "confidence": "confirmed",
       "source": {
         "text": "U.S., World War I Draft Registration Cards, 1917-1918, index entry on Ancestry and Fold3",
-        "url": "https://www.ancestry.com/search/collections/6482/records/16125493"
+        "url": "https://www.ancestry.com/search/collections/6482/records/16125493",
+        "text_de": "USA, Musterungskarten zum Ersten Weltkrieg, 1917 bis 1918, Indexeintrag bei Ancestry und Fold3"
       },
       "changeNote": "The 1917 to 1918 draft index lists Vincenzo Vigliotti on Scarsdale Avenue in Westchester County, Draft Board 6, born 5 July 1885. It differs by a day from the Italian birth act, which gives 4 July. The card image has not yet been read at card resolution.",
       "placeIds": [
         "eastchester-ny"
       ],
-      "image": "records/1917-18-draft-wwi-vigliotti-vincenzo-scarsdale-ave-highlighted.jpg"
+      "image": "records/1917-18-draft-wwi-vigliotti-vincenzo-scarsdale-ave-highlighted.jpg",
+      "foundBy_de": "Stuart",
+      "headline_de": "Index der Musterungskarte von Vincenzo aus dem Ersten Weltkrieg: geboren am 5. Juli 1885, Scarsdale Avenue",
+      "changeNote_de": "Der Musterungsindex von 1917 bis 1918 führt Vincenzo Vigliotti in der Scarsdale Avenue in Westchester County, Musterungsausschuss 6, geboren am 5. Juli 1885. Er weicht um einen Tag vom italienischen Geburtsakt ab, der den 4. Juli angibt. Das Kartenbild ist noch nicht in Kartenauflösung gelesen worden."
     },
     {
       "id": "find-vicenza-named-on-wwi-card-1917",
@@ -836,13 +985,17 @@
       "confidence": "probable",
       "source": {
         "text": "Relative field on the 1917 to 1918 draft card index for Vincenzo Vigliotti",
-        "url": "https://www.ancestry.com/search/collections/6482/records/16125493"
+        "url": "https://www.ancestry.com/search/collections/6482/records/16125493",
+        "text_de": "Feld für die Verwandte im Index der Musterungskarte von 1917 bis 1918 für Vincenzo Vigliotti"
       },
       "changeNote": "The index names Vicenza Vigliotti as his relative. This is probably Vincenza Guida as his wife, which would put the marriage before the 1917 or 1918 registration. It does not prove the 31 July 1916 date from a member tree, and no marriage record has been found yet.",
       "placeIds": [
         "eastchester-ny"
       ],
-      "image": "records/1917-18-draft-wwi-vigliotti-vincenzo-scarsdale-ave-highlighted.jpg"
+      "image": "records/1917-18-draft-wwi-vigliotti-vincenzo-scarsdale-ave-highlighted.jpg",
+      "foundBy_de": "Stuart",
+      "headline_de": "Die Musterungskarte von 1917 bis 1918 nennt eine Verwandte, Vicenza Vigliotti, das Paar war also bis dahin wahrscheinlich verheiratet",
+      "changeNote_de": "Der Index nennt Vicenza Vigliotti als seine Verwandte. Das ist wahrscheinlich Vincenza Guida als seine Ehefrau, was die Heirat vor die Registrierung von 1917 oder 1918 legen würde. Es beweist nicht das Datum 31. Juli 1916 aus einem Mitgliedsbaum, und ein Heiratseintrag ist noch nicht gefunden worden."
     },
     {
       "id": "find-wwii-draft-vincenzo-1942",
@@ -856,13 +1009,17 @@
       "confidence": "confirmed",
       "source": {
         "text": "U.S., World War II Draft Registration Cards, 1942, index entry on Ancestry and Fold3",
-        "url": "https://www.ancestry.com/search/collections/1002/records/17058930"
+        "url": "https://www.ancestry.com/search/collections/1002/records/17058930",
+        "text_de": "USA, Musterungskarten zum Zweiten Weltkrieg, 1942, Indexeintrag bei Ancestry und Fold3"
       },
       "changeNote": "The 1942 \"old man's\" draft index lists Vincenzo Vigliotti of Scarsdale, born 7 July 1885, with the birthplace indexed as Buffalo, Italy. His son Vincent Jr. is the next of kin. The Italian birth act, 4 July 1885, still decides his birth date.",
       "placeIds": [
         "scarsdale-ny"
       ],
-      "image": "records/1942-draft-wwii-vigliotti-vincenzo-scarsdale-highlighted.jpg"
+      "image": "records/1942-draft-wwii-vigliotti-vincenzo-scarsdale-highlighted.jpg",
+      "foundBy_de": "Stuart",
+      "headline_de": "Index der Musterungskarte von Vincenzo von 1942: 7. Juli 1885, mit \"Buffalo, Italien\" als Indexierungsversehen",
+      "changeNote_de": "Der Index der Musterung der „alten Männer“ von 1942 führt Vincenzo Vigliotti aus Scarsdale, geboren am 7. Juli 1885, mit dem Geburtsort indexiert als Buffalo, Italien. Sein Sohn Vincent Jr. ist der nächste Angehörige. Der italienische Geburtsakt, 4. Juli 1885, entscheidet weiterhin sein Geburtsdatum."
     },
     {
       "id": "find-giovanni-vigliotti-golia-marriage-1916",
@@ -876,13 +1033,17 @@
       "confidence": "probable",
       "source": {
         "text": "New York State Marriage Index 1881-1967, certificate 37504, on Ancestry",
-        "url": "https://www.ancestry.com/search/collections/61632/records/5735035"
+        "url": "https://www.ancestry.com/search/collections/61632/records/5735035",
+        "text_de": "Heiratsindex des Staates New York 1881 bis 1967, Urkunde 37504, bei Ancestry"
       },
       "changeNote": "The state index names the groom Giovanni Vigliotti, the bride Evelina Golia, Tuckahoe, 29 October 1916, certificate 37504. The index entry is certain. Whether Giovanni is a relative of Vincenzo is not proven; they share a surname, the Tuckahoe and Eastchester area and the same period.",
       "placeIds": [
         "tuckahoe-ny"
       ],
-      "image": "records/1916-marriage-index-vigliotti-giovanni-golia-evelina-tuckahoe-highlighted.jpg"
+      "image": "records/1916-marriage-index-vigliotti-giovanni-golia-evelina-tuckahoe-highlighted.jpg",
+      "foundBy_de": "Stuart",
+      "headline_de": "Ein Giovanni Vigliotti heiratete Evelina Golia am 29. Oktober 1916 in Tuckahoe, ein möglicher Verwandter von Vincenzo",
+      "changeNote_de": "Der Index des Staates nennt den Bräutigam Giovanni Vigliotti, die Braut Evelina Golia, Tuckahoe, den 29. Oktober 1916, Urkunde 37504. Der Indexeintrag ist sicher. Ob Giovanni ein Verwandter von Vincenzo ist, ist nicht erwiesen; sie tragen denselben Nachnamen, das Gebiet von Tuckahoe und Eastchester und denselben Zeitraum."
     },
     {
       "id": "find-wwii-draft-giovanni-john-vigliotti-1942-candidate",
@@ -896,11 +1057,15 @@
       "confidence": "unverified",
       "source": {
         "text": "U.S., World War II Draft Registration Cards, 1942, on Ancestry",
-        "url": "https://www.ancestry.com/search/collections/1002/records/7268164"
+        "url": "https://www.ancestry.com/search/collections/1002/records/7268164",
+        "text_de": "U.S., Registrierungskarten zur Musterung im Zweiten Weltkrieg, 1942, auf Ancestry"
       },
       "changeNote": "Born 5 February 1894 in Italy and living in the Bronx in 1942, with next of kin Evelyn Vigliotti. This could be the 1916 Tuckahoe groom, but nothing on the index proves it.",
       "placeIds": [],
-      "image": "records/1942-draft-vigliotti-giovanni-john-bronx-candidate-highlighted.jpg"
+      "image": "records/1942-draft-vigliotti-giovanni-john-bronx-candidate-highlighted.jpg",
+      "foundBy_de": "Stuart",
+      "headline_de": "Ein Giovanni John Vigliotti, geboren 1894, hat als nächste Angehörige Evelyn, was Evelina Golia sein könnte",
+      "changeNote_de": "Geboren am 5. Februar 1894 in Italien und 1942 wohnhaft in der Bronx, mit der nächsten Angehörigen Evelyn Vigliotti. Dies könnte der Bräutigam aus Tuckahoe von 1916 sein, doch nichts im Index beweist es."
     },
     {
       "id": "find-wwii-draft-william-a-walsh-jr-1940",
@@ -914,13 +1079,17 @@
       "confidence": "confirmed",
       "source": {
         "text": "U.S., World War II Draft Cards Young Men, 1940-1947, index entry on Ancestry",
-        "url": "https://www.ancestry.com/search/collections/2238/records/304160176"
+        "url": "https://www.ancestry.com/search/collections/2238/records/304160176",
+        "text_de": "USA, Musterungskarten zum Zweiten Weltkrieg, junge Männer, 1940 bis 1947, Indexeintrag bei Ancestry"
       },
       "changeNote": "He registered at Yonkers on 16 October 1940, aged 26, born 10 May 1914 at Yonkers. This agrees with the Social Security record already used for him.",
       "placeIds": [
         "yonkers-ny"
       ],
-      "image": "records/1940-draft-walsh-william-a-jr-yonkers-highlighted.jpg"
+      "image": "records/1940-draft-walsh-william-a-jr-yonkers-highlighted.jpg",
+      "foundBy_de": "Stuart",
+      "headline_de": "Die Musterungskarte von William A. Walsh Jr. von 1940 bestätigt seine Geburt: 10. Mai 1914, Yonkers",
+      "changeNote_de": "Er ließ sich am 16. Oktober 1940 in Yonkers registrieren, im Alter von 26 Jahren, geboren am 10. Mai 1914 in Yonkers. Das stimmt mit dem Social-Security-Eintrag überein, der bereits für ihn verwendet wird."
     },
     {
       "id": "find-death-index-john-j-walsh-1946",
@@ -934,13 +1103,17 @@
       "confidence": "confirmed",
       "source": {
         "text": "New York, U.S., Death Index, 1852-1956, on Ancestry",
-        "url": "https://www.ancestry.com/search/collections/61535/records/1536658"
+        "url": "https://www.ancestry.com/search/collections/61535/records/1536658",
+        "text_de": "New York, USA, Sterbeindex, 1852 bis 1956, bei Ancestry"
       },
       "changeNote": "The state death index lists John J Walsh, aged 86, died at Yonkers on 17 December 1946, certificate 74279. It agrees with his 1946 obituary and his son-of-Michael-and-Margaret record.",
       "placeIds": [
         "yonkers-ny"
       ],
-      "image": "records/1946-death-index-walsh-john-j-yonkers-cert74279-highlighted.jpg"
+      "image": "records/1946-death-index-walsh-john-j-yonkers-cert74279-highlighted.jpg",
+      "foundBy_de": "Stuart",
+      "headline_de": "Nummer der Sterbeurkunde von John J. Walsh: 74279, Yonkers, 17. Dezember 1946",
+      "changeNote_de": "Der Sterbeindex des Staates führt John J Walsh auf, 86 Jahre alt, gestorben in Yonkers am 17. Dezember 1946, Urkunde 74279. Er stimmt mit seinem Nachruf von 1946 und mit seinem Eintrag als Sohn von Michael und Margaret überein."
     },
     {
       "id": "find-thomas-a-walsh-1930-census-yonkers",
@@ -954,13 +1127,17 @@
       "confidence": "probable",
       "source": {
         "text": "1930 United States Federal Census, index entry on Ancestry",
-        "url": "https://www.ancestry.com/search/collections/6224/records/47250638"
+        "url": "https://www.ancestry.com/search/collections/6224/records/47250638",
+        "text_de": "Volkszählung der Vereinigten Staaten von 1930, Indexeintrag bei Ancestry"
       },
       "changeNote": "A Thomas A Walsh, aged 66 and born in New York, heads a household on Buena Vista Avenue in Yonkers. He is probably Michael Walsh's son. The record is reported to list a wife Mary E and Irish-born parents. A search card suggests he was born in 1863, died on 19 March 1948 and was the son of Michael Walsh and Margaret Farrell; that card has not been opened.",
       "placeIds": [
         "yonkers-ny"
       ],
-      "image": "records/1930-census-walsh-thomas-a-yonkers-buena-vista-ave-highlighted.jpg"
+      "image": "records/1930-census-walsh-thomas-a-yonkers-buena-vista-ave-highlighted.jpg",
+      "foundBy_de": "Stuart",
+      "headline_de": "Thomas A. Walsh in der Volkszählung von 1930: Buena Vista Avenue, Yonkers, 66 Jahre alt",
+      "changeNote_de": "Ein Thomas A Walsh, 66 Jahre alt und in New York geboren, steht einem Haushalt in der Buena Vista Avenue in Yonkers vor. Er ist wahrscheinlich der Sohn von Michael Walsh. Der Eintrag soll eine Ehefrau Mary E und in Irland geborene Eltern aufführen. Eine Suchkarte deutet an, er sei 1863 geboren, am 19. März 1948 gestorben und der Sohn von Michael Walsh und Margaret Farrell gewesen; diese Karte ist nicht geöffnet worden."
     },
     {
       "id": "find-walsh-notre-dame-captain-1895",
@@ -974,13 +1151,17 @@
       "confidence": "probable",
       "source": {
         "text": "The Sun (New York), 16 December 1895, page 8, Chronicling America",
-        "url": "https://www.loc.gov/resource/sn83030272/1895-12-16/ed-1/?sp=8&st=text"
+        "url": "https://www.loc.gov/resource/sn83030272/1895-12-16/ed-1/?sp=8&st=text",
+        "text_de": "The Sun (New York), 16. Dezember 1895, Seite 8, Chronicling America"
       },
       "changeNote": "A short wire item says William A Walsh of Yonkers was unanimously elected captain of the Notre Dame football team. A Wikipedia article on the Yonkers mayor says he played football at Notre Dame, so the match is probable. This is the first contemporary newspaper item for him in the file.",
       "placeIds": [
         "yonkers-ny"
       ],
-      "image": "records/1895-sun-walsh-notre-dame-captain-highlighted.jpg"
+      "image": "records/1895-sun-walsh-notre-dame-captain-highlighted.jpg",
+      "foundBy_de": "Stuart",
+      "headline_de": "William A. Walsh wurde 1895 zum Kapitän der Footballmannschaft von Notre Dame gewählt",
+      "changeNote_de": "Eine kurze Agenturmeldung sagt, William A Walsh aus Yonkers sei einstimmig zum Kapitän der Footballmannschaft von Notre Dame gewählt worden. Ein Wikipedia-Artikel über den Bürgermeister von Yonkers sagt, er habe in Notre Dame Football gespielt, die Zuordnung ist daher wahrscheinlich. Dies ist der erste zeitgenössische Zeitungsbeitrag über ihn in der Akte."
     },
     {
       "id": "find-walsh-city-judge-1917",
@@ -994,13 +1175,17 @@
       "confidence": "confirmed",
       "source": {
         "text": "The Sun (New York), 28 October and 7 November 1917, Chronicling America",
-        "url": "https://www.loc.gov/resource/sn83030431/1917-11-07/ed-1/?sp=6&st=text"
+        "url": "https://www.loc.gov/resource/sn83030431/1917-11-07/ed-1/?sp=6&st=text",
+        "text_de": "The Sun (New York), 28. Oktober und 7. November 1917, Chronicling America"
       },
       "changeNote": "On 28 October 1917 The Sun names William A. Walsh as City Judge of Yonkers. On 7 November it reports that William F. Bleakley defeated City Judge William A. Walsh in the election. This matches Wikipedia's account of the same year.",
       "placeIds": [
         "yonkers-ny"
       ],
-      "image": "records/1917-sun-walsh-city-judge-yonkers-highlighted.jpg"
+      "image": "records/1917-sun-walsh-city-judge-yonkers-highlighted.jpg",
+      "foundBy_de": "Stuart",
+      "headline_de": "William A. Walsh war 1917 Stadtrichter von Yonkers und verlor seinen Sitz an William F. Bleakley",
+      "changeNote_de": "Am 28. Oktober 1917 nennt The Sun William A. Walsh als Stadtrichter von Yonkers. Am 7. November berichtet sie, dass William F. Bleakley den Stadtrichter William A. Walsh bei der Wahl besiegte. Das stimmt mit der Darstellung von Wikipedia zu demselben Jahr überein."
     },
     {
       "id": "find-walsh-corporation-counsel-1919",
@@ -1014,13 +1199,17 @@
       "confidence": "confirmed",
       "source": {
         "text": "The Sun (New York), 23 September 1919, page 22, Chronicling America",
-        "url": "https://www.loc.gov/resource/sn83030431/1919-09-23/ed-1/?sp=22&st=text"
+        "url": "https://www.loc.gov/resource/sn83030431/1919-09-23/ed-1/?sp=22&st=text",
+        "text_de": "The Sun (New York), 23. September 1919, Seite 22, Chronicling America"
       },
       "changeNote": "The Sun reports Corporation Counsel William A. Walsh of Yonkers in court over the Federal Sugar Refining Company tax assessment. This fits the corporation counsel years given by Wikipedia.",
       "placeIds": [
         "yonkers-ny"
       ],
-      "image": "records/1919-sun-corporation-counsel-walsh-yonkers-highlighted.jpg"
+      "image": "records/1919-sun-corporation-counsel-walsh-yonkers-highlighted.jpg",
+      "foundBy_de": "Stuart",
+      "headline_de": "William A. Walsh war spätestens im September 1919 städtischer Rechtsberater von Yonkers",
+      "changeNote_de": "The Sun berichtet über den städtischen Syndikus William A. Walsh aus Yonkers vor Gericht wegen der Steuerveranlagung der Federal Sugar Refining Company. Das passt zu den Jahren als städtischer Syndikus, die Wikipedia angibt."
     },
     {
       "id": "find-walsh-yonkers-manager-hoax-1942",
@@ -1034,13 +1223,17 @@
       "confidence": "confirmed",
       "source": {
         "text": "The Washington Daily News, 17 October 1942, page 23, Chronicling America",
-        "url": "https://www.loc.gov/resource/sn82016181/1942-10-17/ed-1/?sp=23&st=text"
+        "url": "https://www.loc.gov/resource/sn82016181/1942-10-17/ed-1/?sp=23&st=text",
+        "text_de": "The Washington Daily News, 17. Oktober 1942, Seite 23, Chronicling America"
       },
       "changeNote": "A news filler about William A. Walsh, Yonkers manager, shows him in office in October 1942, and tells how an impersonator phoned in his name and summoned six of the most prominent men in town to City Hall for appointments.",
       "placeIds": [
         "yonkers-ny"
       ],
-      "image": "records/1942-washington-daily-news-yonkers-manager-walsh-highlighted.jpg"
+      "image": "records/1942-washington-daily-news-yonkers-manager-walsh-highlighted.jpg",
+      "foundBy_de": "Stuart",
+      "headline_de": "Eine Agenturmeldung von 1942: ein Scherzbold schickte sechs angesehene Männer im Namen von Manager Walsh zum Rathaus von Yonkers",
+      "changeNote_de": "Eine Kurzmeldung über William A. Walsh, den Manager von Yonkers, zeigt ihn im Oktober 1942 im Amt und erzählt, wie ein Imitator in seinem Namen anrief und sechs der angesehensten Männer der Stadt zu Terminen ins Rathaus bestellte."
     },
     {
       "id": "find-alfonso-guida-new-york-1900",
@@ -1055,14 +1248,18 @@
       "confidence": "probable",
       "source": {
         "text": "Statue of Liberty-Ellis Island Foundation arrival index, Burgundia, 2 October 1900",
-        "url": "https://www.statueofliberty.org/arrival-details/?id=JX8Y-GYZ"
+        "url": "https://www.statueofliberty.org/arrival-details/?id=JX8Y-GYZ",
+        "text_de": "Ankunftsindex der Statue of Liberty-Ellis Island Foundation, Burgundia, 2. Oktober 1900"
       },
       "changeNote": "An Alfonso Guida, aged 34, married, of Aninzo (probably Arienzo), arrived on the Burgundia on 2 October 1900. His age and town fit the Alfonso who registered the twins in 1899, but the manifest has not been read, so the match is probable. It opens the question of whether he lived in America before his wife died in 1904.",
       "placeIds": [
         "arienzo",
         "ellis-island-ny"
       ],
-      "image": "records/1900-arrival-index-guida-alfonso-burgundia-highlighted.jpg"
+      "image": "records/1900-arrival-index-guida-alfonso-burgundia-highlighted.jpg",
+      "foundBy_de": "Stuart",
+      "headline_de": "Vincenzas Vater Alfonso Guida setzte wahrscheinlich im Oktober 1900 nach New York über",
+      "changeNote_de": "Ein Alfonso Guida, 34 Jahre alt, verheiratet, aus Aninzo (wahrscheinlich Arienzo), traf am 2. Oktober 1900 auf der Burgundia ein. Sein Alter und sein Ort passen zu dem Alfonso, der 1899 die Zwillinge anmeldete, doch die Passagierliste ist nicht gelesen worden, sodass die Zuordnung wahrscheinlich ist. Es wirft die Frage auf, ob er vor dem Tod seiner Ehefrau 1904 in Amerika lebte."
     },
     {
       "id": "find-smv-vigliotti-arrivals-leads-1903-1911",
@@ -1076,14 +1273,18 @@
       "confidence": "unverified",
       "source": {
         "text": "Statue of Liberty-Ellis Island Foundation arrival indexes (Attivita 1903, Berlin 1911)",
-        "url": "https://www.statueofliberty.org/arrival-details/?id=JFPP-1MW"
+        "url": "https://www.statueofliberty.org/arrival-details/?id=JFPP-1MW",
+        "text_de": "Ankunftsindizes der Statue of Liberty-Ellis Island Foundation (Attivita 1903, Berlin 1911)"
       },
       "changeNote": "A Vincenzo Vigliotti, aged 22, of S. Maria a Vico arrived on 20 March 1903, twelve days before our Vincenzo; a Giovanni Vigliotti, aged 26, of the same town arrived in November 1911. No record links either man to Vincenzo, so they stay leads for relatives who may have helped him settle.",
       "placeIds": [
         "santa-maria-a-vico",
         "ellis-island-ny"
       ],
-      "image": "records/1903-arrival-index-vigliotti-vincenzo-age22-attivita-highlighted.jpg"
+      "image": "records/1903-arrival-index-vigliotti-vincenzo-age22-attivita-highlighted.jpg",
+      "foundBy_de": "Stuart",
+      "headline_de": "Weitere Männer namens Vigliotti aus Santa Maria a Vico erreichten New York 1903 und 1911, mögliche Verwandte",
+      "changeNote_de": "Ein Vincenzo Vigliotti, 22 Jahre alt, aus S. Maria a Vico traf am 20. März 1903 ein, zwölf Tage vor unserem Vincenzo; ein Giovanni Vigliotti, 26 Jahre alt, aus demselben Ort traf im November 1911 ein. Kein Eintrag verknüpft einen der beiden Männer mit Vincenzo, daher bleiben sie Spuren zu Verwandten, die ihm bei der Ansiedlung geholfen haben könnten."
     }
   ]
 }
